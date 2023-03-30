@@ -26,7 +26,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -48,10 +48,20 @@ http://99calculator.com/calculate-age-manually/#:~:text=First%20of%20all%2C%20th
 The process of calculating age involves comparing one’s birth year with the year in which age needs to be calculated. First of all, the current ongoing year is taken no …
 _________
 _________
-Multiplying and Dividing Numbers in Python 
+Multiplying and Dividing Numbers in Python
 https://www.pythoncentral.io/multiplying-dividing-numbers-python/
 Use this handy beginner's tutorial to understand how to multiply and divide numbers in python using the appropriate operators.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def yrAge2Years(ageInYears):
+    return ageInYears*365
+
+
+print(yrAge2Years(65))
+print(yrAge2Years(0))
+print(yrAge2Years(20))
+
+# The program is complete.

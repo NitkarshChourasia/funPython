@@ -25,7 +25,7 @@ ___
 
 
 
-[language_fundamentals] [math] [numbers] 
+[language_fundamentals] [math] [numbers]
 
 
 
@@ -51,6 +51,16 @@ How to Do Math
 https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators
 Numbers are extremely common in programming. They are used to represent things like screen size dimensions, geographic locations, money and points, the amount of time t …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def Hour2Sec(num1):
+    return 60*60*num1
+
+
+print(Hour2Sec(2))
+print(Hour2Sec(10))
+print(Hour2Sec(24))
+
+# The program is complete.

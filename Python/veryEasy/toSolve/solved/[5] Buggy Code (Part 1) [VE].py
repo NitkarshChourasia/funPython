@@ -25,7 +25,7 @@ ___
 
 
 
-[bugs] [language_fundamentals] 
+[bugs] [language_fundamentals]
 
 
 
@@ -61,6 +61,16 @@ Operators
 https://www.w3schools.com/python/python_operators.asp
 Are used to perform operations on variables and values. In the example below, we use the + operator to add together two values...
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def cube(num1):
+    return num1**3
+
+
+print(cube(3))
+print(cube(5))
+print(cube(10))
+
+# The program is complete.

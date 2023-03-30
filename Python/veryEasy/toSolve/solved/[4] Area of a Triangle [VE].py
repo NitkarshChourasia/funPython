@@ -27,7 +27,7 @@ ___
 
 
 
-[geometry] [math] [numbers] 
+[geometry] [math] [numbers]
 
 
 
@@ -58,6 +58,14 @@ _________
 https://www.wikihow.com/Calculate-the-Area-of-a-Triangle#:~:text=You%20can%20find%20the%20area,divided%20by%202%20equals%204.
 The most common way to find the area of a triangle is to take half of the base times the height. Numerous other formulas exist, however, for finding the area of a trian …
 _________
-""" 
+"""
 # Your code should go here:
 
+def triArea(base, height):
+    return (base*height)/2
+
+print(triArea(3,2))
+print(triArea(7,4))
+print(triArea(10,10))
+
+# The program is complete.

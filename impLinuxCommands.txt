@@ -1,0 +1,10 @@
+To move the first n files :
+ls -v1 | head -10 | xargs -I {} mv {} toSolve
+
+
+To check for the files having a specific string excluding the subdirectories:
+grep -r --exclude-dir="*/" "# The program is complete." *.py
+
+
+To move all the files containing specific string to a folder specified excluding the subdirectories:
+find . -type f -name '*.py' -not -path '*/\.*' -exec grep -q "The program is complete." {} \; -exec mv {} solved \;

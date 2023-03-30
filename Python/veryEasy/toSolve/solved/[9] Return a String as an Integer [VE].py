@@ -25,7 +25,7 @@ ___
 
 
 
-[language_fundamentals] [numbers] [strings] 
+[language_fundamentals] [numbers] [strings]
 
 
 
@@ -51,6 +51,20 @@ int() Function
 https://www.w3schools.com/python/ref_func_int.asp
 Converts the specified value into an integer number.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def string2Int(str1):
+    return int(str1)
+
+
+print(string2Int("6"))
+print(string2Int("1000"))
+print(string2Int("12"))
+
+print(type(string2Int("6")))
+print(type(string2Int("1000")))
+print(type(string2Int("12")))
+
+# The program is complete.

@@ -26,7 +26,7 @@ ___
 
 
 
-[language_fundamentals] [math] [numbers] 
+[language_fundamentals] [math] [numbers]
 
 
 
@@ -57,6 +57,14 @@ Minutes to Seconds Converter
 https://www.unitconverters.net/time/minutes-to-seconds.htm
 Convert any number of minutes into the appropriate number of seconds.
 _________
-""" 
+"""
 # Your code should go here:
 
+def convertMin2Sec(int1):
+    return 60*int1
+
+print(convertMin2Sec(5))
+print(convertMin2Sec(3))
+print(convertMin2Sec(2))
+
+# The program is complete.

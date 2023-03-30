@@ -26,7 +26,7 @@ ___
 
 
 
-[algebra] [language_fundamentals] [math] [numbers] 
+[algebra] [language_fundamentals] [math] [numbers]
 
 
 
@@ -67,6 +67,14 @@ Operators
 https://www.w3schools.com/python/python_operators.asp
 Are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
 _________
-""" 
+"""
 # Your code should go here:
 
+def addition(int1, int2):
+    return int1+int2
+
+print(addition(3, 2))
+print(addition(7, 3))
+print(addition(-3, -6))
+
+# The program is complete.

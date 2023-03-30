@@ -26,7 +26,7 @@ ___
 
 
 
-[algebra] [math] [numbers] 
+[algebra] [math] [numbers]
 
 
 
@@ -52,6 +52,16 @@ Increment Operation
 https://www.askpython.com/python/examples/python-increment-operation
 How do you perform a Python increment operation? If you're coming from a language like C++ or Java, you may want to try extending a similar increment. Before going with …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def addition1(int1):
+    return int1+1
+
+
+print(addition1(0))
+print(addition1(9))
+print(addition1(-3))
+
+# The program is complete.

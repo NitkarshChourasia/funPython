@@ -26,7 +26,7 @@ ___
 
 
 
-[algorithms] [math] [numbers] 
+[algorithms] [math] [numbers]
 
 
 
@@ -62,6 +62,16 @@ How many ways are there to prove the Pythagorean theorem?
 https://youtu.be/YompsDlEdtc
 What do Euclid, 12-year-old Einstein, and American President James Garfield have in common? They all came up with elegant proofs for the famous Pythagorean theorem, one …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def triMaxThirdEdge(side1, side2):
+    return (side1+side2)-1
+
+
+print(triMaxThirdEdge(8, 10))
+print(triMaxThirdEdge(5, 7))
+print(triMaxThirdEdge(9, 2))
+
+# The program is complete.
