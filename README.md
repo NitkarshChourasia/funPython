@@ -1,2 +1,2 @@
-# funPython
+# funPy
 ## Solved by Nitkarsh Chourasia.
