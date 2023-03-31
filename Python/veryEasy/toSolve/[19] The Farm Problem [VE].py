@@ -33,7 +33,7 @@ ___
 
 
 
-[algorithms] [language_fundamentals] [math] 
+[algorithms] [language_fundamentals] [math]
 
 
 
@@ -59,6 +59,16 @@ How to Use Python Lambda Functions
 https://realpython.com/python-lambda/
 Learn about Python lambda functions. You'll see how they compare with regular functions and how you can use them in accordance with best practices.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def totalNoLegs(chickens, cows, pigs):
+    return (cows+pigs)*4 + chickens*2
+
+
+print(totalNoLegs(2, 3, 5))
+print(totalNoLegs(1, 2, 3))
+print(totalNoLegs(5, 2, 8))
+
+# The program is complete.

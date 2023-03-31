@@ -26,7 +26,7 @@ ___
 
 
 
-[bugs] [functional_programming] [language_fundamentals] [strings] 
+[bugs] [functional_programming] [language_fundamentals] [strings]
 
 
 
@@ -52,6 +52,18 @@ Python Assignment Operators (=)
 https://www.tutorialspoint.com/python/assignment_operators_example.htm
 Assigns values from right side operands to left side operand.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def nameStringConcat(name):
+    result = name + "Edabit"
+    return result
+
+
+print(nameStringConcat("Nitkarsh"))
+print(nameStringConcat("Shiva"))
+print(nameStringConcat("Bholenath"))
+
+# The program is complete.
+# checkAgain.

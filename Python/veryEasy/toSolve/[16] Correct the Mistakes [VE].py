@@ -25,7 +25,7 @@ ___
 
 
 
-[algebra] [bugs] [language_fundamentals] 
+[algebra] [bugs] [language_fundamentals]
 
 
 
@@ -46,6 +46,16 @@ Metal Gecko Wall Art Gecko Wall Art Metal Wall Art Funky Gecko Metal Wall Art W 
 https://namedgaming.site/metal-gecko-wall-art/metal-gecko-wall-art-gecko-wall-art-metal-wall-art-funky-gecko-metal-wall-art-w-metal-gecko-wall-art-set-of-metal-gecko-wall-art-large/
 metal gecko wall art gecko wall art metal wall art funky gecko metal wall art w metal gecko wall art set of metal gecko wall art large.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def squared(num1):
+    return num1**2
+
+
+print(squared(5))
+print(squared(9))
+print(squared(100))
+
+# The program is complete.

@@ -27,7 +27,7 @@ _____
 Inputs will be numbers greater than or equal to 0.
 
 
-[algebra] [math] [numbers] 
+[algebra] [math] [numbers]
 
 
 
@@ -48,6 +48,19 @@ Soccer Scoring Rules
 https://www.rookieroad.com/soccer/rules-and-regulations/scoring-rules/
 In the sport of soccer, teams work together to to score goals, because goals win the game. A goal is when the ball fully crosses the goal line between the goalposts and …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def footballPoints(wins, draws, losses):
+    if wins >= 0 and draws >= 0 and losses >= 0:
+        return wins*3+draws
+    else:
+        return ("Please enter a valid score stats.")
+
+
+print(footballPoints(3, 4, 2))
+print(footballPoints(5, 0, 2))
+print(footballPoints(0, 0, 1))
+print(footballPoints(-1, 0, 13))
+# The program is complete.

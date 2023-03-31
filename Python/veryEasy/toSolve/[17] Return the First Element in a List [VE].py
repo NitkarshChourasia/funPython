@@ -21,7 +21,7 @@ _____
 The first element in a list always has an index of 0.
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -67,6 +67,14 @@ Video Walk Through the Challenge
 https://youtu.be/FfGTh_qm-WU
 A video walkthrough of this challenge.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getFirstValue(list1):
+    return list1[0]
+
+
+print(getFirstValue([1, 2, 3]))
+print(getFirstValue([80, 5, 100]))
+print(getFirstValue([-500, 0, 50]))
