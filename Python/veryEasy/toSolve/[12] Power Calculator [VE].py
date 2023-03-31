@@ -21,7 +21,7 @@ _____
 Requires basic calculation of electrical circuits (see Resources for info).
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -42,6 +42,15 @@ Power and Energy Formula
 https://electronicsclub.info/power.htm#:~:text=To%20calculate%20power%2C%20P%3A%20put,the%20equation%20is%20I%20%3D%20P%2F&text=To%20calculate%20voltage%2C%20V%3A%20put,the%20equation%20is%20V%20%3D%20P%2F
 Power is the rate of using or supplying energy. Power is measured in watts (W). Energy is measured in joules (J). Time is measured in seconds (s).
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def circuitPower(voltage, current):
+    return voltage*current
+
+print(circuitPower(230, 10))
+print(circuitPower(110, 3))
+print(circuitPower(480, 20))
+
+# The program is complete.

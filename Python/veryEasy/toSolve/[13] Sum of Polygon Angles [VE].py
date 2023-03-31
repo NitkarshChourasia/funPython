@@ -25,7 +25,7 @@ ___
 
 
 
-[functional_programming] [math] [numbers] 
+[functional_programming] [math] [numbers]
 
 
 
@@ -56,6 +56,16 @@ Python Operators (+, -, /, *)
 https://www.w3schools.com/python/python_operators.asp
 The first paragraphs of this website explain the Python operators and their application in code. The most basic operators are +, -, /, and *.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def tSumIntAngPoly(sides):
+    return (sides-2)*180
+
+
+print(tSumIntAngPoly(3))
+print(tSumIntAngPoly(4))
+print(tSumIntAngPoly(6))
+
+# The program is complete.

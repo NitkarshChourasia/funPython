@@ -27,7 +27,7 @@ ___
 
 
 
-[logic] [loops] [math] [numbers] 
+[logic] [loops] [math] [numbers]
 
 
 
@@ -53,6 +53,16 @@ Video Walk Through
 https://www.youtube.com/watch?v=SKR-8fowFiE
 In this video, you will learn how to solve these problems: 0:22 Return a String as an Integer, 1:31 Add, Subtract, Multiply or Divide?, 4:35 To the Power of ___...
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def calcExponent(base, power):
+    return base**power
+
+
+print(calcExponent(5, 5))
+print(calcExponent(10, 10))
+print(calcExponent(3, 3))
+
+# The program is complete.
