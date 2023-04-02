@@ -26,7 +26,7 @@ ___
 
 
 
-[language_fundamentals] [math] 
+[language_fundamentals] [math]
 
 
 
@@ -52,6 +52,16 @@ Time to Decimal Calculator
 https://www.calculatorsoup.com/calculators/time/time-to-decimal-calculator.php
 Convert time hh:mm:ss to decimal hours, decimal minutes and total seconds. Shows steps to calculate decimal hours, minutes and seconds. Conversion calculator that retu …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def hrMinToSec(hours, minutes):
+    return hours*60*60+minutes*60
+
+
+print(hrMinToSec(1, 3))
+print(hrMinToSec(2, 0))
+print(hrMinToSec(0, 0))
+
+# The program is complete.

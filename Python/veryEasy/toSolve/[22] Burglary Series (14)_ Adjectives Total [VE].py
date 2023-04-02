@@ -21,7 +21,7 @@ _____
 The dictionary will never be empty.
 
 
-[arrays] [language_fundamentals] [objects] 
+[arrays] [language_fundamentals] [objects]
 
 
 
@@ -47,6 +47,12 @@ Number of Keys in an Object
 https://www.delftstack.com/howto/python/number-of-keys-in-dictionary-python/#:~:text=the%20same%20purpose.-,Use%20the%20len()%20Function%20to%20Count%20the%20Number%20of,total%20number%20using%20len()%20.
 We will discuss how to count the number of keys in a Python dictionary using the len() function and also create our own function for the same purpose.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def totalAmountAdjective(dict1):
+    return len(dict1)
+
+
+print(totalAmountAdjective(
