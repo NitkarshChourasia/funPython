@@ -1,7 +1,8 @@
 """
 ##Basketball Points
 
-You are counting points for a basketball game, given the amount of 3-pointers scored and 2-pointers scored, find the final points for the team and return that value ([2 -pointers scored, 3-pointers scored]).
+You are counting points for a basketball game, given the amount of 3-pointers scored and 2-pointers scored.
+Find the final points for the team and return that value ([2 -pointers scored, 3-pointers scored]).
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 N/A
 
 
-[language_fundamentals] [math] [numbers] 
+[language_fundamentals] [math] [numbers]
 
 
 
@@ -37,6 +38,18 @@ What does the Star operator mean in Python?
 https://www.tutorialspoint.com/What-does-the-Star-operator-mean-in-Python
 Is used in Python with more than one meaning attached to it.For numeric data types, * is used as multiplication operator>>> a=10;b= ...
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def bbPoints(threePointers, twoPointers):
+    return threePointers*3 + twoPointers*2
+
+
+print(bbPoints(1, 1))
+print(bbPoint(7, 5))
+print(bbPoint(38, 8))
+
+
+# Incomplete.
+# checkAgain.

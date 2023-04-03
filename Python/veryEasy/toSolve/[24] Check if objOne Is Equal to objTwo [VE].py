@@ -57,7 +57,7 @@ _____
 If you have a suggestion on how to make these instructions easier to understand, please leave a comment. Your feedback is greatly appreciated.
 
 
-[language_fundamentals] [objects] [validation] 
+[language_fundamentals] [objects] [validation]
 
 
 
@@ -73,6 +73,19 @@ Comparing Objects
 https://realpython.com/python-is-identity-vs-equality/
 The == operator compares the value or equality of two objects, whereas the Python is operator checks whether two variables point to the same object in memory. In the va …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isEqual(obj1, obj2):
+    if obj1 == obj2:
+        return True
+    else:
+        return False
+
+# Declare objects.
+# Use printFunction.
+
+# Incomplete.
+# checkAgain.
+# Check through chatGPT.

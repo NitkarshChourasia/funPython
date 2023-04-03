@@ -1,7 +1,8 @@
 """
 ##Buggy Code (Part 4)
 
-Emmy has written a function that returns a greeting to users. However, she's in love with Mubashir, and would like to greet him slightly differently. She added a special case in her function, but she made a mistake.
+Emmy has written a function that returns a greeting to users. However, she's in love with Nitkarsh,
+and would like to greet him slightly differently. She added a special case in her function, but she made a mistake.
 Can you help her?
 
 
@@ -26,7 +27,7 @@ ___
 
 
 
-[bugs] [conditions] [strings] 
+[bugs] [conditions] [strings]
 
 
 
@@ -47,6 +48,22 @@ If Statement
 https://pythonexamples.org/python-if-example/
 Is a conditional statement wherein a set of statements execute based on the result of a condition. In this Python example, we will learn about Python If statement synt …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def greeting(nameInput):
+    if name.lower()  == "nitkarsh":
+        return "Hello, my Love!"
+    else:
+        return "Hello, " + nameInput
+
+print(greeting("Matt"))
+print(greeting("Helen"))
+print(greeting("Nitkarsh"))
+
+
+# Incomplete.
+# checkAgain.
+
+# check the lower function, though.

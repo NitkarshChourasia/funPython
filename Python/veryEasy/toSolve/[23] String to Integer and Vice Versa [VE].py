@@ -29,7 +29,7 @@ ___
 
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -60,6 +60,24 @@ Handling Exceptions
 https://wiki.python.org/moin/HandlingExceptions
 The simplest way to handle exceptions is with a "try-except" block.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def intToStr(strInput):
+    return int(strInput)
+
+
+def strToInt(intInput):
+    return str(intInput)
+
+
+print(intToStr("77"))
+print(intToStr("532"))
+
+
+print(strToInt(77))
+print(strToInt(532))
+
+# checkAgain.
+# Check this kind of thing through chatGPT, see how to constrain input to one type.

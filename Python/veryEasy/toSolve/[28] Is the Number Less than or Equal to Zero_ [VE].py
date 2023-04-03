@@ -26,7 +26,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [validation] 
+[conditions] [language_fundamentals] [validation]
 
 
 
@@ -67,6 +67,20 @@ Comparison Operators
 https://data-flair.training/blogs/python-comparison-operators/#:~:text=Less%20Than%20or%20Equal%20To%20(%3C%3D)%20Operator&text=We%20will%20quickly%20learn%20how,the%20right%20of%20the%20operator.
 Learn Python less than,Python greater than,equal to,not equal to less than,greater than or equal to Operators syntax.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def lessOrEqualZero(num1):
+    if num1 <= 0:
+        return True
+    else:
+        return False
+
+print(lessOrEqualZero(5))
+print(lessOrEqualZero(0))
+print(lessOrEqualZero(-2))
+
+
+# Incomplete.
+# checkAgain.

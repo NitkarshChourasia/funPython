@@ -21,7 +21,7 @@ _____
 Don't forget to return the result.
 
 
-[conditions] [language_fundamentals] [numbers] [validation] 
+[conditions] [language_fundamentals] [numbers] [validation]
 
 
 
@@ -42,6 +42,17 @@ If Statements
 http://anh.cs.luc.edu/handsonPythonTutorial/ifstatements.html
 The general Python syntax for a simple if statement is. if condition : indentedStatementBlock. If the condition is true, then do the indented statements.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isSameNum(num1, num2):
+    if num1 == num2:
+        return True
+    else:
+        return False
+
+
+print(isSameNum(4, 8))
+print(isSameNum(2, 2))
+print(isSameNum(2, "2"))

@@ -21,7 +21,7 @@ _____
 Assume an input is given.
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -42,6 +42,17 @@ format() Function
 https://www.educba.com/python-format-function/
 Python has acquired a wide and peak level in the market like no language has done ever before, especially in the domain of Artificial Intelligence and Data Science. Kno …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def giveMeSomething(str1):
+    return "something" + str1
+
+print(giveMeSomething("is better than nothing")
+print(giveMeSomething("Bob Jane")
+print(giveMeSomething("something")
+
+
+# Incomplete.
+# checkAgain.

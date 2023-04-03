@@ -21,7 +21,7 @@ _____
 All test cases contain valid numbers.
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -37,6 +37,19 @@ Python Modulo operator
 https://www.jquery-az.com/python-modulo/#:~:text=In%20Python%20and%20generally%20speaking%2C%20the%20modulo%20%28or,numbers%20are%20first%20converted%20in%20the%20common%20type.
 In Python and generally speaking, the modulo (or modulus) is referred to as the remainder from the division of the first argument to the second. The symbol used to get …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def mod(num1, num2):
+    return num1%num2
+
+print(mod(-13, 64))
+print(mod(50, 25))
+print(mod(-6, 3))
+
+
+# Incomplete.
+# checkAgain.
+
+# Modulo means?
