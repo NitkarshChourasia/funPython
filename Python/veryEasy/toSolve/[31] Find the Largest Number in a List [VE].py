@@ -26,7 +26,7 @@ ___
 
 
 
-[arrays] [loops] [numbers] [sorting] 
+[arrays] [loops] [numbers] [sorting]
 
 
 
@@ -67,6 +67,17 @@ sorted() Function
 https://www.geeksforgeeks.org/python-sorted-function/
 Returns a sorted list from the iterable object.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findLargestNum(list1):
+    return list1.max()
+
+
+print(findLargestNum[4, 5, 1, 3])
+print(findLargestNum[200, 300, 600, 150])
+print(findLargestNum[1000, 1001, 857, 1])
+
+# Incomplete.
+# checkAgain.

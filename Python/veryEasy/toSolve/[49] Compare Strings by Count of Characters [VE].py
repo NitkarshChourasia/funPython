@@ -1,7 +1,8 @@
 """
 ##Compare Strings by Count of Characters
 
-Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+Create a function that takes two strings as arguments and return either True or False depending on whether the
+total number of characters in the first string is equal to the total number of characters in the second string.
 
 
 [Examples]
@@ -26,7 +27,7 @@ ___
 
 
 
-[conditions] [strings] [validation] 
+[conditions] [strings] [validation]
 
 
 
@@ -47,6 +48,21 @@ len() Method
 https://www.guru99.com/python-string-length-len.html#:~:text=len()%20is%20a%20built,provide%20the%20number%20of%20elements.
 Is a built-in function in python. You can use the len() to get the length of the given string, array, list, tuple, dictionary, etc. You can use len function to optimize …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def strLenEq(str1, str2):
+    if str1.len() == str2.len():
+        return True
+    else:
+        return False
+
+print(strLenEq("AB", "CD"))
+print(strLenEq("ABC", "DE"))
+print(strLenEq("hello", "edabit"))
+
+
+# incomplete.
+# testing.
+# checkAgain.

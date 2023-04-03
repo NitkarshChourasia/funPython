@@ -27,7 +27,7 @@ ___
 
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -53,6 +53,18 @@ Python 3's f-Strings
 https://realpython.com/python-f-strings/
 As of Python 3.6, f-strings are a great new way to format strings. Not only are they more readable, more concise, and less prone to error than other ways of formatting, …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def helloName(name):
+    return "Hello " + name  + "!"
+
+print(helloName("Gerald"))
+print(helloName("Nitkarsh"))
+print(helloName("Ed"))
+print(helloName("Tiffany"))
+
+
+# Incomplete.
+# checkAgain.

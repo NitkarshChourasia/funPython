@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[arrays] [math] [numbers] 
+[arrays] [math] [numbers]
 
 
 
@@ -44,6 +44,17 @@ Python Lists
 https://docs.python.org/3/tutorial/datastructures.html
 Python documentation on the List data structure.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def largeSmallDiff(list1):
+    return list1.max - list1.min
+
+
+print(largeSmallDiff([10, 15, 20, 2, 10, 6])
+print(largeSmallDiff([-3, 4, -9, -1, -2, 15])
+print(largeSmallDiff([4, 17, 12, 2, 10, 2])
+
+# checkAgain.
+# Incomplete.

@@ -24,7 +24,7 @@ _____
 The ^ operator refers to exponentiation operation **, not the bitwise XOR operation.
 
 
-[bit_operations] [math] [numbers] [validation] 
+[bit_operations] [math] [numbers] [validation]
 
 
 
@@ -55,6 +55,22 @@ Python Bitwise Operators with Syntax and Examples
 https://data-flair.training/blogs/python-bitwise-operators/
 In this tutorial, we discuss Python Bitwise AND, OR, XOR, Left-shift, Right-shift, and 1’s complement Bitwise Operators in Python Programming. Along with this, we will …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def k2kEqN(k2k, N):
+    if N**2 == k2k:
+        return True
+    else:
+        return False
+
+print(k2kEqN(4, 2))
+print(k2kEqN(387420489, 9))
+print(k2kEqN(3124, 5))
+print(k2kEqN(17, 3))
+
+
+# checkAgain.
+# incomplete.
+# testing.

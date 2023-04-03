@@ -34,7 +34,7 @@ _____
 N/A
 
 
-[language_fundamentals] [logic] [validation] 
+[language_fundamentals] [logic] [validation]
 
 
 
@@ -60,6 +60,23 @@ Python Operators: Arithmetic, Comparison, Logical and More
 https://www.programiz.com/python-programming/operators
 In this tutorial, you'll learn everything about different types of operators in Python, their syntax, and how to use them with examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def andLogOperator(bool1, bool2):
+    if bool1 == True and bool2 == True:
+        return True
+    else:
+        return False
+
+
+print(andLogOperator(True, False))
+print(andLogOperator(True, True))
+print(andLogOperator(False, True))
+print(andLogOperator(False, False))
+
+
+# incomplete.
+# checkAgain.
+# testing.

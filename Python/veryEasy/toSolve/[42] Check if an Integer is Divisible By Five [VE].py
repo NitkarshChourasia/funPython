@@ -26,7 +26,7 @@ ___
 
 
 
-[math] [numbers] [validation] 
+[math] [numbers] [validation]
 
 
 
@@ -62,6 +62,20 @@ Modulo Operator
 https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/
 When we see a ‘%’ the first thing that comes to our mind is the “Percentage-sign”, but when we think of it from the perspective of computer language, this sign has, in …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def divBy5(num1):
+    if num1 % 5 == 0:
+        return True
+    else:
+        return False
+
+print(divBy5(5))
+print(divBy5(-55))
+print(divBy5(37))
+
+# Incomplete.
+# checkAgain.
+# testing.

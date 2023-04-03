@@ -21,7 +21,7 @@ _____
 FPS stands for "frames per second" and it's the number of frames a computer screen shows every second.
 
 
-[algorithms] [language_fundamentals] [math] [numbers] 
+[algorithms] [language_fundamentals] [math] [numbers]
 
 
 
@@ -37,6 +37,18 @@ Lambda Functions
 https://realpython.com/python-lambda/
 Python and other languages like Java, C#, and even C++ have had lambda functions added to their syntax, whereas languages like LISP or the ML family of languages, Haske …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def frames(frames, minutes):
+    return frames * minutes * 60
+
+
+print(frames(1, 1))
+print(frames(10, 1))
+print(frames(10, 25))
+
+# checkAgain.
+# incomplete.
+# testing.

@@ -21,7 +21,7 @@ _____
 a will always be greater than or equal to b.
 
 
-[math] [numbers] [validation] 
+[math] [numbers] [validation]
 
 
 
@@ -52,6 +52,19 @@ Python Program to Check if a Number is Odd or Even
 https://www.programiz.com/python-programming/examples/odd-even
 Source code to check whether a number entered by user is either odd or even in Python programming with output and explanation…
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def dividesEvenly(a, b):
+    if a % b == 0:
+        return True
+    else:
+        return False
+
+print(dividesEvenly(98, 7))
+print(dividesEvenly(85, 4))
+
+# incomplete.
+# checkAgain.
+# testing.

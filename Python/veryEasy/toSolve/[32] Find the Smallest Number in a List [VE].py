@@ -30,7 +30,7 @@ ___
 
 
 
-[arrays] [loops] [numbers] [sorting] 
+[arrays] [loops] [numbers] [sorting]
 
 
 
@@ -66,6 +66,17 @@ sort() List Method
 https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/
 Learn a different way of performing sorting in Python by using the sorted() function so you can see how it differs from sort(). By the end, you will know the basics of …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findSmallestNum(list1):
+    return list1.min()
+
+print(findSmallestNum([34, -345, -1, 100])
+print(findSmallestNum([0.4356, 0.8795, 0.5435, -0.99999])
+print(findSmallestNum(7, 7, 7))
+
+
+# Incomplete.
+# checkAgain.

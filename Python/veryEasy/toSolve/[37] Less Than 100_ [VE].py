@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[language_fundamentals] [math] [validation] 
+[language_fundamentals] [math] [validation]
 
 
 
@@ -54,6 +54,20 @@ Video Walk Through the Challenge
 https://youtube.com/watch?v=4z6K3hyHs2U
 A video walkthrough of this challenge.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def lessThan100(num1, num2):
+    if num1 + mum2 < 100:
+        return True
+    else:
+        return False
+
+print(lessThan100(22, 15))
+print(lessThan100(83, 34))
+print(lessThan100(3, 77))
+
+
+# Incomplete.
+# checkAgain.

@@ -21,7 +21,7 @@ _____
 Don't forget to return the result.
 
 
-[algorithms] [conditions] [validation] 
+[algorithms] [conditions] [validation]
 
 
 
@@ -42,6 +42,24 @@ How to Use the Python or Operator
 https://realpython.com/python-or-operator/
 There are three Boolean operators in Python: and, or, and not. With them, you can test conditions and decide which execution path your programs will take. In this tutor …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def makes10(int1, int2):
+    if int2 == 10 or int1 == 10:
+        return True
+    elif int2 + int1 == 10:
+        return True
+
+
+print(makes10(9 ,10))
+print(makes10(9, 9))
+print(makes10(1, 9))
+
+
+# Incomplete.
+# checkAgain.
+
+# I need to learn with constraints like...
+# List them down please...

@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] [math] [numbers] 
+[arrays] [language_fundamentals] [math] [numbers]
 
 
 
@@ -52,6 +52,18 @@ For Loop
 https://www.geeksforgeeks.org/python-for-loops/
 Is used for sequential traversal i.e. it is used for iterating over an iterable like String, Tuple, List, Set or Dictionary.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getSumOfElements(list1):
+    return sum(list1)
+
+print(getSumOfElements([2, 7, 4])
+print(getSumOfElements([45, 3, 0])
+print(getSumOfElements([-2, 84, 23])
+
+
+# checkAgain.
+# incomplete.
+# testing.

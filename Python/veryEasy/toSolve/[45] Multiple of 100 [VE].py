@@ -26,7 +26,7 @@ ___
 
 
 
-[algebra] [conditions] [math] [validation] 
+[algebra] [conditions] [math] [validation]
 
 
 
@@ -57,6 +57,21 @@ Is 0 considered divisible by any integer?
 https://gmatclub.com/forum/is-0-considered-divisible-by-any-integer-for-example-is-69240.html
 Yes, zero is divisible by every integer, with one exception: nothing is divisible by zero. Zero divided by three is, of course, zero, which is an integer; therefore zer …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def divBy100(int1):
+    if int1 % 100 == 0:
+        return True
+    else:
+        return False
+
+print(divBy100(1))
+print(divBy100(1000))
+print(divBy100(100))
+
+
+# checkAgain.
+# incomplete.
+# testing.

@@ -27,14 +27,14 @@ _____
 A profitable gamble is a game that yields a positive net profit, where net profit is calculated in the following manner: net_outcome = probability_of_winning * prize - cost_of_playing.
 
 
-[conditions] [math] [validation] 
+[conditions] [math] [validation]
 
 
 
 -------------------------------------------------------------------
 [Resources]
 _________
-One line if statement in Python (ternary conditional operator) 
+One line if statement in Python (ternary conditional operator)
 https://www.pythoncentral.io/one-line-if-statement-in-python-ternary-conditional-operator/
 We look at how you can use one line if statements in Python, otherwise known as the ternary operator. How it is used, and what alternatives are available.
 _________
@@ -48,6 +48,20 @@ Python Operators: Arithmetic, Comparison, Logical and more
 https://www.programiz.com/python-programming/operators
 In this article, you'll learn everything about different types of operators in Python, their syntax and how to use them with examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def profitableGamble(prob, prize,  pay):
+    if prob * prize > pay:
+        return True
+    else:
+        return False
+
+print(profitableGamble(0.2, 50, 9))
+print(profitableGamble(0.9, 1, 2))
+print(profitableGamble(0.9, 3, 2))
+
+
+# Incomplete.
+# checkAgain.

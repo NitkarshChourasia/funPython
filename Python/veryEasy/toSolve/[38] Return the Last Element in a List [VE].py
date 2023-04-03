@@ -28,7 +28,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [validation] 
+[arrays] [language_fundamentals] [validation]
 
 
 
@@ -54,6 +54,18 @@ Sequence Types — list, tuple, range
 https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 There are three basic sequence types: lists, tuples, and range objects. Additional sequence types tailored for processing of binary data and text strings are described …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getLastItem(list1):
+    return list1[-1]
+
+print(getLastItem([1, 2, 3]))
+print(getLastItem(["cat", "dog", "duck"]))
+print(getLastItem([True, False, True]))
+print(getLastItem([7, "String", False]))
+
+
+# Incomplete.
+# checkAgain.

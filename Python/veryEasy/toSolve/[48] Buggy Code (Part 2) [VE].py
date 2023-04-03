@@ -1,7 +1,8 @@
 """
 ##Buggy Code (Part 2)
 
-Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+Fix the code in the code tab to pass this challenge (only syntax errors).
+Look at the examples below to get an idea of what the function should do.
 
 
 [Examples]
@@ -25,7 +26,7 @@ ___
 
 
 
-[bugs] [language_fundamentals] 
+[bugs] [language_fundamentals]
 
 
 
@@ -51,6 +52,32 @@ max() Function
 https://www.programiz.com/python-programming/methods/built-in/max
 Returns the largest item in an iterable. It can also be used to find the largest item between two or more parameters.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def maxNum(num1, num2):
+    list1 = []
+    list1.append(num1)
+    list1.append(num2)
+    return list1.max()
+
+
+def maxNum1(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
+print(maxNum(3, 7))
+print(maxNum(-1, 0))
+print(maxNum(1000, 400))
+
+print(maxNum1(3, 7))
+print(maxNum1(-1, 0))
+print(maxNum1(1000, 400))
+
+
+# incomplete.
+# testing.
+# checkAgain.

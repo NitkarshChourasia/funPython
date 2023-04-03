@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [loops] [math] [numbers] 
+[arrays] [loops] [math] [numbers]
 
 
 
@@ -57,6 +57,15 @@ Python Min and Max Inbuilt Function Example
 https://appdividend.com/2019/01/27/python-min-and-max-built-in-function-tutorial-with-example/
 Returns the smallest of all input values. Python max() is an inbuilt function that returns the largest of input values.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def maxMinDiff(list1):
+    return list1.max() - list1.min()
+
+print(maxMinDiff([10, 4, 1, 4, -10, -50, 32, 21]))
+print(maxMinDiff([44, 32, 86, 19])
+
+# Incomplete.
+# checkAgain.

@@ -21,7 +21,7 @@ _____
 The bug can be hard to find, so look closely!
 
 
-[bugs] [language_fundamentals] [validation] 
+[bugs] [language_fundamentals] [validation]
 
 
 
@@ -52,6 +52,19 @@ if Statement in a Single Line Syntax
 https://thispointer.com/python-if-else-in-one-line-a-ternary-operator/
 if-else statement in a single line.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isSeven(num1):
+    if num1 == 7:
+        return True
+    else:
+        return False
+
+print(isSeven(4))
+print(isSeven(9))
+print(isSeven(7))
+
+# Incomplete.
+# checkAgain.
