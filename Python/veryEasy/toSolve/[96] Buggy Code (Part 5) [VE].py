@@ -1,7 +1,8 @@
 """
 ##Buggy Code (Part 5)
 
-Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.
+Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge.
+Look at the examples below to get an idea of what the function should do.
 
 
 [Examples]
@@ -25,7 +26,7 @@ ___
 
 
 
-[bugs] [data_structures] [loops] [numbers] 
+[bugs] [data_structures] [loops] [numbers]
 
 
 
@@ -51,6 +52,21 @@ Loops
 https://www.geeksforgeeks.org/loops-in-python/?ref=gcse
 Python programming language provides the following types of loops to handle looping requirements. Python provides three ways for executing the loops. While all the ways …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def printList(rangeEnd):
+    range = range(1, rangeEnd+1)
+    list1  = []
+    for i in range:
+        list1.append(i)
+    return list1
+
+
+print(printList(1))
+print(printList(3))
+print(printList(6))
+
+# testing.
+# checkAgain.

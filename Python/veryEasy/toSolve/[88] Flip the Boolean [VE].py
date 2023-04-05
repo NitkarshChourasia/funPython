@@ -1,7 +1,8 @@
 """
 ##Flip the Boolean
 
-Due to a programming concept known as truthiness, certain values can be evaluated to (i.e. take the place of) booleans. For example, 1 (or any number other than 0) is often equivalent to True, and 0 is often equivalent to False.
+Due to a programming concept known as truthiness, certain values can be evaluated to
+(i.e. take the place of) booleans. For example, 1 (or any number other than 0) is often equivalent to True, and 0 is often equivalent to False.
 Create a function that returns the opposite of the given boolean, as a number.
 
 
@@ -24,7 +25,7 @@ _____
 N/A
 
 
-[conditions] [language_fundamentals] [logic] [validation] 
+[conditions] [language_fundamentals] [logic] [validation]
 
 
 
@@ -45,6 +46,25 @@ Python Operators
 https://www.geeksforgeeks.org/python-operators/
 Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication and division.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def flipBool(bool1):
+    if bool1 == True:
+        return 0
+    elif bool1 == False:
+        return 1
+    elif bool1 == 1:
+        return 0
+    else:
+        return 1
+
+print(flipBool(True))
+print(flipBool(False))
+
+print(flipBool(1))
+print(flipBool(0))
+
+# testing.
+# checkAgain.

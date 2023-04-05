@@ -68,4 +68,14 @@ _________
 
 def howManyWalls(tSqMtr, width, height):
     tArea = width * height
-    if tSqMtr
+    if tSqMtr/tArea <= 0:
+        return 0
+    else:
+        return (tSqMtr/tArea).floor()
+
+print(howManyWalls(100, 4, 5))
+print(howManyWalls(10, 15, 12))
+print(howManyWalls(41, 3, 6))
+
+
+# testing.

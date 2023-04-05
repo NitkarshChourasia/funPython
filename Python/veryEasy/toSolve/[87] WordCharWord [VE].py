@@ -21,7 +21,7 @@ _____
 Make sure there are no spaces between words when returning the function.
 
 
-[formatting] [strings] 
+[formatting] [strings]
 
 
 
@@ -37,6 +37,18 @@ join() Method
 https://www.w3schools.com/python/ref_string_join.asp
 Takes all items in an iterable and joins them into one string. A string must be specified as the separator.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+# I would say use both the method.
+
+def addMeth1(char, string1):
+    return string1.replace(" ", char)
+
+def addMeth2(char, string1):
+    return string1.join(" ")
+
+
+# checkAgain.
+# testing.

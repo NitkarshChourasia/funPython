@@ -21,7 +21,7 @@ _____
 The input is always a valid word.
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -57,6 +57,17 @@ remove() Method
 https://www.programiz.com/python-programming/methods/list/remove
 Removes the first matching element (which is passed as an argument) from the list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def newWord(wordInput):
+    return wordInput[1:]
+
+print(newWord("apple"))
+print(newWord("cherry"))
+print(newWord("plum"))
+
+# testing.
+
+# Always look the resources tab too.

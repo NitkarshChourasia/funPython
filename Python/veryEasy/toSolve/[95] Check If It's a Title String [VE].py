@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[formatting] [language_fundamentals] [strings] [validation] 
+[formatting] [language_fundamentals] [strings] [validation]
 
 
 
@@ -72,6 +72,16 @@ ASCII Codes
 https://ascii.cl/
 Table for easy reference of ASCII characters and symbols, with conversion tables and HTML codes.
 _________
-""" 
+"""
 # Your code should go here:
 
+def checkTitle(str1):
+    return str1.istitle()
+
+print(checkTitle("A Mind Boggling Achievement"))
+print(checkTitle("A Simple Python Program"))
+print(checkTitle("Water is transparent"))
+
+# testing.
+# checkAgain.
+# check all the links of resources.

@@ -51,3 +51,11 @@ _________
 """
 # Your code should go here:
 
+def eq(eqStr1):
+    return eval(eqStr1)
+
+print(eq("1+2")
+print(eq("6/(9-7")
+print(eq("3+2-4")
+
+# testing.

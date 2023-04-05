@@ -21,7 +21,7 @@ _____
 Supported operators are +, -, and *.
 
 
-[language_fundamentals] [math] 
+[language_fundamentals] [math]
 
 
 
@@ -37,6 +37,16 @@ Python eval() built-in-function
 https://towardsdatascience.com/python-eval-built-in-function-601f87db191
 Now you all know the input() takes the user input, but when the user enters an integer as an input the input function returns a string, but in the case of eval it will …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def equation(eqStr1):
+    return eval(eqStr1)
+
+
+print(equation("1+1"))
+print(equation("7*4-2"))
+print(equation("1+1+1+1+1"))
+
+# testing.

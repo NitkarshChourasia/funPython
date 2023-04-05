@@ -21,7 +21,7 @@ _____
 All test lists will have at least one element and are valid.
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -67,6 +67,17 @@ Python Arrays
 https://www.w3schools.com/python/python_arrays.asp
 Arrays are used to store multiple values in one single variable.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def minMax(list1):
+    list1 = [list1.min(), list1.max()]
+    return list1
+
+
+print(min_max([1, 2, 3, 4, 5]))
+print(min_max([2334454, 5]))
+print(min_max([1]))
+
+# testing.

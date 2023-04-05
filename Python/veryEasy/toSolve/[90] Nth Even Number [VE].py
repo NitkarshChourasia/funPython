@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[language_fundamentals] [math] [numbers] 
+[language_fundamentals] [math] [numbers]
 
 
 
@@ -44,6 +44,17 @@ Python Program to Print Even Numbers in a List
 https://www.geeksforgeeks.org/python-program-to-print-even-numbers-in-a-list/
 Given a list of numbers, write a Python program to print all even numbers in given list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def nthEven(nth):
+    return 2 * n-1
+
+print(nthEven(1))
+print(nthEven(2))
+print(nthEven(100))
+print(nthEven(5))
+
+
+# testing.

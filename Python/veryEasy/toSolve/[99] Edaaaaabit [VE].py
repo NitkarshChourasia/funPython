@@ -25,7 +25,7 @@ ___
 
 
 
-[formatting] [loops] [strings] 
+[formatting] [loops] [strings]
 
 
 
@@ -46,6 +46,17 @@ Multiplication with Strings
 https://www.informit.com/articles/article.aspx?p=2140372&seqNum=4
 When you multiply a string by an integer, Python returns a new string. This new string is the original string, repeated X number of times (where X is the value of the i …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def howManyTimes(int1):
+    return ("Ed{}bit",format(a*1*int1))
+
+
+print(howManyTimes(5))
+print(howManyTimes(0))
+print(howManyTimes(12))
+
+
+# testing.

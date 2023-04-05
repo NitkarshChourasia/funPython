@@ -8,3 +8,21 @@ grep -r --exclude-dir="*/" "# The program is complete." *.py
 
 To move all the files containing specific string to a folder specified excluding the subdirectories:
 find . -type f -name '*.py' -not -path '*/\.*' -exec grep -q "The program is complete." {} \; -exec mv {} solved \;
+
+
+
+
+ls -v1 | grep -v '^toSolve$' | head -11 | xargs -I {} mv {} toSolve/
+
+to exclude the folder.
+
+
+if error comes like xargs: unmatched single quote; by default quotes are special to xargs unless you use the -0 option, then USE:
+
+ls -v1 | grep -v '^toSolve$' | head -11 | sed "s/'/\\\'/g" | xargs -I{} mv {} toSolve/
+
+
+chatGPT combined with your own research too, works ultimatum.
+It works well, just needs a nudge in the right direction.
+
+

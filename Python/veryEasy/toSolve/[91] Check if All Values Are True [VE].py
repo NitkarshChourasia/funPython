@@ -26,7 +26,7 @@ ___
 
 
 
-[arrays] [loops] [validation] 
+[arrays] [loops] [validation]
 
 
 
@@ -47,6 +47,20 @@ _________
 https://www.programiz.com/python-programming/args-and-kwargs#:~:text=Python%20has%20*args%20which%20allow,to%20pass%20variable%20length%20arguments.
 In Python, we can pass a variable number of arguments to a function using special symbols. There are two special symbols: *args (Non Keyword Arguments) **kwargs (Keywo …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def allTruthy(*args):
+    return all(*args)
+
+
+print(allTruthy(True, True, True))
+print(allTruthy(True, False, True))
+print(allTruthy(5, 4, 3, 2, 1, 0))
+print(allTruthy(5, 4, 3, 2, 1))
+
+
+# testing.
+# checkAgain.
+# after completing the program check every link.

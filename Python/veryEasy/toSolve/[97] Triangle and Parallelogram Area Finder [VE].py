@@ -26,7 +26,7 @@ ___
 
 
 
-[algorithms] [conditions] [geometry] [math] 
+[algorithms] [conditions] [geometry] [math]
 
 
 
@@ -42,6 +42,21 @@ If/Else
 https://www.w3schools.com/python/python_conditions.asp
 Python supports the usual logical conditions from mathematics: Equals: a == b Not Equals: a != b Less than: a < b Less than or equal to: a <= b Greater than: a > b Gre …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def areaShape(base, height, shape):
+    if shape.lower() == "parallelogram":
+        return base * height  # What is a parallelogram?
+    elif shape.lower() == "triangle":
+        return (base * height) * 0.5
+    else:
+        return "Please enter a valid shape from the list only."
+
+
+print(areaShape(2, 3, "triangle"))
+print(areaShape(8, 6, "parallelogram"))
+print(areaShape(2.9, 1.3, "parallelogram"))
+
+# testing.

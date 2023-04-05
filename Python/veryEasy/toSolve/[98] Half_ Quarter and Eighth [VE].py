@@ -21,7 +21,7 @@ _____
 The order of the list is: half, quarter, eighth.
 
 
-[arrays] [math] 
+[arrays] [math]
 
 
 
@@ -42,6 +42,20 @@ append() Method
 https://www.w3schools.com/python/ref_list_append.asp
 Appends an element to the end of the list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def halfQuarterEighth(num1):
+    half = num1 / 2
+    quarter = num1 / 4
+    eighth = num1 / 8
+    list1 = [half, quarter, eighth]
+    return list1
+
+print(halfQuarterEighth(6))
+print(halfQuarterEighth(22))
+print(halfQuarterEighth(25))
+
+
+# testing.

@@ -31,7 +31,7 @@ ___
 
 
 
-[algebra] [math] [strings] 
+[algebra] [math] [strings]
 
 
 
@@ -52,6 +52,51 @@ _________
 https://www.programiz.com/python-programming/if-elif-else
 In this article, you will learn to create decisions in a Python program using different forms of if..else statement.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def calculate(num1, num2, operator):
+    match(operator):
+        case "+":
+            num1 + num2
+            break
+        case "*":
+            num1 * num2
+            break
+        case "-":
+            num1 - num2
+            break
+        case "/":
+            num1 / num2
+            break
+        case "//":
+            num1 // num2
+            break
+        _default:
+            "Please enter a proper operator"
+
+
+def calculateMeth1(num1, num2, operator):
+    return eval(num1, operator, num2)
+
+
+print(calculate(4, 9, "+"))
+print(calculate(12, 5, "-"))
+print(calculate(6, 3, "*"))
+print(calculate(25, 5, "//"))
+print(calculate(14, 3, "%"))
+print(calculate(7, 2, "/"))
+
+
+
+
+print(calculateMeth(4, 9, "+"))
+print(calculateMeth(12, 5, "-"))
+print(calculateMeth(6, 3, "*"))
+print(calculateMeth(25, 5, "//"))
+print(calculateMeth(14, 3, "%"))
+print(calculateMeth(7, 2, "/"))
+
+# testing.
+# checkAgain.

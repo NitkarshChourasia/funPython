@@ -1,8 +1,10 @@
 """
 ##Fix the Errors / Comparing Arrays
 
-Programmer Pete is trying to create a function that returns True if two lists share the same length and have identical numerical values at every index, otherwise, it will return False.
-However, the solution his function gives is in an unexpected format. Can you fix Pete's function so that it behaves as seen in the examples below?
+Programmer Pete is trying to create a function that returns True if two lists share the same
+length and have identical numerical values at every index, otherwise, it will return False.
+However, the solution his function gives is in an unexpected format.
+Can you fix Pete's function so that it behaves as seen in the examples below?
 
 
 [Examples]
@@ -26,7 +28,7 @@ _____
 Check the Resources tab for more info.
 
 
-[arrays] [bugs] [validation] 
+[arrays] [bugs] [validation]
 
 
 
@@ -47,6 +49,21 @@ List
 https://www.learnbyexample.org/python-list/
 Learn to create and access a list in Python, change add and remove list items, iterate a list, find list length, check if item exists in a list, list concatenation and …
 _________
-""" 
+"""
 # Your code should go here:
 
+def checkEqual(list1, list2):
+    if list1 == list2:
+        return True
+    else:
+        return False
+
+print(checkEqual([1, 2], [1, 3]))
+print(checkEqual([1, 2], [1, 2]))
+print(checkEqual([4, 5, 6], [4, 5, 6]))
+print(checkEqual([4, 7, 6], [4, 5, 6]))
+print(checkEqual([1, 12], [11, 2])
+
+# testing.
+# try another method.
+# checkAgain.
