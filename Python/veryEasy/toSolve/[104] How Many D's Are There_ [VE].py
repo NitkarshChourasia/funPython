@@ -26,7 +26,7 @@ ___
 
 
 
-[algorithms] [language_fundamentals] [strings] 
+[algorithms] [language_fundamentals] [strings]
 
 
 
@@ -42,6 +42,19 @@ string count() Method
 https://www.programiz.com/python-programming/methods/string/count
 Returns the number of occurrences of a substring in the given string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countD(str1):
+    return (str1.lower()).count("d")
+
+
+print(countD("My friend Dylan got distracted in school."))
+print(countD("Debris was scattered all over the yard."))
+print(countD("The rodents hibernated in their den"))
+
+
+# testing.
+# checkAgain.
+# checkAgain for syntax errors, I doubt it to be there.

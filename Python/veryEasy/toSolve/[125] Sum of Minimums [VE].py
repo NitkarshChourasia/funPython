@@ -25,7 +25,7 @@ _____
 N/A
 
 
-[arrays] [logic] [loops] [numbers] 
+[arrays] [logic] [loops] [numbers]
 
 
 
@@ -46,6 +46,27 @@ sum() Method
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def sumMinimum(lst1):
+
+
+
+
+
+sum_minimums([
+  [1, 2, 3, 4, 5],
+  [5, 6, 7, 8, 9],
+  [20, 21, 34, 56, 100]])
+
+# minimum value of the first row is 1
+# minimum value of the second row is 5
+# minimum value of the third row is 20
+
+
+
+# testing.
+# checkAgain.
+# incomplete.

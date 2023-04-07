@@ -26,7 +26,7 @@ ___
 
 
 
-[control_flow] [logic] 
+[control_flow] [logic]
 
 
 
@@ -47,6 +47,21 @@ How to convert integer into digit list?
 https://stackoverflow.com/questions/13905936/converting-integer-to-digit-list
 What is the quickest and cleanest way to convert an integer into a list? For example, change 132 into [1, 3, 2] and 23 into [2, 3]. I have a variable which is an int, a …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def flip(bool1):
+    if bool1 == 1:
+        return 0
+    elif bool1 == 0:
+        return 1
+    else:
+        return "Please enter what is being asked for."
+
+
+print(flip(1))
+print(flip(0))
+print(flip(123))
+
+# testing.

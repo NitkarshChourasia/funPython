@@ -1,8 +1,10 @@
 """
 ##Taxi Journey
 
-A taxi journey costs $3 for the first kilometer travelled. However, all kilometers travelled after that will cost $2 each.
-Create a function which returns the distance that the taxi must've travelled, given the cost as a parameter.
+A taxi journey costs $3 for the first kilometer travelled.
+However, all kilometers travelled after that will cost $2 each.
+Create a function which returns the distance that the taxi must've travelled,
+given the cost as a parameter.
 
 
 [Examples]
@@ -29,7 +31,7 @@ ___
 
 
 
-[conditions] [math] [numbers] 
+[conditions] [math] [numbers]
 
 
 
@@ -50,6 +52,25 @@ Operators
 https://www.programiz.com/python-programming/operators
 Are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. Floor division - division …
 _________
-""" 
+"""
 # Your code should go here:
 
+def journeyDistance(km):
+    if km >= 3:
+        kmDiv3 = 3/3
+        kmDiv2 = (km - 3)
+
+    if kmDiv2 >= 2 and kmDiv2 % 2 == 0:  # and step can be removed if we want even decimal fare conversion of total cost.
+        kmDiv2 = kmDiv2 / 2
+
+    return kmDiv3 + kmDiv2
+
+
+
+print(journeyDistance(3))
+print(journeyDistance(9))
+print(journeyDistance(5))
+
+
+
+# testing.

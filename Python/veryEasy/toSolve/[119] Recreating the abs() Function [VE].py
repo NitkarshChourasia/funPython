@@ -1,7 +1,8 @@
 """
 ##Recreating the abs() Function
 
-The abs() function returns the absolute value of a number. This means it returns a number's positive value. You can think of it as the distance away from zero.
+The abs() function returns the absolute value of a number. This means it returns a number's positive value.
+You can think of it as the distance away from zero.
 Create a function that recreates this functionality.
 
 
@@ -27,7 +28,7 @@ ___
 
 
 
-[language_fundamentals] [math] [numbers] 
+[language_fundamentals] [math] [numbers]
 
 
 
@@ -53,6 +54,20 @@ abs() Method
 https://www.programiz.com/python-programming/methods/built-in/abs
 Returns the absolute value of the given number. If the number is a complex number, abs() returns its magnitude.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def absolute(num1):
+    if num1 <= 0:
+        return num1 * -1
+    else:
+        return num1
+
+print(absolute(-5))
+print(absolute(-3.14))
+print(absolute(250))
+print(absolute(1013))
+
+
+# testing.

@@ -1,7 +1,8 @@
 """
 ##Nothing is Nothing?
 
-Given any number of parameters (which is signified using *args syntax), return True if none of the variables are falsy/empty.
+Given any number of parameters (which is signified using *args syntax),
+return True if none of the variables are falsy/empty.
 
 
 [Examples]
@@ -25,7 +26,7 @@ ___
 
 
 
-[data_structures] [language_fundamentals] [validation] 
+[data_structures] [language_fundamentals] [validation]
 
 
 
@@ -41,6 +42,19 @@ How to call a function with argument list in Python?
 https://stackoverflow.com/questions/817087/call-a-function-with-argument-list-in-python
 I'm trying to call a function inside another function in python, but can't find the right syntax. In this case first call will work, and second won't. What I want to mo …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def nothingIsFalsy(*args):
+    list1 = [*args]
+    return list1.all()
+
+
+print(nothingIsFalsy(0, False, [], {}))
+print(nothingIsFalsy(33, "Hello", (True, True, 3))
+print(nothingIsFalsy(True, None))
+
+
+# testing.

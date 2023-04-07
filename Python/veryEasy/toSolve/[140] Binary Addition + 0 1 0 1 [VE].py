@@ -25,7 +25,7 @@ ___
 
 
 
-[algorithms] [bit_operations] [numbers] 
+[algorithms] [bit_operations] [numbers]
 
 
 
@@ -46,6 +46,19 @@ How To Use String Formatters
 https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3
 Python’s str.format() method of the string class allows you to do variable substitutions and value formatting. This lets you concatenate elements together within a stri …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def addBinary(num1, num2):
+    # total = num1 + num2
+    return bin(num1 + num2)  # if doens't work uncomment the above line.
+
+
+print(addBinary(1, 1))
+print(addBinary(1, 2))
+print(addBinary(4, 5))
+print(addBinary(31.123, 23.234))
+
+
+# testing.

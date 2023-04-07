@@ -1,7 +1,8 @@
 """
 ##Find None in a List
 
-Create a function to find None in a list of numbers. The return value should be the index where None is found. If None is not found in the list, then return -1.
+Create a function to find None in a list of numbers.
+The return value should be the index where None is found. If None is not found in the list, then return -1.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 None will occur in the input list only once.
 
 
-[arrays] [numbers] 
+[arrays] [numbers]
 
 
 
@@ -47,6 +48,19 @@ Find Indices with None Values in Given List
 https://www.geeksforgeeks.org/python-find-indices-with-none-values-in-given-list/?ref=rp
 Find indices with None values in given list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findNum(lst1):
+    if None in lst1:
+        return lst1.index(None)
+    else:
+        return -1
+
+print(findNum([1, 2, None]))
+print(findNum([None, 1, 2, 3, 4]))
+print(findNum([0, 1, 2, 3, 4])
+
+
+# testing.

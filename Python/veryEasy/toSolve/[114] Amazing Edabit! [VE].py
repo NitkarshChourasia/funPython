@@ -1,27 +1,28 @@
 """
-##Amazing Edabit!
+## Amazing Nitkarsh!
 
-Create a function that takes a string and changes the word amazing to not amazing. Return the string without any change if the word edabit is part of the string.
+Create a function that takes a string and changes the word amazing to not amazing.
+Return the string without any change if the word Nitkarsh is part of the string.
 
 
 [Examples]
 
 ___
-amazing_edabit("edabit is amazing.") ➞ "edabit is amazing."
+amazing_Nitkarsh("Nitkarsh is amazing.") ➞ "Nitkarsh is amazing."
 
-amazing_edabit("Mubashir is amazing.") ➞ "Mubashir is not amazing."
+amazing_Nitkarsh("Mubashir is amazing.") ➞ "Mubashir is not amazing."
 
-amazing_edabit("Infinity is amazing.") ➞ "Infinity is not amazing."
+amazing_Nitkarsh("Infinity is amazing.") ➞ "Infinity is not amazing."
 _____
 
 
 
 [Notes]
 
-Edabit is amazing :)
+Nitkarsh is amazing :)
 
 
-[regex] [strings] [validation] 
+[regex] [strings] [validation]
 
 
 
@@ -42,6 +43,18 @@ Conditions
 https://www.w3schools.com/python/python_conditions.asp
 In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def amazingNitkarsh(str1):
+    if "Nitkarsh" in str1:
+        return str1
+    else:
+        return str1.replace("amazing", "not amazing")
+
+print(amazingNitkarsh("Nitkarsh is amazing."))
+print(amazingNitkarsh("Sadhguru is amazing."))
+print(amazingNitkarsh("Acharya Prashant is amazing."))
+
+# testing.

@@ -1,7 +1,10 @@
 """
 ##Maximum Weight Allowed
 
-Create a function that returns True if the combined weight of a car car and the weight of the passengers p in the car is less than the maximum weight max_weight the car is allowed to carry. Otherwise, return False. The weight of the car and the weight of the passengers are given in pounds. The maximum weight is given in kilograms.
+Create a function that returns True if the combined weight of a car car and the weight of the passengers
+p in the car is less than the maximum weight max_weight the car is allowed to carry.
+Otherwise, return False. The weight of the car and the weight of the passengers are given in pounds.
+The maximum weight is given in kilograms.
 
 
 [Examples]
@@ -21,7 +24,7 @@ _____
 1 pound = 0.453592 kilogram
 
 
-[language_fundamentals] [math] [validation] 
+[language_fundamentals] [math] [validation]
 
 
 
@@ -32,6 +35,20 @@ sum() Function
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum. In this tutorial, we will learn about the sum() function with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+# I think the series in the last like 1700, 1700, 1850 are the ones which is in lbs and weight of the car.
+
+
+def weightAllowed(car, p, maxWeight):
+    totalWeight = (car + p.sum()) * 0.453592
+    if totalWeight < maxWeight:
+        return True
+    else:
+        return False
+
+# testing.
+# checkAgain.
+# reRead the problem please.

@@ -2,7 +2,10 @@
 ##City School Creating IDS
 
 Many IDS (for emails or Google ID) are created using the person's name.
-Create a function that will return a four-character ID using the person's first name and last name. The first character will be the first letter of the first name but in lowercase. The next three characters will be the first three characters of the last name, but the first letter will be capitalized and the other two will be in lower case.
+Create a function that will return a four-character ID using the person's first name and last name.
+The first character will be the first letter of the first name but in lowercase.
+The next three characters will be the first three characters of the last name,
+but the first letter will be capitalized and the other two will be in lower case.
 
 
 [Examples]
@@ -22,7 +25,7 @@ _____
 There is always one character in the first name and at least three in the last name.
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -43,6 +46,20 @@ String title() Method
 https://www.programiz.com/python-programming/methods/string/title
 Returns a string with first letter of each word capitalized; a title cased string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def createId(fName, lName):
+    fName = fName.lower()
+    lName = lName.title()
+    return fName[0]+lName[:4]
+
+print(createId("mary", "lamb"))
+print(createId("John", "SMITH"))
+print(createId("mary", "smith"))
+print(createId("Nitkarsh", "Chourasia"))
+
+# testing.
+
+# apply constraints later on.

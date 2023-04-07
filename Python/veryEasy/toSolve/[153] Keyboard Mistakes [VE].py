@@ -16,7 +16,6 @@ The test cases contain numbers only by mistake.
 [Examples]
 
 ___
-keyboard_mistakes("MUB45H1R") ➞ "MUBASHIR"
 
 keyboard_mistakes("DUBL1N") ➞ "DUBLIN"
 
@@ -30,7 +29,7 @@ _____
 N/A
 
 
-[functional_programming] [logic] [strings] 
+[functional_programming] [logic] [strings]
 
 
 
@@ -66,6 +65,25 @@ Keyboard Module
 https://www.geeksforgeeks.org/keyboard-module-in-python/
 Is used to get full control of the keyboard. It’s a small Python library which can hook global events, register hotkeys, simulate key presses and much more.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def keyboardMistakes(str1):
+    lst1 = list("ASOI")
+    lst2 = list("4501")
+    emptyList = []
+    for i in str1:
+        for j in lst1:
+            for k in lst2:
+                if i == k:
+                    emptyList.append(j)
+                else:
+                    emptyList.append(i)
+    return emptyList
+
+
+print(keyboardMistakes("DUBL1N"))
+print(keyboardMistakes("51NG4P0RE"))
+
+# testing.

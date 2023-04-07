@@ -32,7 +32,7 @@ ___
 
 
 
-[algebra] [math] 
+[algebra] [math]
 
 
 
@@ -53,6 +53,17 @@ sum() Function
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum. In this tutorial, we will learn about the sum() function with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def howManyStickers(int1):
+    return int1**int1*6
+
+print(howManyStickers(1))
+print(howManyStickers(2))
+print(howManyStickers(3))
+
+# testing.
+# checkAgain.
+# please confirm this program with chatGPT!, okay?

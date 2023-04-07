@@ -27,7 +27,7 @@ ___
 
 
 
-[functional_programming] [numbers] 
+[functional_programming] [numbers]
 
 
 
@@ -48,6 +48,17 @@ Random Module
 https://www.w3schools.com/python/module_random.asp
 To generate random values, choose a value from a list at random and more.
 _________
-""" 
+"""
 # Your code should go here:
 
+import random
+
+def randomInt(num1, num2):
+    return randint(num1, num2)
+
+print(randomInt(5, 9))
+print(randomInt(5, 9))
+print(randomInt(5, 9))
+
+
+# testing.

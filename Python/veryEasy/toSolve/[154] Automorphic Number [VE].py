@@ -1,7 +1,8 @@
 """
 ##Automorphic Number
 
-A number is called Automorphic number if its square ends in the original number. Create a function that takes a number n and returns True if it is an Automorphic number, otherwise False.
+A number is called Automorphic number if its square ends in the original number.
+Create a function that takes a number n and returns True if it is an Automorphic number, otherwise False.
 
 
 [Examples]
@@ -26,7 +27,7 @@ _____
 N/A
 
 
-[logic] [math] [numbers] [validation] 
+[logic] [math] [numbers] [validation]
 
 
 
@@ -47,6 +48,22 @@ Convert Integer to String in Python
 https://www.geeksforgeeks.org/convert-integer-to-string-in-python/
 In Python an integer can be converted into a string using the built-in str() function. The str() function takes in any python data type and converts it into a string. B …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def automorphic(num1):
+    numSq = num1 ** 2
+    str1 = str(numSq)
+    str2 = str(num1)
+    if str2 in str1:
+        return True
+    else:
+        return False
+
+print(automorphic(1))
+print(automorphic(3))
+print(automorphic(6))
+print(automorphic(95))
+
+# testing.

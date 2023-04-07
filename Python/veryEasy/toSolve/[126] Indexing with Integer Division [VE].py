@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -37,6 +37,24 @@ Casting
 https://www.w3schools.com/python/python_casting.asp#:~:text=Casting%20in%20python%20is%20therefore%20done%20using%20constructor,literal%20%28providing%20the%20string%20represents%20a%20whole%20number%29
 The int() function constructs an integer number given a integer literal, a float literal, or a string literal. float() - constructs a float number from an integer liter …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def valueAt(lst1, num1, operator, num2):
+    index = num1 // num2
+    return lst1[index]
+
+
+
+
+print(valueAt([1, 2, 3, 4, 5, 6], 10 // 2))
+print(valueAt([1, 2, 3, 4, 5, 6], 8.0 // 2))
+print(valueAt([1, 2, 3, 4], 6.535355314 // 2))
+
+
+# testing.
+# checkAgain.
+# will have to make it, just like it is given in the examples.
+# will have to make it, to handle index exceptions which may be caused.
+# this too works but not the way it should pragmatically.

@@ -21,7 +21,7 @@ _____
 You can expect the bridge's ends connecting it to its surrounding.
 
 
-[language_fundamentals] [strings] [validation] 
+[language_fundamentals] [strings] [validation]
 
 
 
@@ -42,6 +42,19 @@ Does the string contain the substring?
 https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method
 I'm looking for a string.contains or string.indexof method in Python. I want to do: if not somestring.contains("blah"): continue
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isSafeBridge(str1):
+    if " " in str1:
+        return False
+    else:
+        return True
+
+print(isSafeBridge("###"))
+print(isSafeBridge("## ####"))
+print(isSafeBridge("#"))
+
+
+# testing.

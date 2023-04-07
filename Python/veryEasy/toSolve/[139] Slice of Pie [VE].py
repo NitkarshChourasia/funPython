@@ -14,7 +14,7 @@ _____
 
 ___
 equal_slices(11, 5, 2) ➞ True
-# 5 people x 2 slices each = 10 slices < 11 slices 
+# 5 people x 2 slices each = 10 slices < 11 slices
 
 equal_slices(11, 5, 3) ➞ False
 # 5 people x 3 slices each = 15 slices > 11 slices
@@ -41,7 +41,7 @@ ___
 
 
 
-[algebra] [math] [validation] 
+[algebra] [math] [validation]
 
 
 
@@ -57,6 +57,21 @@ Arithmetic, Comparison, Logical and More
 https://www.programiz.com/python-programming/operators
 In this article, you'll learn everything about different types of operators in Python, their syntax and how to use them with examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def equalSlices(totalSlicesAvailable, peoples, slicesEach):
+    needed = peoples * slicesEach
+    if needed <= totalSlicesAvailable:
+        return True
+    else:
+        return False
+print(equalSlices(11, 5, 2))
+print(equalSlices(11, 5, 3))
+print(equalSlices(8, 3, 2))
+print(equalSlices(8, 3, 3))
+print(equalSlices(24, 12, 2))
+
+
+# testing.

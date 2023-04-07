@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[language_fundamentals] [regex] [strings] 
+[language_fundamentals] [regex] [strings]
 
 
 
@@ -42,6 +42,21 @@ Video Walkthrough the Challenge
 https://www.youtube.com/watch?v=gbt9l5LDHwo
 📺 In this video, you will learn how to solve these problems in Python 🐍: ★ 0:00 Intro of Edabit ★ 0:20 Find the Total Number of Digits the Number has ★ 2:15 Sort Num …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def potatoes(str1):
+    if str1.len() > 1:
+        if "potato" in str1.lower():
+            return str1.count(potato)
+        else:
+            return "No specified 'Potato' string found."
+
+
+print(potatoes("potato"))
+print(potatoes("potatopotato"))
+print(pototoes("potatoapple"))
+
+
+# testing.

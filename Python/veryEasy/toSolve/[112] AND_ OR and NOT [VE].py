@@ -1,7 +1,8 @@
 """
 ##AND, OR and NOT
 
-You will need to write three unfinished logic gates. Continue to write the three logic gates: AND, OR, and NOT.
+You will need to write three unfinished logic gates.
+Continue to write the three logic gates: AND, OR, and NOT.
 
 
 [Examples]
@@ -24,7 +25,7 @@ _____
 Check the Resources tab for some help.
 
 
-[conditions] [logic] 
+[conditions] [logic]
 
 
 
@@ -55,6 +56,44 @@ AND gate
 https://en.wikipedia.org/wiki/AND_gate
 Is a basic digital logic gate that implements logical conjunction - it behaves according to the truth table to the right. A HIGH output (1) results only if all the inpu …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def AND(bin1, bin2):
+    if bin1 == 1 and bin2 == 1:
+        return 1
+    else:
+        return 0
+
+
+def OR(bin1, bin2):
+    if bin1 == 1 or bin2 == 1:
+        return 1
+    else:
+        return 0
+
+
+def NOT(bin1, bin2):
+    if bin1 == 1:
+        return 0
+    else:
+        return 1
+
+
+
+
+print(AND(1, 1))
+print(AND(0, 0))
+
+print(OR(1, 0))
+print(OR(1, 1))
+
+print(NOT(0))
+print(NOT(1))
+
+
+# testing.
+
+# checkAgain.
+# learn about those three logic gates, please.

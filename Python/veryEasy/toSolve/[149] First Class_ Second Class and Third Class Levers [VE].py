@@ -1,10 +1,14 @@
 """
 ##First Class, Second Class and Third Class Levers
 
-Levers are simple machines with a rigid beam and a fulcrum. From the picture below, you can see that there are 3-types of levers: first class, second class and third class.
+Levers are simple machines with a rigid beam and a fulcrum.
+From the picture below, you can see that there are 3-types of levers:
+first class, second class and third class.
 
 
-Given a list that contains the fulcrum "f", the effort "e", and the load "l", write a function that determines whether or not the list shows a first class lever, second class lever, or a third class lever.
+Given a list that contains the fulcrum "f", the effort "e", and the load "l",
+write a function that determines whether or not the list shows a
+first class lever, second class lever, or a third class lever.
 
 
 [Examples]
@@ -24,7 +28,7 @@ _____
 A pair of scissors is a first class lever, a nutcracker is a second class lever and a broom is a third class lever.
 
 
-[arrays] [conditions] [objects] [physics] 
+[arrays] [conditions] [objects] [physics]
 
 
 
@@ -50,6 +54,24 @@ Dictionaries
 https://www.w3schools.com/python/python_dictionaries.asp
 Use to assign key-value pairs. The value can be accessed with the key.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def determineLever(lst1):
+    str1 = lst1.join()
+    if str1 == "efl":
+        return "first class lever"
+    elif str1 == "elf":
+        return "second class lever"
+    elif str1 == "fel":
+        return "third class lever"
+    else:
+        return "No valid lever class input"
+
+print(determineLever(["e", "f", "l"]))
+print(determineLever(["e", "l", "f"]))
+print(determineLever(["f", "e", "l"]))
+print(determineLever(["e", "f", "l", "t"]))
+
+# testing.

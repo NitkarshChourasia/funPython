@@ -27,7 +27,7 @@ _____
 This is a translation of a C++ challenge and is trivial in Python, but perhaps it will be helpful to someone out there. (No challenge is trivial until you know how to solve it :)
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -53,6 +53,19 @@ Remove Final Character From A String
 https://stackoverflow.com/questions/15478127/remove-final-character-from-string
 If my string is "abcdefghij" (I do not want to replace the 'j' character, since my string may contain multiple 'j' characters) I only want the last character gone. Rega …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def cppText(lst1):
+    totalLen = lst1.len()
+    lst1 = lst1[:totalLen -1]
+    return lst1.join() # learn to use join function.
+
+
+print(cppTxt(["H", "i", "!", "\0"]))
+print(cppTxt(["H", "e", "l", "l", "o", "!", "\0"]))
+print(cppTxt(["J", "A", "V", "a", "\0"]))
+
+
+# testing.

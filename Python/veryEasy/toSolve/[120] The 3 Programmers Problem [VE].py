@@ -1,7 +1,9 @@
 """
 ##The 3 Programmers Problem
 
-You hired three programmers and you (hopefully) pay them. Create a function that takes three numbers (the hourly wages of each programmer) and returns the difference between the highest-paid programmer and the lowest-paid.
+You hired three programmers and you (hopefully) pay them.
+Create a function that takes three numbers (the hourly wages of each programmer)
+and returns the difference between the highest-paid programmer and the lowest-paid.
 
 ___
 programmers(147, 33, 526) ➞ 493
@@ -20,7 +22,7 @@ ___
 
 
 
-[algorithms] [math] [numbers] 
+[algorithms] [math] [numbers]
 
 
 
@@ -56,6 +58,18 @@ max() and min() in Python
 https://www.geeksforgeeks.org/max-min-python/
 This article brings you a very interesting and lesser known function of Python, namely max() and min(). Now when compared to their C++ counterpart, which only allows tw …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def programmersSalary(sal1, sal2, sal3):
+    list1 = list(sal1, sal2, sal3)
+    return list1.max() - list1.min()
+
+
+print(programmersSalary(147, 33, 526))
+print(programmersSalary(33, 72, 74))
+print(programmersSalary(1, 5, 9))
+
+
+# testing.

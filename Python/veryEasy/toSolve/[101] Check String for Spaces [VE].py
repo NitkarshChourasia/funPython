@@ -29,7 +29,7 @@ ___
 
 
 
-[strings] [validation] 
+[strings] [validation]
 
 
 
@@ -60,6 +60,20 @@ isspace() Method
 https://www.javatpoint.com/python-string-isspace-method
 Used to check space in the string. It returns true if there are only whitespace characters in the string. Otherwise it returns false. Space, newline, and tabs etc are k …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def hasSpaces(str1):
+    if " " in str1:
+        return True
+    else:
+        return False
+
+print(hasSpaces("hello"))
+print(hasSpaces("hello, world"))
+print(hasSpaces(""))
+print(hasSpaces(",./!@#"))
+
+
+# testing.

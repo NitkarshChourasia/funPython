@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -49,6 +49,53 @@ map() Function
 https://www.programiz.com/python-programming/methods/built-in/map
 Applies a given function to each item of an iterable (list, tuple etc.) and returns a list of the results.
 _________
-""" 
+"""
 # Your code should go here:
 
+pseudo algorithm:
+    tempList = []
+    for i in list1:
+        if i == numtype:
+            then tempList.append[str(i)]
+        then list1.append(tempList)
+        # but the error is it won't keep the order same.
+
+
+pseudo algorithm "2":
+    tempList = []
+    for i in list1:
+        if i == numType:
+            then tempList.append(str(i))
+        else:
+            tempList.append(i)
+        list1 = tempList
+        return list1
+
+
+pseudo algorithm "3":
+    tempList = []
+    for i in list1:
+        tempList.append(str(i))
+    list1 = tempList
+    return list1
+
+# The best algorithm is this one, and second one too is good.
+# parse means?
+
+def parseList(list1):
+    tempList = []
+    for i in list1:
+        tempList.append(str(i))
+    list1 = tempList
+    return list1
+
+
+
+print(parseList([1, 2, "a", "b"]))
+print(parseList(["abc", 123, "def", 456]))
+print(parseList([1, 2, 3, 17, 24, 3, "a", "123b"]))
+print(parseList([]))
+
+
+# testing.
+# try otherWay, the second one.

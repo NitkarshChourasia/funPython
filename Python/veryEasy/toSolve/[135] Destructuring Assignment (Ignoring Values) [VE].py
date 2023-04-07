@@ -15,7 +15,9 @@ print(first) ➞ outputs 1
 print(last) ➞ outputs 8
 _____
 
-Using Destructuring Assignment (check the Resources tab), your task is to unpack the list writeyourcodehere into three variables, first, a variable to ignore all middle values and last.
+Using Destructuring Assignment (check the Resources tab),
+your task is to unpack the list writeyourcodehere into three variables, first,
+a variable to ignore all middle values and last.
 
 
 [Notes]
@@ -28,7 +30,7 @@ ___
 
 
 
-[language_fundamentals] [logic] [loops] 
+[language_fundamentals] [logic] [loops]
 
 
 
@@ -49,6 +51,14 @@ Destructuring (Packing and Unpacking)
 https://retz.blog/posts/destructuring-in-python
 Python developers may unpack, or pack values to compensate for the unknown length of values in an iterable or unknown key/value pairs in a dictionary.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+first , *middle, last = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(first)
+print(last)
+print(middle)
+
+# testing.

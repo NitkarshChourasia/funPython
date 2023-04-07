@@ -26,7 +26,7 @@ ___
 
 
 
-[arrays] [functional_programming] [interview] [language_fundamentals] 
+[arrays] [functional_programming] [interview] [language_fundamentals]
 
 
 
@@ -52,6 +52,22 @@ Reverse Sign of Each Element in Given List
 https://www.geeksforgeeks.org/python-reverse-sign-of-each-element-in-given-list/
 Given a list of integers, write a Python program to reverse the sign of each element in given list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def invertList(list1):
+    tempList = []
+    for i in list1:
+        tempList.append(i * -1)
+    list1 = tempList
+    return list1
+
+
+
+print(invertList([1, 2, 3, 4, 5]))
+print(invertList([1, -2, 3, -4, 5]))
+print(invertList([]))
+
+
+# testing.

@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [data_structures] [loops] 
+[arrays] [data_structures] [loops]
 
 
 
@@ -51,6 +51,20 @@ How to handle list index being out of range?
 https://stackoverflow.com/questions/11902458/i-want-to-exception-handle-list-index-out-of-range
 A way to handle the exception "list index out of range."
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def lastInd(input1):
+    if input1.len() >= 1:
+        lst1 = list(input1)
+        return input1[-1]
+    else:
+        return None
+
+
+print(lastInd([0, 4, 19, 34, 50, -9, 21]))
+print(lastInd("The quick brown fox jumped over the lazy dog"))
+print(lastInd([]))
+
+# testing.

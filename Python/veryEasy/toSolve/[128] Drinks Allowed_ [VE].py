@@ -1,8 +1,10 @@
 """
 ##Drinks Allowed?
 
-A bartender is writing a simple program to determine whether he should serve drinks to someone. He only serves drinks to people 18 and older and when he's not on break.
-Given the person's age, and whether break time is in session, create a function which returns whether he should serve drinks.
+A bartender is writing a simple program to determine whether he should serve drinks to someone.
+He only serves drinks to people 18 and older and when he's not on break.
+Given the person's age, and whether break time is in session,
+create a function which returns whether he should serve drinks.
 
 
 [Examples]
@@ -26,7 +28,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [logic] [validation] 
+[conditions] [language_fundamentals] [logic] [validation]
 
 
 
@@ -47,6 +49,26 @@ Ternary Operator in Python
 https://www.geeksforgeeks.org/ternary-operator-in-python/
 Ternary operators also known as conditional expressions are operators that evaluate something based on a condition being true or false.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def shouldServeDrink(num1, breakTimeBool1):
+    if num1 >= 18 and breakTimeBool1 == False:
+        return True
+    else:
+        return False
+
+
+print(shouldServeDrink(17, True))
+print(shouldServeDrink(19, False))
+print(showServeDrink(30, True))
+
+
+# testing.
+# checkAgain.
+# check again the logic.
+# test it more further.
+
+
 

@@ -21,7 +21,7 @@ _____
 All numbers will evenly square root, so don't worry about decimal numbers.
 
 
-[algebra] [math] [numbers] 
+[algebra] [math] [numbers]
 
 
 
@@ -42,6 +42,18 @@ Multiplying Exponents
 https://www.rapidtables.com/math/number/exponent/multiplying-exponents.html
 How to multiply exponents.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def cubeSquareRoot(num1):
+    cube = num1 ** 3
+    sqrtToReturn = cube.sqrt()
+    return sqrtToReturn
+
+
+print(cubeSquareRoot(81))
+print(cubeSquareRoot(16446089))
+print(cubeSquareRoot(6955556))
+
+# testing.

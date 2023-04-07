@@ -1,8 +1,12 @@
 """
 ##50-30-20 Strategy
 
-The 50-30-20 strategy is a simple way to budget, which involves spending 50% of after-tax income on needs, 30% after tax income on wants, and 20% after-tax income on savings or paying off debt.
-Given the after-tax income as ati, what you are supposed to do is to make a function that will return a dictionary that shows how much a person needs to spend on needs, wants, and savings.
+The 50-30-20 strategy is a simple way to budget,
+which involves spending 50% of after-tax income on needs,
+30% after tax income on wants, and 20% after-tax income on savings or paying off debt.
+Given the after-tax income as ati,
+what you are supposed to do is to make a function that will return a dictionary that shows how much a person needs to spend on needs,
+wants, and savings.
 
 
 [Examples]
@@ -22,7 +26,7 @@ _____
 Check the Resources tab if you want to learn more about the 50-30-20 budget strategy.
 
 
-[algebra] [arrays] [data_structures] [numbers] [objects] 
+[algebra] [arrays] [data_structures] [numbers] [objects]
 
 
 
@@ -53,6 +57,21 @@ zip() Function
 https://www.programiz.com/python-programming/methods/built-in/zip
 Takes iterables (can be zero or more), aggregates them in a tuple, and returns it.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def fiftyThirtyTwenty(money):
+    fifty = money * 0.5
+    thirty = money * 0.3
+    twenty = money * 0.2
+    dict1 = {"Needs" : fifty, "Wants" : thirty, "Savings" : twenty}
+    return dict1
+
+
+print(fiftyThirtyTwenty(10000))
+print(fiftyThirtyTwenty(50000))
+print(fiftyThirtyTwenty(13450))
+
+
+# testing.

@@ -21,7 +21,7 @@ _____
 Find all the elements greater than 5, not the elements greater than or equal to 5.
 
 
-[arrays] [language_fundamentals] [math] 
+[arrays] [language_fundamentals] [math]
 
 
 
@@ -57,6 +57,22 @@ sum() Method
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def sumGreaterThen5(lst1):
+    appendList = []
+    for i in lst1:
+        if i > 5:
+            appendList.append(i)
+    return appendList.sum()
+
+
+print(sumGreaterThen5([1, 5, 20, 30, 4, 9, 18])
+print(sumGreaterThen5([1, 2, 3, 4])
+print(sumGreaterThen5([10, 12, 28, 47, 55, 100])
+
+
+# testing.
 

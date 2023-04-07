@@ -2,7 +2,8 @@
 ##Minimal II: Boolean Redundancy
 
 Check the principles of minimalist code in the intro to the first challenge.
-In the Code tab you will find a code that is missing a single character in order to pass the tests. However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section down below.
+In the Code tab you will find a code that is missing a single character in order to pass the tests.
+However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section down below.
 Write a function that returns the string "even" if the given integer is even, and the string "odd" if it's odd.
 
 
@@ -39,7 +40,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [logic] 
+[conditions] [language_fundamentals] [logic]
 
 
 
@@ -65,6 +66,20 @@ Python Conditions
 https://www.w3schools.com/python/python_conditions.asp
 In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def evenOdd(num1):
+    if num1 % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+print(evenOdd(2))
+print(evenOdd(10))
+print(evenOdd(13))
+print(evenOdd(17))
+
+
+# testing.

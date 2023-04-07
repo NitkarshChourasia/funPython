@@ -1,7 +1,8 @@
 """
 ##A Day at the Market
 
-Backpack Bill and Wallet Will set off for the annual festival. As they approach the stalls, Bill retorts that he'll be able to bring home more stuff than Will. Taking this as a challenge, Will refutes and a competition spurs into action.
+Backpack Bill and Wallet Will set off for the annual festival. As they approach the stalls,
+Bill retorts that he'll be able to bring home more stuff than Will. Taking this as a challenge, Will refutes and a competition spurs into action.
 ___
 *) Backpack Bill has an infinite inventory space, but a limited number of coins.
 *) Wallet Will has an infinite number of coins, but a limited inventory space.
@@ -46,7 +47,7 @@ ___
 
 
 
-[conditions] [logic] [numbers] 
+[conditions] [logic] [numbers]
 
 
 
@@ -62,6 +63,23 @@ How to Round Down in Python
 https://www.kite.com/python/answers/how-to-round-down-in-python
 Rounding down to the nearest integer results in the closest integer less than or equal to that number. For example, 1.7 rounds down to 1.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def whoWinsTonight(billItems, willItems, price, space):
+    bill = billItems / price
+    will = willItems / space
+    if bill > will:
+        return "bill"
+    elif will > bill:
+        return "will"
+    else:
+        return "tie"
+
+
+print(whoWinsTonight(20, 20 , 5, 10))
+print(whoWinsTonight(10, 2, 20, 1))
+print(whoWinsTonight(3, 7, 2, 5))
+
+# testing.

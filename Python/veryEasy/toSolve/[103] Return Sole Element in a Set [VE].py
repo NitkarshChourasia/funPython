@@ -21,7 +21,7 @@ _____
 Lists, dictionaries, and other sets won't be elements because sets won't accept any mutable data types as elements.
 
 
-[language_fundamentals] [objects] 
+[language_fundamentals] [objects]
 
 
 
@@ -47,6 +47,17 @@ Sets
 https://realpython.com/python-sets/
 Grouping objects into a set can be useful in programming as well, and Python provides a built-in set type to do so. Sets are distinguished from other object types by th …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def elementFromSet(set1):
+    return set1
+
+
+print(elementFromSet{"edabit"})
+print(elementFromSet({True})
+print(elementFromSet({11037})
+
+# testing.
+# checkAgain.

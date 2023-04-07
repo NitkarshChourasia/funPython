@@ -23,7 +23,7 @@ _____
 Step n is a positive integer.
 
 
-[algebra] [algorithms] [logic] [math] [numbers] 
+[algebra] [algorithms] [logic] [math] [numbers]
 
 
 
@@ -39,6 +39,17 @@ How To Do Math in Python 3 with Operators
 https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators
 Numbers are extremely common in programming. They are used to represent things like screen size dimensions, geographic locations, money and points, the amount of time t …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def stackBoxes(n):
+    return n**n
+
+print(stackBoxes(1))
+print(stackBoxes(2))
+print(stackBoxes(0))
+
+# testing.
+# checkAgain.
+# Check it using chatGPT and edabit something. Because lack of examples is the issue in finding out the things.

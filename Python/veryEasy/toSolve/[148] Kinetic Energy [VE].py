@@ -29,7 +29,7 @@ _____
 Expect only positive numbers for inputs.
 
 
-[math] [numbers] [physics] 
+[math] [numbers] [physics]
 
 
 
@@ -45,6 +45,17 @@ Kinetic Energy Formulas
 https://www.gigacalculator.com/calculators/kinetic-energy-calculator.php
 Easily calculate the kinetic energy of an object in motion. Input supports metric and imperial measurement units. Output in Joules (J, kJ, MJ), Watt-hours (Wh, kWh), ca …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def calcKineticEvergy(m, v):
+    return (0.50 * m * v**2)
+
+print(calcKineticEvergy(60, 3))
+print(calcKineticEvergy(45, 10))
+print(calcKineticEvergy(63.5, 7.35))
+
+
+# testing.

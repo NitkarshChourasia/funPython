@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[language_fundamentals] [objects] [validation] 
+[language_fundamentals] [objects] [validation]
 
 
 
@@ -47,6 +47,20 @@ Dictionary has_key()
 https://www.geeksforgeeks.org/python-dictionary-has_key/
 Is an unordered collection of data values, used to store data values like a map, which unlike other Data Types that hold only single value as an element, Dictionary hol …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def hasKey(dict1, key):
+    if key in dict1:
+        return True
+    else:
+        return False
+
+
+
+print(hasKey({ "a": 44, "b": 45, "c": 46 }, "d"))
+print(hasKey({ "craves": True, "midnight": True, "snack": True }, "morning"))
+print(hasKey({ "pot": 1, "tot": 2, "not": 3 }, "not"))
+
+# testing.

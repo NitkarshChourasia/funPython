@@ -1,7 +1,10 @@
 """
 ##Fix Basic Calculator
 
-Mubashir created a function that takes two numbers a and b and an operator o. His function should return the result of the corresponding mathematical function on both numbers. If the operator is not one of the specified characters +, -, /, *, or if there is a division by zero, the function should return None. Help him by fixing the code in the code tab to pass this challenge.
+Nitkarsh created a function that takes two numbers a and b and an operator o.
+His function should return the result of the corresponding mathematical function on both numbers.
+If the operator is not one of the specified characters +, -, /, *, or if there is a division by zero, the function should return None.
+Help him by fixing the code in the code tab to pass this challenge.
 Look at the examples below to get an idea of what the function should do:
 
 
@@ -30,7 +33,7 @@ _____
 N/A
 
 
-[bugs] [functional_programming] [language_fundamentals] [numbers] 
+[bugs] [functional_programming] [language_fundamentals] [numbers]
 
 
 
@@ -56,6 +59,59 @@ Variable Names
 https://www.w3schools.com/python/python_variables_names.asp
 A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def basicCalculator(num1, operator, num2):
+    if operator == "*":
+        return num1 * num2
+    elif operator == "/":
+        return num1 / num2
+    elif operator == "+":
+        return num1 + num2
+    elif operator == "-":
+        return num1 - num2
+    else:
+        return "The operator is not incorrect."
+
+
+def basicCalculator1(num1, operator, num2):
+    match(operator):
+        case "*":
+            return num1 * num2
+        case "/":
+            return num1 / num2
+        case "+":
+            return num1 + num2
+        case "-":
+            return num1 - num2
+        __default:
+            return "Please enter a valid operator"
+
+
+print(basicCalculator(2, '+',  4))
+print(basicCalculator(6, '-', 5))
+print(basicCalculator(12, '/', 3))
+print(basicCalculator(3, '*', 4))
+
+print(basicCalculator(1, '/', 0))
+# Division by zero is not possible
+print(basicCalculator(1, 'x', 0))
+# 'x' is not an operator
+
+print(basicCalculator1(2, '+',  4))
+print(basicCalculator1(6, '-', 5))
+print(basicCalculator1(12, '/', 3))
+print(basicCalculator1(3, '*', 4))
+
+print(basicCalculator1(1, '/', 0))
+# Division by zero is not possible
+print(basicCalculator1(1, 'x', 0))
+# 'x' is not an operator
+
+
+
+# testing.
+# checkAgain.
+# learn to handle the exceptions, well.

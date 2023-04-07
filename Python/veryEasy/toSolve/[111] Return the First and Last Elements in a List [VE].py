@@ -27,7 +27,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [validation] 
+[arrays] [language_fundamentals] [validation]
 
 
 
@@ -53,6 +53,16 @@ pop() Method
 https://www.programiz.com/python-programming/methods/list/pop
 Removes the item at the given index from the list and returns the removed item.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def firstLast(list1):
+    return [list1[0], list1[-1]]
+
+print(firstLast([5, 10, 15, 20, 25])
+print(firstLast(["edabit", 13, None, False, True])
+print(firstLast([None, 4, "6", "hello", None])
+
+# testing.
 

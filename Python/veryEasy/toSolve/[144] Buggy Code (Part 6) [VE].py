@@ -1,18 +1,18 @@
 """
 ##Buggy Code (Part 6)
 
-Mubashir wants to remove numbers from a given string!
+Nitkarsh wants to remove numbers from a given string!
 Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.
 
 
 [Examples]
 
 ___
-remove_numbers("mubashir1") ➞ "mubashir"
+remove_numbers("Nitkarsh1") ➞ "Nitkarsh"
 
 remove_numbers("12ma23tt") ➞ "matt"
 
-remove_numbers("e1d2a3b4i5t6") ➞ "edabit"
+removeNumbers("N4444442i23tk2424a243rs234h") -> "Nitkrarsh"
 _____
 
 
@@ -26,7 +26,7 @@ ___
 
 
 
-[bugs] [formatting] [interview] [strings] 
+[bugs] [formatting] [interview] [strings]
 
 
 
@@ -52,6 +52,22 @@ isnumeric() Method
 https://www.w3schools.com/python/ref_string_isnumeric.asp
 Checks if a string is made of numeric values.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def removeNumbers(str1):
+    onlyNum = []
+    onlyStr = []
+    for i in str1:
+        if i == isinstance(numType):
+            onlyNum.append(i)
+        else:
+            onlyStr.append(i)
+
+
+print(removeNumbers("Nitkarsh1"))
+print(removeNumbers("12ma23tt"))
+print(removeNumbers("N4444442i23tk2424a243rs234h"))
+
+# testing.

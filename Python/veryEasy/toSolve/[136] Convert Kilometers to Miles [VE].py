@@ -1,7 +1,8 @@
 """
 ##Convert Kilometers to Miles
 
-In this challenge, you have to implement a function that returns the given distance kilometers converted into miles. You have to round the result up to the fifth decimal digit.
+In this challenge, you have to implement a function that returns the given distance kilometers converted into miles.
+You have to round the result up to the fifth decimal digit.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 1 kilometer = 0.621371 miles.
 
 
-[language_fundamentals] [math] [numbers] 
+[language_fundamentals] [math] [numbers]
 
 
 
@@ -37,6 +38,17 @@ Kilometers to Miles Conversion in Python
 https://beginnersbook.com/2018/06/python-program-convert-kilometers-to-miles/
 This program prompts the user to enter the value in Kilometers and converts it into Miles by multiplying the entered value with 0.621371 (1 Km = 0.621371 mi.).
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def kmToMiles(kmInput):
+    return (kmInput * 0.621371).round(5)
+
+
+print(kmToMiles(2))
+print(kmToMiles(6))
+print(kmToMiles(8))
+
+
+# testing.

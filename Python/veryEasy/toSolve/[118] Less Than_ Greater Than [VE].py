@@ -1,7 +1,8 @@
 """
 ##Less Than, Greater Than
 
-Create a function that takes two numbers num1, num2, and a list lst and returns a list containing all the numbers in lst greater than num1 and less than num2.
+Create a function that takes two numbers num1, num2, and a list lst and returns a
+list containing all the numbers in lst greater than num1 and less than num2.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 N/A
 
 
-[arrays] [logic] [numbers] 
+[arrays] [logic] [numbers]
 
 
 
@@ -52,6 +53,22 @@ List Comprehension
 https://www.w3schools.com/python/python_lists_comprehension.asp
 Offers a shorter syntax when you want to create a new list based on the values of an existing list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def listBetween(num1, num2, list1):
+    sortList = [num1, num2]
+    range1 = range(sortList.min(), sortList.max())
+    finalList = []
+    for i in list1:
+        if i in range1:
+            finalList.append(i)
+    return finalList
+
+
+print(listBetween(3, 8, [1, 5, 95, 0, 4, 7]))
+print(listBetween(1, 10, [1, 10, 25, 8, 11, 6]))
+print(listBetween(7, 32, [1, 2, 3, 78]))
+
+# testing.

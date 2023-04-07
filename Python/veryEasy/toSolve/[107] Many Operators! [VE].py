@@ -1,7 +1,8 @@
 """
 ##Many Operators!
 
-Some basic arithmetic operators are +, -, *, /, and %. In this challenge you will be given three parameters, num1, num2, and an operator. Use the operator on number 1 and 2.
+Some basic arithmetic operators are +, -, *, /, and %. In this challenge you will be given three parameters,
+num1, num2, and an operator. Use the operator on number 1 and 2.
 
 
 [Examples]
@@ -24,7 +25,7 @@ _____
 There will not be any divisions by zero.
 
 
-[language_fundamentals] [math] 
+[language_fundamentals] [math]
 
 
 
@@ -55,6 +56,64 @@ format() Method
 https://www.w3schools.com/python/ref_string_format.asp
 Formats the specified value(s) and insert them inside the string's placeholder. The placeholder is defined using curly brackets: {}. Read more about the placeholders i …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def operate(num1, num2, operate):
+    match(operate):
+        case "*":
+            return num1 * num2
+        case "/":
+            return num1 / num2
+        case "+":
+            return num1 / num2
+        case "-":
+            return num1 / num2
+        case "%":
+            return num1 % num2
+        _default:
+            reuturn "Please enter a valid operator"
+
+
+def operateMeth1(num1, num2, operate):
+    string1 = "*/+-%"
+    list1 = list(string1)
+    if operate in list1:
+        return eval(num1, operate, num2)
+
+
+def operateMeth2(num1, num2, operate):
+    if operate == "*":
+        return num1 * num2
+    elif operate == "/":
+        return num1 / num2
+    elif operate == "+":
+        return num1 + num2
+    elif operate == "-":
+        return num1 - num2
+    elif operate == "%":
+        return num1 % num2
+    else:
+        return "Please enter a valid operator."
+
+
+print(operate(1, 2, "+"))
+print(operate(7, 10, "-"))
+print(operate(20, 10, "%"))
+
+print(operateMeth1(1, 2, "+"))
+print(operateMeth1(7, 10, "-"))
+print(operateMeth1(20, 10, "%"))
+
+print(operateMeth2(1, 2, "+"))
+print(operateMeth2(7, 10, "-"))
+print(operateMeth2(20, 10, "%"))
+
+# testing.
+# checkAgain.
+# checkAgain. Match especially.
+
+
+
 

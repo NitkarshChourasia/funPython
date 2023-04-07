@@ -19,7 +19,7 @@ _____
 Don't overthink this challenge (look at the syntax and correct it).
 
 
-[bugs] [language_fundamentals] 
+[bugs] [language_fundamentals]
 
 
 
@@ -40,6 +40,19 @@ pdb — The Python Debugger
 https://docs.python.org/2/library/pdb.html
 The module pdb defines an interactive source code debugger for Python programs. It supports setting (conditional) breakpoints and single stepping at the source line lev …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def hasBugs(bool1):
+    if bool1 == True:
+        return "Sad days"
+    else:
+        return "It's a good day."
+
+
+print(hasBugs(True))
+print(hasBugs(False))
+
+
+# testing.

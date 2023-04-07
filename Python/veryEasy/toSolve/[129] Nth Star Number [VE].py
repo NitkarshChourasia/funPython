@@ -2,7 +2,8 @@
 ##Nth Star Number
 
 Create a function that takes a positive integer n and returns the nth "star number".
-A star number is a centered figurate number that represents a centered hexagram (six-pointed star), such as the one that Chinese checkers is played on.
+A star number is a centered figurate number that represents a centered hexagram (six-pointed star),
+such as the one that Chinese checkers is played on.
 
 
 
@@ -34,7 +35,7 @@ ___
 
 
 
-[algebra] [math] 
+[algebra] [math]
 
 
 
@@ -55,6 +56,17 @@ Star Number
 https://en.wikipedia.org/wiki/Star_number
 Is a centered figurate number a centered hexagram (six-pointed star), such as the one that Chinese checkers is played on.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def starNumber(n):
+    return 6n(n-1) + 1
+
+
+print(starNumber(2))
+print(starNumber(3))
+print(starNumber(5))
+
+
+# testing.

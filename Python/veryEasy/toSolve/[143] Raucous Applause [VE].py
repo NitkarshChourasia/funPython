@@ -23,7 +23,7 @@ _____
 Each clap starts with a capital "C".
 
 
-[language_fundamentals] [regex] [strings] 
+[language_fundamentals] [regex] [strings]
 
 
 
@@ -39,6 +39,18 @@ count() Method
 https://www.programiz.com/python-programming/methods/string/count
 Returns the number of occurrences of a substring in the given string.
 _________
-""" 
+"""
 # Your code should go here:
 
+def countClaps(str1):
+    return str1.count("C")
+
+
+
+
+print(count_claps("ClaClaClaClap!"))
+print(count_claps("ClClClaClaClaClap!"))
+print(count_claps("CCClaClClap!Clap!ClClClap!"))
+
+
+# testing.

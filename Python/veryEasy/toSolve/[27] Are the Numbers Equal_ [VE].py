@@ -56,3 +56,7 @@ def isSameNum(num1, num2):
 print(isSameNum(4, 8))
 print(isSameNum(2, 2))
 print(isSameNum(2, "2"))
+
+
+# testing.
+

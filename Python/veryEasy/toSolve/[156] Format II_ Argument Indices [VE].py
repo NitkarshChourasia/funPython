@@ -1,7 +1,8 @@
 """
 ##Format II: Argument Indices
 
-For each challenge of this series you do not need to submit a function. Instead, you need to submit a template string that can be formatted in order to get a certain outcome.
+For each challenge of this series you do not need to submit a function.
+Instead, you need to submit a template string that can be formatted in order to get a certain outcome.
 Write a template string according to the following example:
 
 
@@ -36,7 +37,7 @@ ___
 
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -52,6 +53,13 @@ format() Method
 https://www.programiz.com/python-programming/methods/string/format
 Formats the given string into a nicer output in Python.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+a = input("Enter the first name: ")
+b = input("Enter the second name: ")
+template = "{0} hit [1} and then {1} hit {0}."
+
+
+print(template.format(a, b))

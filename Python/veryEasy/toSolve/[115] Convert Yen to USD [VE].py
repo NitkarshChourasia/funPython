@@ -25,7 +25,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -41,6 +41,19 @@ How to Convert Dollars to Yen
 https://sapling.com/7316046/convert-yen-dollars
 Knowledge of currency conversion can be essential in the global economy. Knowing how much your money is worth in another country can help you figure out the bottom line …
 _________
-""" 
+"""
 # Your code should go here:
+
+# 1 usd = 131.54 yen
+# As of today, Tuesday, 5 April, 2023.
+
+def yenToDollars(yen):
+    return (yen / 131.54).round(2)
+
+print(yenToDollars(1))
+print(yenToDollars(500))
+print(yenToDollars(649))
+
+# testing.
+
 

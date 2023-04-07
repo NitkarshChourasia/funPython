@@ -8,7 +8,7 @@ If given argument txt is not a string, return Not A String !!
 [Examples]
 
 ___
-repeat_string("Mubashir", 2) ➞ "MubashirMubashir"
+repeat_string("Nitkarsh", 2) ➞ "NitkarshNitkarsh"
 
 repeat_string("Matt", 3) ➞ "MattMattMatt"
 
@@ -27,7 +27,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [logic] [strings] 
+[conditions] [language_fundamentals] [logic] [strings]
 
 
 
@@ -68,6 +68,22 @@ type() and isinstance() in Python
 https://www.guru99.com/type-isinstance-python.html
 Python has a built-in function called type() that helps you find the class type of the variable given as input. For example, if the input is a string, you will get the …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def repeatString(str1, int1):
+    if str1 == isinstance(str):
+        return str1 * int1
+    else:
+        return "No string provided."
+
+print(repeatString("Nitkarsh", 2))
+print(repeatString("Matt", 3))
+print(repeatString(1990, 7))
+
+
+# testing.
+# checkAgain.
+
+# check the isInstance of part again.
