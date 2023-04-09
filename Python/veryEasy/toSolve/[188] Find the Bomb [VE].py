@@ -1,7 +1,8 @@
 """
 ##Find the Bomb
 
-Create a function that finds the word "bomb" in the given string (not case sensitive). If found, return "Duck!!!", otherwise, return "There is no bomb, relax.".
+Create a function that finds the word "bomb" in the given string (not case sensitive).
+If found, return "Duck!!!", otherwise, return "There is no bomb, relax.".
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 "bomb" may appear in different cases (i.e. uppercase, lowercase, mixed).
 
 
-[language_fundamentals] [regex] [strings] 
+[language_fundamentals] [regex] [strings]
 
 
 
@@ -47,6 +48,21 @@ Casefold() Method
 https://www.programiz.com/python-programming/methods/string/casefold
 Converts all characters of the string into lowercase letters and returns a new string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def bomb(str1):
+    if "bomb" in str1.lower():
+        return "Duck!!!"
+    else:
+        return "There is no bomb, relax."
+
+print(bomb("There is a bomb."))
+print(bomb("Hey, did you think there is a bomb?"))
+print(bomb("This goes boom!!!"))
+
+
+
+# testing.
+# what is Casefold() method...?

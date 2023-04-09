@@ -1,8 +1,10 @@
 """
 ##Age Difference Between Spouses
 
-Create a function that determines the age difference between spouses in a household. The ages ages in years of the parents and their children are given in a list.
-If there is no difference in age between the parents, return "No age difference between spouses.". Otherwise, return the difference in years. Check the examples for more clarification.
+Create a function that determines the age difference between spouses in a household.
+The ages ages in years of the parents and their children are given in a list.
+If there is no difference in age between the parents, return "No age difference between spouses.".
+Otherwise, return the difference in years. Check the examples for more clarification.
 
 
 [Examples]
@@ -27,7 +29,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [sorting] 
+[arrays] [language_fundamentals] [sorting]
 
 
 
@@ -43,6 +45,21 @@ sorted() Function
 https://www.w3schools.com/python/ref_func_sorted.asp
 Returns a sorted list of the specified iterable object. You can specify ascending or descending order. Strings are sorted alphabetically, and numbers are sorted numeri …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def ageDifference(lst1):
+    sortedlst1 = lst1.sorted()
+    diff = lst1[-1] - lst1[-2]
+    return diff
+
+
+
+print(ageDifference([29, 1, 6, 8, 28]))
+print(ageDifference([43, 86, 49, 86]))
+print(ageDifference([2, 4, 6, 32, 27]))
+
+
+# testing.
+# try the more accurate and more reliable method as per the big dataset method.

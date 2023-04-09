@@ -1,7 +1,9 @@
 """
 ##Re-Form the Word
 
-A word has been split into a left part and a right part. Re-form the word by adding both halves together, changing the first character to an uppercase letter.
+A word has been split into a left part and a right part.
+Re-form the word by adding both halves together,
+changing the first character to an uppercase letter.
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 N/A
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -47,6 +49,19 @@ String Concatenation and Formatting
 https://www.pythonforbeginners.com/concatenation/string-concatenation-and-formatting-in-python
 One common task you’ll need to accomplish with any language involves merging or combining strings. This process is referred to as concatenation. The best way to describ …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getWord(str1, str2):
+    concatedStr = str1 + str2
+    capitalisedStr = concatedStr[0]+concatedStr[1:]
+    return capitalisedStr
+
+
+getWord("seas", "onal") ➞ "Seasonal"
+getWord("comp", "lete") ➞ "Complete"
+getWord("lang", "uage") ➞ "Language"
+
+
+# testing.

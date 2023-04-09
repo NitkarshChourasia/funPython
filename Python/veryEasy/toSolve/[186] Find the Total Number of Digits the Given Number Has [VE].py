@@ -29,7 +29,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -70,6 +70,20 @@ Ternary Operator in Python
 https://www.geeksforgeeks.org/ternary-operator-in-python/
 Ternary operators also known as conditional expressions are operators that evaluate something based on a condition being true or false. It was added to Python in versio …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findDigitAmount(num1):
+    str1 = string(num1)
+    return str1.len()
+
+
+print(findDigitAmount((123))
+print(findDigitAmount((56))
+print(findDigitAmount((7154))
+print(findDigitAmount((61217311514))
+print(findDigitAmount((0))
+
+
+# testing.

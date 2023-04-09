@@ -27,7 +27,7 @@ _____
 Test input can be positive or negative.
 
 
-[arrays] [numbers] [sorting] 
+[arrays] [numbers] [sorting]
 
 
 
@@ -58,6 +58,23 @@ Bubble sort
 https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-search-and-sorting-exercise-4.php
 Write a Python program to sort a list of elements using the bubble sort algorithm. Note: According to Wikipedia "Bubble sort, sometimes referred to as sinking sort, is …
 _________
-""" 
+"""
 # Your code should go here:
 
+def sortNameAscending(lst1):
+    # emptyList = []
+    if lst1.len() == 0 or lst1.len() == None:
+#        return emptyList
+        return []
+    sortList = lst1.sort(asc=True) # smallest to biggest.
+    return sortList
+
+
+print(sortNameAscend([1, 2, 10, 50, 5]))
+print(sortNameAscend([80, 29, 4, -95, -24, 85]))
+print(sortNameAscend([]))
+
+# what is bubblesort? From the resources?
+# go through all the resources from here.
+
+# testing.

@@ -2,20 +2,21 @@
 ##Cleaning Up Messy Lists
 
 Create a function that takes a list. This list will contain numbers represented as strings.
-Your function should split this list into two new lists. The first list should contain only even numbers. The second only odd. Then, wrap these two lists in one main list and return it.
+Your function should split this list into two new lists. The first list should contain only even numbers.
+The second only odd. Then, wrap these two lists in one main list and return it.
 Return an empty list if there are no even numbers, or odd.
 
 
 [Examples]
 
 ___
-clean_up_list(["8"]) ➞ [[8], []]
+print(cleanUpList((["8"]) ➞ [[8], []]
 
-clean_up_list(["11"]) ➞ [[], [11]]
+print(cleanUpList((["11"]) ➞ [[], [11]]
 
-clean_up_list(["7", "4", "8"]) ➞ [[4, 8], [7]]
+print(cleanUpList((["7", "4", "8"]) ➞ [[4, 8], [7]]
 
-clean_up_list(["9", "4", "5", "8"]) ➞ [[4, 8], [9, 5]]
+print(cleanUpList((["9", "4", "5", "8"]) ➞ [[4, 8], [9, 5]]
 _____
 
 
@@ -25,7 +26,7 @@ _____
 All numbers will be positive integers.
 
 
-[arrays] [conditions] [numbers] [strings] 
+[arrays] [conditions] [numbers] [strings]
 
 
 
@@ -51,6 +52,26 @@ Program to Print Even and Odd numbers From 1 to N
 https://www.tutsmake.com/python-program-to-print-even-and-odd-numbers-from-1-to-n/
 This tutorial will show you how to print even and odd numbers from 1 to N (10, 100, 500, 1000) using the function, for loop, while loop and if-else statement.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def cleanUpList(lst1):
+    oddList = []
+    evenList = []
+    for i in lst1:
+        if i % 2 == 0:
+            evenList.append(i)
+        else:
+            oddList.append(i)
+    answerList = [evenList, oddList]
+    return answerList
+
+
+print(cleanUpList((["8"]))
+print(cleanUpList((["11"]))
+print(cleanUpList((["7", "4", "8"]))
+print(cleanUpList((["9", "4", "5", "8"]))
+
+
+# testing.

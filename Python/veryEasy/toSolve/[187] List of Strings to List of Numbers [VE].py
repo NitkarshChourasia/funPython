@@ -26,7 +26,7 @@ _____
 Some inputs are floats.
 
 
-[arrays] [language_fundamentals] [strings] 
+[arrays] [language_fundamentals] [strings]
 
 
 
@@ -47,6 +47,17 @@ Convert String to float
 https://www.journaldev.com/23715/python-convert-string-to-float#:~:text=We%20can%20convert%20a%20string,object%20__float__()%20function.
 We can convert a string to float in Python using float() function. It’s a built-in function to convert an object to floating point number. Internally float() function c …
 _________
-""" 
+"""
 # Your code should go here:
+
+# I think some join or map method will be quite useful.
+
+def toNumberList(str1):
+    # this will require a few experimentations.
+
+
+# incomplete.
+# checkAgain.
+# go through resources and try to do it with some joint or map methond.
+# also learn both of these methods.
 

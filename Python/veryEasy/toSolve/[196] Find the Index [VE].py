@@ -28,7 +28,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [loops] [strings] 
+[arrays] [language_fundamentals] [loops] [strings]
 
 
 
@@ -54,6 +54,18 @@ Common Sequence Operations
 https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
 The operations in the following table are supported by most sequence types, both mutable and immutable. The collections.abc.Sequence ABC is provided to make it easier t …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findIndex(lst1, str1):
+    return lst1.index(str1)
+
+print(findIndex((["hi", "edabit", "fgh", "abc"], "fgh")))
+print(findIndex((["Red", "blue", "Blue", "Green"], "blue")))
+print(findIndex((["a", "g", "y", "d"], "d")))
+print(findIndex((["Pineapple", "Orange", "Grape", "Apple"], "Pineapple")))
+
+
+
+# testing.

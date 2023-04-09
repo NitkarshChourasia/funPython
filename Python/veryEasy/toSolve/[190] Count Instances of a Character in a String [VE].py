@@ -21,7 +21,7 @@ _____
 Your output must be case-sensitive (see second example).
 
 
-[interview] [language_fundamentals] [loops] [strings] 
+[interview] [language_fundamentals] [loops] [strings]
 
 
 
@@ -42,6 +42,18 @@ Determining how many times a substring occurs in a string?
 https://stackoverflow.com/questions/11476713/determining-how-many-times-a-substring-occurs-in-a-string-in-python
 I am trying to figure out how many times a string occurs in a string. For example: nStr = "000123000123". Say the string I want to find is 123. Obviously it occurs twic …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def charCount(chr1, str1):
+    return str1.count(chr1)
+
+print(charCount("a", "edabit")
+print(charCount("c", "Chamber of secrets")
+print(charCount("b", "big fat bubble")
+
+
+# testing.
+# checkAgain.
+# check whether count method counts letters as of insensitive way.

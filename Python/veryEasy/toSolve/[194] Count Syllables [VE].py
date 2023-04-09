@@ -28,7 +28,7 @@ ___
 
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -54,6 +54,17 @@ split() Method
 https://www.programiz.com/python-programming/methods/string/split
 Breaks up a string at the specified separator and returns a list of strings.
 _________
-""" 
+"""
 # Your code should go here:
 
+def countSyllables(str1):
+    return (str1.count("-") + 1)
+
+
+print(countSyllables(("buf-fet")))
+print(countSyllables(("beau-ti-ful")))
+print(countSyllables(("mon-u-men-tal")))
+print(countSyllables(("on-o-mat-o-poe-ia")))
+
+
+# testing.

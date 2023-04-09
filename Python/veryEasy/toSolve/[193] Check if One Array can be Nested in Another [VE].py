@@ -9,13 +9,13 @@ list1 can be nested inside list2 if:
 [Examples]
 
 ___
-can_nest([1, 2, 3, 4], [0, 6]) ➞ True
+print(canNest(([1, 2, 3, 4], [0, 6]) ➞ True
 
-can_nest([3, 1], [4, 0]) ➞ True
+print(canNest(([3, 1], [4, 0]) ➞ True
 
-can_nest([9, 9, 8], [8, 9]) ➞ False
+print(canNest(([9, 9, 8], [8, 9]) ➞ False
 
-can_nest([1, 2, 3, 4], [2, 3]) ➞ False
+print(canNest(([1, 2, 3, 4], [2, 3]) ➞ False
 _____
 
 
@@ -25,7 +25,7 @@ _____
 Note the strict inequality (see example #3).
 
 
-[arrays] [validation] 
+[arrays] [validation]
 
 
 
@@ -46,6 +46,28 @@ sort() Method
 https://www.w3schools.com/python/ref_list_sort.asp
 Sorts the list ascending by default. You can also make a function to decide the sorting criteria(s).
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def canNest(lst1, lst2):
+    testList = []
+    for i in lst1:
+        if i in lst2:
+            testList.append(i)
+    if testList.len() > 0:
+        return False
+    else:
+        return True
+
+
+
+
+
+print(canNest(([1, 2, 3, 4], [0, 6])))
+print(canNest(([3, 1], [4, 0])))
+print(canNest(([9, 9, 8], [8, 9])))
+print(canNest(([1, 2, 3, 4], [2, 3])))
+
+
+# testing.

@@ -25,7 +25,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [numbers] [validation] 
+[conditions] [language_fundamentals] [numbers] [validation]
 
 
 
@@ -46,6 +46,23 @@ How to check whether a variable is an integer or not?
 https://stackoverflow.com/questions/3501382/checking-whether-a-variable-is-an-integer-or-not
 If you need to do this, do isinstance(<var>, int) unless you are in Python 2.x in which case you want isinstance(<var>, (int, long)) Do not use type. It is almost nev …
 _________
-""" 
+"""
 # Your code should go here:
+
+def intWithinBounds(n, upperRange, lowerRange):
+    # how to check whether int or not.
+    if n.round() == n:
+        if n.round(0) == n:
+            if n.round(1) == n:
+                return True
+    else:
+        return False
+
+    or if ((int(n)).round()) == n:
+        return True
+        else:
+            return False
+
+
+# incomplete.
 
