@@ -21,7 +21,7 @@ _____
 The first and last elements will always be "bread".
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -42,6 +42,18 @@ append() Method
 https://www.programiz.com/python-programming/methods/list/append
 Adds an item to the end of the list. In this tutorial, we will learn about the Python append() method in detail with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getFillings(lst1):
+    fillings = lst1[1:(lst1.len()-1)]
+    return fillings
+
+
+print(getFillings(["bread", "ham", "cheese", "ham", "bread"]))
+print(getFillings(["bread", "sausage", "tomato", "bread"]))
+print(getFillings(["bread", "lettuce", "bacon", "tomato", "bread"]))
+
+
+# testing.

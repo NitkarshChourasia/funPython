@@ -32,7 +32,7 @@ ___
 
 
 
-[data_structures] 
+[data_structures]
 
 
 
@@ -63,6 +63,19 @@ How to Create a Dictionary From Two Lists
 https://www.kite.com/python/answers/how-to-create-a-dictionary-from-two-lists-in-python
 Two lists can be combined into a dictionary. For example, creating a dictionary from ["a", b"] and [1, 2] results in {"a": 1, "b": 2}.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def combineTwoDicts(names, jobs):
+    return zip(names, jobs)
+
+
+names = ["Dennis", "Vera", "Mabel", "Annette", "Sussan"]
+jobs = ["Butcher", "Programmer", "Doctor", "Teacher", "Lecturer"]
+
+
+# testing.
+# checkAgain.
+# special.
+# great.

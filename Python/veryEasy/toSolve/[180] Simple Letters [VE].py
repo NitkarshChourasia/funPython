@@ -27,7 +27,7 @@ _____
 N/A
 
 
-[language_fundamentals] [logic] [sorting] [strings] 
+[language_fundamentals] [logic] [sorting] [strings]
 
 
 
@@ -48,6 +48,29 @@ List of all unique characters in a string?
 https://stackoverflow.com/questions/13902805/list-of-all-unique-characters-in-a-string
 I want to append characters to a string, but want to make sure all the letters in the final list are unique. Example: "aaabcabccd" → "abcd" Now of course I have two s …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def sortDistinct(str1, str2):
+    str1 = str1.lower()
+    str2 = str2.lower()
+    # just adding extra features.
+    set1 = set(str1+str2)
+    strFinal = string(set1)
+    return string.sorted()
+
+
+str1 = "Nitkarsh"
+str2 = "can do anything"
+print(sortDistinct(str1, str2))
+
+
+str1 = "The quick brown fox"
+str2 = "jump overs the lazy dog"
+print(sortDistinct(str1, str2))
+
+
+str1 = "abcdefghijklmnopqrstuvwxyz"
+str2 = "abcdefghijklmnopqrstuvwxyz"
+print(sortDistinct(str1, str2))

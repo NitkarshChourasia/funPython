@@ -41,7 +41,7 @@ _____
 All inputs will be 7-bits long (so that the parity bit makes it a full byte).
 
 
-[logic] [numbers] [strings] 
+[logic] [numbers] [strings]
 
 
 
@@ -57,6 +57,21 @@ count() Method
 https://www.w3schools.com/python/ref_list_count.asp
 Returns the number of elements with the specified value.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def addParity(str1):
+    if str1.count(1) % 2 == 0:
+        return str1.append(0)
+    else:
+        return str1.append(1)
+
+
+print(addParity("0010110"))
+print(addParity("1100000"))
+print(addParity("1111111"))
+
+
+# testing.
+# see whether is works as expected or not.

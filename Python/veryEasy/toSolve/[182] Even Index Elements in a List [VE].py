@@ -30,7 +30,7 @@ _____
 If the list is empty, return 0.
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -56,6 +56,30 @@ filter() Method
 https://www.programiz.com/python-programming/methods/built-in/filter
 Constructs an iterator from elements of an iterable for which a function returns true.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def evenLast(lst1):
+    if lst1.len() == 0:
+        return 0
+    else:
+        indexLst1 = []
+        i = 0
+        while ( i <= lst1.len() )
+            indexLst1.append(i)
+            i = i + 1
+            i = i * 2
+        finalLst1 = []
+        for j in indexLst1:
+            finalLst1.append((lst1.index(j)))
+        returnAns = finalLst1 * lst1[-1]
+        return returnAns
+
+
+print(evenLast([]))
+print(evenLast([1, 3, 3, 1, 10]))
+print(evenLast([-11, 3, 3, 1, 10]))
+
+
+# testing.

@@ -19,7 +19,7 @@ _____
 N/A
 
 
-[language_fundamentals] [objects] [validation] 
+[language_fundamentals] [objects] [validation]
 
 
 
@@ -60,6 +60,19 @@ Check If a Dictionary Is Empty or Not
 https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-18.php
 Write a Python program to check if a dictionary is empty or not.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isEmptyDict(dict1):
+    if dict1.len() == 0:
+        return True
+    else:
+        return False
+
+print(isEmptyDict({})
+print(isEmptyDict({"a": 1})
+
+
+# testing.
+# checkAgain.

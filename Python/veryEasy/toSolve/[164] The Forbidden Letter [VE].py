@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [loops] [strings] [validation] 
+[arrays] [loops] [strings] [validation]
 
 
 
@@ -46,6 +46,24 @@ all() Method
 https://www.w3schools.com/python/ref_func_all.asp
 Returns True if all items in an iterable are true, otherwise it returns False.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def forbiddenLetter(chr, lst1):
+    if chr in lst1:
+        return False
+    else:
+        return True
+
+print(forbiddenLetter("r", ["rock", "paper", "scissors"]))
+
+
+
+print(forbiddenLetter("r", ["rock", "paper", "scissors"]))
+print(forbiddenLetter("a", ["spoon", "fork", "knife"]))
+print(forbiddenLetter("m", []))
+
+
+# testing.
+# checkAgain.

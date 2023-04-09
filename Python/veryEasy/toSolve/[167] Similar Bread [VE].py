@@ -1,7 +1,8 @@
 """
 ##Similar Bread
 
-Given two lists, which represent two sandwiches, return whether both sandwiches use the same type of bread. The bread will always be found at the start and end of the list.
+Given two lists, which represent two sandwiches, return whether both sandwiches use the same type of bread.
+The bread will always be found at the start and end of the list.
 
 
 [Examples]
@@ -34,7 +35,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [logic] [validation] 
+[arrays] [language_fundamentals] [logic] [validation]
 
 
 
@@ -55,6 +56,29 @@ How to Compare Two Lists using set(), cmp() and difference()
 https://www.stechies.com/compare-lists-python-using-set-cmp-function/
 Lists in Python can be performed in different ways, but it depends on the outcome required. Two popular methods of comparison are set() and cmp(). The set() function cr …
 _________
-""" 
+"""
 # Your code should go here:
 
+def hasSameBread(sandwich1, sandwich2):
+    if sandwich1[0] == sandwich2[0] and sandwich1[-1] == sandwich2[-1]:
+        return True
+    else:
+        return False
+
+
+lst1 = ["white bread", "lettuce", "white bread"]
+lst2 = ["white bread", "tomato", "white bread"]
+print(((hasSameBread(lst1, lst2)))
+
+
+lst1 =  ["brown bread", "chicken", "brown bread"]
+lst2 =  ["white bread", "chicken", "white bread"]
+print((hasSameBread(lst1, lst2)))
+
+
+lst1 =  ["toast", "cheese", "toast"],
+lst2 =  ["brown bread", "cheese", "toast"]
+print((hasSameBread(lst1, lst2)))
+
+# testing.
+# checkAgain.

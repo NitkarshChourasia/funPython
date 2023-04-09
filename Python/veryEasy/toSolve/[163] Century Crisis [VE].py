@@ -1,7 +1,8 @@
 """
 ##Century Crisis
 
-Scientists have discovered that in four decades, the world will EXPLODE! It will also take three decades to make a spaceship to travel to a new planet that can hold the entire world population.
+Scientists have discovered that in four decades, the world will EXPLODE!
+It will also take three decades to make a spaceship to travel to a new planet that can hold the entire world population.
 You must calculate the number of people there will be in three decades from now.
 ___
 *) The variable P is the world population now.
@@ -28,7 +29,7 @@ _____
 Humanity's fate lies in your calculation.
 
 
-[algorithms] [loops] [math] 
+[algorithms] [loops] [math]
 
 
 
@@ -39,6 +40,18 @@ How to Do Math in Python With Operators
 https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators
 Numbers are extremely common in programming. They are used to represent things like screen size dimensions, geographic locations, money and points, the amount of time t …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def futurePeople(P, perMonthNewP):
+    return P + (12 * 30 * perMonthNewP)
+
+print(futurePeople(256, 2))
+print(futurePeople(3248, 6))
+print(futurePeople(5240, 3))
+
+
+# testing.
+# checkAgain.
+# If it is rightly done or not. i.e testing, itself.

@@ -2,7 +2,8 @@
 ##Minimal VII: Lambda Functions
 
 Check the principles of minimalist code in the intro to the first challenge.
-In the Code tab you will find a code that is missing a single character in order to pass the tests. However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
+In the Code tab you will find a code that is missing a single character in order to pass the tests.
+However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
 Write five adder functions:
 ___
 *) add_2(x) should return 2 + x.
@@ -45,7 +46,7 @@ ___
 
 
 
-[closures] [higher_order_functions] [language_fundamentals] [logic] 
+[closures] [higher_order_functions] [language_fundamentals] [logic]
 
 
 
@@ -76,6 +77,25 @@ Lambda Expressions & Anonymous Functions
 https://www.youtube.com/watch?v=25ovCm9jKfA
 Also known as “anonymous functions”, allow you to create and use a function in a single line. They are useful when you need a short fu...
 _________
-""" 
+"""
 # Your code should go here:
+
+
+add2 = lambda x : return 2 + x
+add3 = lambda x : return 3 + x
+add5 = lambda x : return 5 + x
+add7 = lambda x : return 7 + x
+add11 = lambda x : return 11 + x
+
+
+print(add2(2))
+print(add3(2))
+print(add5(2))
+print(add7(2))
+print(add11(2))
+
+
+# testing.
+# checkAgain.
+# checkAgain, if the function is right or wrong.
 

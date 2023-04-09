@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[language_fundamentals] [strings] [validation] 
+[language_fundamentals] [strings] [validation]
 
 
 
@@ -49,6 +49,24 @@ isupper(), islower(), lower(), upper() in Python
 https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 In Python, isupper() is a built-in method used for string handling. The isupper() methods returns “True” if all characters in the string are uppercase, Otherwise, It re …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def match(str1, str2):
+    if str1.lower() == str2.lower():
+        return True
+    else:
+        return False
+
+
+
+print(match(("hello", "hELLo"))
+print(match(("motive", "emotive"))
+print(match(("venom", "VENOM"))
+print(match("mask", "mAskinG"))
+
+
+# testing.
+# checkAgain.
+# checkAgain if the logic works or not.

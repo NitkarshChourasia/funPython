@@ -1,7 +1,8 @@
 """
 ##Slightly Superior
 
-You will be given two extremely similar lists, but exactly one of the items in a list will be valued slightly higher than its counterpart (which means that evaluating the value > the other value will return True).
+You will be given two extremely similar lists, but exactly one of the items in a list will be
+valued slightly higher than its counterpart (which means that evaluating the value > the other value will return True).
 Create a function that returns whether the first list is slightly superior to the second list.
 
 
@@ -36,7 +37,7 @@ ___
 
 
 
-[language_fundamentals] [objects] 
+[language_fundamentals] [objects]
 
 
 
@@ -47,6 +48,29 @@ Comparing Two Lists Using the Greater Than or Less Than Operator
 https://stackoverflow.com/a/47342743
 The pair of items at each index are compared in turn. So, comparing a to b will result in 1 being compared to 1, 2 being compared to 2, and 3 being compared to 10. The …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isFirstSuperior(lst1, lst2):
+    a = 0
+    emptyList = []
+    for i in lst1:
+        if i > lst2[a]
+            a = 1 + a
+            return True
+        else:
+            emptyList.append("False")
+    if emptyList.len() == lst1.len()
+        return False
+
+print(isFirstSuperior([1, 2, 4], [1, 2, 3]))
+print(isFirstSuperior(["a", "d", "c"], ["a", "b", "c"]))
+print(isFirstSuperior(["zebra", "ostrich", "whale"], ["ant", "ostrich", "whale"]))
+print(isFirstSuperior([1, 2, 3, 4], [1, 2, 4, 4]))
+print(isFirstSuperior([True, 10, "zebra"], [True, 10, "zebra"]))
+
+
+# testing.
+# checkAgain.
+# checkAgain properly, on how the experts do it?

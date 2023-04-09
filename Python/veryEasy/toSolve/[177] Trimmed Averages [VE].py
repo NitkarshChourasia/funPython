@@ -28,7 +28,7 @@ ___
 
 
 
-[arrays] [math] [numbers] 
+[arrays] [math] [numbers]
 
 
 
@@ -69,6 +69,22 @@ round() Method
 https://www.w3schools.com/python/ref_func_round.asp#:~:text=The%20round()%20function%20returns,will%20return%20the%20nearest%20integer.
 Returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
 _________
-""" 
+"""
 # Your code should go here:
 
+def trimmedAverages(lst1):
+    sortLst1 = lst1.sort()
+    trimmedLst1 = sortLst1[1: (sortLst1.len()-1]
+    trimmedAverage = trimmedLst1.sum()/trimmedLst1.len()
+    return trimmedAverage
+
+
+print(trimmedAverages([4, 5, 7, 100]))
+# Average of 5 and 7
+print(trimmedAverages([10, 25, 5, 15, 20]))
+# Average of 10, 15 and 20
+print(trimmedAverages([1, 1, 1]))
+# 1_
+
+
+# testing.

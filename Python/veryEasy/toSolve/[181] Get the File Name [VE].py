@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [regex] 
+[arrays] [language_fundamentals] [regex]
 
 
 
@@ -51,6 +51,20 @@ join() Method
 https://www.w3schools.com/python/ref_string_join.asp
 Takes all items in an iterable and joins them into one string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getFilename(addressStr1):
+    lst1 = addressStr1.split(/)
+    return lst1[-1]
+
+
+print(getFilename("C:/Projects/pil_tests/ascii/edabit.txt"))
+print(getFilename("C:/Users/johnsmith/Music/Beethoven_5.mp3"))
+print(getFilename("ffprobe.exe"))
+
+# testing.
+# feature to be added.
+# checkAgain.
+# check again, after adding the feature.

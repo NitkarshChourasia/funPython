@@ -21,7 +21,7 @@ _____
 Fractions must be strictly greater than 1 (see example #3).
 
 
-[language_fundamentals] [math] [strings] [validation] 
+[language_fundamentals] [math] [strings] [validation]
 
 
 
@@ -42,6 +42,21 @@ fractions — Rational numbers
 https://docs.python.org/3.8/library/fractions.html
 The fractions module provides support for rational number arithmetic.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def greaterThanOne(str1ToEval):
+    evaluatedStr = eval(str1ToEval)
+    if evaluatedStr > 1:
+        return True
+    else:
+        return False
+
+
+print(greaterThanOne("1/2"))
+print(greaterThanOne("7/4"))
+print(greaterThanOne("10/10"))
+
+
+# testing.

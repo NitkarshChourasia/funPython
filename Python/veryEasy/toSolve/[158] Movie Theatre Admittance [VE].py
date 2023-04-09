@@ -31,7 +31,7 @@ ___
 
 
 
-[algorithms] [conditions] [validation] 
+[algorithms] [conditions] [validation]
 
 
 
@@ -47,6 +47,22 @@ Operators
 https://www.w3schools.com/python/python_operators.asp
 Are used to perform operations on variables and values. Python divides the operators in the following groups: Arithmetic operators Assignment operators Comparison ope …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def acceptIntoMovie(age, isSupervised):
+    if age >= 15 or isSupervised == True:
+        return True
+    else:
+        return False
+
+print(acceptIntoMovie(14, True))
+print(acceptIntoMovie(14, False))
+print(acceptIntoMovie(16, False))
+
+
+# testing.
+# checkAgain.
+# checkAgain whether you understood the problem statement or not.
 

@@ -29,7 +29,7 @@ Check the Resources tab for helpful hints.
 
 
 
-[conditions] [logic] [objects] [strings] 
+[conditions] [logic] [objects] [strings]
 
 
 
@@ -40,6 +40,15 @@ Nested Dictionary
 https://www.programiz.com/python-programming/nested-dictionary
 In this article, you’ll learn about nested dictionary in Python. More specifically, you’ll learn to create nested dictionary, access elements, modify them and so on wit …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def func(num1X, charY):
+    dict1 = {1 : {f: "female", m: "male"}: me
+
+
+# testing.
+# checkAgain.
+# checkAgain, a very interesting sum, indeed.
+# A very special one indeed.

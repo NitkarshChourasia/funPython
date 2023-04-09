@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -47,6 +47,16 @@ re.sub() Function
 https://www.codespeedy.com/re-sub-in-python/
 Replaces the substrings that match with the search pattern with a string of user's choice.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def wumbo(str1):
+    return (str1.upper()).replace("M", "W")
+
+
+print(wumbo("I LOVE MAKING CHALLENGES")
+print(wumbo("MEET ME IN WARSAW"))
+print(wumbo("WUMBOLOGY"))
+
+# testing.

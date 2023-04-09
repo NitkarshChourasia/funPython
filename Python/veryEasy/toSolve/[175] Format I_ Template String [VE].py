@@ -1,7 +1,8 @@
 """
 ##Format I: Template String
 
-For each challenge of this series you do not need to submit a function. Instead, you need to submit a template string that can be formatted in order to get a certain outcome.
+For each challenge of this series you do not need to submit a function.
+Instead, you need to submit a template string that can be formatted in order to get a certain outcome.
 Write a template string according to the following example:
 
 
@@ -37,7 +38,7 @@ ___
 
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -58,6 +59,17 @@ str.format() Function
 https://www.geeksforgeeks.org/python-format-function/
 Is one of the string formatting methods in Python3, which allows multiple substitutions and value formatting. This method lets us concatenate elements within a string t …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+a = "John"
+b = "Joe"
+c = "Jack"
+template = "Their names were: {0}, {1}, and {2}."
+
+print(template.format(a, b, c))
+
+
+# testing.
 

@@ -27,7 +27,7 @@ _____
 Input n will be a positive integer.
 
 
-[algorithms] [language_fundamentals] [math] [numbers] 
+[algorithms] [language_fundamentals] [math] [numbers]
 
 
 
@@ -58,6 +58,22 @@ Sum of n, n², or n³
 https://brilliant.org/wiki/sum-of-n-n2-or-n3/
 This page gives an O(1) solution to the problem.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def sumCubes(num1):
+    rangeSet = range(1, num1+1)
+    toSumList = []
+    for i in range:
+        toSumList.append(i**3)
+    return toSumList.sum()
+
+
+print(sumCubes(7))
+print(sumCubes(8))
+print(sumCubes(9))
+
+# testing.
+# checkAgain.
 

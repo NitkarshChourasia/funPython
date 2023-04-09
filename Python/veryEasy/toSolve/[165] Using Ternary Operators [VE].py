@@ -40,7 +40,7 @@ _____
 N/A
 
 
-[conditions] [language_fundamentals] [validation] 
+[conditions] [language_fundamentals] [validation]
 
 
 
@@ -66,6 +66,16 @@ Ternary Operator
 https://syntaxdb.com/ref/python/ternary
 Is used to return a value based on the result of a binary condition.
 _________
-""" 
+"""
 # Your code should go here:
 
+def yeahNope(bool1):
+    return "yeah" if bool1 == True else "nope"
+
+print(yeahNope(True))
+print(yeahNope(False))
+
+
+# testing.
+# checkAgain.
+# checkWhether I did it right or wrong.

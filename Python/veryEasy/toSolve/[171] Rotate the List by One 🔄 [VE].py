@@ -22,7 +22,7 @@ _____
 All lists are the same size, so it's not necessary to use loops or to think much about complex solutions.
 
 
-[arrays] [data_structures] 
+[arrays] [data_structures]
 
 
 
@@ -48,6 +48,20 @@ pop() Method
 https://www.programiz.com/python-programming/methods/list/pop
 Removes the item at the given index from the list and returns the removed item.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def rotateByOne(lst1):
+    first, *middle, last = lst1
+    lst1 = [last, middle, first]
+    return lst1
+
+
+print(rotateByOne([1, 2, 3, 4, 5]))
+print(rotateByOne([6, 5, 8, 9, 7]))
+print(rotateByOne([20, 15, 26, 8, 4]))
+
+
+# testing.
+#

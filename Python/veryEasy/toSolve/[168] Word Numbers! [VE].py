@@ -22,7 +22,7 @@ _____
 All numbers will be single digit positive integers.
 
 
-[conditions] [loops] [numbers] [strings] 
+[conditions] [loops] [numbers] [strings]
 
 
 
@@ -43,6 +43,17 @@ get() Method
 https://www.w3schools.com/python/ref_dictionary_get.asp
 Returns the value of the item with the specified key. Mainly used in dictionaries.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def word(
+
+
+# incomplete.
+# checkAgain.
+# how to make big big dictionaries like this?
+# what if there were thousand numbers then?
+# Will be writing thousands?
+# It's utter nonsensical if I have to do it manually, then.
