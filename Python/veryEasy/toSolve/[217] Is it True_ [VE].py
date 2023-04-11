@@ -1,7 +1,8 @@
 """
 ##Is it True?
 
-In this challenge you will be given a relation between two numbers, written as a string. Write a function that determines if the relation is True or False.
+In this challenge you will be given a relation between two numbers,
+written as a string. Write a function that determines if the relation is True or False.
 
 
 [Examples]
@@ -27,7 +28,7 @@ ___
 
 
 
-[language_fundamentals] [numbers] [strings] [validation] 
+[language_fundamentals] [numbers] [strings] [validation]
 
 
 
@@ -63,6 +64,17 @@ split() Method
 https://www.w3schools.com/python/ref_string_split.asp
 Splits a string into a list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isItTrue(str1):
+    return eval(str1)
+
+print(isItTrue("2=2"))
+print(isItTrue("8<7"))
+print(isItTrue("5=13"))
+print(isItTrue("15>4"))
+
+
+# testing.

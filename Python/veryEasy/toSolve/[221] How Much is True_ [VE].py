@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -51,6 +51,18 @@ Count Occurrences of an Element in a List
 https://www.geeksforgeeks.org/python-count-occurrences-element-list/
 Given a list in Python and a number x, count number of occurrences of x in the given list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countTrue(lst1):
+    return lst1.count(True)
+
+
+
+print(countTrue([True, False, False, True, False])) # ➞ 2
+print(countTrue([False, False, False, False])) # ➞ 0
+print(countTrue([])) # ➞ 0
+
+
+# testing.

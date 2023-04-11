@@ -1,7 +1,8 @@
 """
 ##Find Unique Number in List
 
-Create a function that takes a list of integers as an argument and returns a unique number from that list. All numbers except unique ones have the same number of occurrences in the list.
+Create a function that takes a list of integers as an argument and returns a unique number from that list.
+All numbers except unique ones have the same number of occurrences in the list.
 
 
 [Examples]
@@ -34,7 +35,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -55,6 +56,26 @@ Python Return Statements Explained
 https://www.freecodecamp.org/news/python-return-statements-explained-what-they-are-and-why-you-use-them/
 If a return statement is followed by an expression list, that expression list is evaluated and the value is returned. If no expression list is specified, None is returned.
 _________
-""" 
+"""
 # Your code should go here:
 
+def findSingleNumber(lst1):
+    setList1 = set(lst1)
+    finalOutput = []
+    countList1 = []
+    for i in setList1:  # You will also find out whether sets are iterable or not?
+        countList1.append(setList1.count(i))
+    for j in countList:
+        if j == 1:
+            finalOutput.append(j)
+    return int(finalOutput)
+
+
+print(findSingleNumber([2, 2, 2, 3, 4, 4, 4])) # ➞ 3
+print(findSingleNumber([2])) # ➞ 2
+print(findSingleNumber([])) # ➞ None
+print(findSingleNumber([7, 13, 3, 6, 5, 4, 4, 13, 5, 3, 6, 7, 6, 5, 3, 13, 4, 7, 13, 5, 7, 4, 3, 6, 8, 4, 3, 7, 5, 6, 13])) # ➞ 8
+print(findSingleNumber([1, 2, 3, 6, 5, 4, 4, 2, 5, 3, 6, 1, 6, 5, 3, 2, 4, 1, 2, 5, 1, 4, 3, 6, 101, 4, 3, 1, 5, 6, 2])) # ➞ 101
+
+
+# testing.

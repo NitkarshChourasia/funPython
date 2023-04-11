@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [formatting] [language_fundamentals] [numbers] 
+[arrays] [formatting] [language_fundamentals] [numbers]
 
 
 
@@ -57,6 +57,22 @@ Reverse a string in Python
 https://stackoverflow.com/questions/931092/reverse-a-string-in-python
 This is extended slice syntax. It works by doing [begin:end:step] - by leaving begin and end off and specifying a step of -1, it reverses a string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reverseList(num1):
+    return num1[::]
+
+# or use the reverse function too.
+
+def reverseListFunc(num1):
+    return reverse(num1)
+
+
+print(reverseList(1485979)) # ➞ [9, 7, 9, 5, 8, 4, 1]
+print(reverseList(623478)) # ➞ [8, 7, 4, 3, 2, 6]
+print(reverseList(12345)) # ➞ [5, 4, 3, 2, 1]
+
+
+# testing.

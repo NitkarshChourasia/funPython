@@ -21,7 +21,7 @@ _____
 You can select any 5 numbers from the given array to form maximum possible total.
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -42,6 +42,20 @@ sum() Method
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def maxTotal(lst1):
+    sortedList = lst1.sorted()  # from smallest to biggest.
+    last5 = sortedList[-1:-6] # See how much number it gives.
+    return last5.sum()
+
+
+
+print(maxTotal([1, 1, 0, 1, 3, 10, 10, 10, 10, 1]))
+print(maxTotal([0, 0, 0, 0, 0, 0, 0, 0, 0, 100]))
+print(maxTotal([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
+
+# testing.

@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] [numbers] [strings] 
+[arrays] [language_fundamentals] [numbers] [strings]
 
 
 
@@ -42,6 +42,21 @@ map() Function
 https://www.geeksforgeeks.org/python-map-function/
 Returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def listToString(input1):
+    return input1.join()
+
+
+
+print(listToString([1, 2, 3, 4, 5, 6]))
+print(listToString(["a", "b", "c", "d", "e", "f"]))
+print(listToString([1, 2, 3, "a", "s", "dAAAA"]))
+
+
+# testing.
+# checkAgain.
+# Learn what is isinstanceof?
+# Learn the difference between join and map.

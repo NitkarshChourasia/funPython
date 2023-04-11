@@ -1,7 +1,8 @@
 """
 ##Back to Home?
 
-Mubashir has started his journey from home. Given a string of directions (N=North, W=West, S=South, E=East), he will walk for one minute in each direction. Determine whether a set of directions will lead him back to the starting position or not.
+Nitkarsh has started his journey from home. Given a string of directions (N=North, W=West, S=South, E=East),
+he will walk for one minute in each direction. Determine whether a set of directions will lead him back to the starting position or not.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 N/A
 
 
-[arrays] [logic] [strings] [validation] 
+[arrays] [logic] [strings] [validation]
 
 
 
@@ -47,6 +48,23 @@ Python String count()
 https://www.programiz.com/python-programming/methods/string/count
 The string count() method returns the number of occurrences of a substring in the given string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def backToHome(str1):
+    eastCount = (str1.lower()).count(e)
+    westCount = (str1.lower()).count(w)
+    southCount = (str1.lower()).count(s)
+    northCount = (str1.lower()).count(n)
+    if eastCount == westCount and northCount == southCount:
+        return True
+    else:
+        return False
+
+print(backToHome("EEWE")) # ➞ False
+print(backToHome("NENESSWW")) # ➞ True
+print(backToHome("NEESSW")) # ➞ False
+
+
+# testing.

@@ -21,7 +21,7 @@ _____
 Make sure to read every line carefully.
 
 
-[arrays] [bugs] [language_fundamentals] 
+[arrays] [bugs] [language_fundamentals]
 
 
 
@@ -47,6 +47,19 @@ range() Method Explained
 https://www.pythoncentral.io/pythons-range-function-explained/
 You've likely heard of the Python range() function. But what does it do? In a nutshell, it generates a list of numbers, which is generally used to iterate over with for …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def incrementItems(lst1):
+    newList = []
+    for i in lst1:
+        newList.append(i+1)
+    return newList
+
+print(incrementItems([0, 1, 2, 3])) # ➞ [1, 2, 3, 4]
+print(incrementItems([2, 4, 6, 8])) # ➞ [3, 5, 7, 9]
+print(incrementItems([-1, -2, -3, -4])) # ➞ [0, -1, -2, -3]
+
+# testing.
 

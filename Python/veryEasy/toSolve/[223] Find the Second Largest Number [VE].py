@@ -21,7 +21,7 @@ _____
 There will be at least two numbers in the list.
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -57,6 +57,18 @@ TypeError: 'NoneType' object is not subscriptable?
 https://stackoverflow.com/questions/36738141/typeerror-nonetype-object-is-not-subscriptable-scores-sort/63766471#63766471
 NoneType object can't be indexed, hence the error "TypeError: 'NoneType' object is not subscriptable".
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def secondLargest(lst1):
+    sortIt = lst1.sorted()
+    return sortIt[-2]
+
+
+print(secondLargest([10, 40, 30, 20, 50])) # ➞ 40
+print(secondLargest([25, 143, 89, 13, 105])) # ➞ 105
+print(secondLargest([54, 23, 11, 17, 10])) # ➞ 23
+
+
+# testing.

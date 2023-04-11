@@ -1,7 +1,8 @@
 """
 ##Next Element in Arithmetic Sequence
 
-Create a function that returns the next element in an arithmetic sequence. In an arithmetic sequence, each element is formed by adding the same constant to the previous element.
+Create a function that returns the next element in an arithmetic sequence.
+In an arithmetic sequence, each element is formed by adding the same constant to the previous element.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 All input arrays will contain integers only.
 
 
-[arrays] [math] [numbers] 
+[arrays] [math] [numbers]
 
 
 
@@ -37,6 +38,17 @@ Arithmetic Sequences and Sums
 https://www.mathsisfun.com/algebra/sequences-sums-arithmetic.html
 Each number in the sequence is called a term (or sometimes "element" or "member"), read Sequences and Series for more details.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def nextElement(lst1):
+    return lst1[-1] + 2
+
+
+print(nextElement([3, 5, 7, 9])) # ➞ 11
+print(nextElement([-5, -6, -7])) # ➞ -8
+print(nextElement([2, 2, 2, 2, 2])) # ➞ 2
+
+
+# testing.

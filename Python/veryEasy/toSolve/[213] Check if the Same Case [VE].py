@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[strings] [validation] 
+[strings] [validation]
 
 
 
@@ -44,6 +44,17 @@ How to check if a character is upper-case in Python?
 https://stackoverflow.com/questions/3668964/how-to-check-if-a-character-is-upper-case-in-python/3669033
 I want output saying X is non conformant as the the second element of the list words starts with a lower case and if the string x = "Alpha_Beta_Gamma" then it should pr …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def sameCase(str1):
+    return str1.isupper() or str1.islower()
+
+print(sameCase("hello"))
+print(sameCase("HELLO"))
+print(sameCase("Hello"))
+print(sameCase("ketcHUp"))
+
+# testing.
 

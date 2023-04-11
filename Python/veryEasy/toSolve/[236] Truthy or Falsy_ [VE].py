@@ -39,7 +39,7 @@ ___
 
 
 
-[conditions] [control_flow] [language_fundamentals] [validation] 
+[conditions] [control_flow] [language_fundamentals] [validation]
 
 
 
@@ -75,6 +75,23 @@ Truthy and Falsy Values in Python: A Detailed Introduction
 https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/
 Expressions with operands and operators evaluate to either True or False and they can be used in an if or while condition to determine if a code block should run.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isTruthy(input1):
+    return True if input1 == True else False
+
+
+print(isTruthy(0) # ➞ 0
+print(isTruthy(False) # ➞ 0
+print(isTruthy("") # ➞ 0
+print(isTruthy("False") # ➞ 1
+print(isTruthy("12123"))
+print(isTruthy(True))
+print(isTruthy("Oh my god"))
+print(isTruthy("hello"))
+print(isTruthy("chodo joh bhi tha tha, kya bol sakte hai ab, haina"))
+
+
+# testing.

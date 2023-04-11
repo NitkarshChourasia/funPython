@@ -23,7 +23,7 @@ _____
 The returned list must be sorted in ascending order.
 
 
-[algorithms] [arrays] [conditions] [numbers] 
+[algorithms] [arrays] [conditions] [numbers]
 
 
 
@@ -44,6 +44,19 @@ Array Slicing
 https://www.w3schools.com/python/numpy_array_slicing.asp
 Slicing in python means taking elements from one given index to another given index.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def largestNumbers(lst, n):
+    sortedList = lst.sorted()
+    return sortedList[-n:]
+
+
+print(largestNumberss(2, [4, 3, 2, 1]))
+print(largestNumberss(1, [7, 19, 4, 2]))
+print(largestNumberss(3, [14, 12, 57, 11, 18, 16]))
+print(largestNumberss(0, [1, 3, 4, 2]))
+
+
+# testing.

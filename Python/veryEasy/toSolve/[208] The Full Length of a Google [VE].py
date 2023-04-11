@@ -3,7 +3,8 @@
 
 Google's logo can be stretched depending on how many pages it lets you skip forward to.
 
-Let's say we wanted to change the number of pages that Google could skip to. Create a function where given a number of pages n, return the word "Google" but with the correct number of "o"s.
+Let's say we wanted to change the number of pages that Google could skip to.
+Create a function where given a number of pages n, return the word "Google" but with the correct number of "o"s.
 
 
 [Examples]
@@ -25,7 +26,7 @@ _____
 If n is equal to or less than 1, return invalid.
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -41,6 +42,29 @@ Multiplying a string with a number in Python
 https://stackoverflow.com/questions/3536996/multiplying-a-string-with-a-number-in-python/3537023
 When you multiply a string by an integer, Python returns a new string. This new string is the original string, repeated X number of times (where X is the value of the i …
 _________
-""" 
+"""
 # Your code should go here:
 
+a = "Goooooooooogle"
+b = "Gooooooooooooooooooooooogle"
+c = "Google"
+d = "invalid"
+
+print(a.count("o"))
+print(b.count("o"))
+print(c.count("o"))
+print(d.count("o"))
+
+def googlify(n):
+    if n <= 1:
+        return "Invalid input size."
+    if n > 1:
+        return "G{}gle".format("o"*n)
+
+print(googlify(10))
+print(googlify(23))
+print(googlify(2))
+print(googlify(-2))
+
+
+# testing.

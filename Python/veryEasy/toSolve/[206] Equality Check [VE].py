@@ -38,7 +38,7 @@ ___
 
 
 
-[language_fundamentals] [logic] [validation] 
+[language_fundamentals] [logic] [validation]
 
 
 
@@ -59,6 +59,20 @@ is Keyword
 https://www.w3schools.com/python/ref_keyword_is.asp
 Is used to test if two variables refer to the same object.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def checkEqual(input1, input2):
+    if input1 == input2 and isinstance(input1) == isinstance(input2):
+        return True
+    else:
+        return False
+
+
+print(checkEqual(1, true))
+# A number and a boolean: the value and type are different.
+print(checkEqual(0, "0"))
+# A number and a string: the type is different.
+print(checkEqual(1,  1))
+# A number and a number: the type and value are equal.

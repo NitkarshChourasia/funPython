@@ -29,7 +29,7 @@ _____
 One way to solve this is with recursion; but maybe there's a way to "count the brackets"?
 
 
-[arrays] [language_fundamentals] [strings] 
+[arrays] [language_fundamentals] [strings]
 
 
 
@@ -45,6 +45,6 @@ count() Method
 https://www.w3schools.com/python/ref_list_count.asp
 Counts the number of occurrences of an element/letter in a list/string.
 _________
-""" 
+"""
 # Your code should go here:
 

@@ -27,7 +27,7 @@ _____
 i is a non-negative integer.
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -53,6 +53,20 @@ str() Method
 https://www.w3schools.com/python/ref_func_str.asp
 Converts the specified value into a string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reverseAndNot(num1):
+    backwardNum1 = num1[::]  # if it doesn't work, do it your way.
+    stringfied = string(backwardNum1) + string(num1)
+    return stringfied
+
+
+
+print(reverseAndNot(123)) # ➞ 321123
+print(reverseAndNot(152)) # ➞ 251152
+print(reverseAndNot(123456789)) # ➞ 987654321123456789
+
+
+# testing.

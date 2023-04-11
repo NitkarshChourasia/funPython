@@ -26,7 +26,7 @@ ___
 
 
 
-[interview] [strings] 
+[interview] [strings]
 
 
 
@@ -52,6 +52,19 @@ count() Challenge
 https://discuss.codecademy.com/t/challenge-unique-characters-in-a-string/82151
 Write a function that determines if any given string 420 has all unique characters 184 (i.e. no character in the string is duplicated). If the string has all unique cha …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findLetters(str1):
+    outputList = []
+    for i in str1:
+        if str1.count(i) == 1:
+            outputList.append(i)
+    return output
+
+print(findLetters("monopoly"))
+print(findLetters("balloon"))
+print(findLetters("analysis"))
+
+# testing.

@@ -49,20 +49,26 @@ _________
 """
 # Your code should go here:
 
+
 def intWithinBounds(n, upperRange, lowerRange):
     # how to check whether int or not.
     if n.round() == n:
         if n.round(0) == n:
             if n.round(1) == n:
-                return True
+                range1 = range(lowerRange, upperRange)
+                if n in range1:
+                    return True
+                else:
+                    return False
     else:
         return False
 
-    or if ((int(n)).round()) == n:
-        return True
-        else:
-            return False
+    # or if ((int(n)).round()) == n:
+     #    return True
+      #   else:
+       #     return False
 
 
-# incomplete.
-
+# testing.
+# checkAgain.
+# checkAgain with problem statement.

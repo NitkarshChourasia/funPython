@@ -1,7 +1,8 @@
 """
 ##Find the Average of the Letters 📊
 
-Create a function that returns the average of a list composed of letters. First, find the number of the letter in the alphabet in order to find the average of the list.
+Create a function that returns the average of a list composed of letters.
+First, find the number of the letter in the alphabet in order to find the average of the list.
 ___
 A = 1
 B = 2
@@ -34,7 +35,7 @@ _____
 Letters given will always be lowercase.
 
 
-[arrays] [loops] [math] 
+[arrays] [loops] [math]
 
 
 
@@ -60,6 +61,25 @@ round() Method
 https://www.w3schools.com/python/ref_func_round.asp
 Returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def averageIndex(lst1):
+    lst1 = lst1.lower() # To ensure huge range of inputs. Uppercase and smallercase.
+    totalItems = lst1.len()
+    indexedList = []
+    for i in lst1:
+        indexedList.append(((ord(i) - ord("a")) + 1))
+    sumIndex = indexedList.sum()
+    averageIndex = sumIndex/totalItems
+    return averageIndex
+
+
+
+print(averageIndex(["a", "b", "c", "i"])) # ➞ 3.75
+print(averageIndex(["e", "d", "a", "b", "i", "t"])) # ➞ 6.83
+print(averageIndex(["y", "o", "u", "a", "r", "e", "t", "h", "e", "b", "e", "s", "t"])) # ➞ 12.62
+
+
+# testing.

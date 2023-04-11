@@ -27,7 +27,7 @@ _____
 All the bottles will be shot down in all the tests.
 
 
-[arrays] [numbers] 
+[arrays] [numbers]
 
 
 
@@ -38,6 +38,22 @@ count() Method
 https://www.programiz.com/python-programming/methods/list/count
 Counts how many times an element has occurred in a list and returns it.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def rogerShots(lst1):
+    bang = lst1.count("Bang!")
+    bangBang = lst1.count("BangBang!")
+    bangMulti = (bang + bangBang) * 0.5
+    return bangMulti
+
+
+# Be sure to add a counter of 6 bottles to not exceed.
+
+print(rogerShots(["Bang!", "Bang!", "Bang!", "Bang!", "Bang!", "Bang!"])) # ➞ 3
+print(rogerShots(["Bang!", "Bang!", "Bang!", "Bang!", "BangBang!"])) # ➞ 2.5
+print(rogerShots(["Bang!", "BangBangBang!", "Boom!", "Bang!", "BangBang!", "BangBang!"])) # ➞ 2
+
+
+# testing.

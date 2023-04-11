@@ -1,7 +1,8 @@
 """
 ##Format III: Keyword Arguments
 
-For each challenge of this series you do not need to submit a function. Instead, you need to submit a formatted template string to get a certain outcome.
+For each challenge of this series you do not need to submit a function.
+Instead, you need to submit a formatted template string to get a certain outcome.
 Write a template string according to the following example:
 
 
@@ -34,7 +35,7 @@ ___
 
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -55,6 +56,13 @@ format() Method
 https://www.programiz.com/python-programming/methods/string/format
 Formats the given string into a nicer output in Python.
 _________
-""" 
+"""
 # Your code should go here:
+
+template = "My name is {me}. His name is {him}"
+template.format(me = "Nitkarsh", him = "Shiva")
+print(template)
+
+
+# testing.
 

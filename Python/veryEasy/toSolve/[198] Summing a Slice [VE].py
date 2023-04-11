@@ -33,7 +33,7 @@ _____
 If n is larger than the length of the list, return the sum of the whole list.
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -59,6 +59,21 @@ List Slicing
 https://www.learnbyexample.org/python-list-slicing/
 Learn to slice a list with positive & negative indices in Python, modify insert and delete multiple list items, reverse a list, copy a list and more.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def sumFirstnNums(lst1, n):
+    index1 = n - 1
+    if lst1.len() > n:
+        sumList = lst1[:index1]
+        return sumList
+    elif lst1.len() < n:
+        return lst1
+
+
+print(sumFirstnNums(([1, 3, 2], 2)))
+print(sumFirstnNums(([4, 2, 5, 7], 4)))
+print(sumFirstnNums(([3, 6, 2], 0)))
+
+# testing.

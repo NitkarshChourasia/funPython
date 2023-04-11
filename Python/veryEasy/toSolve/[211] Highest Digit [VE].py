@@ -26,7 +26,7 @@ ___
 
 
 
-[language_fundamentals] [numbers] 
+[language_fundamentals] [numbers]
 
 
 
@@ -52,6 +52,21 @@ int() Method
 https://www.programiz.com/python-programming/methods/built-in/int
 Returns an integer object from any number or string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def highestDig(num1):
+    str1 = string(num1)
+    stringList = []
+    for i in str1:
+        stringList.append(i)
+    max = stringList.sorted()
+    return int(stringList[-1]
+
+print(highestDig(379))
+print(highestDig(2))
+print(highestDig(377401))
+
+# testing.
+# know the difference between sort and sorted.

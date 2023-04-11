@@ -1,7 +1,8 @@
 """
 ##Fix the Error: Mutating Arrays
 
-Suppose I want to define a function that removes the last element of a list each time I call it, but does not mutate the original list. Fix the code so that the results are no longer mutating the list.
+Suppose I want to define a function that removes the last element of a list each time I call it,
+but does not mutate the original list. Fix the code so that the results are no longer mutating the list.
 ___
 def minus_one(lst):
   arr.pop()
@@ -33,7 +34,7 @@ _____
 N/A
 
 
-[arrays] [bugs] 
+[arrays] [bugs]
 
 
 
@@ -59,6 +60,32 @@ Shallow Copy and Deep Copy
 https://www.programiz.com/python-programming/shallow-deep-copy
 In this article, you’ll learn about shallow copy and deep copy in Python with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def minus_one(lst):
+    lst = arr
+    arr.pop()
+    return arr
+
+x = [1, 2, 3, 4, 5]
+minus_one(x) #➞ [1, 2, 3, 4]  # 1st time function is called.
+minus_one(x) #➞ [1, 2, 3]  # 2nd time function is called.
+minus_one(x) #➞ [1, 2]  # 3rd time function is called.
+minus_one(x) #➞ [1]  # 4th time function is called.
+
+
+def minus_one(lst):
+    lst = arr
+    arr.pop()
+    return lst
+
+# What I want instead:
+minus_one(x) #➞ [1, 2, 3, 4]  # 1st time function is called.
+minus_one(x) #➞ [1, 2, 3, 4]  # 2nd time function is called.
+minus_one(x) #➞ [1, 2, 3, 4]  # 3rd time function is called.
+minus_one(x) #➞ [1, 2, 3, 4]  # 4th time function is called.
+
+
+# testing.

@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[formatting] [loops] [strings] 
+[formatting] [loops] [strings]
 
 
 
@@ -37,6 +37,18 @@ How can I change the case to make upper case lower and vice versa?
 https://stackoverflow.com/questions/27231371/how-can-i-change-the-case-in-python-to-make-upper-case-lower-and-vice-versa
 Write the function changeCase(word) that changes the case of all the letters in a word and returns the new word. I am a beginner in python where is my error?
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reverseCase(str1):
+    return str1.swapcase()
+
+
+
+print(reverseCase("Happy Birthday")) # ➞ "hAPPY bIRTHDAY"
+print(reverseCase("MANY THANKS")) # ➞ "many thanks"
+print(reverseCase("sPoNtAnEoUs")) # ➞ "SpOnTaNeOuS"
+
+
+# testing.

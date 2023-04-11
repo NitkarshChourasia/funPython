@@ -25,7 +25,7 @@ _____
 Return an empty list if the given number is less than 1.
 
 
-[arrays] [loops] [math] [numbers] 
+[arrays] [loops] [math] [numbers]
 
 
 
@@ -46,6 +46,26 @@ Conditions
 https://www.w3schools.com/python/python_conditions.asp
 In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def findFactors(n):
+    range1 = range(0, n+1)
+    if n < 1:
+        return list  # check whether this would work or not.
+    else:
+        factorList = []
+        for i in range1:
+            if n % i == 0:
+                factorList.append(i)
+        return factorList
+
+print(findFactors(9))
+print(findFactors(12))
+print(findFactors(20))
+print(findFactors(0))
+
+
+#testing.
 

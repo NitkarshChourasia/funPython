@@ -30,7 +30,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -56,6 +56,26 @@ How to remove an item from a list in Python (clear, pop, remove, del)
 https://note.nkmk.me/en/python-list-clear-pop-remove-del/
 In Python, list's methods clear(), pop(), and remove() are used to remove items (elements) from a list. It is also possible to delete items using del statement by speci …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def skipTheSugar(lst1):
+    sugarDrinks = ["cola", "fanta"]
+    # add a feature for lowercase.
+    unwantedlst = []
+    woSugarList = []
+    for i in lst1:
+        if i in sugarDrinks:
+            unwantedlst.append(i)
+        else:
+            woSugarList.append(i)
+    return woSugarList
+
+
+print(skipTheSugar(["fanta", "cola", "water"]))
+print(skipTheSugar(["fanta", "cola"]))
+print(skipTheSugar(["lemonade", "beer", "water"]))
+
+
+# testing.

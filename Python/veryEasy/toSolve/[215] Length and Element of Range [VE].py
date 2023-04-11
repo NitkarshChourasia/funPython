@@ -1,7 +1,9 @@
 """
 ##Length and Element of Range
 
-Create a function that takes a range object r, index i, and returns a list where the first element is the number of elements in the range object, and the second element is the element of the range object at the given index.
+Create a function that takes a range object r, index i, and returns a list where the first
+element is the number of elements in the range object, and the second element is the element of the
+range object at the given index.
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 No need to check for IndexError.
 
 
-[conditions] [language_fundamentals] 
+[conditions] [language_fundamentals]
 
 
 
@@ -42,6 +44,14 @@ append() Method
 https://www.programiz.com/python-programming/methods/list/append
 Adds an item to the end of the list. In this tutorial, we will learn about the Python append() method in detail with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def lengthElement(
+
+
+# incomplete.
+# somehow solve it.
+# incomplete.
+# somehow solve it.

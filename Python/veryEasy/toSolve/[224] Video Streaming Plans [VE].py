@@ -26,7 +26,7 @@ _____
 Try using Inheritance to complete the challenge! If you're unsure what that means, try checking out the Python class tutorials in the Resources tab.
 
 
-[classes] [language_fundamentals] [objects] 
+[classes] [language_fundamentals] [objects]
 
 
 
@@ -52,6 +52,10 @@ Inheritance
 https://www.programiz.com/python-programming/inheritance
 Is a powerful feature in object-oriented programming. It refers to defining a new class with little or no modification to an existing class. The new class is called de …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+# checkAgain.
+# incomplete.
+# checkAgain. All the resources, to learn classess and inheritances.

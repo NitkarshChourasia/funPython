@@ -29,7 +29,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] [logic] 
+[arrays] [language_fundamentals] [logic]
 
 
 
@@ -45,6 +45,26 @@ Booleans
 https://www.w3schools.com/python/python_booleans.asp
 In programming you often need to know if an expression is True or False. You can evaluate any expression in Python, and get one of two answers, True or False. When you …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findTheFalsehoods(lst1):
+    emptyList = []
+    for i in lst1:
+        if i == False or i == None: # checkAgain. not true.
+            emptyList.append(i)
+    return emptyList
+
+
+print(findTheFalsehoods(([0, 1, 2, 3])))
+print(findTheFalsehoods((["", "a", "ab"])))
+print(findTheFalsehoods(([None, 1, [], [0], 0])))
+print(findTheFalsehoods(([])))
+print(findTheFalsehoods(([[]])))
+print(findTheFalsehoods(([[[]]])))
+
+
+
+# checkAgain.
+# testing.

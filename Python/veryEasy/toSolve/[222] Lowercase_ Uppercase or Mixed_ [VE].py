@@ -21,7 +21,7 @@ _____
 Ignore punctuation, spaces and numbers.
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -47,6 +47,21 @@ upper() Method
 https://www.programiz.com/python-programming/methods/string/upper
 Converts all lowercase characters in a string into uppercase characters and returns it.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getCase(str1):
+    if str1.isupper():
+        return "upper"
+    elif str1.lower():
+        return "lower"
+    else:
+        return "mixed"
+
+print(getCase("whisper...")) # ➞ "lower"
+print(getCase("SHOUT!")) # ➞ "upper"
+print(getCase("Indoor Voice")) # ➞ "mixed"
+
+
+# testing.

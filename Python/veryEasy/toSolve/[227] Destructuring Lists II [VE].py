@@ -30,7 +30,7 @@ Can you use list destructuring to assign all four variables at once?
 Check the Resources tab for more examples.
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -51,6 +51,19 @@ Destructuring a List in Python like JavaScript
 https://medium.com/@umaramanat66/destructuring-list-in-python-like-javascript-f7d4c0968538
 Destructuring also referred to as unpacking in Python’s jargon . If you see code of pro-python developer you will see unpacking or destructing of list, dictionary. This …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+arr = ["cars", "planes", ["trains", ["motorcycles"]]]
+
+println(trans1) # outputs "cars"
+println(trans2) # outputs "planes"
+println(trans3) # outputs "trains"
+println(trans4) # outputs "motorcycles"
+
+
+# testing.
+# checkAgain.
+# it is good.
+# it is great, problem, do check it out.

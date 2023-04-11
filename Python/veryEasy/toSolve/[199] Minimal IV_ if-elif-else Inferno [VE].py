@@ -2,8 +2,10 @@
 ##Minimal IV: if-elif-else Inferno
 
 Check the principles of minimalist code in the intro to the first challenge.
-In the Code tab you will find a code that is missing a single character in order to pass the tests. However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
-Write a function that returns the boolean True if the given number is zero, the string "positive" if the number is greater than zero or the string "negative" if it's smaller than zero.
+In the Code tab you will find a code that is missing a single character in order to pass the tests.
+However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
+Write a function that returns the boolean True if the given number is zero, the string "positive"
+if the number is greater than zero or the string "negative" if it's smaller than zero.
 
 
 [Tips]
@@ -59,7 +61,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [logic] 
+[conditions] [language_fundamentals] [logic]
 
 
 
@@ -80,6 +82,18 @@ Python Conditions
 https://www.w3schools.com/python/python_conditions.asp
 In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def around0(x):
+    return True if x == 0 else "positive" if x > 0 else "negative" if x < 0
+
+print(around0(1))
+print(around0(2))
+print(around0(9))
+print(around0(-1))
+print(around0(0))
+print(around0(-321))
+
+# testing.

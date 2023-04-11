@@ -2,8 +2,11 @@
 ##Minimal IX: This or That
 
 Check the principles of minimalist code in the intro to the first challenge.
-In the Code tab you will find a code that is missing a single character in order to pass the tests. However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
-Write a function that returns the first truthy argument passed to the function. If all arguments are falsy, return the string "not found". The function will be called with a minimum of one and a maximum of four arguments: a, b, c, d.
+In the Code tab you will find a code that is missing a single character in order to pass the tests.
+However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
+Write a function that returns the first truthy argument passed to the function.
+If all arguments are falsy, return the string "not found".
+The function will be called with a minimum of one and a maximum of four arguments: a, b, c, d.
 
 
 [Tips]
@@ -46,7 +49,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [logic] 
+[conditions] [language_fundamentals] [logic]
 
 
 
@@ -67,6 +70,22 @@ _________
 https://www.programiz.com/python-programming/args-and-kwargs
 In this article, we will learn about Python *args and **kwargs ,their uses and functions with examples.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def truthy(a, b, c, d):
+    return if a or b or c or d else: "not found"
+
+print(truthy(False, True, False, False))
+print(truthy(False, False, False, False))
+print(truthy(False, False, False, True))
+
+
+# testing.
+# learn the tertinary very well.
+# learn the lambda very well.
+
+# checkAgain.
+# I know it is not right.
 

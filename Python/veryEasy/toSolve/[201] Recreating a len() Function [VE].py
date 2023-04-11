@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[language_fundamentals] [loops] 
+[language_fundamentals] [loops]
 
 
 
@@ -42,6 +42,16 @@ The Accumulator Pattern
 https://ebrary.net/19597/_computer_science/accumulator_pattern
 Iterating over sequences can be useful when we want to count something. Counting is a common occurrence in computer programs. We may want to count the number of people …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def length(str1):
+    return str1.index(str1[-1])+1
+
+
+
+
+print(length(("Hello World")))
+print(length(("Edabit")))
+print(length(("wash your hands!")))

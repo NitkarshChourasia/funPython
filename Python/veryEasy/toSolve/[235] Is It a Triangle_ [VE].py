@@ -25,7 +25,7 @@ ___
 
 
 
-[conditions] [geometry] [math] [validation] 
+[conditions] [geometry] [math] [validation]
 
 
 
@@ -46,6 +46,15 @@ Triangle Inequality
 https://en.wikipedia.org/wiki/Triangle_inequality
 States that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isTriangle(sideA, sideB, sideC):
+
+
+
+
+# checkAgain.
+# incomplete.
+# some thoery is required to complete it.

@@ -29,7 +29,7 @@ _____
 Consider using the zip() function.
 
 
-[arrays] [formatting] [sorting] 
+[arrays] [formatting] [sorting]
 
 
 
@@ -60,6 +60,26 @@ How to compare length of three lists in Python?
 https://stackoverflow.com/questions/16720844/compare-length-of-three-lists-in-python
 Is there a nicer way to compare the length of three lists to make sure they are all the same size besides doing comparisons between each set of variables? What if I wan …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def zipIt(lst1, lst2):
+    if lst1.len() != lst2.len():
+        return "Sizes don't match up for pairs to be made."
+    else:
+        return zip(lst1, lst2)
+
+
+print(zipIt(["Elise", "Mary"], ["John", "Rick"]))
+ # ➞ [("Elise", "John"), ("Mary", "Rick")]
+
+print(zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh"]))
+ # ➞ "sizes don't match"
+
+print(zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh", "Tim"]))
+ # ➞ [("Ana", "Bob"), ("Amy", "Josh"), ("Lisa", "Tim")]
+
+
+ # testing.
+ # Learn to use the zip function very well.

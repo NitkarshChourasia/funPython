@@ -25,7 +25,7 @@ ___
 
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -41,6 +41,18 @@ Python Strings
 https://developers.google.com/edu/python/strings
 Python has a built-in string class named "str" with many handy features (there is an older module named "string" which you should not use). String literals can be enclo …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def modifyLast(str1, n):
+    lastMod = str1[-1] * n
+    return lastMod[:str1.len()-2]+lastMod
+
+
+print(modifyLast("Hello", 3))
+print(modifyLast("hey", 6))
+print(modifyLast("excuse me what?", 5))
+
+# testing.

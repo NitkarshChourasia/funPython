@@ -27,7 +27,7 @@ ___
 
 
 
-[loops] [regex] [strings] 
+[loops] [regex] [strings]
 
 
 
@@ -53,6 +53,18 @@ append() Method
 https://www.programiz.com/python-programming/methods/list/append
 Adds an item to the end of the list. In this tutorial, we will learn about the Python append() method in detail with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def hashPlusCount(str1):
+    return [str1.count('#'), str1.count('+')]
+
+
+print(hashPlusCount("###+")) # ➞ [3, 1]
+print(hashPlusCount("##+++#")) # ➞ [3, 3]
+print(hashPlusCount("#+++#+#++#")) # ➞ [4, 6]
+print(hashPlusCount("")) # ➞ [0, 0]
+
+
+# testing.

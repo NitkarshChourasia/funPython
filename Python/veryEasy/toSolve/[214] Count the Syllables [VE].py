@@ -25,7 +25,7 @@ ___
 
 
 
-[language_fundamentals] [regex] [strings] 
+[language_fundamentals] [regex] [strings]
 
 
 
@@ -56,6 +56,17 @@ lower() Method
 https://www.programiz.com/python-programming/methods/string/lower
 Converts all uppercase characters in a string into lowercase characters and returns it.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countSyllables(str1):
+    return (str1.len())/2
+
+
+print(countSyllables("Hehehehehehe"))
+print(countSyllables("bobobobobobobobo"))
+print(countSyllables("NANANA"))
+
+
+# testing.
