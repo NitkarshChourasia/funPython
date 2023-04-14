@@ -1,7 +1,10 @@
 """
 ##Reverse Psychology
 
-For this challenge, you will NOT be given a string. Your task isn't to add "Do not" before the given string. If there is no given string, you will not return "Do not do anything." Do not check the examples to know how to do this challenge.
+For this challenge, you will NOT be given a string.
+Your task isn't to add "Do not" before the given string.
+If there is no given string, you will not return "Do not do anything."
+Do not check the examples to know how to do this challenge.
 
 
 [Examples]
@@ -21,7 +24,7 @@ _____
 Are available.
 
 
-[formatting] [language_fundamentals] [strings] 
+[formatting] [language_fundamentals] [strings]
 
 
 
@@ -42,6 +45,20 @@ Video Walk Through the Challenge
 https://www.youtube.com/watch?v=y8sgEXA-7co
 📺 In this video, you will learn how to solve these problems in Python 🐍: ★ 0:00 Intro of Edabit ★ 0:20 Reverse Psychology ★ 2:55 Say "Hello" Say "Bye" ★ 5:17 Taxi Journey
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reversePsychology(str1):
+    if str1:
+        return "Do not " + str1
+    else:
+        return "Do not do anything."
+
+print(reversePsychology("wash the dishes")) # ➞ "Do not wash the dishes."
+print(reversePsychology("eat your lunch")) # ➞ "Do not eat your lunch."
+print(reversePsychology("go to school")) # ➞ "Do not go to school."
+
+# testing.
+# checkAgain.
+# checkAgain, if properly done or not.

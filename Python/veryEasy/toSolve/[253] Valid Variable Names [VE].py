@@ -1,7 +1,8 @@
 """
 ##Valid Variable Names
 
-When creating variables, the variable name must always start with a letter and cannot contain spaces, though numbers and underscores are allowed to be contained in it also.
+When creating variables, the variable name must always start with a letter and cannot contain spaces,
+though numbers and underscores are allowed to be contained in it also.
 Create a function which returns True if a given variable name is valid, otherwise return False.
 
 
@@ -27,7 +28,7 @@ ___
 
 
 
-[conditions] [regex] [strings] [validation] 
+[conditions] [regex] [strings] [validation]
 
 
 
@@ -48,6 +49,24 @@ Python Operators
 https://www.programiz.com/python-programming/operators
 In this article, you'll learn everything about different types of operators in Python, their syntax and how to use them with examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def variableValid(str1):
+    if " " in str1:
+        return False
+    elif str1[0].isinstance(string):
+        return True
+    else:
+        return False
+
+print(variableValid("result")) # ➞ True
+print(variableValid("odd_nums")) # ➞ True
+print(variableValid("2TimesN")) # ➞ False
+
+
+
+# testing.
+# checkAgain.
+# check all the resources, and know what is meant by isaplha() or isidentifier()    ???!

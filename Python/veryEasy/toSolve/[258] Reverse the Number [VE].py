@@ -25,7 +25,7 @@ ___
 
 
 
-[formatting] [math] [numbers] 
+[formatting] [math] [numbers]
 
 
 
@@ -51,6 +51,18 @@ Reverse Integer
 https://www.tutorialspoint.com/reverse-integer-in-python
 Suppose we have one 32-bit signed integer number. We have to take the number and reverse the digits. So if the number is like 425, t ...
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def rev(input1):
+    return input1.reverse()  # Will it support input1.
+
+
+
+print(rev(5121)) # ➞ "1215"
+print(rev(69)) # ➞ "96"
+print(rev(-122157)) # ➞ "751221"
+
+
+# testing.

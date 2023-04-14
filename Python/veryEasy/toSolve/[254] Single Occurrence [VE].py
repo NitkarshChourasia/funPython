@@ -1,7 +1,9 @@
 """
 ##Single Occurrence
 
-Create a function that, given a string txt, finds a letter that has a single occurrence. Return the letter in uppercase. If the input is empty, return an empty string "".
+Create a function that, given a string txt,
+finds a letter that has a single occurrence.
+Return the letter in uppercase. If the input is empty, return an empty string "".
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 The function will not be case sensitive.
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -42,6 +44,23 @@ String upper() Method
 https://www.geeksforgeeks.org/python-string-upper/
 Converts all lowercase characters in a string into uppercase characters and returns it.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def singleOccurrence(str1):
+    elementFindList = []
+    for i in str1:
+        if str1.count(i) == 1:
+            elementFindList.append(i)
+    if str1.len() == 0:
+        return ""
+    else:
+        return string(elementFindList)
+
+print(singleOccurrence("EFFEAABbc")) # ➞ "C"
+print(singleOccurrence("AAAAVNNNNSS")) # ➞ "V"
+print(singleOccurrence("S")) #  ➞ "S"
+
+
+# testing.

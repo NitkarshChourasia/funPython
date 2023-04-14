@@ -26,7 +26,7 @@ _____
 If you get an empty list, return an empty list: []
 
 
-[arrays] [language_fundamentals] [loops] [numbers] 
+[arrays] [language_fundamentals] [loops] [numbers]
 
 
 
@@ -47,6 +47,18 @@ Reverse Sign of Each Element in Given List
 https://www.geeksforgeeks.org/python-reverse-sign-of-each-element-in-given-list/
 Given a list of integers, write a Python program to reverse the sign of each element in given list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def negate(lst1):
+    outputList = []
+    for i in lst1:
+        outputList.append(i * -1)
+    return outputList
+
+print(negate([1, 2, 3, 4])) # ➞ [-1, -2, -3, -4]
+print(negate([-1, 2, -3, 4])) # ➞ [1, -2, 3, -4]
+print(negate([])) # ➞ []
+
+# testing.

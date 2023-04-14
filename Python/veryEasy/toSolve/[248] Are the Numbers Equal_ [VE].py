@@ -21,7 +21,7 @@ _____
 If there is a string then it should return False.
 
 
-[conditions] [language_fundamentals] [logic] 
+[conditions] [language_fundamentals] [logic]
 
 
 
@@ -47,6 +47,15 @@ Exception Handling
 https://www.w3schools.com/python/python_try_except.asp
 When an error occurs, or exception as we call it, Python will normally stop and generate an error message. These exceptions can be handled using the try statement.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isEqual(int1, int2):
+    return True if int1 == int2 else False
+
+print(isEqual(5, 6)) # ➞ False
+print(isEqual(1, 1)) # ➞ True
+print(isEqual("1", 1)) # ➞ False
+
+# testing

@@ -28,7 +28,7 @@ _____
 Remember that n is included in the total.
 
 
-[language_fundamentals] [loops] [math] [numbers] 
+[language_fundamentals] [loops] [math] [numbers]
 
 
 
@@ -39,6 +39,22 @@ Sum of Squares of First n Natural Numbers
 https://www.geeksforgeeks.org/sum-of-squares-of-first-n-natural-numbers/
 A naive approach will be to run a loop from 1 to n and sum up all the squares.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def squaresSum(n):
+    range1 = range(1, n+1)
+    squareList = []
+    for i in range1:
+        squareList.append(i**2)
+    return squareList.sum()
+
+
+print(squaresSum(3)) # ➞ 14
+print(squaresSum(12)) # ➞ 650
+print(squaresSum(13)) # ➞ 819
+
+
+# testing.
 

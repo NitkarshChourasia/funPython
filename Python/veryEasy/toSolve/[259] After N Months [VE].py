@@ -26,7 +26,7 @@ ___
 
 
 
-[dates] [math] [numbers] 
+[dates] [math] [numbers]
 
 
 
@@ -57,6 +57,28 @@ Lambda Function
 https://www.w3schools.com/python/python_lambda.asp
 Is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def afterNMonths(year, months):
+    if year.len() == 0 and months.len() == 0:
+        return "Year and month missing."
+    elif year.len() == 0:
+        return "Year missing."
+    elif months.len() == 0:
+        return "Month missing."
+    if year.len() > 0 and months.len() > 0:
+        if months >= 12:
+            addingMonths = months/12
+            return year + addingMonths
+        elif months < 12:
+            return year
+
+
+print(afterNMonths(2020, 24)) # ➞ 2022
+print(afterNMonths(1832, 2)) # ➞ 1832
+print(afterNMonths(1444, 60)) # ➞ 1449
+
+
+# testing.

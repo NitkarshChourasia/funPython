@@ -48,3 +48,18 @@ _________
 """
 # Your code should go here:
 
+
+def measureTheDepth(lst1):
+    return (string(lst1)).count("[")
+
+
+measureTheDepth([])) # ➞ 1
+measureTheDepth([[]]))  # ➞ 2
+measureTheDepth([[[]]])) # ➞ 3
+measureTheDepth([[[[[[[[[[[]]]]]]]]]]])) #  ➞ 11
+
+
+# testing.
+# check all the resources.
+# check what is recursion? Does "For" "while" "do-while" comes in recursion?
+

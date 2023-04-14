@@ -26,7 +26,7 @@ ___
 
 
 
-[arrays] [higher_order_functions] [loops] [math] 
+[arrays] [higher_order_functions] [loops] [math]
 
 
 
@@ -62,6 +62,20 @@ How do I multiply each element in a list by a number?
 https://stackoverflow.com/questions/35166633/how-do-i-multiply-each-element-in-a-list-by-a-number/35166717
 I have a list: my_list = [1, 2, 3, 4, 5] How can I multiply each element in my_list by 5? The output should be: [5, 10, 15, 20, 25]
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def additiveInverse(lst1):
+    outputAns = []
+    for i in lst1:
+        outputAns.append(i * -1)
+    return outputAns
+
+
+print(additiveInverse([5, -7, 8, 3]) ➞ [-5, 7, -8, -3]
+print(additiveInverse([1, 1, 1, 1, 1]) ➞ [-1, -1, -1, -1, -1]
+print(additiveInverse([-5, -25, 35]) ➞ [5, 25, -35]
+
+
+# testing.

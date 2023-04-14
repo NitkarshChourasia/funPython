@@ -21,7 +21,7 @@ _____
 Return the answer rounded to one decimal place and in the format shown in the examples above.
 
 
-[geometry] [math] [strings] 
+[geometry] [math] [strings]
 
 
 
@@ -47,6 +47,14 @@ How to Convert Float to String
 https://mkyong.com/python/python-how-to-convert-float-to-string/
 We can use str() to convert float to String.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def height(
+
+# incomplete.
+# checkAgain.
+# formula to be known.
+# check all the resources.

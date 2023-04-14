@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[functional_programming] [strings] 
+[functional_programming] [strings]
 
 
 
@@ -42,6 +42,19 @@ Understanding Python Slice Notation
 https://stackoverflow.com/questions/509211/understanding-slice-notation
 Shorthand for slice() that can be used to reverse a string AND many other things.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reverseCapitalise(str1):
+    reversed = str1[::]
+    reversedUpper = str1.upper()
+    return reversedUpper
+
+
+print(reverseCaptitalise("abc")) # ➞ "CBA"
+print(reverseCaptitalise("hellothere")) # ➞ "EREHTOLLEH"
+print(reverseCaptitalise("input")) # ➞ "TUPNI"
+
+
+# testing.

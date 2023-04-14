@@ -1,8 +1,10 @@
 """
 ##Reverse Titling
 
-The normal title() function in Python capitalises the first letter of every word in a given sentence, leaving all the other letters as lowercase.
-The goal of this challenge is to create a reverse_title() function, which achieves the complete opposite! Make the first letter of every word lowercase, and the rest uppercase!
+The normal title() function in Python capitalises the first letter of every word in a given sentence,
+leaving all the other letters as lowercase.
+The goal of this challenge is to create a reverse_title() function,
+which achieves the complete opposite! Make the first letter of every word lowercase, and the rest uppercase!
 
 
 [Examples]
@@ -22,7 +24,7 @@ _____
 N/A
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -63,6 +65,19 @@ Python String Methods
 https://www.geeksforgeeks.org/python-string-methods-set-1-find-rfind-startwith-endwith-islower-isupper-lower-upper-swapcase-title/
 The important string methods will be discussed in this article 1. find(“string”, beg, end) :- This function is used to find the position of the substring within a strin …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reverseTitle(str1):
+    titled = str1.title()
+    swappedcased = titled.swapcase()
+    return swappedcased
+
+
+print(reverseTitle("this is a title")) # ➞ "tHIS iS a tITLE"
+print(reverseTitle("BOLD AND BRASH!")) # ➞ "bOLD aND bRASH!"
+print(reverseTitle("Elephants dance about bravely in Thailand")) # ➞ "eLEPHANTS dANCE aBOUT bRAVELY iN tHAILAND"
+
+# testing.
+# naming I should be learning, but how?

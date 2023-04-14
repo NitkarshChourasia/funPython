@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -47,6 +47,18 @@ map() Function
 https://www.freecodecamp.org/news/python-map-explained-with-examples/
 Explore what the map() function is and how to use it in your code. The map() function in Python.
 _________
-""" 
+"""
 # Your code should go here:
 
+def getMultipliedList(lst1):
+    for i in lst1:
+        lst2.append(i*2)
+    return lst2
+
+
+print(getMultipliedList([2, 5, 3])) # ➞ [4, 10, 6]
+print(getMultipliedList([1, 86, -5])) # ➞ [2, 172, -10]
+print(getMultipliedList([5, 382, 0])) # ➞ [10, 764, 0]
+
+
+# testing.

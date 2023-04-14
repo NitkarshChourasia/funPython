@@ -1,7 +1,9 @@
 """
 ##Free Coffee Cups
 
-For each of the 6 coffee cups I buy, I get a 7th cup free. In total, I get 7 cups. Create a function that takes n cups bought and return the total number of cups I would get.
+For each of the 6 coffee cups I buy, I get a 7th cup free.
+In total, I get 7 cups.
+Create a function that takes n cups bought and return the total number of cups I would get.
 
 
 [Examples]
@@ -25,7 +27,7 @@ ___
 
 
 
-[algorithms] [logic] [math] [numbers] 
+[algorithms] [logic] [math] [numbers]
 
 
 
@@ -46,6 +48,19 @@ Video Walk Through the Challenge
 https://youtu.be/_HKaYYyrahI
 A video walkthrough of this challenge.
 _________
-""" 
+"""
 # Your code should go here:
 
+def totalCups(n):
+    toAdd = n/6
+    return n + toAdd
+
+print(totalCups(6))
+print(totalCups(12))
+print(totalCups(213))
+
+
+# testing.
+# checkAgain.
+# what if the thing is not perfectly divisible by 6? then?
+# include this thing also. if less then 6 then no adding and stuff. okay?

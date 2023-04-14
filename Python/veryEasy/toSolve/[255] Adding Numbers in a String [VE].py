@@ -25,7 +25,7 @@ ___
 
 
 
-[language_fundamentals] [numbers] 
+[language_fundamentals] [numbers]
 
 
 
@@ -61,6 +61,12 @@ split() Method
 https://www.w3schools.com/python/ref_string_split.asp
 Splits a string into a list.
 _________
-""" 
+"""
 # Your code should go here:
+
+# I think the split method will work quite well.
+# Can't right now think of the ways though.
+# incomplete.
+# checkAgain.
+
 
