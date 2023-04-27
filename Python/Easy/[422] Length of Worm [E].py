@@ -21,7 +21,7 @@ _____
 Return "invalid" if an empty string is given or if the string has characters other than -.
 
 
-[strings] 
+[strings]
 
 
 
@@ -37,6 +37,22 @@ How to Create a Set
 https://www.w3schools.com/python/python_sets.asp
 How to create a set that can be searched in Python.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def wormLength(str1):
+    if (set(str1)).len() == 1:
+        counting = str1.count("-")
+        cmToMm = counting * 10
+        return cmToMm
+    else:
+        return "Invalid inputs."
+
+
+print(wormLength("----------")) # ➞ "100 mm."
+print(wormLength("")) # ➞ "invalid"
+print(wormLength("---_-___---_")) # ➞ "invalid"
+
+
+# testing.

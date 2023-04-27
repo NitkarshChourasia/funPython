@@ -1,7 +1,7 @@
 """
 ##Next Perfect Square
 
-Mubashir needs your help to find next integral perfect square after the one passed as a parameter.
+Nitkarsh needs your help to find next integral perfect square after the one passed as a parameter.
 Create a function which takes a given number n and returns next integral perfect square number. Return None if the given number is not a perfect square.
 
 
@@ -23,7 +23,7 @@ _____
 N/A
 
 
-[algebra] [interview] [math] [numbers] 
+[algebra] [interview] [math] [numbers]
 
 
 
@@ -39,6 +39,23 @@ Data Type
 https://www.w3schools.com/python/python_datatypes.asp
 In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def nextSq(sqInput):
+    if sqInput.sqrt() == isinstance(int):
+        nextSq = sqInput.sqrt() + 1
+        return nextSq ** 2
+
+
+
+print(nextSquare((121)) # ➞ 144
+
+print(nextSquare((625)) # ➞ 676
+
+print(nextSquare((114)) # ➞ None
+# 114 is not a perfect square
+
+# testing.

@@ -1,7 +1,8 @@
 """
 ##Spotlight Sum
 
-Given a 10x10 grid of numbers 1-100, return the Spotlight Sum, given a number n. The spotlight sum can be defined as the total of the 8 numbers immediately surrounding the number n on the grid, including n in the total.
+Given a 10x10 grid of numbers 1-100, return the Spotlight Sum, given a number n.
+The spotlight sum can be defined as the total of the 8 numbers immediately surrounding the number n on the grid, including n in the total.
 
 
 [Worked Example]
@@ -48,7 +49,7 @@ _____
 Note that any numbers which don't have the full 8 numbers surrounding it are not included in the tests.
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -59,6 +60,32 @@ _________
 https://www.wikihow.com/Multiply
 How to Multiply. Multiplication is one of the four basic operations in arithmetic, along with addition, subtraction, and division. Multiplication can actually be consid …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def spotlightSum(n):
+    a1 = n - 11
+    a2 = n - 10
+    a3 = n - 9
+    a4 = n - 1
+    a5 = n
+    a6 = n + 1
+    a7 = n + 9
+    a8 = n + 10
+    a9 = n + 11
+    aExceptions = [1, 11, 21, 31, 41, 51, 61, 71, 81, 91]
+    aExceptions1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    if a > 10 and a < 90 and a not in aExceptions and a not in aExceptions1:
+        sumList = [a1, a2, a3, a4, a5, a6, a7, a8, a9]
+        return sumList.sum()
+    else:
+        return "The sum is not spotlight sum."
+
+
+print(spotlightSum((19)) # ➞ 171
+print(spotlightSum((48)) # ➞ 432
+print(spotlightSum((88)) # ➞ 792
+
+# testing.
 

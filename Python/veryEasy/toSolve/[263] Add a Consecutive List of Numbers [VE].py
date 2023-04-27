@@ -29,7 +29,7 @@ ___
 
 
 
-[loops] [math] [numbers] 
+[loops] [math] [numbers]
 
 
 
@@ -50,6 +50,24 @@ Consecutive Numbers
 https://www.geeksforgeeks.org/print-all-possible-consecutive-numbers-with-sum-n/
 This shows how consecutive numbers are being added.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def addUpTo(n):
+    ranger1 = range(1, n)
+    z = 0
+    for i in ranger1:
+        z = z + i
+    return z
+
+
+print(addUpTo(3)) # ➞ 6
+# 1 + 2 + 3 = 6
+print(addUpTo(10)) # ➞ 55
+# 1 + 2 + 3 + ... + 10 = 55
+print(addUpTo(7)) # ➞ 28
+# 1 + 2 + 3 + ... + 7 = 28
+
+
+# testing.

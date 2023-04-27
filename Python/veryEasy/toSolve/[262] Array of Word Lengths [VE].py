@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -51,6 +51,22 @@ How to find length of an element in a list?
 https://stackoverflow.com/questions/1629728/how-to-find-length-of-an-element-in-a-list
 I'm just starting with programming. I have a list of a few strings and now I need to print the biggest (in length) one. So I first want to just print the lengths of ele …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def wordLength(*args):
+    finalOutput = []
+    for i in args:
+        finalOutput.append(args.len())
+    return finalOutput
+
+
+
+print(word_lengths(["hello", "world"])) # ➞ [5, 5]
+print(word_lengths(["Halloween", "Thanksgiving", "Christmas"])) # ➞ [9, 12, 9]
+print(word_lengths(["She", "sells", "seashells", "down", "by", "the", "seashore"])) # ➞ [3, 5, 9, 4, 2, 3, 8]
+
+
+# testing.

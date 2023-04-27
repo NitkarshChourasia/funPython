@@ -1,7 +1,9 @@
 """
 ##Edabit's Markdown Formatting
 
-Edabit allows for markdown formatting, meaning that it's possible to format words by surrounding text with special characters. For example, to get bold text, you surround the text with double asterisks, like this **bold**.
+gdabit allows for markdown formatting,
+meaning that it's possible to format words by surrounding text with special characters.
+For example, to get bold text, you surround the text with double asterisks, like this **bold**.
 Here is a list of the possible formatting options in Edabit and how to apply them:
 ___
 *) **bold**
@@ -44,7 +46,7 @@ _____
 Remember to format your comments!
 
 
-[conditions] [formatting] [language_fundamentals] [strings] 
+[conditions] [formatting] [language_fundamentals] [strings]
 
 
 
@@ -65,6 +67,27 @@ _________
 https://realpython.com/python-string-formatting/#2-new-style-string-formatting-strformat
 Python 3 introduced a new way to do string formatting that was also later back-ported to Python 2.7. This “new style” string formatting gets rid of the %-operator speci …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def mdFormat(string, specialChar):
+    if specialChar == "b":
+        return "**{}**".format(string)
+    elif specialChar == "i":
+        return "__{}__".format(string)
+    elif specialChar == "c":
+        return "`{}`"
+    elif specialChar == "s":
+        return "~~{}~~".format(string)
+    else:
+        return "Please include valid specialChar type."
+
+
+print(mdFormat("Bold", "b")) # ➞ "**Bold**"
+print(mdFormat("leaning text", "i")) # ➞ "_leaning text_"
+print(mdFormat("Edabit", "c")) # ➞ "`Edabit`"
+print(mdFormat("That's a strike!", "s")) # ➞ "~~That's a strike!~~"
+
+
+# testing.

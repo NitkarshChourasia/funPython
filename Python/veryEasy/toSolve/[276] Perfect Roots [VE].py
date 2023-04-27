@@ -24,7 +24,7 @@ _____
 n > 1
 
 
-[algebra] [math] [numbers] 
+[algebra] [math] [numbers]
 
 
 
@@ -40,6 +40,29 @@ The Square Root Function
 https://realpython.com/python-square-root-function/
 In this quick and practical tutorial, you'll learn what a square root is and how to calculate one in Python. You'll even see how you can use the Python square root func …
 _________
-""" 
+"""
 # Your code should go here:
 
+import math.sqrt()
+
+def perfectRoots(n):
+    secondSqRoot = math.sqrt(n, 2)
+    fourthSqRoot = math.sqrt(n, 4)
+    eightSqRoot = math.sqrt(n, 8)
+    if secondSqRoot and fourthSqRoot and eightSqRoot is ininstance(int):
+        return True
+    else:
+        return False
+
+
+print(perfectRoots((256)) # ➞ True
+# 2nd root of 256 is 16
+# 4th root of 256 is 4
+# 8th root of 256 is 2
+print(perfectRoots((1000)) # ➞ False
+print(perfectRoots((6561)) # ➞ True
+
+
+# testing.
+# checkAgain.
+# checkAgain, how to find the square root of to the any power.

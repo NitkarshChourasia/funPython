@@ -22,7 +22,7 @@ _____
 Remember that the start and stop values are inclusive.
 
 
-[loops] [math] [numbers] 
+[loops] [math] [numbers]
 
 
 
@@ -53,6 +53,19 @@ Nested List Comprehensions in Python
 https://www.geeksforgeeks.org/nested-list-comprehensions-in-python/
 List Comprehensions are one of the most amazing features of Python. It is a smart and concise way of creating lists by iterating over an iterable object. Nested List Co …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def sumEvenNumsInRange(start, stop):
+    range1 = range(start, stop + 1)
+    return range1.sum()  # Will it work or I will have to use for loop?
+
+
+print(sumEvenNumsInRange(10, 20)) # ➞ 90
+# 10, 12, 14, 16, 18, 20
+print(sumEvenNumsInRange(51, 150)) # ➞ 5050
+print(sumEvenNumsInRange(63, 97)) # ➞ 1360
+
+
+# testing.

@@ -30,7 +30,7 @@ _____
 All test input is lower cased.
 
 
-[interview] [loops] [strings] [validation] 
+[interview] [loops] [strings] [validation]
 
 
 
@@ -61,6 +61,21 @@ Python List Methods
 https://www.programiz.com/python-programming/methods/list
 Python has some list methods that you can use to perform frequency occurring task (related to list) with ease. For example, if you want to add element to a list, you ca …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isPalindrome(str1):
+    if str1.reverse() == str1:
+        return True
+    else:
+        return False
+
+
+print(isPalindrome(("mom")) # ➞ True
+print(isPalindrome(("scary")) # ➞ False
+print(isPalindrome(("reviver")) # ➞ True
+print(isPalindrome(("stressed")) # ➞ False
+
+
+# testing.

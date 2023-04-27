@@ -21,7 +21,7 @@ _____
 Return "invalid" if damage or speed is negative.
 
 
-[conditions] [math] 
+[conditions] [math]
 
 
 
@@ -42,6 +42,24 @@ Dictionary
 https://www.programiz.com/python-programming/dictionary
 In this tutorial, you'll learn everything about Python dictionaries; how they are created, accessing, adding, removing elements from them and various built-in methods.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def calculatingDamage(damage, speed, time):
+    if damage < 0 or speed < 0:
+        return "Invalid inputs."
+    if time.lower() == "second":
+        return damage * speed * 1
+    elif time.lower() == "minute":
+        return damage * speed * 60
+    elif time.lower() == "hour":
+        return damage * speed * 60 * 60
+
+
+print(damage(40, 5, "second")) # ➞ 200
+print(damage(100, 1, "minute"))  # ➞ 6000
+print(damage(2, 100, "hour")) # ➞ 720000
+
+# testing.

@@ -26,7 +26,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [numbers] 
+[arrays] [language_fundamentals] [numbers]
 
 
 
@@ -67,6 +67,16 @@ How to Reverse Strings in Python
 https://www.jquery-az.com/ways-reverse-string-python-reversed-extended-slice-objects/
 While there is no specific method of str object to reverse a string in Python like the list reverse method, you may use a number of techniques to reverse a string. One …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def reverse(lst1):
+    return lst1.reverse()
+
+
+print(reverse([1, 2, 3, 4]) # ➞ [4, 3, 2, 1]
+print(reverse([9, 9, 2, 3, 4]) # ➞ [4, 3, 2, 9, 9]
+print(reverse([]) # ➞ []
+
+# testing.

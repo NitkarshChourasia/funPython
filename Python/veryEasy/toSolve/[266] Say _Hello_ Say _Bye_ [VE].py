@@ -21,7 +21,7 @@ _____
 The name you return must be capitalized.
 
 
-[conditions] [control_flow] [strings] 
+[conditions] [control_flow] [strings]
 
 
 
@@ -42,6 +42,22 @@ Video Walk Through the Challenge
 https://www.youtube.com/watch?v=y8sgEXA-7co
 📺 In this video, you will learn how to solve these problems in Python 🐍: ★ 0:00 Intro of Edabit ★ 0:20 Reverse Psychology ★ 2:55 Say "Hello" Say "Bye" ★ 5:17 Taxi Journey
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def sayHelloBye(name, num1):
+    if num1 == 1:
+        return "Hello" + name
+    elif num1 == 0:
+        return "Bye" + name
+    else:
+        return "The input number was out of range."
+
+
+print(sayHelloBye("alon", 1)) # ➞ "Hello Alon"
+print(sayHelloBye("Tomi", 0)) # ➞ "Bye Tomi"
+print(sayHelloBye("jose", 0)) # ➞ "Bye Jose"
+
+
+# testing.

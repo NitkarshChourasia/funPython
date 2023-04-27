@@ -1,7 +1,8 @@
 """
 ##Add, Subtract, Multiply or Divide?
 
-Write a function that takes two numbers and returns if they should be added, subtracted, multiplied or divided to get 24. If none of the operations can give 24, return None.
+Write a function that takes two numbers and returns if they should be added,
+subtracted, multiplied or divided to get 24. If none of the operations can give 24, return None.
 
 
 [Examples]
@@ -26,7 +27,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -57,6 +58,26 @@ eval() Method
 https://www.programiz.com/python-programming/methods/built-in/eval
 Parses the expression passed to this method and runs python expression (code) within the program.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def operation(num1, num2):
+    if num1 + num2 == 24:
+        return "added"
+    elif num1 - num2 == 24:
+        return "subsracted"
+    elif num1 * num2 == 24:
+        return "multiplied"
+    elif num1 / num2 == 24:
+        return "divided"
+    else:
+        return None
+
+
+print(operations(15, 9)) # ➞ "added"
+print(operations(26, 2))  # ➞ "subtracted"
+print(operations(11, 11)) # ➞ None
+
+
+# testing.

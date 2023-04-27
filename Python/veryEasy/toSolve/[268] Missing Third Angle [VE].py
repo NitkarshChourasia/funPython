@@ -29,7 +29,7 @@ _____
 The sum of angles of any triangle is always 180 degrees.
 
 
-[algebra] [math] [numbers] 
+[algebra] [math] [numbers]
 
 
 
@@ -65,6 +65,27 @@ sum() Method
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def missingAngle(angleA, angleB):
+    addingAngles = angleA + angleB
+    totalAngle = 180
+    thirdType = 180 - addingAngles
+    if thirdType > 90:
+        return "obtuse"
+    elif thirdType < 90 and thirdType > 0:
+        return "acute"
+    elif thirdType == 90:
+        return "right"
+    else:
+        return "invalid input and output, respectively.
+
+
+print(missing_angle(27, 59)) # ➞ "obtuse"
+print(missing_angle(135, 11)) # ➞ "acute"
+print(missing_angle(45, 45)) # ➞ "right"
+
+
+# testing.

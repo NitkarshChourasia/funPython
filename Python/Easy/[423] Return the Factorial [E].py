@@ -21,7 +21,7 @@ _____
 Assume all inputs are greater than or equal to 0.
 
 
-[algebra] [math] [numbers] [recursion] 
+[algebra] [math] [numbers] [recursion]
 
 
 
@@ -67,6 +67,17 @@ What is Recursion?
 https://www.youtube.com/watch?v=k7-N8R0-KY4
 A video explaining on what recursion is.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def factorial(n):
+    for i in range(1, n):
+        n = n * i
+    return n
+
+print(factorial(3)) # ➞ 6
+print(factorial(5)) # ➞ 120
+print(factorial(13)) # ➞ 6227020800
+
+# testing.

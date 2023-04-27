@@ -1,7 +1,8 @@
 """
 ##Sum of Numbers in a List
 
-Create a function that takes a list of numbers lst as an argument. Square each number in the list if the number is even and square root √ the number if it is odd. Return the sum of the new list rounded to two decimal places.
+Create a function that takes a list of numbers lst as an argument. Square each number in the list
+if the number is even and square root √ the number if it is odd. Return the sum of the new list rounded to two decimal places.
 Example:
 ___
 [2, 4, 9]  ➞ 23
@@ -31,7 +32,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [math] [numbers] 
+[arrays] [language_fundamentals] [math] [numbers]
 
 
 
@@ -67,6 +68,24 @@ How To Square
 https://myprogrammingtutorial.com/square-in-python/
 Squaring in Python can be done in 5 ways. The exponentiation operator (**), pow(), multiply number by itself, and Numpy pow() method.
 _________
-""" 
+"""
 # Your code should go here:
 
+import math.sqrt from math
+
+def listSum(lst1):
+    outputAns = []
+    for i in lst1:
+        if i % 2 == 0:
+            outputAns.append(i ** 2)
+        elif i % 2 == 1:
+            outputAns.append(math.sqrt(i))
+    return outputAns.sum()
+
+
+print(listSum(([1, 3, 3, 1, 10])) # ➞ 105.46
+print(listSum(([2, 3, 4, 5])) # ➞ 23.97
+print(listSum(([1, 31, 3, 11, 0])) #➞ 11.62
+
+
+# testing.

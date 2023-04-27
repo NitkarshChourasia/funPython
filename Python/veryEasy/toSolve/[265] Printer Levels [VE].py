@@ -33,7 +33,7 @@ _____
 A single printed page requires each color once, so printing is not possible if any of the slots lack ink (see example #3).
 
 
-[arrays] [numbers] 
+[arrays] [numbers]
 
 
 
@@ -59,6 +59,32 @@ What does this mean: key=lambda x: x[1] ?
 https://stackoverflow.com/questions/16310015/what-does-this-mean-key-lambda-x-x1
 I see it used in sorting, but what do the individual components of this line of code actually mean? key=lambda x: x[1] What's lambda, what is x:, why [1] in x[1] etc ...
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def inkLevels(dict1):
+    return getKey.min()
+
+
+
+print(inkLevels(({
+  "cyan": 23,
+  "magenta": 12,
+  "yellow": 10
+}) # ➞ 10
+
+print(inkLevels(({
+  "cyan": 432,
+  "magenta": 543,
+  "yellow": 777
+}) # ➞ 432
+
+print(inkLevels(({
+  "cyan": 700,
+  "magenta": 700,
+  "yellow": 0
+}) # ➞ 0
+
+
+# testing.

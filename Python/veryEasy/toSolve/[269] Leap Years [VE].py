@@ -38,7 +38,7 @@ ___
 
 
 
-[dates] [logic] [math] [validation] 
+[dates] [logic] [math] [validation]
 
 
 
@@ -59,6 +59,29 @@ Leap Year
 https://en.wikipedia.org/wiki/Leap_year
 A calendar year containing an additional day (or, in the case of lunisolar calendars, a month) added to keep the calendar year synchronized with the astronomical or sea …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isLeap(year):
+    if year % 4 == 0 and year % 100 != 0:
+        return True
+    elif year % 4 == 0 and year % 100 == 0:
+        if year % 400 == 0:
+            return True
+        else:
+            return False
+    elif year % 4  =! 0:
+        return False
+
+
+print(isLeap(2020)) # ➞ True
+# Exactly divided by 4 and not by 100.
+print(isLeap(1800)) #➞ False
+# Exactly divided by 4, but is also exactly divided by 100.
+print(isLeap(2000)) # ➞ True
+# Exactly divided by 400.
+print(isLeap(2019)) # ➞ False
+# It can't be exactly divided by 400 or by 4.
+
+# testing.

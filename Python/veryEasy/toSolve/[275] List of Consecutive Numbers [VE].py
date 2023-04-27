@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [loops] 
+[arrays] [language_fundamentals] [loops]
 
 
 
@@ -41,6 +41,21 @@ range( ) Method
 https://realpython.com/python-range/
 Python's Built-in Type that lazily returns an iterable. Take 3 arguments: start, end, and jump. End is never reached and if omitted start default takes 0. The jump dete …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getSequence(start, stop):
+    range1 = range(start, stop+1)
+    outputLst1 = []
+    for i in range1:
+        outputLst1.append(i)
+    return outputLst1
+
+
+print(getSequence((1, 5)) # ➞ [1, 2, 3, 4, 5]
+print(getSequence((98, 100)) # ➞ [98, 99, 100]
+print(getSequence((1000, 1000)) # ➞ [1000]
+
+
+# testing.
