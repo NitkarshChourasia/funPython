@@ -25,7 +25,7 @@ _____
 The prefix and suffix arguments have dashes - in them.
 
 
-[regex] [strings] [validation] 
+[regex] [strings] [validation]
 
 
 
@@ -61,6 +61,17 @@ index() Method
 https://www.programiz.com/python-programming/methods/string/index
 Returns the index of a substring inside the string (if found). If the substring is not found, it raises an exception.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isPrefix(str1, toTestStr):
+    return pass
+
+def isSuffix(str1, toTestStr):
+    return pass
+
+
+# first learn what is suffix and prefix?
+# incomplete.
+# check the resources.

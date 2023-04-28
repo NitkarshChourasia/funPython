@@ -23,7 +23,7 @@ _____
 Return False for an empty array []
 
 
-[arrays] [higher_order_functions] [validation] 
+[arrays] [higher_order_functions] [validation]
 
 
 
@@ -44,6 +44,28 @@ Does Python have a ternary conditional operator?
 https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator
 If Python does not have a ternary conditional operator, is it possible to simulate one using other language constructs?
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def existsHigher(lst1, n):
+    # I can use max too, for that reason, instead of consuming memory.
+    sortLst1 = lst1.sorted()
+    if sortLst1[-1] >= n:
+        return True
+    else:
+        return False
+
+
+
+print(existsHigher([5, 3, 15, 22, 4], 10)) # ➞ True
+
+print(existsHigher([1, 2, 3, 4, 5], 8)) # ➞ False
+
+print(existsHigher([4, 3, 3, 3, 2, 2, 2], 4)) # ➞ True
+
+print(existsHigher([], 5)) # ➞ False
+
+
+# testing.
+# Need to start checking memory and time execution.

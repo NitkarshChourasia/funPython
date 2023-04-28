@@ -50,7 +50,7 @@ _____
 Single-element lists count as (trivially) having identical elements.
 
 
-[arrays] [conditions] [loops] 
+[arrays] [conditions] [loops]
 
 
 
@@ -71,6 +71,14 @@ sum() Method
 https://www.w3schools.com/python/ref_func_sum.asp
 Returns a number, the sum of all items in an iterable.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countIdentical(lst1):
+    return pass
+
+# incomplete.
+# sublists.
+# checkAgain.
+# checkAgain. All the resources.

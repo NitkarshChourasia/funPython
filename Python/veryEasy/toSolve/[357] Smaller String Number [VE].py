@@ -27,7 +27,7 @@ ___
 
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -43,6 +43,25 @@ Number min() Method
 https://www.tutorialspoint.com/python/number_min.htm
 Returns the smallest of its arguments: the value closest to negative infinity.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def smallerNum0(strInput1, strInput2):
+    if strInput1 < strInput2:
+        return strInput1
+    elif strInput2 < strInput1:
+        return strInput2
+    elif strInput2 == strInput1:
+        return strInput1
+
+
+print(smallerNum("21", "44")) # ➞ "21"
+
+print(smallerNum("1500", "1")) # ➞ "1"
+
+print(smallerNum("5", "5")) # ➞ "5"
+
+
+# testing.

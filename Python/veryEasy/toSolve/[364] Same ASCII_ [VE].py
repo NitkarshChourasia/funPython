@@ -1,7 +1,8 @@
 """
 ##Same ASCII?
 
-Return True if the sum of ASCII values of the first string is same as the sum of ASCII values of the second string, otherwise return False.
+Return True if the sum of ASCII values of the first string is
+same as the sum of ASCII values of the second string, otherwise return False.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 If you need some help with ASCII codes, check the Resources tab for an image of all ASCII codes used in this challenge.
 
 
-[strings] [validation] 
+[strings] [validation]
 
 
 
@@ -52,6 +53,26 @@ ord() Function
 https://www.w3schools.com/python/ref_func_ord.asp
 Returns the number representing the unicode code of a specified character.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def sameAscii(str1, str2):
+    asciiStr1Lst = []
+    asciiStr2Lst = []
+    for i in str1:
+        asciiStr1Lst.append(str1.ord(i))
+    for i in str2:
+        asciiStr2Lst.append(str2.ord(i))
+    asciiStr1Sum = asciiStr1Lst.sum()
+    asciiStr2Sum = asciiStr2Lst.sum()
+    if asciiStr1Sum == asciiStr2Sum:
+        return True
+    else:
+        return False
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources.
+# I think I will need to go multiple iterations of my code reviewing with the resources learning to learn this language, quick.
 

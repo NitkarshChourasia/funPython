@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[language_fundamentals] [loops] [strings] 
+[language_fundamentals] [loops] [strings]
 
 
 
@@ -47,6 +47,26 @@ While Loops
 https://www.w3schools.com/python/python_while_loops.asp
 The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+# instead of using list, let's use string now.
+
+
+def repeat(str1, n):
+    outputAns = ""
+    # will append work here.
+    for i in str1:
+        outputAns.append(i * n)
+    return outputAns
+
+
+print(repeat("mice", 5)) # ➞ "mmmmmiiiiiccccceeeee"
+
+print(repeat("hello", 3)) # ➞ "hhheeellllllooo"
+
+print(repeat("stop", 1)) # ➞ "stop"
+
+
+# testing.

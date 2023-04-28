@@ -1,7 +1,8 @@
 """
 ##Valid Zip Code
 
-Zip codes consist of 5 consecutive digits. Given a string, write a function to determine whether the input is a valid zip code. A valid zip code is as follows:
+Zip codes consist of 5 consecutive digits. Given a string,
+write a function to determine whether the input is a valid zip code. A valid zip code is as follows:
 ___
 *) Must only contain numbers (no non-digits allowed).
 *) Must not contain any spaces.
@@ -27,7 +28,7 @@ _____
 N/A
 
 
-[regex] [strings] [validation] 
+[regex] [strings] [validation]
 
 
 
@@ -48,6 +49,24 @@ isnumeric() Method
 https://www.programiz.com/python-programming/methods/string/isnumeric
 Returns True if all characters in a string are numeric characters. If not, it returns False.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isValidZipCode(strInput1):
+    convert2Int = int(strInput1)
+    if convert2Int.len() <= 5 and " " not in convert2Int and convert2Int.isnumeric():
+        return True
+    else:
+        return False
+
+
+
+print(isValidZipCode("59001")) # ➞ True
+
+print(isValidZipCode("853a7")) # ➞ False
+
+print(isValidZipCode("732 32")) # ➞ False
+
+
+# testing.

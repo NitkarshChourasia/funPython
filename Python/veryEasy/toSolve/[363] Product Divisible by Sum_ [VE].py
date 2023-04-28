@@ -1,7 +1,8 @@
 """
 ##Product Divisible by Sum?
 
-Write a function that returns True if the product of a list is divisible by the sum of that same list. Otherwise, return False.
+Write a function that returns True if the product of a
+list is divisible by the sum of that same list. Otherwise, return False.
 
 
 [Examples]
@@ -22,7 +23,7 @@ _____
 N/A
 
 
-[arrays] [math] [numbers] [validation] 
+[arrays] [math] [numbers] [validation]
 
 
 
@@ -43,6 +44,31 @@ How to return the product of a list?
 https://stackoverflow.com/questions/2104782/returning-the-product-of-a-list
 Is there a more concise, efficient or simply pythonic way to do the following? def product(list): p = 1 for i in list: p *= i return p
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def divisible(lst1):
+    lst1Multiply = 1
+
+    for i in lst1:
+        lst1Multiply = multiply * i
+    lst1Sum = lst1.sum()
+
+    if lst1Multiply % lst1Sum == 0:
+        return True
+    else:
+        return False
+
+print(divisible([3, 2, 4, 2])) # ➞ False
+
+print(divisible([4, 2, 6])) # ➞ True
+# 4 * 2 * 6 / (4 + 2 + 6)
+
+print(divisible([3, 5, 1])) # ➞ False
+
+
+
+# testing.
+# checkAgain.
+# checkAgain. Important to check all the resources here, with respect to multiplication.

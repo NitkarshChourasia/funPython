@@ -1,7 +1,8 @@
 """
 ##Odd Up, Even Down
 
-Create a function that goes through the array, incrementing (+1) for each odd-valued number and decrementing (-1) for each even-valued number.
+Create a function that goes through the array, incrementing (+1) for each odd-valued
+number and decrementing (-1) for each even-valued number.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 N/A
 
 
-[arrays] [control_flow] [language_fundamentals] [loops] [numbers] 
+[arrays] [control_flow] [language_fundamentals] [loops] [numbers]
 
 
 
@@ -42,6 +43,26 @@ Increment Odd Positioned Elements by 1 & Decrement Even Positioned Elements by 1
 https://www.geeksforgeeks.org/increment-odd-positioned-elements-by-1-and-decrement-even-positioned-elements-by-1-in-an-array/
 Given an array arr[], the task is increment all the odd positioned elements by 1 and decrement all the even positioned elements by 1. Traverse the array element by elem …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def transform(lst1):
+    outputAns = []
+    for i in lst1:
+        if i % 2 == 0:
+            outputAns.append(i - 1)
+        elif i % 2 == 1:
+            outputAns.append(i + 1)
+    return outputAns
+
+
+print(transform([1, 2, 3, 4, 5])) # ➞ [2, 1, 4, 3, 6]
+
+print(transform([3, 3, 4, 3])) # ➞ [4, 4, 3, 4]
+
+print(transform([2, 2, 0, 8, 10])) # ➞ [1, 1, -1, 7, 9]
+
+
+# testing.

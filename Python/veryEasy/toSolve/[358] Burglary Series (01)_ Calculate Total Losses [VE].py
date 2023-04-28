@@ -1,7 +1,8 @@
 """
 ##Burglary Series (01): Calculate Total Losses
 
-You just returned home to find your mansion has been robbed! Given a dictionary of the stolen items, return the total amount of the burglary (number). If nothing was robbed, return the string "Lucky you!".
+You just returned home to find your mansion has been robbed! Given a dictionary of the stolen items,
+return the total amount of the burglary (number). If nothing was robbed, return the string "Lucky you!".
 
 
 [Examples]
@@ -27,7 +28,7 @@ _____
 The item value is always positive.
 
 
-[data_structures] [loops] 
+[data_structures] [loops]
 
 
 
@@ -48,6 +49,13 @@ dict.values()
 https://www.kite.com/python/answers/how-to-sum-the-values-in-a-dictionary-in-python#:~:text=Use%20sum()%20to%20sum%20the%20values%20in%20a%20dictionary&text=Use%20sum(values)%20to%20return,values%20from%20the%20previous%20step.
 Return the values of a dictionary dict. Use sum(values) to return the sum of the values from the previous step.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def calculateLosses(dict1):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. Read and understand the dictionary well, enough.
