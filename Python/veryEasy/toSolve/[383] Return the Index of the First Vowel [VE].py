@@ -29,7 +29,7 @@ ___
 
 
 
-[language_fundamentals] [loops] [regex] [strings] 
+[language_fundamentals] [loops] [regex] [strings]
 
 
 
@@ -45,6 +45,32 @@ index() Method
 https://www.tutorialspoint.com/python/string_index.htm
 Determines if string str occurs in string or in a substring of string if starting index beg and ending index end are given. This method is same as find(), but raises an …
 _________
-""" 
+"""
 # Your code should go here:
 
+# can I produce an empty variable in python.
+
+def firstVowel(str1):
+    str1Lowr = str1.lower()
+    vowels = "aeiou"
+    vowelsLst1 = list(vowels)
+    index1 = ""
+    for i in str1:
+        if vowels in i:
+            index1 = str1.index(i)
+        if index1.len() == 1:
+            break
+    return int(index1)
+
+print(firstVowel("apple")) # ➞ 0
+
+print(firstVowel("hello")) # ➞ 1
+
+print(firstVowel("STRAWBERRY")) # ➞ 3
+
+print(firstVowel("pInEaPPLe")) # ➞ 1
+
+
+# testing.
+# checkAgain.
+# checkAgain. The resources.

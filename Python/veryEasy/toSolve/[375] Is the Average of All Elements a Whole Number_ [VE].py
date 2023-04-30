@@ -1,7 +1,8 @@
 """
 ##Is the Average of All Elements a Whole Number?
 
-Create a function that takes a list as an argument and returns True or False depending on whether the average of all elements in the list is a whole number or not.
+Create a function that takes a list as an argument and returns True or False
+depending on whether the average of all elements in the list is a whole number or not.
 
 
 [Examples]
@@ -25,7 +26,7 @@ _____
 N/A
 
 
-[arrays] [loops] [math] [validation] 
+[arrays] [loops] [math] [validation]
 
 
 
@@ -51,6 +52,25 @@ numpy.mean
 https://docs.scipy.org/doc/numpy/reference/generated/numpy.mean.html#numpy-mean
 Returns the average of the array elements. The average is taken over the flattened array by default, otherwise over the specified axis. float64 intermediate and return …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isAvgWhole(lst1):
+    averageLst1 = lst1.sum() / lst1.len()
+    if averageLst1 == int:
+        return True
+    else:
+        return False
+
+
+print(isAvgWhole([1, 3])) # ➞ True
+print(isAvgWhole([1, 2, 3, 4])) # ➞ False
+print(isAvgWhole([1, 5, 6])) # ➞ True
+print(isAvgWhole([1, 1, 1])) # ➞ True
+print(isAvgWhole([9, 2, 2, 5])) # ➞ False
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources unknown. Especially numpy.mean one's.

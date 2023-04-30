@@ -1,8 +1,11 @@
 """
 ##Convenience Store
 
-Given a total due and a list representing the amount of change in your pocket, determine whether or not you are able to pay for the item. Change will always be represented in the following order: quarters, dimes, nickels, pennies.
-To illustrate: change_enough([25, 20, 5, 0], 4.25) should yield True, since having 25 quarters, 20 dimes, 5 nickels and 0 pennies gives you 6.25 + 2 + .25 + 0 = 8.50.
+Given a total due and a list representing the amount of change in your pocket,
+determine whether or not you are able to pay for the item.
+Change will always be represented in the following order: quarters, dimes, nickels, pennies.
+To illustrate: change_enough([25, 20, 5, 0], 4.25) should yield True,
+since having 25 quarters, 20 dimes, 5 nickels and 0 pennies gives you 6.25 + 2 + .25 + 0 = 8.50.
 
 
 [Examples]
@@ -32,7 +35,7 @@ ___
 
 
 
-[arrays] [math] [numbers] 
+[arrays] [math] [numbers]
 
 
 
@@ -59,7 +62,7 @@ https://www.immihelp.com/usa-currency-coins/
 This web page gives basic information about U.S. currency and various coins in circulation. U.S. currency is produced at U.S. Treasury locations in Washington, D.C., an …
 _________
 _________
-What is a quarter, dime, nickel, and a penny? 
+What is a quarter, dime, nickel, and a penny?
 https://www.quora.com/What-is-a-quarter-dime-nickel-and-a-penny-What-are-their-differences
 For those like me, that don't know the subunits of a dollar.
 _________
@@ -68,6 +71,28 @@ Convert Nickel to Dollar Bill
 https://www.convertunits.com/from/nickel/to/dollar
 How many nickel in 1 dollar? The answer is 20. We assume you are converting between nickel and dollar bill. You can view more details on each measurement unit: nickel o …
 _________
-""" 
+"""
 # Your code should go here:
 
+def changeEnough(lst1, totalDue):
+    if lst1.len() == 4:
+        quarter = lst1[0] * 0.25
+        dime = lst1[1] * 0.10
+        nickel = lst1[2] * 0.05
+        penny = lst1[3] * 0.01
+        totalChange = quarter + dime + nickel + penny
+        if totalDue <= totalChange:
+            return True
+        else:
+            return False
+
+print(changeEnough([2, 100, 0, 0], 14.11)) # ➞ False
+print(changeEnough([0, 0, 20, 5], 0.75)) # ➞ True
+print(changeEnough([30, 40, 20, 5], 12.55)) # ➞ True
+print(changeEnough([10, 0, 0, 50], 3.85)) # ➞ False
+print(changeEnough([1, 0, 5, 219], 19.99)) # ➞ False
+
+
+# testing.
+# checkAgain.
+# checkAgain. If the problem asked and given meets the criteria?

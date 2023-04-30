@@ -1,7 +1,8 @@
 """
 ##Spelling it Out
 
-Create a function which takes in a word and spells it out, by consecutively adding letters until the full word is completed.
+Create a function which takes in a word and spells it out,
+by consecutively adding letters until the full word is completed.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 N/A
 
 
-[arrays] [strings] 
+[arrays] [strings]
 
 
 
@@ -37,6 +38,23 @@ List Comprehension
 https://www.programiz.com/python-programming/list-comprehension
 In this article, we will learn about Python list comprehensions, and how to use it.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def spelling(str1):
+    outputAns = []
+    n = 0
+    while str1.len() == outputAns.len():
+        outputAns.append(str1[:0+n])
+        n = n + 1
+    return outputAns
+
+
+print(spelling("bee")) # ➞ ["b", "be", "bee"]
+print(spelling("happy")) # ➞ ["h", "ha", "hap", "happ", "happy"]
+print(spelling("eagerly")) # ➞ ["e", "ea", "eag", "eage", "eager", "eagerl", "eagerly"]
+
+
+# testing.
 

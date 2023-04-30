@@ -25,7 +25,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -51,6 +51,19 @@ Beginner’s Python Cheat Sheet - Lists
 https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_lists.pdf
 A list stores a series of items in a particular order. Lists allow you to store sets of information in one place, whether you have just a few items or millions of items …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def mean(lst1):
+    sumLst1 = lst1.sum()
+    average = sumLst1/lst1.len()
+    return average.round(2)
+
+
+print(mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3])) # ➞ 2.55
+print(mean([2, 3, 2, 3])) # ➞ 2.50
+print(mean([3, 3, 3, 3, 3])) # ➞ 3.00
+
+
+# testing.

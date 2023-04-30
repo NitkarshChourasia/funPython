@@ -25,7 +25,7 @@ _____
 All test cases are valid one word strings.
 
 
-[strings] [validation] 
+[strings] [validation]
 
 
 
@@ -51,6 +51,30 @@ Python Strings
 https://developers.google.com/edu/python/strings
 Python has a built-in string class named "str" with many handy features (there is an older module named "string" which you should not use). String literals can be enclo …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def checkEnding(str1, str2):
+    str2len = str2.len()
+    if str2 in str1[-1: -str2len]:
+        return True
+    else:
+        return False
+
+
+
+print(checkEnding("abc", "bc")) # ➞ True
+
+print(checkEnding("abc", "d")) # ➞ False
+
+print(checkEnding("samurai", "zi")) # ➞ False
+
+print(checkEnding("feminine", "nine")) # ➞ True
+
+print(checkEnding("convention", "tio")) # ➞ False
+
+
+# testing.
+# checkAgain.
+# checkAgain. The resources unknown.

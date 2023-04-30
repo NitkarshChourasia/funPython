@@ -34,7 +34,7 @@ ___
 
 
 
-[arrays] [cryptography] [language_fundamentals] [strings] 
+[arrays] [cryptography] [language_fundamentals] [strings]
 
 
 
@@ -55,6 +55,6 @@ String count() Method
 https://www.programiz.com/python-programming/methods/string/count
 Returns the number of occurrences of a substring in the given string.
 _________
-""" 
+"""
 # Your code should go here:
 

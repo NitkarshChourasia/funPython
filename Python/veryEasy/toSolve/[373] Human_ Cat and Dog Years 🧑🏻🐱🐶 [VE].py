@@ -51,7 +51,7 @@ _____
 N/A
 
 
-[interview] [logic] [math] [numbers] 
+[interview] [logic] [math] [numbers]
 
 
 
@@ -67,6 +67,45 @@ How do you really calculate dog years?
 https://slate.com/news-and-politics/2009/05/how-do-you-calculate-dog-years.html
 The official formula, according to the American Veterinary Medical Association, equates the first year of a medium-sized dog’s life to 15 years of a human’s. The dog’s …
 _________
-""" 
+"""
 # Your code should go here:
 
+# Improve c3 to cN.
+# Avoided loop for space and time complexity.
+# If required next time do with loops of different kinds.
+
+def calculateYears(n):
+    d1 = 15
+    d2 = 9
+    dN = 5
+    c1 = d1
+    c2 = d2
+    cN = 4
+    return1N = [n, d1, c1]
+    return2N = [n, d1 + d2, c1 + c2]
+    returnN = [n, d1 + d2 + ((n - 2) * dN), c1 + c2 + ((n - 2) * cN)]
+    if n == 0:
+        return "Invalid input range."
+    elif n == 1:
+        return return1N
+    elif n == 2:
+        return return2N
+    elif n >= 3:
+        return returnN
+
+
+print(calculateYears(1)) # ➞ [1, 15, 15]
+
+print(calculateYears(2)) # ➞ [2, 24, 24]
+
+print(calculateYears(10)) # ➞ [10, 56, 64]
+
+
+
+
+
+# checkAgain.
+# checkAgain. The resources, which are not known.
+# testing.
+# code can be improvised.
+# calculator.

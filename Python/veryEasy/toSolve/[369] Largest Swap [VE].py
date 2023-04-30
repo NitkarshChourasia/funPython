@@ -29,7 +29,7 @@ _____
 Numbers with two identical digits (third example) should yield True (you can't do better).
 
 
-[logic] [numbers] [validation] 
+[logic] [numbers] [validation]
 
 
 
@@ -60,6 +60,29 @@ How to find the division remainder of a number in Python?
 https://stackoverflow.com/questions/5584586/find-the-division-remainder-of-a-number
 How could I go about finding the division remainder of a number in Python? For example: If the number is 26 and divided number is 7, then the division remainder is 5 ( …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def largestSwap(input1):
+    reversedInput1 = input1.reverse
+    if reversedInput1 <= input1:
+        return True
+    else:
+        return False
+
+
+
+print(largestSwap(14)) # ➞ False
+print(largestSwap(53)) # ➞ True
+print(largestSwap(99)) # ➞ True
+print(largestSwap(27)) # ➞ False
+print(largestSwap(43)) # ➞ True
+
+
+# testing.
+# checkAgain.
+# checkAgain. The resources, unknown to you.
+
+
 

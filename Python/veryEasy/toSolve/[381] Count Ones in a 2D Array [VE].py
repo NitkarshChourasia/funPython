@@ -32,7 +32,7 @@ _____
 N/A
 
 
-[arrays] [loops] 
+[arrays] [loops]
 
 
 
@@ -58,6 +58,14 @@ str() Function
 https://www.programiz.com/python-programming/methods/built-in/str
 Returns the string version of the given object. In this tutorial, we will learn about Python str() in detail with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countOnes(lst1):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. All the unknown resources.
+# sublists.

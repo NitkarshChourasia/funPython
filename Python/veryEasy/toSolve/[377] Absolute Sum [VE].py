@@ -27,7 +27,7 @@ ___
 
 
 
-[arrays] [loops] [math] [numbers] 
+[arrays] [loops] [math] [numbers]
 
 
 
@@ -53,6 +53,24 @@ What Does "Absolute Value" Mean?
 https://www.mathsisfun.com/numbers/absolute-value.html
 In practice "absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def getAbsSum(lst1):
+    sumLst1 = lst1.sum()
+    absoluteValue = sumLst1.abs()
+    return absoluteValue
+
+print(getAbsSum([2, -1, 4, 8, 10])) # ➞ 25
+
+print(getAbsSum([-3, -4, -10, -2, -3])) # ➞ 22
+
+print(getAbsSum([2, 4, 6, 8, 10])) # ➞ 30
+
+print(getAbsSum([-1])) # ➞ 1
+
+
+# testing.
+# checkAgain.
+# checkAgain. The resources like Map, Filter, Reduce.

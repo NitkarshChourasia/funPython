@@ -21,7 +21,7 @@ _____
 You can expect valid strings for all test cases.
 
 
-[arrays] [conditions] [strings] [validation] 
+[arrays] [conditions] [strings] [validation]
 
 
 
@@ -52,6 +52,27 @@ append() Method
 https://www.tutorialspoint.com/python/list_append.htm
 Appends a passed obj into the existing list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isFourLetters(lst1):
+    fourLettersLst1 = []
+    for i in lst1:
+        if i.len() == 4:
+            fourLettersLst1.append(i)
+    return fourLettersLst1
+
+
+
+print(isFourLetters(["Tomato", "Potato", "Pair"])) # ➞ ["Pair"]
+
+print(isFourLetters(["Kangaroo", "Bear", "Fox"])) # ➞ ["Bear"]
+
+print(isFourLetters(["Ryan", "Kieran", "Jason", "Matt"])) # ➞ ["Ryan", "Matt"]
+
+
+# testing.
+# how to traverse a list without for loops to minimize memory.
+# checkAgain.
+# checkAgain. What is python's comprehension in the resources list?

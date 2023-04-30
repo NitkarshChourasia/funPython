@@ -25,7 +25,7 @@ ___
 
 
 
-[numbers] [validation] 
+[numbers] [validation]
 
 
 
@@ -46,6 +46,24 @@ Python Program to Check Palindrome Number
 https://www.thecrazyprogrammer.com/2017/05/python-program-check-palindrome-number.html
 This resource shows you how to check if a number is a palindrome without converting it into a string. Only check it out if you are really stuck!
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isPalindrome(input1):
+    reversedInput1 = input1.reverse()
+    if reversedInput1 == input1:
+        return True
+    else:
+        return False
+# How to know which function will work for which datatype?
+
+
+print(isPalindrome(838)) # ➞ True
+print(isPalindrome(4433)) # ➞ False
+print(isPalindrome(443344)) # ➞ True
+
+
+# testing.
+# checkAgain.
+# checkAgain. The query and the resources.

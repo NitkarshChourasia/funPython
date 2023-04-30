@@ -1,7 +1,8 @@
 """
 ##Even Odd Partition
 
-Write a function that partitions the list into two sublists: one with all even integers, and the other with all odd integers. Return your result in the following format:
+Write a function that partitions the list into two sublists: one with all even integers,
+and the other with all odd integers. Return your result in the following format:
 ___
 [[evens], [odds]]
 _____
@@ -31,7 +32,7 @@ ___
 
 
 
-[arrays] [higher_order_functions] 
+[arrays] [higher_order_functions]
 
 
 
@@ -52,6 +53,27 @@ Python List Comprehension Tutorial
 https://www.datacamp.com/community/tutorials/python-list-comprehension
 Learn how to effectively use list comprehension in Python to create lists, to replace (nested) for loops and the map(), filter() and reduce() functions, ...!
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def evenOddPartition(lst1):
+    evenLst1 = []
+    oddLst1 = []
+    for i in lst1:
+        if i % 2 == 0:
+            evenLst1.append(i)
+        elif i % 2 == 1:
+            oddLst1.append(i)
+    return [evenLst1, oddLst1]
+
+
+print(evenOddPartition([5, 8, 9, 2, 0])) # ➞ [[8, 2, 0], [5, 9]]
+print(evenOddPartition([1, 0, 1, 0, 1, 0])) # ➞ [[0, 0, 0], [1, 1, 1]]
+print(evenOddPartition([1, 3, 5, 7, 9])) # ➞ [[], [1, 3, 5, 7, 9]]
+print(evenOddPartition([])) # ➞ [[], []]
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the unknown resources, please check them.

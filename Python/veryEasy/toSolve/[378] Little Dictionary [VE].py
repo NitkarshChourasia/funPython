@@ -25,7 +25,7 @@ ___
 
 
 
-[conditions] [strings] 
+[conditions] [strings]
 
 
 
@@ -51,6 +51,13 @@ List filter() Method
 https://www.programiz.com/python-programming/methods/built-in/filter
 Constructs an iterator from elements of an iterable for which a function returns True.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def dictionary(str1, lst1):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. The resources first.

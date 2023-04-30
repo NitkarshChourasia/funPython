@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [math] [numbers] [validation] 
+[arrays] [math] [numbers] [validation]
 
 
 
@@ -66,6 +66,27 @@ Check If a Number Is Odd or Even in Python
 https://stackoverflow.com/questions/21837208/check-if-a-number-is-odd-or-even-in-python/21837292
 I'm trying to make a program which checks if a word is a palindrome and I've gotten so far and it works with words that have an even amount of numbers. I know how to ma …
 _________
-""" 
+"""
 # Your code should go here:
 
+# How to traverse a list without for loop?
+
+def noOdds(lst1):
+    evenLst1 = []
+    for i in lst1:
+        if i % 2 == 0:
+            evenLst1.append(i)
+    return evenLst1
+
+
+
+print(noOdds([1, 2, 3, 4, 5, 6, 7, 8])) # ➞ [2, 4, 6, 8]
+
+print(noOdds([43, 65, 23, 89, 53, 9, 6])) # ➞ [6]
+
+print(noOdds([718, 991, 449, 644, 380, 440])) # ➞ [718, 644, 380, 440]
+
+
+# testing.
+# checkAgain.
+# checkAgain. Do check your queries again.

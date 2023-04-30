@@ -28,7 +28,7 @@ _____
 State abbreviations will always be in uppercase.
 
 
-[arrays] [formatting] [loops] 
+[arrays] [formatting] [loops]
 
 
 
@@ -49,6 +49,39 @@ len() Method
 https://www.programiz.com/python-programming/methods/built-in/len
 Returns the number of items (length) in an object.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def filterStateNames(lst1, toOutput):
+    toOutputLowered = toOutput.lower()
+    abbLst1 = []
+    fullLst1 = []
+    for i in lst1:
+        if i.isUpper():
+            abbLst1.append(i)
+        else:
+            fullLst1.append(i)
+    if toOutputLowered == "abb":
+        return abbLst1
+    elif toOutputLowered == "fullLst1":
+        return fullLst1
+
+
+
+print(filterStateNames(["Arizona", "CA", "NY", "Nevada"], "abb"))
+# ➞ ["CA", "NY"]
+
+print(filterStateNames(["Arizona", "CA", "NY", "Nevada"], "full"))
+# ➞ ["Arizona", "Nevada"]
+
+print(filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "abb"))
+# ➞ ["MT", "NJ", "TX", "ID", "IL"]
+
+print(filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "full"))
+
+
+# testing.
+# checkAgain.
+# checkAgain. Especially the filter method.
+# ➞ []

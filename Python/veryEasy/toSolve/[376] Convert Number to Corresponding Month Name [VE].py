@@ -1,7 +1,8 @@
 """
 ##Convert Number to Corresponding Month Name
 
-Create a function that takes a number (from 1 to 12) and returns its corresponding month name as a string. For example, if you're given 3 as input, your function should return "March", because March is the 3rd month.
+Create a function that takes a number (from 1 to 12) and returns its corresponding month name as a string.
+For example, if you're given 3 as input, your function should return "March", because March is the 3rd month.
 
 
 
@@ -27,7 +28,7 @@ ___
 
 
 
-[arrays] [conditions] [dates] [formatting] 
+[arrays] [conditions] [dates] [formatting]
 
 
 
@@ -48,6 +49,23 @@ Two Simple Ways to Implement Python Switch Case Statement
 https://data-flair.training/blogs/python-switch-case/
 Unlike other languages like Java Programming Langauge and C++, Python does not have a switch-case construct. Along with this, we will see how to work a loophole for Pyt …
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def monthName(n):
+    monthNameStr1 = "January, February, March, April, May, June, July, Auguest, September, October, November, December"
+    monthNameLst1 = monthNameStr1.split(",")
+    # Some how convert it into list using split or whatever join function.
+    return monthNameLst1[n-1]
+
+
+print(monthName(3)) # ➞ "March"
+
+print(monthName(12)) # ➞ "December"
+
+print(monthName(6)) # ➞ "June"
+
+
+# the question is how to do it for 100 numbers of items?
 

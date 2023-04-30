@@ -41,7 +41,7 @@ _____
 N/A
 
 
-[interview] [language_fundamentals] [objects] [strings] [validation] 
+[interview] [language_fundamentals] [objects] [strings] [validation]
 
 
 
@@ -87,6 +87,22 @@ How to Reference Values in a Dict
 https://www.tutorialspoint.com/python/python_dictionary.htm
 Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. An empty dictionary without any …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def nameScore(name1):
+    return pass
+
+
+
+print(nameScore("MUBASHIR")) # ➞ "THE BEST"
+print(nameScore("YOU")) # ➞ "VERY GOOD"
+print(nameScore("MATT")) # ➞ "THE BEST"
+print(nameScore("PUBG")) # ➞ "NOT TOO GOOD"
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources.

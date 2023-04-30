@@ -3,3 +3,6 @@ Learn, to gauge memory and execution time for efficiency.
 How to know which built in functions works on which types only. Like the append functions works on list type will it work same for int, and str types too?
 Should mark the problems which are solved to the level of perfection. The mark should be like 'Perfect' or 'Final' something to denote the last edition.
 I think I will need to go multiple iterations of my code reviewing with the resources learning to learn this language, quick.
+How to know which function will work for which datatype?
+How to traverse a list without a for loop?
+Can I create a empty variable in python?
