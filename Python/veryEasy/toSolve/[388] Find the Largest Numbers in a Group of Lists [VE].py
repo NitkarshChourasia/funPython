@@ -1,7 +1,8 @@
 """
 ##Find the Largest Numbers in a Group of Lists
 
-Create a function that takes a list of lists with integers or floats. Return a new (single) list with the largest numbers from each.
+Create a function that takes a list of lists with integers or floats.
+Return a new (single) list with the largest numbers from each.
 
 
 [Examples]
@@ -21,7 +22,7 @@ _____
 Watch out for negative integers (numbers).
 
 
-[arrays] [loops] [numbers] [sorting] 
+[arrays] [loops] [numbers] [sorting]
 
 
 
@@ -47,6 +48,14 @@ For Statement
 https://docs.python.org/3/tutorial/controlflow.html#for-statements
 The for statement in Python differs a bit from what you may be used to in C or Pascal. Rather than always iterating over an arithmetic progression of numbers (like in P …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def findLargestNums(lsts1):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. All the resournces.
+# sublists.

@@ -6,3 +6,8 @@ I think I will need to go multiple iterations of my code reviewing with the reso
 How to know which function will work for which datatype?
 How to traverse a list without a for loop?
 Can I create a empty variable in python?
+Just like Manjaro forum, do we have Python forum? It will be wonderful, if we had one. Totally.
+How to know on which data type the methods works on? Like the capitalise method? The append method?
+What is the difference between function and method?
+I don't understand recursion, learn all the resources of [391] to learn recursion.
+Alternative to for loop to traverse a list, can while possibly do the trick

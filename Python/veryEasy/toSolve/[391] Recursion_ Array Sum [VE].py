@@ -27,7 +27,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [numbers] [recursion] 
+[arrays] [language_fundamentals] [numbers] [recursion]
 
 
 
@@ -58,6 +58,29 @@ sum() Method
 https://www.geeksforgeeks.org/sum-function-python/
 Sum of numbers in the list is required everywhere. Python provide an inbuilt function sum() which sums up the numbers in the list.
 _________
-""" 
+"""
 # Your code should go here:
 
+# Alternative to for loop to tranverse a list.
+# Do this problem using while loop only.
+
+def sumRecursive(lst1):
+    add = 0
+    for i in lst1:
+        add = add + i
+    return add
+
+
+
+print(sumRecursively([1, 2, 3, 4])) # ➞ 10
+
+print(sumRecursively([1, 2])) # ➞ 3
+
+print(sumRecursively([1])) # ➞ 1
+
+print(sumRecursively([])) # ➞ 0
+
+
+# testing.
+# checkAgain.
+# checkAgain. The queries and resources, for better understanding the problem and the recursive thing.

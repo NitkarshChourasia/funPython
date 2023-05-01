@@ -58,3 +58,31 @@ _________
 """
 # Your code should go here:
 
+# does set consider space? to be
+# Does append works on strings???
+
+def simpleEncoder(str1):
+    outputAnsStr = ""
+    for i in str1:
+        if str1.count(i) == 1:
+            outputAnsStr.appemd("[")
+        elif str1.count(i) => 2:
+            outputAnsStr.append("]")
+    return outputAnsStr
+
+
+
+print(simpleEncoder("Mubashir")) # ➞ "[[[[[[[["
+# '[' for each character
+
+print(simpleEncoder("Matt")) # ➞ "[[]]"
+# ']' for both 't'
+
+print(simpleEncoder("eD  aBiT")) # ➞ "[[]][[[["
+# Two spaces in between
+
+
+# testing.
+# checkAgain.
+# does set consider space? to be
+# Does append works on strings???

@@ -25,7 +25,7 @@ ___
 
 
 
-[arrays] [formatting] [loops] 
+[arrays] [formatting] [loops]
 
 
 
@@ -46,6 +46,28 @@ Understanding List Comprehensions in Python
 https://www.digitalocean.com/community/tutorials/understanding-list-comprehensions-in-python-3
 List comprehensions offer a succinct way to create lists based on existing lists. In this tutorial, we will cover the syntax of list comprehension, which will be an imp …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+# How to know on which data type the methods works on?
+# What is the difference between function and method?
+
+
+def capMe(lst1):
+    outputAns = []
+    for i in lst1:
+        i = i.lower()
+        # will i.lower() as on a single line will perform the same way as of line 60?
+        outputAns.append(i.title())
+    return outputAns
+
+
+print(capMe(["mavis", "senaida", "letty"])) # ➞ ["Mavis", "Senaida", "Letty"]
+print(capMe(["samuel", "MABELLE", "letitia", "meridith"])) # ➞ ["Samuel", "Mabelle", "Letitia", "Meridith"]
+print(capMe(["Slyvia", "Kristal", "Sharilyn", "Calista"])) # ➞ ["Slyvia", "Kristal", "Sharilyn", "Calista"]
+
+# testing.
+
+# checkAgain.
+# checkAgain. The last link of resource is fantastic.

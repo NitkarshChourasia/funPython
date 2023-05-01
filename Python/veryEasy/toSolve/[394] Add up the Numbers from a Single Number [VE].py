@@ -1,7 +1,9 @@
 """
 ##Add up the Numbers from a Single Number
 
-Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+Create a function that takes a number as an argument.
+Add up all the numbers from 1 to the number you passed to the function.
+For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 Expect any positive number between 1 and 1000.
 
 
-[algorithms] [math] [numbers] [recursion] 
+[algorithms] [math] [numbers] [recursion]
 
 
 
@@ -72,6 +74,7 @@ Techniques for Adding the Numbers 1 to 100
 https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/
 There’s a popular story that Gauss, mathematician extraordinaire, had a lazy teacher. The so-called educator wanted to keep the kids busy so he could take a nap; he ask …
 _________
-""" 
+"""
 # Your code should go here:
+
 

@@ -1,7 +1,9 @@
 """
 ##Barbecue Skewers
 
-You are in charge of the barbecue grill. A vegetarian skewer is a skewer that has only vegetables (-o). A non-vegetarian skewer is a skewer with at least one piece of meat (-x).
+You are in charge of the barbecue grill.
+A vegetarian skewer is a skewer that has only vegetables (-o).
+A non-vegetarian skewer is a skewer with at least one piece of meat (-x).
 For example, the grill below has 4 non-vegetarian skewers and 1 vegetarian skewer (the one in the middle).
 ___
 ["--xo--x--ox--",
@@ -41,7 +43,7 @@ _____
 N/A
 
 
-[formatting] [strings] 
+[formatting] [strings]
 
 
 
@@ -62,6 +64,41 @@ Find Size of a List in Python
 https://www.geeksforgeeks.org/find-size-of-a-ist-in-python/
 Return the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a diction …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def bbqSkewers(lst1):
+    outputAns = []
+    veg = 0
+    nonVeg = 0
+    for i in lst1:
+        setMaking = set(i)
+        if setMaking.len()  == 2:
+            veg = veg + 1
+        elif setMaking.len() == 3:
+            nonVeg = nonVeg + 1
+    outputAns = [veg, nonVeg]
+    return outputAns
+
+
+print(bbqSkewers([
+  "--oooo-ooo--",
+  "--xx--x--xx--",
+  "--o---o--oo--",
+  "--xx--x--ox--",
+  "--xx--x--ox--"
+])) # ➞ [2, 3]
+
+print(bbqSkewers([
+  "--oooo-ooo--",
+  "--xxxxxxxx--",
+  "--o---",
+  "-o-----o---x--",
+  "--o---o-----"
+])) # ➞ [3, 2]
+
+
+# testing.
+# checkAgain.
+# checkAgain. Do check all the resources.

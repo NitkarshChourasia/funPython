@@ -21,7 +21,7 @@ _____
 The list of animals used can vary slightly, so check the Resources tab for the list that you will need for this challenge.
 
 
-[arrays] [conditions] [language_fundamentals] 
+[arrays] [conditions] [language_fundamentals]
 
 
 
@@ -42,6 +42,14 @@ How to Calculate Chinese Zodiac
 https://mathtuition88.com/2014/04/01/how-to-calculate-chinese-zodiac/
 How to use Math to calculate Chinese Zodiac and Impress your Friends The Shengxiao (Chinese: 生肖, literally "birth likeness"), also known in English as the Chinese zodia …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def chineseZodiac(year):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. The resources, thoroughly.

@@ -1,7 +1,8 @@
 """
 ##Outlier Number
 
-Given a list of either entirely odd integers or entirely even integers except for a single Outlier Number, create a function to return this number.
+Given a list of either entirely odd integers or entirely even integers
+except for a single Outlier Number, create a function to return this number.
 
 
 [Examples]
@@ -23,7 +24,7 @@ _____
 List size will always be >= 3.
 
 
-[arrays] [math] [numbers] 
+[arrays] [math] [numbers]
 
 
 
@@ -39,6 +40,33 @@ Outlier
 https://en.wikipedia.org/wiki/Outlier
 In statistics, an outlier is a data point that differs significantly from other observations. An outlier may be due to variability in the measurement or it may indicate …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def outlierNumber(lst1):
+    oddLst1 = []
+    evenLst1 = []
+    for i in lst1:
+        if i % 2 == 0:
+            evenLst1.append(i)
+        elif i % 2 == 1:
+            oddLst1.append(i)
+    if evenLst1 > oddLst1:
+        return int(oddLst1)
+    elif oddLst1 > evenLst1:
+        return int(evenLst1)
+
+# Somehow to join
+
+print(outlierNumber([2, 3, 4])) ➞ 3
+# 2 and 4 are even numbers.
+# 3 is an outlier number.
+
+print(outlierNumber([1, 2, 3])) ➞ 2
+
+print(outlierNumber([4, 1, 3, 5, 9])) ➞ 4
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources.

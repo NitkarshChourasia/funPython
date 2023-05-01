@@ -40,7 +40,7 @@ _____
 N/A
 
 
-[arrays] [conditions] 
+[arrays] [conditions]
 
 
 
@@ -71,6 +71,14 @@ Multiplication of All Elements in Two Lists
 https://www.xspdf.com/resolution/52237470.html
 How to multiply all integers inside list, Try a list comprehension: l = [x * 2 for x in l]. This goes through l , multiplying each element by two. Of course, there's mo …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def testFairness(lsts1):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. The Resources must be throughly gone through.
+# sublists.
