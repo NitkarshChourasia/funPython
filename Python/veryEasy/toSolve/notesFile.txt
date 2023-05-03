@@ -11,3 +11,7 @@ How to know on which data type the methods works on? Like the capitalise method?
 What is the difference between function and method?
 I don't understand recursion, learn all the resources of [391] to learn recursion.
 Alternative to for loop to traverse a list, can while possibly do the trick
+What is recursion? in coding.
+What is the difference between function and method? Aren't both means the same?
+Learn RegEx, adequately.
+Does join function after being performed output Ans in str?

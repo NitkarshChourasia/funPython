@@ -3,7 +3,9 @@
 
 Here is a trainwreck of a photo:
 
-The challenge is to fix all of the bugs in this incredibly messy code, which the code in the image might've actually looked like (probably not)! The code given will output the same middle two lines as in the image shown above.
+The challenge is to fix all of the bugs in this incredibly messy code,
+which the code in the image might've actually looked like (probably not)!
+The code given will output the same middle two lines as in the image shown above.
 ___
 *) First parameter is the user's score.
 *) Second parameter is the required score.
@@ -33,7 +35,7 @@ ___
 
 
 
-[bugs] [conditions] [logic] 
+[bugs] [conditions] [logic]
 
 
 
@@ -49,6 +51,14 @@ ord() Method
 https://www.programiz.com/python-programming/methods/built-in/ord
 Returns an integer representing the Unicode character.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def gradePercentage():
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. Check the resources.
+# check the actual problem on live website.

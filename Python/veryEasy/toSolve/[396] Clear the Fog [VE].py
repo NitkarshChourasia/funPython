@@ -1,7 +1,8 @@
 """
 ##Clear the Fog
 
-Create a function which returns the word in the string, but with all the fog letters removed. However, if the string is clear from fog, return "It's a clear day!".
+Create a function which returns the word in the string, but with all the fog letters removed.
+However, if the string is clear from fog, return "It's a clear day!".
 
 
 [Examples]
@@ -25,7 +26,7 @@ ___
 
 
 
-[formatting] [regex] [strings] 
+[formatting] [regex] [strings]
 
 
 
@@ -46,6 +47,29 @@ filter() Method
 https://thepythonguru.com/python-builtin-functions/filter/
 Apply a function on all the elements of an iterable and discard those evaluated as False. It generates a lazy iterator for which it is necessary to use type conversion …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def clearFog(str1):
+    lowerStr1 = str1.lower()
+    toExclude = list("fog")
+    if toExclude not in str1:
+        return "It's a clear day"
+    elif toExclude in str1:
+        removedVersion = str1.remove("f")
+        removedVersion = str1.remove("o")
+        removedVersion = str1.remove("g")
+        return removedVersion
+
+
+print(clearFog("sky")) ➞ "It's a clear day!"
+
+print(clearFog("fogfogFFfoooofftogffreogffesGgfOogfog")) ➞ "trees"
+
+print(clearFog("fogFogFogffoObirdsanffodthebffoeffoesGGGfOgFog")) ➞ "birdsandthebees"
+
+
+# testing.
+# checkAgain.
+# checkAgain. Read all the resources.

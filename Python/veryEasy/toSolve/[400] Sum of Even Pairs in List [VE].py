@@ -1,7 +1,9 @@
 """
 ##Sum of Even Pairs in List
 
-Given a list with an even amount of numbers, return True if the sum of two numbers in the list is even and False if the sum of two numbers in the list is odd.
+Given a list with an even amount of numbers,
+return True if the sum of two numbers in the list is even
+and False if the sum of two numbers in the list is odd.
 To illustrate:
 ___
 11, 15, 6, 8, 9, 10
@@ -36,7 +38,7 @@ ___
 
 
 
-[arrays] [data_structures] [math] 
+[arrays] [data_structures] [math]
 
 
 
@@ -62,6 +64,31 @@ How to Slice Lists/Arrays and Tuples in Python
 https://www.pythoncentral.io/how-to-slice-listsarrays-and-tuples-in-python/
 Python has an amazing feature just for that called slicing. Slicing can not only be used for lists, tuples or arrays, but custom data structures as well, with the slice …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def oddSumList(lst1):
+    i = 0
+    outputAns = []
+    while True:
+        toCheckNum = lst1[0+i] + lst[1+i]
+        if toCheckNum % 2 == 0:
+            outputAns.append(True)
+        elif toCheckNum % 2 == 1:
+            outputAns.append(False)
+        i = i + 1
+        if ouputAns.len() == lst1.len() - 1:
+            break
+
+print(oddSumList([11, 15, 6, 8, 9, 10])) # ➞ [True, False, True, False, False]
+
+print(oddSumList([12, 21, 5, 9, 65, 32])) # ➞ [False, True, True, True, False]
+
+print(oddSumList([1, 2, 3, 4, 5, 6])) # ➞ [False, False, False, False, False]
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources of liking, unknown.

@@ -41,7 +41,7 @@ ___
 
 
 
-[bit_operations] [math] [numbers] 
+[bit_operations] [math] [numbers]
 
 
 
@@ -52,6 +52,38 @@ How to square a number in Python?
 https://kodify.net/python/math/square/#:~:text=Python%20has%20three%20ways%20to,*%20)%20a%20value%20with%20itself.
 The square of a number is that number multiplied by itself. But what are the ways to do that in the Python programming language? Let's find out.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def shifttoleft(n1, n2):
+    operationperformed = n1 << n2
+    return operationperformed
+
+
+
+def shifttoleft1(n1, n2):
+    n2 = n2 ** 2
+    outputAns = n1 * n2
+
+print("Inbuilt shift to left function.")
+print(shiftToLeft(5, 2)) # ➞ 20
+print(shiftToLeft(10, 3)) # ➞ 80
+print(shiftToLeft(-32, 2)) # ➞ -128
+print(shiftToLeft(-6, 5)) # ➞ -192
+print(shiftToLeft(12, 4)) # ➞ 192
+print(shiftToLeft(46, 6)) # ➞ 2944
+
+print("Function made by me.")
+print(shiftToLeft(5, 2)) # ➞ 20
+print(shiftToLeft(10, 3)) # ➞ 80
+print(shiftToLeft(-32, 2)) # ➞ -128
+print(shiftToLeft(-6, 5)) # ➞ -192
+print(shiftToLeft(12, 4)) # ➞ 192
+print(shiftToLeft(46, 6)) # ➞ 2944
+
+
+
+# testing.
+# checkAgain.
+# checkAgain. To solve it by recursion.

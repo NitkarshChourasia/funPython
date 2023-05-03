@@ -1,7 +1,8 @@
 """
 ##Recursion: Sum of Multiplication
 
-Given a number, return the total sum of that number multiplied by every number between 1 and 10. Do not use the sum() built-in function.
+Given a number, return the total sum of that number multiplied
+by every number between 1 and 10. Do not use the sum() built-in function.
 
 
 [Examples]
@@ -27,7 +28,7 @@ _____
 Use recursion to solve this challenge.
 
 
-[math] [numbers] [recursion] 
+[math] [numbers] [recursion]
 
 
 
@@ -53,6 +54,35 @@ sum() Method
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum. In this tutorial, we will learn about the sum() function with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def multiSum(n):
+    i = 1
+    outputAns = 0
+    while True:
+        outputAns = outputAns + n*i
+        i = i + 1
+        if i == 10:
+            break
+    return outputAns
+
+
+print(multiSum(1)) # ➞ 55
+# 1 x 1 + 1 x 2 + 1 x 3 ...... 1 x 9 + 1 x 10 = 55
+
+print(multiSum(6)) # ➞ 330
+# 6 x 1 + 6 x 2 + 6 x 3 ...... 6 x 9 + 6 x 10 = 330
+
+print(multiSum(10)) # ➞ 550
+
+print(multiSum(8)) # ➞ 440
+
+print(multiSum(2)) # ➞ 110
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources, randomly and see what is recursion.
+# checkAgain. Also check whether the problem is solved as per recursion thing?

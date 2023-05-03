@@ -27,7 +27,7 @@ _____
 N/A
 
 
-[interview] [language_fundamentals] [regex] [strings] 
+[interview] [language_fundamentals] [regex] [strings]
 
 
 
@@ -38,6 +38,16 @@ Dictionaries
 https://www.w3schools.com/python/python_dictionaries.asp
 Are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def runningAthlete():
+    return pass
+
+
+# incomplete.
+# checkAgain.
+# checkAgain. Learn dictionaries properly.
+# checkAgain. Do also check it's solutions online.

@@ -23,7 +23,7 @@ _____
 Check the Resources tab for info on recursion.
 
 
-[language_fundamentals] [recursion] [strings] 
+[language_fundamentals] [recursion] [strings]
 
 
 
@@ -54,6 +54,27 @@ Python string length recursion?
 https://stackoverflow.com/questions/5670060/python-string-length-recursion
 I'm blanking out trying to write a simple function to count the string length recursively. I can do sums, fibonacci, and factorial easy but I'm trying to create the sim …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def length(str1):
+    i = 0
+    while True:
+        i = i + 1
+        if str1[i].index() == str1[-1].index():
+            break
+    return i
+
+print(length("apple")) # ➞ 5
+
+print(length("make")) # ➞ 4
+
+print(length("a")) # ➞ 1
+
+print(length("")) # ➞ 0
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources which you are unaware of.

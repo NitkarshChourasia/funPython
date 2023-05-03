@@ -32,7 +32,7 @@ _____
 N/A
 
 
-[language_fundamentals] [logic] [math] [numbers] [validation] 
+[language_fundamentals] [logic] [math] [numbers] [validation]
 
 
 
@@ -48,6 +48,31 @@ Check if a Given Number Is a Narcissistic Number or Not
 https://www.w3resource.com/python-exercises/basic/python-basic-1-exercise-96.php
 If you are a reader of Greek mythology, then you are probably familiar with Narcissus. He was a hunter of exceptional beauty that he died because he was unable to leave …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isNarcissistic(n):
+    lst1 = list(n)
+    numberOfEle = lst1.len()
+    outputAns = []
+    for i in lst1:
+        outputAns.append(i ** numberOfEle)  # What if i use the pow lib imported from math
+    sumOutputAns = outputAns.sum()
+    if sumOutputAns == n:
+        return True
+    else:
+        return False
+
+
+
+print(isNarcissistic(153)) # ➞ True
+
+print(isNarcissistic(370)) # ➞ True
+
+print(isNarcissistic(1652)) # ➞ False
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources.

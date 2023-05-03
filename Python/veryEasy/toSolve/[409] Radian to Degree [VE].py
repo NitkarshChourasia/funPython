@@ -26,7 +26,7 @@ ___
 
 
 
-[language_fundamentals] [math] 
+[language_fundamentals] [math]
 
 
 
@@ -52,6 +52,22 @@ Convert Radians to Degrees
 https://www.rapidtables.com/convert/number/how-radians-to-degrees.html
 An easy-to-understand conversion from radians to degrees.
 _________
-""" 
+"""
 # Your code should go here:
 
+from math import PI
+def toDegree(radIn):
+    radIn = radIn.degree()
+    return radIn
+
+
+print(toDegree(math.pi)) # ➞ 180
+
+print(toDegree(math.pi/2)) # ➞ 90
+
+print(toDegree(math.pi/4)) # ➞ 45
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources.

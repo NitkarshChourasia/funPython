@@ -32,7 +32,7 @@ _____
 Remember that the indexes start from one and not zero.
 
 
-[arrays] [functional_programming] [language_fundamentals] [loops] 
+[arrays] [functional_programming] [language_fundamentals] [loops]
 
 
 
@@ -53,6 +53,15 @@ join() Function
 https://pythonbasics.org/join/
 Combines every element of the sequence.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def listIndex():
+    return pass
+
+# testing.
+# checkAgain.
+# checkAgain. check the resources to learn about the list.
+# sublists.
 

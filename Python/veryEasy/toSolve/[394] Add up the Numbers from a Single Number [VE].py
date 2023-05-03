@@ -78,3 +78,20 @@ _________
 # Your code should go here:
 
 
+def addUpTo(n):
+    outputAns = []
+    if n >= 0:
+        range1 = range(0, n+1)
+        for i in range1:
+            outputAns.append(i)
+        sumLst1 = int(outputAns.sum())
+        return sumLst1
+
+print(addUpTo(4)) # ➞ 10
+print(addUpTo(13)) # ➞ 91
+print(addUpTo(600)) # ➞ 180300
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the unknown resources.

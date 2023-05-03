@@ -1,8 +1,9 @@
 """
 ##Simple Counting
 
-Mubashir needs your help to count a specific digit in a list.
-You have to create a function that takes two integers n and d and makes a list of squares of all numbers from 0...<= n and returns the count of the digits d in the list.
+Nitkarsh needs your help to count a specific digit in a list.
+You have to create a function that takes two integers n and d and makes a list of squares of all
+numbers from 0...<= n and returns the count of the digits d in the list.
 
 
 [Examples]
@@ -12,7 +13,7 @@ count_digits(10, 1) ➞ 4
 # Squared list from 0 to 10 = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 # Digit 1 appeared 4 times in the list.
 
-count_digits(25, 2) ➞ 9 
+count_digits(25, 2) ➞ 9
 
 count_digits(10, 1) ➞ 4
 _____
@@ -24,7 +25,7 @@ _____
 d will always be 0<=d<10.
 
 
-[logic] [loops] [math] [numbers] 
+[logic] [loops] [math] [numbers]
 
 
 
@@ -50,6 +51,28 @@ str() Method
 https://www.programiz.com/python-programming/methods/built-in/str
 Returns the string version of the given object.
 _________
-""" 
+"""
 # Your code should go here:
 
+def countDigits(n, d):
+    outputAns = []
+    range1 = range(0,n+1)
+    for i in range1:
+        outputAns.append(i**2)
+    strOutputAns = str(outputAns)
+    count = strOutputAns.count(d)
+    return count
+
+
+print(countDigits(10, 1)) # ➞ 4
+# Squared list from 0 to 10 = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# Digit 1 appeared 4 times in the list.
+
+print(countDigits(25, 2)) # ➞ 9
+
+print(countDigits(10, 1)) # ➞ 4
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, properly.
