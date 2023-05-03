@@ -1,8 +1,12 @@
 """
 ##Curzon Numbers
 
-In this challenge, establish if a given integer num is a Curzon number. If 1 plus 2 elevated to num is exactly divisible by 1 plus 2 multiplied by num, then num is a Curzon number.
-Given a non-negative integer num, implement a function that returns True if num is a Curzon number, or False otherwise.
+In this challenge, establish if a given integer num is a Curzon number.
+If 1 plus 2 elevated to num is exactly divisible by 1 plus 2 multiplied by num,
+then num is a Curzon number.
+Given a non-negative integer num,
+implement a function that returns True if num is a Curzon number,
+or False otherwise.
 
 
 [Examples]
@@ -31,7 +35,7 @@ _____
 N/A
 
 
-[math] [numbers] [validation] 
+[math] [numbers] [validation]
 
 
 
@@ -57,6 +61,35 @@ Curzon Numbers
 https://www.geeksforgeeks.org/curzon-numbers/#:~:text=Given%20an%20integer%20N%2C%20check,by%202*N%20%2B%201.
 Given an integer N, check whether the given number is a Curzon Number or not.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isCurzon(n):
+    aExpo = 2**n + 1
+    bMulti = 2 * n + 1
+    if aExpo % bMulti == 0:
+        return True
+    elif aExpo % bMulti == 1:
+        return False
+
+
+print(isCurzon(5)) # ➞ True
+# 2 ** 5 + 1 = 33
+# 2 * 5 + 1 = 11
+# 33 is a multiple of 11
+
+print(isCurzon(10)) # ➞ False
+# 2 ** 10 + 1 = 1025
+# 2 * 10 + 1 = 21
+# 1025 is not a multiple of 21
+
+print(isCurzon(14)) # ➞ True
+# 2 ** 14 + 1 = 16385
+# 2 * 14 + 1 = 29
+# 16385 is a multiple of 29
+
+
+# testing.
+# checkAgain.
+# checkAgain. What is meant by Curzon numbers? Also check the resources which you seem important.

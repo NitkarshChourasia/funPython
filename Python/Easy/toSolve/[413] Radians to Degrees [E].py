@@ -21,7 +21,7 @@ _____
 The number π can be loaded from the math module with from math import pi.
 
 
-[logic] [math] [numbers] 
+[logic] [math] [numbers]
 
 
 
@@ -52,6 +52,22 @@ How to Convert Radians to Degrees
 https://stackoverflow.com/questions/9875964/how-can-i-convert-radians-to-degrees-with-python
 Radians and degrees are two separate units of measure that help people express and communicate precise changes in direction. Wikipedia has some great intuition with the …
 _________
-""" 
+"""
 # Your code should go here:
 
+from math import pi  # I think pi is used as a capitalized PI
+
+def radToDeg(radIn):
+    return pass
+
+
+print(radToDeg(1)) # ➞ 57.3
+
+print(radToDeg(20)) # ➞ 1145.9
+
+print(radToDeg(50)) # ➞ 2864.8
+
+
+# incomplete.
+# checkAgain.
+# checkAgain. Properly check those resources.

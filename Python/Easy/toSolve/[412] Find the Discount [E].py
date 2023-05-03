@@ -1,7 +1,8 @@
 """
 ##Find the Discount
 
-Create a function that takes two arguments: the original price and the discount percentage as integers and returns the final price after the discount.
+Create a function that takes two arguments: the original price and the discount
+percentage as integers and returns the final price after the discount.
 
 
 
@@ -22,7 +23,7 @@ _____
 Your answer should be rounded to two decimal places.
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -43,6 +44,21 @@ Percentages, Mathematics, and GCSE Revision
 https://revisionmaths.com/gcse-maths-revision/number/percentages
 Percentages GCSE Maths revision section of Revision Maths, including: definitions, examples and videos.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def dis(ogPrice, disPerc):
+    afterDisPrice = ogPrice - (ogPrice*(disPerc/100))
+    return afterDisPrice
+
+
+print(dis(1500, 50)) # ➞ 750
+
+print(dis(89, 20)) # ➞ 71.2
+
+print(dis(100, 75)) # ➞ 25
+
+
+# testing.

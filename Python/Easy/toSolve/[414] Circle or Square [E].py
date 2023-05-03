@@ -1,7 +1,10 @@
 """
 ##Circle or Square
 
-Given the radius of a circle and the area of a square, return True if the circumference of the circle is greater than the square's perimeter and False if the square's perimeter is greater than the circumference of the circle.
+Given the radius of a circle and the area of a square,
+return True if the circumference of the circle is greater
+than the square's perimeter and False if the square's perimeter
+is greater than the circumference of the circle.
 
 
 [Examples]
@@ -26,7 +29,7 @@ ___
 
 
 
-[geometry] [validation] 
+[geometry] [validation]
 
 
 
@@ -52,6 +55,27 @@ How to Calculate Perimeter of a Square
 https://byjus.com/maths/perimeter-of-square/
 The perimeter of a square is defined as the length of the boundary of a square. Learn all the details of a perimeter of a square, its formula and derivation along with …
 _________
-""" 
+"""
 # Your code should go here:
 
+from math import PI
+
+def cirOrSq(radius, sqArea):
+    sqPerimeter = (math.sqrt(sqArea)) * 4
+    cirCircum = 2 * PI * radius
+    if sqPerimeter > cirCircum:
+        return False
+    elif cirCircum > sqPerimeter:
+        return True
+
+
+
+print(cirOrSq(16, 625)) # ➞ True
+
+print(cirOrSq(5, 100)) # ➞ False
+
+print(cirOrSq(8, 144)) # ➞ True
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources. If not known.

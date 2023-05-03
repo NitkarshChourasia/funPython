@@ -1,7 +1,8 @@
 """
 ##End Corona!
 
-Create a function that takes the number of daily average recovered cases recovers, daily average new_cases, current active_cases, and returns the number of days it will take to reach zero cases.
+Create a function that takes the number of daily average recovered cases recovers,
+daily average new_cases, current active_cases, and returns the number of days it will take to reach zero cases.
 
 
 [Examples]
@@ -25,7 +26,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -41,6 +42,25 @@ While Loop
 https://www.w3schools.com/python/python_while_loops.asp
 Loops through a block of code as long as a specified condition is true.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def endCorona(recovered, new, activeNow):
+    eqToSolve = activeNow + new - recovered
+    i = 0
+    while activeNow == 0:
+        i = i + 1
+        eqToSolve
+    return i
+
+print(endCorona(4000, 2000, 77000)) # ➞ 39
+
+print(endCorona(3000, 2000, 50699)) # ➞ 51
+
+print(endCorona(30000, 25000, 390205)) # ➞ 79
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources. Unknown.

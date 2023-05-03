@@ -1,7 +1,9 @@
 """
 ##Stuttering Function
 
-Write a function that stutters a word as if someone is struggling to read it. The first two letters are repeated twice with an ellipsis ... and space after each, and then the word is pronounced with a question mark ?.
+Write a function that stutters a word as if someone is struggling to read it.
+The first two letters are repeated twice with an ellipsis ...
+and space after each, and then the word is pronounced with a question mark ?.
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 Assume all input is in lower case and at least two characters long.
 
 
-[algorithms] [formatting] [language_fundamentals] [strings] 
+[algorithms] [formatting] [language_fundamentals] [strings]
 
 
 
@@ -57,6 +59,21 @@ String Format Cookbook
 https://mkaz.blog/code/python-string-format-cookbook/
 Python v2.7 introduced a new string fomatting method, that is now the default in Python3. I started this string formatting cookbook as a quick reference to help me form …
 _________
-""" 
+"""
 # Your code should go here:
 
+def stutter(str1):
+    return "{0}... {0}... {1}?".format(str1[0:1], str1)
+
+
+
+print(stutter("incredible")) # ➞ "in... in... incredible?"
+
+print(stutter("enthusiastic")) # ➞ "en... en... enthusiastic?"
+
+print(stutter("outstanding")) # ➞ "ou... ou... outstanding?"
+
+
+# testing.
+# checkAgain.
+# check, unknown strings.

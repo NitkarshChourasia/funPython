@@ -21,7 +21,7 @@ _____
 a is raised to the power of what in order to equal b?
 
 
-[algorithms] [math] [numbers] 
+[algorithms] [math] [numbers]
 
 
 
@@ -47,6 +47,8 @@ The Change-of-Base Formula
 https://www.purplemath.com/modules/logrules5.htm
 You may have noticed that your calculator only has keys for figuring the values for the common (that is, the base-10) log and the natural (that is, the base-e) log. The …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def solveForExp

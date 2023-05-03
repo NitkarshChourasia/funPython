@@ -1,7 +1,8 @@
 """
 ##Luke, I Am Your ...
 
-Luke Skywalker has family and friends. Help him remind them who is who. Given a string with a name, return the relation of that person to Luke.
+Luke Skywalker has family and friends. Help him remind them who is who.
+Given a string with a name, return the relation of that person to Luke.
 
 
 
@@ -22,7 +23,7 @@ _____
 N/A
 
 
-[conditions] [formatting] [objects] [strings] 
+[conditions] [formatting] [objects] [strings]
 
 
 
@@ -73,6 +74,27 @@ False Memory
 https://en.wikipedia.org/wiki/False_memory
 is a phenomenon where a person recalls something that did not happen or recalls it differently from the way it actually happened. Suggestibility, activation of associat …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def relationToLuke(str1):
+    lowerStr1 = str1.lower()
+    if lowerStr1 == "darth vader":
+        return "Luke, I am your father."
+    elif lowerStr1 == "leia":
+        return "Luke, I am your sister."
+    elif lowerStr1 == "han":
+        return "Luke, I am your brother in law."
+    else:
+        return "Luke, given relation is not specified in the list."
+
+print(relationToLuke("Darth Vader")) # ➞ "Luke, I am your father."
+print(relationToLuke("Leia")) # ➞ "Luke, I am your sister."
+print(relationToLuke("Han")) # ➞ "Luke, I am your brother in law."
+
+
+# testing.
+# incomplete.
+# checkAgain.
+# checkAgain. Didn't completed by dictionary method, as expected to complete.
