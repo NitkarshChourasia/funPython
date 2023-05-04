@@ -62,3 +62,23 @@ _________
 """ 
 # Your code should go here:
 
+def tempConversion(celsius):
+    kelvin = celsius + 273.15
+    fahrenheit = celsius * 9/5 + 32
+    outputAns = [kelvin, fahrenheit]
+    return outputAns
+
+
+
+print(tempConversion(0)) # ➞ [32, 273.15]
+# 0°C is equal to 32°F and 273.15 K.
+
+print(tempConversion(100)) # ➞ [212, 373.15]
+
+print(tempConversion(-10)) # ➞ [14, 263.15]
+
+print(tempConversion(300.4)) # ➞ [572.72, 573.55]
+
+# testing.
+# checkAgain.
+# checkAgain. The round function.

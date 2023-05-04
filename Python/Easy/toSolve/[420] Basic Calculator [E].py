@@ -65,3 +65,24 @@ _________
 """ 
 # Your code should go here:
 
+def calculator(a, opStr1, b):
+    if  opStr1 == "/" and b == 0:
+        return "Can't divide by zero."
+    else:
+        aStr1 = str(a)
+        bStr1 = str(b)
+        finalStr1 = a+opStr1+b
+        outputAns = eval(finalStr1)
+        return outputAns
+
+
+print(calculator(2, "+", 2)) # ➞ 4
+
+print(calculator(2, "*", 2)) # ➞ 4
+
+print(calculator(4, "/", 2)) # ➞ 2
+
+
+# testing.
+# checkAgain.
+# checkAgain. The unknown resources.

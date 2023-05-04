@@ -51,4 +51,10 @@ _________
 # Your code should go here:
 
 
-def solveForExp
+def solveForExp(a, x):
+    return xloga
+
+# incomplete.
+# checkAgain.
+# checkAgain. The resources which are unknown.
+# Rename the variables, properly.

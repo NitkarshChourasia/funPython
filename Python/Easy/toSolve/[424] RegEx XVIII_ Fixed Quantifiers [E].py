@@ -91,8 +91,36 @@ _________
 _________
 Regular Expressions Reference: Quantifiers
 https://www.regular-expressions.info/refrepeat.html
-JGsoft .NET Java Perl PCRE PCRE2 PHP Delphi R JavaScript VBScript XRegExp Python Ruby std::regex Boost Tcl ARE POSIX BRE POSIX ERE GNU BRE GNU ERE …
+JGsoft
+ .NET
+ Java
+ Perl
+ PCRE
+ PCRE2
+ PHP
+ Delphi
+ R
+ JavaScript
+ VBScript
+ XRegExp
+ Python
+ Ruby
+ std::regex
+ Boost
+ Tcl ARE
+ POSIX BRE
+ POSIX ERE
+ GNU BRE
+ GNU ERE
+ …
 _________
 """ 
 # Your code should go here:
 
+def regEx(x):
+    return pass
+
+
+# incomplete.
+# checkAgain.
+# checkAgain. Read the resources which are unknown.
