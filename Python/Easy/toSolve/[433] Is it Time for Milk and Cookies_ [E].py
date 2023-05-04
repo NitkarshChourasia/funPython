@@ -1,7 +1,9 @@
 """
 ##Is it Time for Milk and Cookies?
 
-Christmas Eve is almost upon us, so naturally we need to prepare some milk and cookies for Santa! Create a function that accepts a Date object and returns True if it's Christmas Eve (December 24th) and False otherwise.
+Christmas Eve is almost upon us,
+so naturally we need to prepare some milk and cookies for Santa!
+Create a function that accepts a Date object and returns True if it's Christmas Eve (December 24th) and False otherwise.
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 All test cases contain valid dates.
 
 
-[dates] [validation] 
+[dates] [validation]
 
 
 
@@ -52,6 +54,24 @@ datetime — Basic date and time types
 https://docs.python.org/2/library/datetime.html
 The datetime module supplies classes for manipulating dates and times in both simple and complex ways. While date and time arithmetic is supported, the focus of the imp …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def timeForMilkAndCookies(): # what kind of input has been done?
+    if dd == 24 and mm == 12:
+        return True
+    else:
+        return False
+
+
+print(timeForMilkAndCookies(datetime.date(2013, 12, 24))) # ➞ True
+
+print(timeForMilkAndCookies(datetime.date(2013, 1, 23))) # ➞ False
+
+print(timeForMilkAndCookies(datetime.date(3000, 12, 24))) # ➞ True
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources.

@@ -1,7 +1,9 @@
 """
 ##Default Mood
 
-Create a function that takes in a current mood and return a sentence in the following format: "Today, I am feeling {mood}". However, if no argument is passed, return "Today, I am feeling neutral".
+Create a function that takes in a current mood and
+return a sentence in the following format:
+"Today, I am feeling {mood}". However, if no argument is passed, return "Today, I am feeling neutral".
 
 
 [Examples]
@@ -21,7 +23,7 @@ _____
 Check the Resources tab for some helpful information.
 
 
-[language_fundamentals] [strings] 
+[language_fundamentals] [strings]
 
 
 
@@ -42,6 +44,20 @@ Using Python Optional Arguments When Defining Functions
 https://realpython.com/python-optional-arguments/
 Learn about Python optional arguments and how to define functions with default values. You'll also learn how to create functions that accept any number of arguments usi …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+
+def moodToday(str1):
+    return pass
+
+print(moodToday("happy")) # ➞ "Today, I am feeling happy"
+
+print(moodToday("sad")) # ➞ "Today, I am feeling sad"
+
+print(moodToday()) # ➞ "Today, I am feeling neutral"
+
+# testing.
+# checkAgain.
+# checkAgain. The default argument option.

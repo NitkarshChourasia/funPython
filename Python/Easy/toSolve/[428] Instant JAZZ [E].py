@@ -27,7 +27,7 @@ ___
 
 
 
-[arrays] [language_fundamentals] [loops] 
+[arrays] [language_fundamentals] [loops]
 
 
 
@@ -58,6 +58,31 @@ String Concatenation
 https://www.digitalocean.com/community/tutorials/an-introduction-to-working-with-strings-in-python-3
 This Python tutorial will go over how to create and print strings, how to concatenate and replicate strings, and how to store strings in variables.
 _________
-""" 
+"""
 # Your code should go here:
 
+def jazzify(lst1):
+    if lst1.len() == 0:
+        return []
+    else:
+        outputLst = []
+        for i in lst1:
+            if "7" not in i:
+                outputLst.append(i+"7")
+            elif "7" in i:
+                outputLst.append(i)
+        return outputLst
+
+
+print(jazzify(["G", "F", "C"])) # ➞ ["G7", "F7", "C7"]
+
+print(jazzify(["Dm", "G", "E", "A"])) # ➞ ["Dm7", "G7", "E7", "A7"]
+
+print(jazzify(["F7", "E7", "A7", "Ab7", "Gm7", "C7"])) # ➞ ["F7", "E7", "A7", "Ab7", "Gm7", "C7"]
+
+print(jazzify([])) # ➞ []
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check endswith() resource, for sure.

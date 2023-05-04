@@ -1,8 +1,13 @@
 """
 ##Sum of Two Digit Numbers
 
-For this challenge, you are supposed to find the sum of the digits of a two-digit number. Sounds easy, right? But for this challenge, I expect you to find the sum of the digits mathematically.
-Sure, you can convert the number into a string and then manipulate it so it returns the sum of the digits, but the point of this challenge is to see if you know how to return the sum of the digits of a two-digit number mathematically.
+For this challenge,
+you are supposed to find the sum of the digits of a two-digit number.
+Sounds easy,
+right? But for this challenge,
+I expect you to find the sum of the digits mathematically.
+Sure, you can convert the number into a string and then manipulate it so it returns the sum of the digits,
+but the point of this challenge is to see if you know how to return the sum of the digits of a two-digit number mathematically.
 
 
 [Examples]
@@ -22,7 +27,7 @@ _____
 % //
 
 
-[algebra] [logic] [math] [numbers] 
+[algebra] [logic] [math] [numbers]
 
 
 
@@ -58,6 +63,24 @@ String split() Method
 https://www.w3schools.com/python/ref_string_split.asp
 Splits a string into a list.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def twoDigitSum(n):
+    sumList = list(n)
+    outputAns = sumList[0] + sumList[1] # will list convert it whole as a 1 object or two object?
+    return outputAns
+
+
+
+print(twoDigitSum(45)) # ➞ 9
+
+print(twoDigitSum(38)) # ➞ 11
+
+print(twoDigitSum(67)) # ➞ 13
+
+
+# testing.
+# checkAgain.
+# checkAgain. The resources.

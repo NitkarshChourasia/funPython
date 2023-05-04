@@ -27,7 +27,7 @@ ___
 
 
 
-[algebra] [data_structures] 
+[algebra] [data_structures]
 
 
 
@@ -53,6 +53,29 @@ Change Tuple Values
 https://www.w3schools.com/python/gloss_python_change_tuple_item.asp
 You can convert the tuple into a list, change the list, and convert the list back into a tuple.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def colorInvert(tuple1):
+    defValue = (255, 255, 255)
+    outputTuple = ()
+    i = 0
+    while i == tuple1.len() - 1: # Need to see how len counting starts from 1 or 0
+        outputTuple.append(defValue[i] - tuple1[i])
+        i = i + 1
+    return outputTuple
+
+
+print(colorInvert((255, 255, 255))) # ➞ (0, 0, 0)
+# (255, 255, 255) is the color white.
+# The opposite is (0, 0, 0), which is black.
+
+print(colorInvert((0, 0, 0))) # ➞ (255, 255, 255)
+
+print(colorInvert((165, 170, 221))) # ➞ (90, 85, 34)
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources on RGB and tuple.

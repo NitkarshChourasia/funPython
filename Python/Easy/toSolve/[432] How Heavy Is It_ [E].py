@@ -1,7 +1,9 @@
 """
 ##How Heavy Is It?
 
-Given radius r and height h (in cm), calculate the mass of a cylinder when it's filled with water and the cylinder itself doesn't weigh anything. The desired output should be given in kg and rounded to two decimal places.
+Given radius r and height h (in cm),
+calculate the mass of a cylinder when it's filled with water and the cylinder itself doesn't weigh anything.
+The desired output should be given in kg and rounded to two decimal places.
 How to solve:
 ___
 *) Calculate the volume of the cylinder.
@@ -32,7 +34,7 @@ ___
 
 
 
-[math] [physics] 
+[math] [physics]
 
 
 
@@ -63,6 +65,21 @@ Liters to Cubic Decimeters Conversion L to dm³
 https://www.milliliter.org/liters-to-cubic-decimeters-conversion
 Conversion calculator of volume metric units, unit value of Liters (L) is equal to 1 Cubic Decimeters (dm³).
 _________
-""" 
+"""
 # Your code should go here:
+
+def weightCylinder(radius, height):
+    r = radius # in c.m
+    h = height # in c.m
+    # I think the formula is :
+    formula = math.pi * (r ** 2) * h
+    inKg = alog3
+    return inKg
+
+
+# incomplete.
+# checkAgain.
+# check formula, resources, and log conversion and kg and cubic conversions.
+
+
 

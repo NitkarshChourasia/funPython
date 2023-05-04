@@ -38,7 +38,7 @@ ___
 
 
 
-[math] [numbers] 
+[math] [numbers]
 
 
 
@@ -59,7 +59,7 @@ Video Walk Through
 https://www.youtube.com/watch?v=zp8D_6NVVPE
 In this video, you will learn how to solve these problems in Python: 0:11 Equality of 3 Values, 2:34 Temperature Conversion, 4:43 Find the Perimeter of a Rectangle.
 _________
-""" 
+"""
 # Your code should go here:
 
 def tempConversion(celsius):

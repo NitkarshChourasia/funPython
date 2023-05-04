@@ -1,7 +1,8 @@
 """
 ##Pythagorean Triplet
 
-Create a function that validates whether three given integers form a Pythagorean triplet. The sum of the squares of the two smallest integers must equal the square of the largest number to be validated.
+Create a function that validates whether three given integers form a Pythagorean triplet.
+The sum of the squares of the two smallest integers must equal the square of the largest number to be validated.
 
 
 [Examples]
@@ -27,7 +28,7 @@ _____
 Numbers may not be given in a sorted order.
 
 
-[geometry] [math] [numbers] [validation] 
+[geometry] [math] [numbers] [validation]
 
 
 
@@ -63,6 +64,33 @@ Program to Find the Largest Among Three Numbers
 https://scanftree.com/programs/python/python-program-to-find-the-largest-among-three-numbers/
 How to find the largest variable in 3 variables.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def isTriplet(a, b, c):
+    lst1 = [a, b, c]
+    sortLst1 = lst1.sorted() # from smallest to biggest, right?
+    lSide = sortLst1[0] ** 2 + sortLst1[1] ** 2
+    rSide = sortLst1[2] ** 2
+    if lSide == rSide:
+        return True
+    else:
+        return False
+
+print(isTriplet(3, 4, 5)) # ➞ True
+# 3² + 4² = 25
+# 5² = 25
+
+print(isTriplet(13, 5, 12)) # ➞ True
+# 5² + 12² = 169
+# 13² = 169
+
+print(isTriplet(1, 2, 3)) # ➞ False
+# 1² + 2² = 5
+# 3² = 9
+
+
+# testing.
+# checkAgain.
+# checkAgain. check the resources related to max() min() and sort() and sorted().

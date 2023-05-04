@@ -1,7 +1,10 @@
 """
 ##RegEx XV: Alternation
 
-The vertical bar | is the equivalent to "or" in RegEx. The regular expression x|y matches either "x" or "y". Write the regular expression that will match all red flag and blue flag in a string. You must use | in your expression. Flags can come in any order.
+The vertical bar | is the equivalent to "or" in RegEx.
+The regular expression x|y matches either "x" or "y".
+Write the regular expression that will match all red flag and blue flag in a string.
+You must use | in your expression. Flags can come in any order.
 
 
 [Examples]
@@ -30,7 +33,7 @@ ___
 
 
 
-[formatting] [regex] 
+[formatting] [regex]
 
 
 
@@ -61,6 +64,6 @@ Python Regular Expression Cheatsheet
 https://www.debuggex.com/cheatsheet/regex/python
 Regex Cheatsheet
 _________
-""" 
+"""
 # Your code should go here:
 

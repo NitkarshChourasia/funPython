@@ -25,7 +25,7 @@ ___
 
 
 
-[interview] [loops] [regex] [strings] 
+[interview] [loops] [regex] [strings]
 
 
 
@@ -81,6 +81,31 @@ Python Program to Check Vowels
 https://codescracker.com/python/program/python-program-check-vowel.htm
 To check whether the input character is a vowel or not in python, you have to ask from user to enter a character to check whether that character is a vowel or not as sh …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countVowels(str1):
+    lst1 = "aeiou"
+    lowerStr1 = str1.lower()
+    # for simplicity I can just do str1 = str1.lower()
+    # but this is a good practice, I guess.
+    lst1 = list(lst1)
+    countLst1 = []
+    for i in lst1:
+        if i in lowerStr1:
+            countLst1.append(lowerStr1.count(i))
+    outputAns = countLst1.sum()
+    return outputAns
+
+
+print(countVowels("Celebration")) # ➞ 5
+
+print(countVowels("Palm")) # ➞ 1
+
+print(countVowels("Prediction")) # ➞ 4
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources, which you don't know.

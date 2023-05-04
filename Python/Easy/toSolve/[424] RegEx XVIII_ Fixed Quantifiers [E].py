@@ -47,7 +47,7 @@ ___
 
 
 
-[regex] 
+[regex]
 
 
 
@@ -114,7 +114,7 @@ JGsoft
  GNU ERE
  …
 _________
-""" 
+"""
 # Your code should go here:
 
 def regEx(x):

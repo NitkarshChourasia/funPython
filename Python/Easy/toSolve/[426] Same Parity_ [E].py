@@ -22,13 +22,15 @@ _____
 [Notes]
 
 ___
-*) Parity is whether a number is even or odd. If the sum of the digits is even and the number itself is even, return True. The same goes if the number is odd and so is the sum of its digits.
+*) Parity is whether a number is even or odd.
+If the sum of the digits is even and the number itself is even, return True.
+The same goes if the number is odd and so is the sum of its digits.
 *) Single digits will obviously have the same parities (see example #3).
 ___
 
 
 
-[conditions] [language_fundamentals] [validation] 
+[conditions] [language_fundamentals] [validation]
 
 
 
@@ -54,6 +56,34 @@ sum() Function
 https://www.programiz.com/python-programming/methods/built-in/sum
 Adds the items of an iterable and returns the sum. In this tutorial, we will learn about the sum() function with the help of examples.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def parityAnalysis(n):
+    evenTest0 = if n % 2 == 0
+    oddTest0 = if n % 2 == 1
+    sumDigits = list(n)
+    sumDigits = sumDigits.sum()
+    evenTest1 = if sumDigits % 2 == 0
+    oddTest1 = if sumDigits % 2 == 1
+    if evenTest0 == evenTest1: # Is return True even Necessary? # Let's see cutting the code in short.
+    elif oddTest0 == oddTest1:
+    else:
+        return False
+
+
+print(parityAnalysis(243)) # ➞ True
+# 243 is odd and so is 9 (2 + 4 + 3)
+
+print(parityAnalysis(12)) # ➞ False
+# 12 is even but 3 is odd (1 + 2)
+
+print(parityAnalysis(3)) # ➞ True
+
+
+# testing.
+# checkAgain.
+# checkAgain. The first resource, please.
+
+# 3 is odd and 3 is odd and 3 is odd (3)

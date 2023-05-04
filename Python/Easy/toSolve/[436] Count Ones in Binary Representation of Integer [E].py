@@ -21,7 +21,7 @@ _____
 The input will always be a valid integer (number).
 
 
-[formatting] [numbers] 
+[formatting] [numbers]
 
 
 
@@ -67,6 +67,14 @@ Converting Numbers to Binary Representation
 https://www.electronics-tutorials.ws/binary/bin_2.html
 This site explains the mathematical method of converting a number to binary.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def countOnes():
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. Check all the resources unknown.
+# binary.
