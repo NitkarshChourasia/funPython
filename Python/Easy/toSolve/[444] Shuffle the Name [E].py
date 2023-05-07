@@ -26,7 +26,7 @@ ___
 
 
 
-[sorting] [strings] 
+[sorting] [strings]
 
 
 
@@ -67,6 +67,23 @@ Conditions
 https://www.w3schools.com/python/python_conditions.asp
 In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def nameShuffle(str1):
+    lst1 = str1.split(" ")
+    reLst1 = [lst1[1], lst1[0]]
+    strLst1 = reLst1.join()
+    return strLst1
+
+print(nameShuffle("Donald Trump")) # ➞ "Trump Donald"
+
+print(nameShuffle("Rosie O'Donnell")) # ➞ "O'Donnell Rosie"
+
+print(nameShuffle("Seymour Butts")) # ➞ "Butts Seymour"
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the unknown resources.

@@ -21,7 +21,7 @@ _____
 All characters will be in lower case.
 
 
-[regex] [strings] 
+[regex] [strings]
 
 
 
@@ -42,6 +42,25 @@ String replace() Method
 https://www.w3schools.com/python/ref_string_replace.asp
 Replaces a specified phrase with another specified phrase.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def replaceVowels(str1, toRepBy):
+    exceptLst1 = list("aeiouAEIOU")
+    str2 = str1
+    for i in exceptLst1:
+        if i in str1:
+            str2.replace(i, toRepBy)
+    return str2
+# Another method will be to use, append and join function.
+
+print(replaceVowel("the aardvark", "#")) # ➞ "th# ##rdv#rk"
+
+print(replaceVowel("minnie mouse", "?")) # ➞ "m?nn?? m??s?"
+
+print(replaceVowel("shakespeare", "*")) # ➞ "sh*k*sp**r*"
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, unknown.

@@ -27,7 +27,7 @@ ___
 
 
 
-[formatting] [strings] 
+[formatting] [strings]
 
 
 
@@ -63,6 +63,21 @@ isalpha() Method
 https://www.w3schools.com/python/ref_string_isalpha.asp
 Check if all the characters in the text are letters.
 _________
-""" 
+"""
 # Your code should go here:
+
+
+def counterpartCharCode(charIn):
+    swapCase = charIn.swapcase()
+    outputAns = swapCase.ord()
+    return outputAns
+
+print(counterpartCharChode("A")) # ➞ 97
+
+print(counterpartCharChode("a")) # ➞ 65
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, unknown to you.
 

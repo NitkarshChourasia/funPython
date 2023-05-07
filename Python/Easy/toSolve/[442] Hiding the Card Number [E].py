@@ -25,7 +25,7 @@ ___
 
 
 
-[formatting] [numbers] [strings] 
+[formatting] [numbers] [strings]
 
 
 
@@ -56,6 +56,25 @@ Slicing Strings
 https://www.w3schools.com/python/python_strings_slicing.asp
 You can return a range of characters by using the slice syntax. Specify the start index and the end index, separated by a colon, to return a part of the string.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def cardHide(str1):
+    lFour = str1[-1: -4]
+    sizeStr1 = str1.len()  # Start with 0 or 1?
+    toPreStr1 = "*" * (sizeStr1 - 4)
+    outputStr1 = toPreStr1 + lFour
+    return outputStr1
+
+
+print(cardHide("1234123456785678")) # ➞ "************5678"
+
+print(cardHide("8754456321113213")) # ➞ "************3213"
+
+print(cardHide("35123413355523")) # ➞ "**********5523"
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the unknown resources.

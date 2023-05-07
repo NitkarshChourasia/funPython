@@ -39,7 +39,7 @@ ___
 
 
 
-[conditions] [language_fundamentals] [regex] [strings] [validation] 
+[conditions] [language_fundamentals] [regex] [strings] [validation]
 
 
 
@@ -75,6 +75,34 @@ upper() method
 https://www.w3schools.com/python/ref_string_upper.asp
 Returns a string where all characters are in upper case.
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def XO(str1):
+    lowerStr1 = str1.lower()
+    if "x" or "o" in lowerStr1:
+        if lowerStr1.count("o") == lowerStr1.count("x"):
+            return True
+        else:
+            return False
+    elif "x" and "o" not in lowerStr1:
+        return True
+
+
+print(XO("ooxx")) # ➞ True
+
+print(XO("print(XOoxx")) # ➞ False
+
+print(XO("ooxXm")) # ➞ True
+# Case insensitive.
+
+print(XO("zpzpzpp")) # ➞ True
+# Returns True if no x and o.
+
+print(XO("zzoo")) # ➞ False
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources, unknown to me.

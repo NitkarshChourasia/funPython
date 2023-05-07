@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[regex] [strings] [validation] 
+[regex] [strings] [validation]
 
 
 
@@ -52,6 +52,21 @@ eval() Method
 https://towardsdatascience.com/python-eval-built-in-function-601f87db191
 This would be a short article about eval function in python, wherein I would be explaining to you about eval function, its syntax, and few questions that are often aske …
 _________
-""" 
+"""
 # Your code should go here:
 
+
+def correctSigns(eqStr1):
+    return eval(correctSigns)
+
+
+print(correctSigns("3 < 7 < 11")) # ➞ True
+
+print(correctSigns("13 > 44 > 33 > 1")) # ➞ False
+
+print(correctSigns("1 < 2 < 6 < 9 > 3")) # ➞ True
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the unknown resources.

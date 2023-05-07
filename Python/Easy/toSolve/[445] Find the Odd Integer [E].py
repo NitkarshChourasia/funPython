@@ -21,7 +21,7 @@ _____
 There will always only be one integer that appears an odd number of times.
 
 
-[arrays] [bit_operations] [loops] [math] 
+[arrays] [bit_operations] [loops] [math]
 
 
 
@@ -47,6 +47,47 @@ How can I count the occurrences of a list item?
 https://stackoverflow.com/questions/2600191/how-can-i-count-the-occurrences-of-a-list-item
 Discussions on how to count occurrences in a list without using count() method.
 _________
-""" 
+"""
 # Your code should go here:
+
+# if there anything as num instead of float(n) or int(n): ?
+
+def findOdd(lst1):
+
+    # Finding odd list
+    # Making unique list.
+    setLst1 = set(lst1)
+
+    # Finding counts of unique list.
+    countLst1 = []
+    for i in setLst1: # See if it behaves properly, so.
+        countLst1.append(lst1.count(i))
+
+    # Finding odd counts from countlist.
+    oddlst1 = []
+    i = 0
+    while i == countLst1.len(): # Count starts from 0 or 1.
+        if countLst1[i] % 2 == 1:
+            oddlst1.append(countLst1[i])
+            i = i + 1
+
+    outputAns0 = [] # If == 1 then int if more then lst1
+    for i in oddlst1:
+        outputAns0.append(countLst1.index(i))
+    outputAns1 = []
+    for i in outputAns0:
+        outputAns1.append(setLst1.index(i))
+
+    # Output of answers.
+    if outputAns1.len() == 1:
+        return int(outputAns1)
+    elif outputAns1.len() > 1:
+        return outputAns1
+    elif outputAns1.len() == 0:
+        return "No integers appeared odd numbers of times."
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources unknown to you.
 
