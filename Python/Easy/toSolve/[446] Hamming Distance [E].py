@@ -69,3 +69,29 @@ _________
 """ 
 # Your code should go here:
 
+def hammingDistance(str1, str2):
+    lstStr1 = list(str1)
+    lstStr2 = list(str2)
+    if lstStr1.len() === lstStr1.len():
+        i = 0
+        a = 0
+        while(i < lstStr1):
+            if lstStr1[i] != lstStr2[i]:
+                a = a + 1
+            i = i + 1
+        return a
+                
+
+
+
+
+print(hammingDistance("abcde", "bcdef")) 
+
+print(hammingDistance("abcde", "abcde"))
+
+print(hammingDistance("strong", "strung"))
+
+
+
+# testing.
+# checkAgain. The resources unknown to you.

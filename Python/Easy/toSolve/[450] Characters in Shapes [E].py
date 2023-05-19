@@ -68,3 +68,35 @@ _________
 """ 
 # Your code should go here:
 
+def countCharacters(lst1):
+  i = 0
+  concatStr1 = ""
+  while(i < lst1.len()):
+    concatStr1 = lst1[i] + concatStr1
+    i = i + 1
+  return concatStr1.len()
+
+
+print(countCharacters([
+  "###",
+  "###",
+  "###"
+])) # ➞ 9
+
+print(countCharacters([
+  "22222222",
+  "22222222",
+])) # ➞ 16
+
+print(countCharacters([
+  "------------------"
+])) # ➞ 18
+
+print(countCharacters([])) # ➞ 0
+
+print(countCharacters(["", ""])) # ➞ 0
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.

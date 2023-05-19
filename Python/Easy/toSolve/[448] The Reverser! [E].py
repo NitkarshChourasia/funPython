@@ -50,3 +50,22 @@ _________
 """ 
 # Your code should go here:
 
+def reverse0(str1):
+    return str1[-1::]
+    # return str1[-1::0]
+    # return str1[-1:0}
+
+def reverse1(str1):
+    return str1.reverse()
+
+
+print(reverse("Hello World")) # ➞ "DLROw OLLEh"
+
+print(reverse("print(reverse")) # ➞ "eSrEvEr"
+
+print(reverse("Radar")) #➞ "RADAr"
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources.

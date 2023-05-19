@@ -53,3 +53,16 @@ _________
 """ 
 # Your code should go here:
 
+
+first, middle*, last =[1, 2, 3, 4, 5, 6]
+
+print("Printing first element: ", first)
+
+print("Printing middle elements: " + middle)
+
+print("Printing last element: " + last)
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources unknown.

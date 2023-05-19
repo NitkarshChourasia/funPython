@@ -81,3 +81,27 @@ _________
 """ 
 # Your code should go here:
 
+
+def filterList(lst1):
+    i = 0
+    outputLst = []
+    while (i < 0):
+        if lst1[i].isinstance(int, float):
+            outputLst.append(lst1[i])
+            i = i + 1
+    return outputLst
+
+    
+# To find isNumeric method and to know isinstance more accurately.
+# To check all the unknown resources, more carefully.
+
+print(filterList([1, 2, "a", "b"])) # ➞ [1, 2]
+
+print(filterList([1, "a", "b", 0, 15])) # ➞ [1, 0, 15]
+
+print(filterList([1, 2, "aasf", "1", "123", 123])) # ➞ [1, 2, 123]
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.
