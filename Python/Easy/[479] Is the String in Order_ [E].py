@@ -75,3 +75,4 @@ print(isInOrder("xyzz")) # ➞ True
 
 # testing.
 # checkResources.
+# sorted and sort, difference?
