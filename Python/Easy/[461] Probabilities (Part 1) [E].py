@@ -1,7 +1,8 @@
 """
 ##Probabilities (Part 1)
 
-Given a list of numbers and a value n, write a function that returns the probability of choosing a number greater than or equal to n from the list. The probability should be expressed as a percentage, rounded to one decimal place.
+Given a list of numbers and a value n, write a function that returns the probability of choosing a
+number greater than or equal to n from the list. The probability should be expressed as a percentage, rounded to one decimal place.
 
 
 [Examples]
@@ -53,4 +54,30 @@ Adds the items of an iterable and returns the sum. In this tutorial, we will lea
 _________
 """ 
 # Your code should go here:
+
+def probability(lst1, theNum):
+    outputLst1 = []
+    tPossibleOutcomes = lst1.len()
+    sortLst1 = lst1.sort() # Step.
+    lastEle = sortLst1[-1]
+    range1 = range(0, lastEle+1) # Total elemental range.
+    i = 0
+    while(i < lastEle + 1):
+        if range1[i] => theNum:
+            outputLst1.append(range1[i])
+            i = i + 1
+    favourableOutcomes = outputLst1.len()
+    return "{0}%".format(100 * (favourableOutcomes / tPossibleOutcomes))
+
+print(probability([5, 1, 8, 9], 6)) # ➞ 50.0
+
+print(probability([7, 4, 17, 14, 12, 3], 16)) # ➞ 16.7
+
+print(probability([4, 6, 2, 9, 15, 18, 8, 2, 10, 8], 6)) # ➞ 70.0
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.
+
 

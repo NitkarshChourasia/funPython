@@ -59,3 +59,21 @@ _________
 """ 
 # Your code should go here:
 
+def alphabetSoup(str1):
+    sortList = str1.sort()  # What is the difference between sort and sorted?
+    return sortList
+
+print(alphabetSoup("hello")) # ➞ "ehllo"
+
+print(alphabetSoup("edabit")) # ➞ "abdeit"
+
+print(alphabetSoup("hacker")) # ➞ "acehkr"
+
+print(alphabetSoup("geek")) # ➞ "eegk"
+
+print(alphabetSoup("javascript")) # ➞ "aacijprstv"
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check al the unknown resources.

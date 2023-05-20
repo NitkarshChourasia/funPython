@@ -52,3 +52,36 @@ _________
 """ 
 # Your code should go here:
 
+
+def listOperation(start, end, divisor):
+    range1 = range(start, end+1)
+    i = 0
+    outputLst1 = []
+    while(i < range1[-1]):
+        if range1[i] % divisor == 0:
+            outputLst1.append(range1[i])
+        i = i + 1
+    return outputLst1
+
+
+def listOperation1(start, end, divisor):
+    range1 = range(start, end + 1, divisor)
+    return range1
+
+print(listOperation(1, 10, 3)) # ➞ [3, 6, 9]
+
+print(listOperation(7, 9, 2)) # ➞ [8]
+
+print(listOperation(15, 20, 7)) # ➞ []
+
+print("Second method.")
+
+print(listOperation1(1, 10, 3)) # ➞ [3, 6, 9]
+
+print(listOperation1(7, 9, 2)) # ➞ [8]
+
+print(listOperation1(15, 20, 7)) # ➞ []
+
+
+# testing.
+# checkResources.

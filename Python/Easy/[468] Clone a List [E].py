@@ -1,7 +1,8 @@
 """
 ##Clone a List
 
-The Code tab has code which attempts to add a clone of a list to itself. There is no error message, but the results are not as intended. Can you fix the code?
+The Code tab has code which attempts to add a clone of a list to itself.
+There is no error message, but the results are not as intended. Can you fix the code?
 
 
 [Examples]
@@ -49,4 +50,22 @@ A list can contain any sort object, even another list (sublist), which in turn c
 _________
 """ 
 # Your code should go here:
+
+
+def clone(lst1):
+    lst2 = lst1
+    lst3 = lst1
+    lst3.append(lst2)
+    return lst3
+
+print(clone([1, 1])) # ➞ [1, 1, [1, 1]]
+
+print(clone([1, 2, 3])) # ➞ [1, 2, 3, [1, 2, 3]]
+
+print(clone(["x", "y"])) # ➞ ["x", "y", ["x", "y"]]
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resrouces again.
+
 

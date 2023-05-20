@@ -65,3 +65,23 @@ _________
 """ 
 # Your code should go here:
 
+def sumNumbers(n):
+    i = 0
+    sum = 0
+    while (i < n): # n = 1, will work?
+        i = i + 1
+        sum = sum + i
+    return sum
+
+
+print(sumNumbers(5)) # ➞ 15
+# 1 + 2 + 3 + 4 + 5 = 15
+
+print(sumNumbers(1)) # ➞ 1
+
+print(sumNumbers(12)) # ➞ 78
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, again.

@@ -51,3 +51,11 @@ _________
 """ 
 # Your code should go here:
 
+def getBudget(dict1):
+    return pass
+
+# incomplete.
+# checkAgain.
+# checkAgain. Check all the unknown resources.
+# dictionary.
+

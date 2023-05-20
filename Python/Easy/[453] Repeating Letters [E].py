@@ -50,3 +50,22 @@ _________
 """ 
 # Your code should go here:
 
+def doubleChar(str1):
+    i = 0
+    outputAns = []
+    while(i < str1.len()):
+        outputAns.append(str1[i]*2)
+    strOutput = string(outputAns)  #Is this the right way to convert to string?
+    return strOutput
+
+
+print(doubleChar("String")) # ➞ "SSttrriinngg"
+
+print(doubleChar("Hello World!")) # ➞ "HHeelllloo  WWoorrlldd!!"
+
+print(doubleChar("1234!_ ")) # ➞ "11223344!!__  "
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources unknown.

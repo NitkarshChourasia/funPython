@@ -47,3 +47,29 @@ _________
 """ 
 # Your code should go here:
 
+# Does it has do while loop?
+
+def numLayers(n):
+    thickness = 0.5/1000
+    i = 1
+    multi = thickness
+    while(i <= n):
+        multi = multi * 2
+        i = i + 1
+    return multi
+
+
+
+print(numLayers(1)) # ➞ "0.001m"
+# Paper folded once is 1mm (equal to 0.001m)
+
+print(numLayers(4)) # ➞ "0.008m"
+# Paper folded 4 times is 8mm (equal to 0.008m)
+
+print(numLayers(21)) # ➞ "1048.576m"
+# Paper folded 21 times is 1048576mm (equal to 1048.576m)
+
+
+# testing.
+# checkAgain.
+# checkAgain. Please check all the unknown resources.

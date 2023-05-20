@@ -1,7 +1,8 @@
 """
 ##Volume of a Cone
 
-Create a function that takes the height and radius of a cone as arguments and returns the volume of the cone rounded to the nearest hundredth. See the resources tab for the formula.
+Create a function that takes the height and radius of a cone as arguments and
+returns the volume of the cone rounded to the nearest hundredth. See the resources tab for the formula.
 
 
 
@@ -81,3 +82,10 @@ _________
 """ 
 # Your code should go here:
 
+def volumeCone(radius, height):
+    # Learn the formula.
+    # Learn the rounding to any hundreth.
+
+# incomplete.
+# checkAgain.
+# checkAgain. Check the resources which are unknown to you.

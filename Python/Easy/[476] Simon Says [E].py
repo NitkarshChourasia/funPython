@@ -1,7 +1,8 @@
 """
 ##Simon Says
 
-Create a function that takes in two lists and returns True if the second list follows the first list by one element, and False otherwise. In other words, determine if the second list is the first list shifted to the right by 1.
+Create a function that takes in two lists and returns True if the second list follows the first list by one element,
+and False otherwise. In other words, determine if the second list is the first list shifted to the right by 1.
 
 
 [Examples]
@@ -61,3 +62,21 @@ _________
 """ 
 # Your code should go here:
 
+def simonSays(lst1, lst2):
+    if lst1 == lst2[1::]:
+        return True
+    else:
+        return False
+
+
+print(simonSays([1, 2], [5, 1])) # ➞ True
+
+print(simonSays([1, 2], [5, 5])) # ➞ False
+
+print(simonSays([1, 2, 3, 4, 5], [0, 1, 2, 3, 4])) # ➞ True
+
+print(simonSays([1, 2, 3, 4, 5], [5, 5, 1, 2, 3])) # ➞ False
+
+
+# testing.
+# checkResources.

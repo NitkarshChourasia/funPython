@@ -56,3 +56,23 @@ _________
 """ 
 # Your code should go here:
 
+
+def triangle(n):
+    i = 0
+    sum = 0
+    while(i < n):
+        sum = sum + 1
+        i = i + 1
+    return sum
+
+
+print(triangle(1)) # ➞ 1
+
+print(triangle(6)) # ➞ 21
+
+print(triangle(215)) # ➞ 23220
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check for the unknown resources.

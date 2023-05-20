@@ -1,7 +1,8 @@
 """
 ##Add the Index
 
-Given a list of numbers, create a function which returns the list but with each element's index in the list added to itself. This means you add 0 to the number at index 0, add 1 to the number at index 1, etc...
+Given a list of numbers, create a function which returns the list but with each element's index in the
+list added to itself. This means you add 0 to the number at index 0, add 1 to the number at index 1, etc...
 
 
 [Examples]
@@ -44,4 +45,24 @@ When using the iterators, we need to keep track of the number of items in the it
 _________
 """ 
 # Your code should go here:
+
+def addIndexes(lst1):
+    outputLst1 = []
+    i = 0
+    while(i < lst1.len()):
+        outputLst1.append(lst1[i] + i)
+        i = i + 1
+    return outputLst1
+
+
+print(addIndexes([0, 0, 0, 0, 0])) # ➞ [0, 1, 2, 3, 4]
+
+print(addIndexes([1, 2, 3, 4, 5])) # ➞ [1, 3, 5, 7, 9]
+
+print(addIndexes([5, 4, 3, 2, 1])) # ➞ [5, 5, 5, 5, 5]
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.
+
 

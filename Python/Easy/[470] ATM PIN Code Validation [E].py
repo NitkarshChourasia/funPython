@@ -1,7 +1,8 @@
 """
 ##ATM PIN Code Validation
 
-ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. Your task is to create a function that takes a string and returns True if the PIN is valid and False if it's not.
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+Your task is to create a function that takes a string and returns True if the PIN is valid and False if it's not.
 
 
 [Examples]
@@ -66,7 +67,9 @@ _________
 _________
 Python RegEx
 https://www.w3schools.com/python/python_regex.asp
-.span() returns a tuple containing the start-, and end positions of the match. .string returns the string passed into the function .group() returns the part of the st …
+.span() returns a tuple containing the start-, and end positions of the match.
+ .string returns the string passed into the function
+ .group() returns the part of the st …
 _________
 _________
 re.fullmatch Python Example
@@ -81,3 +84,24 @@ _________
 """ 
 # Your code should go here:
 
+def isValidPIN(pin):
+    if pin.len() == 4 or pin.len() == 6:
+        if pin.isdigit() == True:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+print(isValidPIN)("1234")) # ➞ True
+
+print(isValidPIN)("12345")) # ➞ False
+
+print(isValidPIN)("a234")) # ➞ False
+
+print(isValidPIN)("")) # ➞ False
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.

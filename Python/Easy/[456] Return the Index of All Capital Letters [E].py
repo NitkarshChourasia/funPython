@@ -84,3 +84,26 @@ _________
 """ 
 # Your code should go here:
 
+def indexOfCaps(str1):
+    i = 0
+    outputLst1 = []
+    while (i < str1.len()):
+        if str1[i].isUpper() == True:
+            outputLst1.append(i)
+        i = i + 1
+    return outputLst1
+
+print(indexOfCaps("eDaBiT")) # ➞ [1, 3, 5]
+
+print(indexOfCaps("eQuINoX")) # ➞ [1, 3, 4, 6]
+
+print(indexOfCaps("determine")) # ➞ []
+
+print(indexOfCaps("STRIKE")) # ➞ [0, 1, 2, 3, 4, 5]
+
+print(indexOfCaps("sUn")) # ➞ [1]
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, which are new. Like enumerations.

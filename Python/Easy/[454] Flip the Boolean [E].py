@@ -67,3 +67,26 @@ _________
 """ 
 # Your code should go here:
 
+def reverse(bool1):
+    if isinstance(bool):
+        if bool1 == True:
+            return False
+        elif bool1 == False:
+            return True
+    else:
+        return "Boolean expected."
+
+
+
+print(reverse(True)) # ➞ False
+
+print(reverse(False)) # ➞ True
+
+print(reverse(0)) # ➞ "boolean expected"
+
+print(reverse(None)) # ➞ "boolean expected"
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, unknown.

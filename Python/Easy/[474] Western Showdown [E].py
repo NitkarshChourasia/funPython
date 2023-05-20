@@ -52,3 +52,37 @@ _________
 """ 
 # Your code should go here:
 
+def showdown(p1, p2):
+    lowerP1 = p1.lower()
+    lowerP2 = p2.lower()
+    indexP1 = lowerP1.index("b")
+    indexP2 = lowerP2.index('b')
+    if indexP1 > indexP2:
+        return "p1 draws his gun sooner than p2."
+    elif indexP2 > indexP1:
+        return "p2 draws his gun sooner then p1."
+    elif indexP1 == indexP2:
+        return  "tie."
+
+
+print(showdown(
+    "   Bang!        ",
+    "        Bang!   "
+)) # ➞ "p1"
+
+# p1 draws his gun sooner than p2
+
+print(showdown(
+    "               Bang! ",
+    "             Bang!   "
+)) # ➞ "p2"
+
+print(showdown(
+    "     Bang!   ",
+    "     Bang!   "
+)) # ➞ "tie"
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check, all the resources unknown.

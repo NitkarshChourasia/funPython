@@ -1,7 +1,8 @@
 """
 ##Stand in Line
 
-Write a function that takes a list and a number as arguments. Add the number to the end of the list, then remove the first element of the list. The function should then return the updated list.
+Write a function that takes a list and a number as arguments. Add the number to the end of the list,
+then remove the first element of the list. The function should then return the updated list.
 
 
 [Examples]
@@ -67,3 +68,24 @@ _________
 """ 
 # Your code should go here:
 
+def nextInLine(lst1, n):
+    lst1.append(n)
+    outputLst1 = lst1[1::] # will it work?? Or I'll have to use index removal or something first element removal method?
+    if outputLst1.len() == 0:
+        return "No list has been selected."
+    elif outputLst1.len() > 0:
+        return outputLst1
+
+print(nextInLine([5, 6, 7, 8, 9], 1)) # ➞ [6, 7, 8, 9, 1]
+
+print(nextInLine([7, 6, 3, 23, 17], 10)) # ➞ [6, 3, 23, 17, 10]
+
+print(nextInLine([1, 10, 20, 42 ], 6)) # ➞ [10, 20, 42, 6]
+
+print(nextInLine([], 6)) # ➞ "No list has been selected"
+
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources, for what is unknown to you, My dear.

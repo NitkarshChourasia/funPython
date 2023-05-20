@@ -69,3 +69,25 @@ _________
 """ 
 # Your code should go here:
 
+
+def findEvenNums(n):
+    range1 = range(1, n+1)
+    # will the var[i] method work?
+    i = 0
+    outputLst1 = []
+    while(i < n):
+        if range1[i] % 2 == 0:
+            outputLst1.append(range1[i])
+            i = i + 1
+    return outputLst1
+
+print(findEvenNums(8)) # ➞ [2, 4, 6, 8]
+
+print(findEvenNums(4)) # ➞ [2, 4]
+
+print(findEvenNums(2)) # ➞ [2]
+
+
+
+# testing.
+# checkAgain. Check all the resources again.

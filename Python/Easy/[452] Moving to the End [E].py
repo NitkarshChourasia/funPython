@@ -46,3 +46,26 @@ _________
 """ 
 # Your code should go here:
 
+def moveToEnd(lst1, toCheck):
+    i = 0
+    sortedLst1 = []
+    sortedOtherLst1 = []
+    while(i < lst1.len()):
+        if lst1[i] == toCheck:
+            sortedLst1.append(lst1[i])
+        elif lst1[i] != toCheck:
+            sortedOtherLst1.append(lst1[i])
+    concatLst = sortedOtherLst1.append(sortedLst1)
+    return concatLst
+
+print(moveToEnd([1, 3, 2, 4, 4, 1], 1)) # ➞ [3, 2, 4, 4, 1, 1]
+# Move all the 1s to the end of the array.
+
+print(moveToEnd([7, 8, 9, 1, 2, 3, 4], 9)) # ➞ [7, 8, 1, 2, 3, 4, 9]
+
+print(moveToEnd(["a", "a", "a", "b"], "a")) # ➞ ["b", "a", "a", "a"]
+
+
+# testing.
+# checkAgain.
+# checkAgain. All the resources unknown.

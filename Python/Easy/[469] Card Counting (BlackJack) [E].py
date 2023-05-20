@@ -58,3 +58,27 @@ _________
 """ 
 # Your code should go here:
 
+def count(lst1):
+    posOne = [2, 3, 4, 5, 6]
+    zero = [7, 8, 9]
+    negOne = [10, J, Q, K, A]
+    i = 0
+    count = 0
+    while(i < lst1.len()):
+        if lst1[i] in posOne:
+            count = count + 1
+        elif count in negOne:
+            count = count - 1
+        i = i + 1
+    return count
+
+print(count([5, 9, 10, 3, "J", "A", 4, 8, 5])) # ➞ 1
+
+print(count(["A", "A", "K", "Q", "Q", "J"])) # ➞ -6
+
+print(count(["A", 5, 5, 2, 6, 2, 3, 8, 9, 7])) # ➞ 5
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.

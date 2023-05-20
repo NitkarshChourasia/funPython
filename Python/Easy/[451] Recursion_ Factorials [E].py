@@ -82,3 +82,23 @@ _________
 """ 
 # Your code should go here:
 
+def factorial(n):
+    range1 = range(1, n+1)
+    i = 1
+    while(i ==  n):
+        i = i * i
+        i = i + 1
+    return i
+
+print(factorial(5)) # ➞ 120
+
+print(factorial(3)) # ➞ 6
+
+print(factorial(1)) # ➞ 1
+
+print(factorial(0)) # ➞ 1
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check the resources.

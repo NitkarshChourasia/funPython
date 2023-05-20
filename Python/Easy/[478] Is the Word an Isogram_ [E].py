@@ -1,7 +1,9 @@
 """
 ##Is the Word an Isogram?
 
-An isogram is a word that has no duplicate letters. Create a function that takes a string and returns either True or False depending on whether or not it's an "isogram".
+An isogram is a word that has no duplicate letters.
+Create a function that takes a string and returns either
+True or False depending on whether or not it's an "isogram".
 
 
 [Examples]
@@ -65,3 +67,22 @@ _________
 """ 
 # Your code should go here:
 
+
+def isIsogram(str1):
+    setStr1 = set(str1)
+    if str1.len() == setStr1:
+        return True
+    else:
+        return False
+
+
+print(isIsogram("Algorism")) # ➞ True
+
+print(isIsogram("PasSword")) # ➞ False
+# Not case sensitive.
+
+print(isIsogram("Consecutive")) # ➞ False
+
+
+# testing.
+# checkResources.

@@ -59,3 +59,24 @@ _________
 """ 
 # Your code should go here:
 
+def missingNum(lst1):
+    range1 = range(1, 10 + 1)
+    i = 0
+    output = 0
+    while(i < range1.len()):
+        if range1[i] not in lst1:
+            output = range1[i]
+        i = i + 1
+    return output
+
+
+print(missingNum([1, 2, 3, 4, 6, 7, 8, 9, 10])) #  ➞ 5
+
+print(missingNum([7, 2, 3, 6, 5, 9, 1, 4, 8])) #  ➞ 10
+
+print(missingNum([10, 5, 1, 2, 4, 6, 8, 3, 9])) #  ➞ 7
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources, again.

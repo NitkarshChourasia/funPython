@@ -80,3 +80,25 @@ _________
 """ 
 # Your code should go here:
 
+def filterList(lst1):
+    i = 0
+    outputLst1 = []
+    while (i < lst1.len()):
+        if lst1[i] == isNumber():
+            outputLst.append(lst[i])
+    return outputLst1
+
+
+print(filterList([1, 2, 3, "a", "b", 4])) # ➞ [1, 2, 3, 4]
+
+print(filterList(["A", 0, "Edabit", 1729, "Python", "1729"])) # ➞ [0, 1729]
+
+print(filterList(["Nothing", "here"])) # ➞ []
+
+
+# testing.
+# checkAgain.
+# checkAgain. Check all the resources again.
+# It has some very important resources, do check them out please.
+
+

@@ -56,3 +56,10 @@ _________
 """ 
 # Your code should go here:
 
+def societyName(lst1):
+    i = 0
+    outputLst1 = []
+    while(i < lst1.len()):
+
+
+# incomplete.
