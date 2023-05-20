@@ -57,3 +57,21 @@ _________
 """ 
 # Your code should go here:
 
+def isInOrder(str1):
+    sortStr1 = str1.sort()  # sort or sorted?
+    if sortStr1 == str1:
+        return True
+    elif sortStr1 != str1:
+        return False
+
+print(isInOrder("abc")) # ➞ True
+
+print(isInOrder("edabit")) # ➞ False
+
+print(isInOrder("123")) # ➞ True
+
+print(isInOrder("xyzz")) # ➞ True
+
+
+# testing.
+# checkResources.
