@@ -56,3 +56,21 @@ _________
 """ 
 # Your code should go here:
 
+def greetPeople(lst1):
+    outputLst1 = ["Hello "+ x + "," for x in lst1]
+    outputStr1 = "".join(outputLst1)
+    return outputStr1
+
+print(greetPeople(["Nitkarsh", "Anmol", "Rohit", "Santosh", "Pappa"]))
+
+print(greetPeople(["Joe"])) # ➞ "Hello Joe"
+
+print(greetPeople(["Angela", "Joe"])) # ➞ "Hello Angela, Hello Joe"
+
+print(greetPeople(["Frank", "Angela", "Joe"])) # ➞ "Hello Frank, Hello Angela, Hello Joe"
+
+# testing.
+# checkResources.
+
+
+

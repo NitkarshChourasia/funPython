@@ -81,3 +81,17 @@ _________
 """ 
 # Your code should go here:
 
+def uniqueSort(lst1):
+    setLst1 = set(lst1)
+    sortLst2 = list(setLst1.sort())
+    return sortLst2
+
+
+print(uniqueSort([1, 2, 4, 3])) # ➞ [1, 2, 3, 4]
+
+print(uniqueSort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2])) # ➞ [1, 2, 3, 4]
+
+print(uniqueSort([6, 7, 3, 2, 1])) # ➞ [1, 2, 3, 6, 7]
+
+# testing.
+# checkResources.

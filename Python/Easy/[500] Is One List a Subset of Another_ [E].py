@@ -50,3 +50,20 @@ _________
 """ 
 # Your code should go here:
 
+def isSubset(lst1, lst2):
+    if lst1 in lst2:
+        return True
+    else:
+        return False
+
+
+print(isSubset([3, 2, 5], [5, 3, 7, 9, 2])) # ➞ True
+
+print(isSubset([8, 9], [7, 1, 9, 8, 4, 5, 6])) # ➞ True
+
+print(isSubset([1, 2], [3, 5, 9, 1])) # ➞ False
+
+
+# testing.
+# checkResources.
+# checkAgain.

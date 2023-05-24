@@ -1,7 +1,10 @@
 """
 ##Travelling Salesman Problem
 
-A salesman has a number of cities to visit. They want to calculate the total number of possible paths they could take, visiting each city once before returning home. Return the total number of possible paths a salesman can travel, given n cities.
+A salesman has a number of cities to visit.
+They want to calculate the total number of possible paths they could take,
+visiting each city once before returning home.
+Return the total number of possible paths a salesman can travel, given n cities.
 If we have cities A, B and C, possible paths would be:
 ___
 A -> B -> C
@@ -60,3 +63,22 @@ _________
 """ 
 # Your code should go here:
 
+def paths(n):
+    i = 0
+    fact = 1
+    while(i < n):
+        fact = i * fact
+        i = i + 1
+    return fact
+
+
+
+print(paths(4)) # ➞ 24
+
+print(paths(1)) # ➞ 1
+
+print(paths(9)) # ➞ 362880
+
+
+# testing.
+# checkResources.

@@ -1,7 +1,8 @@
 """
 ##Lexicographically First and Last
 
-Write a function that returns the lexicographically first and lexicographically last rearrangements of a lowercase string. Output the results in the following manner:
+Write a function that returns the lexicographically first and lexicographically last
+rearrangements of a lowercase string. Output the results in the following manner:
 ___
 first_and_last(string) ➞ [first, last]
 _____
@@ -63,3 +64,19 @@ _________
 """ 
 # Your code should go here:
 
+def firstAndLast(str1):
+    sortAsc = str1.sort(asc=True)
+    sortDesc = str1.sort(desc=True)
+    outputLst1 = [sortAsc, sortDesc]
+    return outputLst1
+
+print(firstAndLast("marmite")) # ➞ ["aeimmrt", "trmmiea"]
+
+print(firstAndLast("bench")) # ➞ ["bcehn", "nhecb"]
+
+print(firstAndLast("scoop")) # ➞ ["coops", "spooc"]
+
+
+# testing.
+# checkResources.
+# checkAgain.

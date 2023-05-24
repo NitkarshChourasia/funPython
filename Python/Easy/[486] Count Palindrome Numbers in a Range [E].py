@@ -20,7 +20,8 @@ _____
 [Notes]
 
 ___
-*) A palindrome number is a number which remains the same when its digits are reversed. For example, 2552 reversed is still 2552. The reflectional symmetry of this number makes it a palindromic number.
+*) A palindrome number is a number which remains the same when its digits are reversed.
+For example, 2552 reversed is still 2552. The reflectional symmetry of this number makes it a palindromic number.
 *) Single-digit numbers are trivially palindrome numbers.
 ___
 
@@ -50,3 +51,8 @@ _________
 """ 
 # Your code should go here:
 
+# What is this???? *) Single-digit numbers are trivially palindrome numbers.
+
+
+# incomplete.
+# checkResources.

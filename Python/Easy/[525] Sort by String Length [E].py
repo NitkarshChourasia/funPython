@@ -66,3 +66,9 @@ _________
 """ 
 # Your code should go here:
 
+def sortByLength(lst1):
+    pass
+
+# incomplete.
+# checkResources.
+# checkEffecieciency.

@@ -1,24 +1,26 @@
 """
 ##"EdaBit" Challenge
 
-Create a function that returns the list of numbers from a given range. But for multiples of three, return “Eda” instead of the number and for the multiples of five, return “Bit”. For numbers which are multiples of both three and five, return “EdaBit”.
+Create a function that returns the list of numbers from a given range.
+But for multiples of three, return “Nit” instead of the number and for the multiples of five,
+return “Karsh”. For numbers which are multiples of both three and five, return “NitKarsh”.
 
 
 [Examples]
 
 ___
-eda_bit(0, 10) ➞ ["EdaBit", 1, 2, "Eda", 4, "Bit", "Eda", 7, 8, "Eda", "Bit" ]
+nit_karsh(0, 10) ➞ ["NitKarsh", 1, 2, "Nit", 4, "Karsh", "Nit", 7, 8, "Nit", "Karsh" ]
 
-eda_bit(14, 20) ➞ [14,  "EdaBit", 16, 17,  "Eda", 19, "Bit" ]
+nit_karsh(14, 20) ➞ [14,  "NitKarsh", 16, 17,  "Nit", 19, "Karsh" ]
 
-eda_bit(99, 106) ➞ ["Eda", "Bit", 101, "Eda", 103, 104, "EdaBit", 106 ]
+nit_karsh(99, 106) ➞ ["Nit", "Karsh", 101, "Nit", 103, 104, "NitKarsh", 106 ]
 _____
 
 
 
 [Notes]
 
-In case the number 0 happens to be in the range, return "EdaBit" as well.
+In case the number 0 happens to be in the range, return "NitKarsh" as well.
 
 
 [algorithms] [math] 
@@ -50,3 +52,30 @@ _________
 """ 
 # Your code should go here:
 
+
+def nitkarsh(start, end):
+    lst1 = [x for x in range(start, end+1)]
+    i = 0
+    outputLst1 = []
+    while ( i < lst1[-1])
+        if lst1[i] % 3 == 0:
+            outputLst1.append("Nit")
+        elif lst1[i] % 5 == 0:
+            outputLst1.append("Karsh")
+        elif lst1[i] % 5 == 0 and lst[i] % 3 == 0:
+            outputLst1.append(("Nitkarsh"))
+        i = i + 1
+    return outputLst1
+
+
+
+
+print(nitKarsh(0, 10)) # ➞ ["NitKarsh", 1, 2, "Nit", 4, "Karsh", "Nit", 7, 8, "Nit", "Karsh" ]
+
+print(nitKarsh(14, 20)) # ➞ [14,  "NitKarsh", 16, 17,  "Nit", 19, "Karsh" ]
+
+print(nitKarsh(99, 106)) # ➞ ["Nit", "Karsh", 101, "Nit", 103, 104, "NitKarsh", 106 ]
+
+
+testing.
+# checkResources.

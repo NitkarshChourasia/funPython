@@ -75,3 +75,16 @@ _________
 """ 
 # Your code should go here:
 
+def bitwiseAnd():
+    pass
+
+def bitwiseOr():
+    pass
+
+def bitwiseXor():
+    pass
+
+
+# incomplete.
+# checkResources.
+# checkAgain.

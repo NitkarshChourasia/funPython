@@ -1,7 +1,9 @@
 """
 ##One Button Messaging Device
 
-Imagine a messaging device with only one button. For the letter A, you press the button one time, for E, you press it five times, for G, it's pressed seven times, etc, etc.
+Imagine a messaging device with only one button. For the letter A,
+you press the button one time, for E, you press it five times,
+for G, it's pressed seven times, etc, etc.
 Write a function that takes a string (the message) and returns the total number of times the button is pressed.
 
 
@@ -60,3 +62,15 @@ _________
 """ 
 # Your code should go here:
 
+# checkResources.
+# checkAgain.
+# incomplete.
+# checkEfficiency.
+
+# I can make it but after reading the sources I can make it more efficient.
+
+print(howManyTimes("abde")) # ➞ 12
+
+print(howManyTimes("azy")) # ➞ 52
+
+print(howManyTimes("qudusayo")) # ➞ 123

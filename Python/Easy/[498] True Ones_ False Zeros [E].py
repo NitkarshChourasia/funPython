@@ -1,7 +1,8 @@
 """
 ##True Ones, False Zeros
 
-Create a function which returns a list of booleans, from a given number. Iterating through the number one digit at a time, append True if the digit is 1 and False if it is 0.
+Create a function which returns a list of booleans, from a given number.
+Iterating through the number one digit at a time, append True if the digit is 1 and False if it is 0.
 
 
 [Examples]
@@ -40,3 +41,24 @@ _________
 """ 
 # Your code should go here:
 
+def intBool(str1):
+    lst1 = [int(x) for x in str1]  # How to use list comprehension with if and else statement? checkAgain.
+    i = 0
+    outputLst1 = []
+    while(i < lst1.len()):
+        if lst1[i] == 1:
+            outputLst1.append(True)
+        elif lst1[i] == 0:
+            outputLst1.append(False)
+    return outputLst1
+
+
+print(integerBoolean("100101")) # ➞ [True, False, False, True, False, True]
+
+print(integerBoolean("10")) # ➞ [True, False]
+
+print(integerBoolean("001")) # ➞ [False, False, True]
+
+
+# testing.
+# checkResources.

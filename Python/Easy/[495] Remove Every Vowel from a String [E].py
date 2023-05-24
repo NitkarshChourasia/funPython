@@ -77,3 +77,28 @@ _________
 """ 
 # Your code should go here:
 
+
+def removeVowels(str1):
+    vowels = ["a", "e", "i", "o", "u"]
+    lst1 = [x for x in str1]
+    i = 0
+    outputLst1 = []
+    while (i < lst1.len()):
+        if lst1[i] not in vowels:
+            outputLst1.append(lst1[i])
+        i = i + 1
+    outputStr1 = "".join(outputLst1)
+    return outputStr1
+
+print(removeVowels("I have never seen a thin person drinking Diet Coke."))
+# ➞ " hv nvr sn  thn prsn drnkng Dt Ck."
+
+print(removeVowels("We're gonna build a wall!"))
+# ➞ "W'r gnn bld  wll!"
+
+print(removeVowels("Happy Thanksgiving to all--even the haters and losers!"))
+# ➞ "Hppy Thnksgvng t ll--vn th htrs nd lsrs!"
+
+# testing.
+# checkAgain.
+# checkResources.

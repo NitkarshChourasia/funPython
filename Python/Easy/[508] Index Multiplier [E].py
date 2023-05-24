@@ -1,7 +1,8 @@
 """
 ##Index Multiplier
 
-Return the sum of all items in a list, where each item is multiplied by its index (zero-based). For empty lists, return 0.
+Return the sum of all items in a list,
+where each item is multiplied by its index (zero-based). For empty lists, return 0.
 
 
 [Examples]
@@ -50,3 +51,17 @@ _________
 """ 
 # Your code should go here:
 
+def indexMultiplier(lst1):
+    if lst1.len() == 0:
+        return []
+    elif lst1.len() > 0:
+        outputLst1 = [(x * lst1.index(x) for x in lst1]
+        return None
+
+
+# My goal is to output list only using list comprehension.
+# The only thing I am lacking is a instance of i = i + 1 to loop , maybe enumerate can help in it.
+
+# incomplete.
+# checkAgain.
+# checkResources.

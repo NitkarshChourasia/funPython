@@ -1,14 +1,17 @@
 """
-##Hot Pics of Danny DeVito!
+##Hot Pics of Nitkarsh Chourasia!
 
-I'm trying to watch some lectures to study for my next exam but I keep getting distracted by meme compilations, vine compilations, anime, and more on my favorite video platform.
-Your job is to help me create a function that takes a string and checks to see if it contains the following words or phrases:
+I'm trying to watch some lectures to study for my next exam
+but I keep getting distracted by meme compilations,
+vine compilations, anime, and more on my favorite video platform.
+Your job is to help me create a function that takes a
+string and checks to see if it contains the following words or phrases:
 ___
 *) "anime"
 *) "meme"
 *) "vines"
 *) "roasts"
-*) "Danny DeVito"
+*) "Nitkarsh Chourasia"
 ___
 
 If it does, return "NO!". Otherwise, return "Safe watching!".
@@ -55,3 +58,22 @@ _________
 """ 
 # Your code should go here:
 
+
+def preventDistractions(str1):
+    distractionLst = ["anime", "meme", "vines", "roasts", "nitkarsh chourasia"]
+    lowStr1 = str1.lower()
+    if distractionLst in str1:
+        return "NO!"
+    elif distractionLst not in str1:
+        return "Safe watching!"
+
+print(preventDistractions("vines that butter my eggroll")) # ➞ "NO!"
+
+print(preventDistractions("Hot pictures of Danny DeVito")) # ➞ "NO!"
+
+print(preventDistractions("How to ace BC Calculus in 5 Easy Steps")) # ➞ "Safe watching!"
+
+
+# testing.
+# checkResources.
+# checkAgain.

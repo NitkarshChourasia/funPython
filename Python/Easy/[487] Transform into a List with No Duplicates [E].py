@@ -71,3 +71,21 @@ _________
 """ 
 # Your code should go here:
 
+def setify(lst1):
+    setLst1 = set(lst1)
+    outputLst1 = list(setLst1)  # I want to learn map, function what it is used for.
+    return outputLst1
+
+
+print(setify([1, 3, 3, 5, 5])) # ➞ [1, 3, 5]
+
+print(setify([4, 4, 4, 4])) # ➞ [4]
+
+print(setify([5, 7, 8, 9, 10, 15])) # ➞ [5, 7, 8, 9, 10, 15]
+
+print(setify([3, 3, 3, 2, 1])) # ➞ [1, 2, 3]
+
+
+# testing.
+# checkResources.
+# checkAgain.

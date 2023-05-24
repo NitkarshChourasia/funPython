@@ -1,7 +1,9 @@
 """
 ##Make a Circle with OOP
 
-Your task is to create a Circle constructor that creates a circle with a radius provided by an argument. The circles constructed must have two getters getArea() (PI*r^2) and getPerimeter() (2*PI*r) which give both respective areas and perimeter (circumference).
+Your task is to create a Circle constructor that creates a circle with a radius provided by an argument.
+The circles constructed must have two getters getArea() (PI*r^2)
+and getPerimeter() (2*PI*r) which give both respective areas and perimeter (circumference).
 For help with this class, I have provided you with a Rectangle constructor which you can use as a base example.
 
 
@@ -50,3 +52,8 @@ _________
 """ 
 # Your code should go here:
 
+# incomplete.
+# classes.
+# OOP.
+# checkResources.
+# checkAgain.

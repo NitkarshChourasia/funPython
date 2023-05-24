@@ -55,3 +55,21 @@ _________
 """ 
 # Your code should go here:
 
+def getStudentNames(dict1):
+    return pass
+
+
+
+print(get_student_names({
+    "Student 1" : "Steve",
+    "Student 2" : "Becky",
+    "Student 3" : "John"
+})) # ➞ ["Becky", "John", "Steve"]
+
+
+# incomplete.
+# checkResources.
+# checkAgain.
+# dictionary.
+
+

@@ -2,7 +2,8 @@
 ##Minimal VI: Ternary Operator
 
 Check the principles of minimalist code in the intro to the first challenge.
-In the Code tab you will find a code that is missing a single character in order to pass the tests. However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
+In the Code tab you will find a code that is missing a single character in order to pass the tests.
+However, your goal is to submit a function as minimalist as possible. Use the tips in the tips section below.
 Write a function that returns the strings:
 ___
 *) "both" if both given booleans a and b are True.
@@ -81,3 +82,26 @@ _________
 """ 
 # Your code should go here:
 
+
+def boolPlay(a, b):
+    match(a, b):
+        case 1:  a == True and b == True:
+            return "Both."
+        case 2: a == True and b == False:
+            return "First."
+        case 3: a == False and b == True:
+            return "Second."
+        case 4: a == False and b == False:
+            return "Neither."
+
+print(boolPlay(344, 24)) # Both.
+print(boolPlay(31, 3123)) # Both.
+print(boolPlay(1, 0)) # First.
+print(boolPlay(0, 1)) # Second.
+print(boolPlay(0, 0)  # Neither.
+
+
+
+# testing.
+# checkResources.
+# checkAgain. Match function.

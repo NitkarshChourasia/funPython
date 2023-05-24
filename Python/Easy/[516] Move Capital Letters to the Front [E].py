@@ -55,3 +55,28 @@ _________
 """ 
 # Your code should go here:
 
+
+def capToFront(str1):
+    uppLet = []
+    lowLet = []
+    for i in str1:
+        if i.isUpper():
+            uppLet.append(i)
+        elif i.lower():
+            lowLet.append(i)
+    outputLst1 = lowLet
+    outputLst1.append(uppLet)
+    outputStr1 = "".join(outputLst1)
+    return outputStr1
+
+
+print(capToFront("hApPy")) # ➞ "APhpy"
+
+print(capToFront("moveMENT")) # ➞ "MENTmove"
+
+print(capToFront("shOrtCAKE")) # ➞ "OCAKEshrt"
+
+
+# testing.
+# checkResources.
+# checkAgain.

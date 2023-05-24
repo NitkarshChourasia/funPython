@@ -37,8 +37,29 @@ _________
 _________
 Python Program to Check Automorphic (Cyclic) Number
 https://www.codesansar.com/python-programming-examples/check-automorphic-cyclic-number.htm
-This python program checks whether a given number by user is Automorphic (Cyclic) Number or not. A number is called Automorphic or Cyclic number if and only if its squa …
+This python program checks whether a given number by user is Automorphic (Cyclic) Number or not.
+A number is called Automorphic or Cyclic number if and only if its squa …
 _________
 """ 
 # Your code should go here:
+
+def autoMorphic(n):
+    squared = n ** 2
+    lst1 = int(x) for x in str(squared)
+    if lst1[-1] == n:
+        return True
+    elif lst1[-1] != n:
+        return False
+
+
+print(isAutomorphic(5)) # ➞ True
+
+print(isAutomorphic(8)) # ➞ False
+
+print(isAutomorphic(76)) # ➞ True
+
+
+# testing.
+# checkResources.
+
 

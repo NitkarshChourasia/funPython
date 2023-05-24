@@ -66,3 +66,26 @@ _________
 """ 
 # Your code should go here:
 
+def leftDigit(str1):
+    i = 0
+    outputAns = []
+    while (i < str1.len()):
+        if str1[i].isnumeric:
+            outputAns.append(str1[i])
+            break;
+    return int(outputAns)
+
+
+print(leftDigit("TrAdE2W1n95!")) # ➞ 2
+
+print(leftDigit("V3r1ta$")) # ➞ 3
+
+print(leftDigit("U//DertHe1nflu3nC3")) # ➞ 1
+
+print(leftDigit("J@v@5cR1PT")) # ➞ 5
+
+
+# testing.
+# checkResources.
+
+# can it be done in list ccmprehension?

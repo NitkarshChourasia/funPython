@@ -55,3 +55,20 @@ _________
 """ 
 # Your code should go here:
 
+def squareDigits(n):
+    lst1 = [int(x) ** 2 for x in str(n)]
+    outputAns = "".join(map(str, lst1))
+    print(type(outputAns))
+    return int(outputAns)
+
+
+print(squareDigits(9119)) #➞ 811181
+
+print(squareDigits(2483)) # ➞ 416649
+
+print(squareDigits(3212)) # ➞ 9414
+
+
+# testing.
+# checkResources.
+# incomplete.

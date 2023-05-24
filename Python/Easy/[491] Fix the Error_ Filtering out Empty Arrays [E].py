@@ -1,7 +1,12 @@
 """
 ##Fix the Error: Filtering out Empty Arrays
 
-I am trying to filter out empty arrays from an array. In other words, I want to transform something that looks like this: ["a", "b", [], [], [1, 2, 3]] to look like ["a", "b", [1, 2, 3]]. My code looks like this:
+I am trying to filter out empty arrays from an array.
+In other words,
+I want to transform something that looks like this:
+["a", "b", [], [], [1, 2, 3]] to look like ["a", "b", [1, 2, 3]]. My code looks like this:
+
+
 ___
 def remove_empty_arrays(arr):
     return [x for x in arr if len(x) != 0]
@@ -50,3 +55,9 @@ _________
 """ 
 # Your code should go here:
 
+def remEmpArr():
+    pass
+
+# incomplete.
+# checkAgain.
+# checkResources.

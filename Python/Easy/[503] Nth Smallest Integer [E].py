@@ -1,7 +1,8 @@
 """
 ##Nth Smallest Integer
 
-Given an unsorted list, create a function that returns the nth smallest integer (the smallest integer is the first smallest, the second smallest integer is the second smallest, etc).
+Given an unsorted list, create a function that returns the nth smallest integer
+(the smallest integer is the first smallest, the second smallest integer is the second smallest, etc).
 
 
 [Examples]
@@ -52,3 +53,21 @@ _________
 """ 
 # Your code should go here:
 
+def nthSmallest(lst1, n):
+    sortedLst1 = lst1.sort()
+    return sortedLst1[n-1]
+
+
+
+print(nthSmallest([1, 3, 5, 7], 1)) # ➞ 1
+
+print(nthSmallest([1, 3, 5, 7], 3)) # ➞ 5
+
+print(nthSmallest([1, 3, 5, 7], 5)) # ➞ None
+
+print(nthSmallest([7, 3, 5, 1], 2)) # ➞ 3
+
+
+# testing.
+# checkAgain.
+# checkResources.

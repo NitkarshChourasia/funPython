@@ -73,3 +73,16 @@ _________
 """ 
 # Your code should go here:
 
+def sortByLength(lst1):
+    return lst1.sort(asc=True)
+
+print(sortByLength(["Google", "Apple", "Microsoft"]))
+# ➞ ["Apple", "Google", "Microsoft"]
+
+print(sortByLength(["Leonardo", "Michelangelo", "Raphael", "Donatello"]))
+# ➞ ["Raphael", "Leonardo", "Donatello", "Michelangelo"]
+
+print(sortByLength(["Turing", "Einstein", "Jung"]))
+# ➞ ["Jung", "Turing", "Einstein"]
+
+# can I do it only in list comprehension.

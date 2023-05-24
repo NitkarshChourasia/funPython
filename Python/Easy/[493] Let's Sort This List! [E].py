@@ -66,3 +66,25 @@ _________
 """ 
 # Your code should go here:
 
+
+def ascDesNone(lst1, para):
+    lowerPara = para.lower()
+    if para == "asc":
+        return lst1.sort(True=Asc)
+    elif para == "des":
+        return lst1.sort(True=Des)
+    elif para == "none":
+        return lst1
+
+print(ascDesNonee([4, 3, 2, 1], "Asc" )) # ➞ [1, 2, 3, 4]
+
+print(ascDesNonee([7, 8, 11, 66], "Des")) # ➞ [66, 11, 8, 7]
+
+print(ascDesNonee([1, 2, 3, 4], "None")) # ➞ [1, 2, 3, 4]
+
+
+# testing.
+# checkAgain.
+# checkResources.
+
+

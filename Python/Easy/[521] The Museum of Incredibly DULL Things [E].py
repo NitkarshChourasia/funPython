@@ -1,7 +1,11 @@
 """
 ##The Museum of Incredibly DULL Things
 
-A museum wants to get rid of some exhibitions. Katya, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and removes the one with the lowest rating. Just as she finishes rating the exhibitions, she's called off to an important meeting. She asks you to write a program that tells her the ratings of the items after the lowest one is removed.
+A museum wants to get rid of some exhibitions. Katya, the interior architect,
+comes up with a plan to remove the most boring exhibitions. She gives them a rating,
+and removes the one with the lowest rating. Just as she finishes rating the exhibitions,
+she's called off to an important meeting.
+She asks you to write a program that tells her the ratings of the items after the lowest one is removed.
 Create a function that takes a list of integers and removes the smallest value.
 
 
@@ -61,3 +65,19 @@ _________
 """ 
 # Your code should go here:
 
+def removeSmallest(lst1):
+    sortLst1 = lst1.sorted()
+    outputAns = lst1.remove(sortLst1[0])
+    return outputAns
+
+
+print(removeSmallest([1, 2, 3, 4, 5])) # ➞ [2, 3, 4, 5]
+
+print(removeSmallest([5, 3, 2, 1, 4])) # ➞ [5, 3, 2, 4]
+
+print(removeSmallest([2, 2, 1, 2, 1])) # ➞ [2, 2, 2, 1]
+
+
+
+# testing.
+# checkResources.

@@ -1,7 +1,8 @@
 """
 ##Total Volume of All Boxes
 
-Given a list of boxes, create a function that returns the total volume of all those boxes combined together. A box is represented by a list with three elements: length, width and height.
+Given a list of boxes, create a function that returns the total volume of all those boxes combined together.
+A box is represented by a list with three elements: length, width and height.
 For instance, total_volume([2, 3, 2], [6, 6, 7], [1, 2, 1]) should return 266 since (2 x 3 x 2) + (6 x 6 x 7) + (1 x 2 x 1) = 12 + 252 + 2 = 266.
 
 
@@ -60,3 +61,16 @@ _________
 """ 
 # Your code should go here:
 
+def totalVolume():
+    pass
+
+
+print(totalVolume([4, 2, 4], [3, 3, 3], [1, 1, 2], [2, 1, 1])) # ➞ 63
+
+print(totalVolume([2, 2, 2], [2, 1, 1])) # ➞ 10
+
+print(totalVolume([1, 1, 1])) # ➞ 1
+
+# incomplete.
+# checkResources.
+# checkAgain.

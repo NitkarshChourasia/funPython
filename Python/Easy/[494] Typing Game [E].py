@@ -2,7 +2,10 @@
 ##Typing Game
 
 You're in the midst of creating a typing game.
-Create a function that takes in two lists: the list of user-typed words, and the list of correctly-typed words and outputs a list containing 1s (correctly-typed words) and -1s (incorrectly-typed words).
+Create a function that takes in two lists:
+the list of user-typed words, and the list of correctly-typed words
+and outputs a list containing 1s (correctly-typed words) and -1s (incorrectly-typed words).
+
 ___
 # Inputs:
 User-typed: ["cat", "blue", "skt", "umbrells", "paddy"]
@@ -63,3 +66,31 @@ _________
 """ 
 # Your code should go here:
 
+
+def correctStream(userTyped, correctWords):
+    i = 0
+    outputLst1 = []
+    if userTyped.len() == correctWords.len():
+        while( i < userTyped.len())
+            if userTyped[i] == correctWords[i]:
+                outputLst1.append(1)
+            elif userTyped[i] != correctWords[i]:
+                outputLst1.append(-1)
+            i = i + 1
+        return outputLst1
+    else:
+        "The lengths of lists, do not match."
+
+print(correct_stream(
+    ["it", "is", "find"],
+    ["it", "is", "fine"]
+)) # ➞ [1, 1, -1]
+
+prin(correct_stream(
+    ["april", "showrs", "bring", "may", "flowers"],
+    ["april", "showers", "bring", "may", "flowers"]
+)) # ➞ [1, -1, 1, 1, 1]
+
+
+# testing.
+# checkResources.

@@ -56,3 +56,9 @@ _________
 """ 
 # Your code should go here:
 
+def amplify(n):
+    pass
+
+# Making a list to 1 - n is easy.
+# But the main part 40 thing at every 4 times.
+# For that list comprehension with if - else statement, I need.

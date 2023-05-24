@@ -1,7 +1,8 @@
 """
 ##Upper or Lower Case
 
-Return the smallest number of steps it takes to convert a string entirely into uppercase or entirely into lower case, whichever takes the fewest number of steps. A step consists of changing one character from lower to upper case, or vice versa.
+Return the smallest number of steps it takes to convert a string entirely into uppercase or entirely into lower case,
+whichever takes the fewest number of steps. A step consists of changing one character from lower to upper case, or vice versa.
 
 
 [Examples]
@@ -65,3 +66,20 @@ _________
 """ 
 # Your code should go here:
 
+
+def stepsToConvert(n):
+    i = 0
+    outputAns = 0
+    while (i < n.len()):
+        if n[i].isUpper() or n[i].isLower():
+            outputAns = outputAns + 1
+    return outputAns
+
+
+# can I use append on list comprehesion? Let's try.
+# do it using only list comprehension.
+
+
+# incomplete.
+# checkResources.
+# checkAgain.

@@ -57,3 +57,10 @@ _________
 """ 
 # Your code should go here:
 
+def letterCounter(lst1):
+    pass
+
+
+# incomplete.
+# checkResources.
+# sublists.

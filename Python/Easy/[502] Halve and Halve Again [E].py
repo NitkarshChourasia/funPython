@@ -63,3 +63,22 @@ _________
 """ 
 # Your code should go here:
 
+def halveCount(a, b):
+    i = 0
+    while(a >= b):
+        a = a/2
+        i = i + 1
+    return i
+
+print(halveCount(1324, 98)) # ➞ 3
+# (1324 -> 662 -> 331 -> 165.5)
+
+print(halveCount(624, 8)) # ➞ 6
+# (624 -> 312 -> 156 -> 78 -> 39 -> 19.5 -> 9.75)
+
+print(halveCount(1000, 3)) # ➞ 8
+# (1000 -> 500 -> 250 -> 125 -> 62.5 -> 31.25 -> 15.625 -> 7.8125 -> 3.90625)
+
+
+# testing.
+# checkResources.

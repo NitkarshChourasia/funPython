@@ -1,7 +1,8 @@
 """
 ##YouTube Upload Count
 
-You are given a list of dates in the format Dec 11 and a month in the format Dec as arguments. Each date represents a video that was uploaded on that day. Return the number of uploads for a given month.
+You are given a list of dates in the format Dec 11 and a month in the format Dec as arguments.
+Each date represents a video that was uploaded on that day. Return the number of uploads for a given month.
 
 
 [Examples]
@@ -48,3 +49,18 @@ _________
 """ 
 # Your code should go here:
 
+
+def uploadCount(lst1, n):
+    count = lst1.count(n)
+    return count
+
+
+print(uploadCount(["Sept 22", "Sept 21", "Oct 15"], "Sept")) # ➞ 2
+
+print(uploadCount(["Sept 22", "Sept 21", "Oct 15"], "Oct")) # ➞ 1
+
+
+# testing.
+# checkAgain.
+# checkResources.
+# wrongIknow.

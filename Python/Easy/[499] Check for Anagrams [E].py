@@ -54,3 +54,11 @@ _________
 """ 
 # Your code should go here:
 
+def isAnagram():
+    pass
+
+
+# incomplete.
+# checkResources.
+# What is anagram.
+# Do collect a list of these kinds, like pallindrome and what not.

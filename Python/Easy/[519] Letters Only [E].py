@@ -65,3 +65,28 @@ _________
 """ 
 # Your code should go here:
 
+
+def lettersOnly(str1):
+    i = 0
+    ouputAns = []
+    abcd = "abcdefghijklmnopqrstuvwxyz"
+    lowStr1 = str1.islower()
+    while (i < str1.len()):  # This error I have to solve.
+        if lowStr1[i] in abcd:
+            ouputAns.append(lowStr1[i])
+        i = i + 1
+    outputStr1 = "".join(ouputAns)
+    return "{0}{1}".format(outputStr1[0].isupper(), outputStr1[1::])
+
+
+print(lettersOnly("R!=:~0o0./c&}9k`60=y")) # ➞ "Rocky"
+
+print(lettersOnly("^,]%4B|@56a![0{2m>b1&4i4")) # ➞ "Bambi"
+
+print(lettersOnly("^U)6$22>8p).")) # ➞ "Up"
+
+
+
+# error.
+# testing.
+# checkResources.

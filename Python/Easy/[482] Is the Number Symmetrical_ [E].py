@@ -1,7 +1,8 @@
 """
 ##Is the Number Symmetrical?
 
-Create a function that takes a number as an argument and returns True or False depending on whether the number is symmetrical or not. A number is symmetrical when it is the same as its reverse.
+Create a function that takes a number as an argument and returns True or False depending on
+whether the number is symmetrical or not. A number is symmetrical when it is the same as its reverse.
 
 
 [Examples]
@@ -64,3 +65,21 @@ _________
 """ 
 # Your code should go here:
 
+def isSymmetrical(n):
+    if n == n.reverse():
+        return True
+    else:
+        return False
+
+print(isSymmetrical(7227)) # ➞ True
+
+print(isSymmetrical(12567)) # ➞ False
+
+print(isSymmetrical(44444444)) # ➞ True
+
+print(isSymmetrical(9939)) # ➞ False
+
+print(isSymmetrical(1112111)) # ➞ True
+
+
+# testing.

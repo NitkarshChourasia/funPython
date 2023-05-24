@@ -45,3 +45,22 @@ _________
 """ 
 # Your code should go here:
 
+def equal(a, b, c):
+    set1 = {a, b, c}  # is this the right way of set?
+    lst1 = [a, b, c]
+    count = lst1.len() - set1.len()
+    if count > 0:
+        return count + 1
+    elif count == 0:
+        return count
+
+print(equal(3, 4, 3)) # ➞ 2
+
+print(equal(1, 1, 1)) # ➞ 3
+
+print(equal(3, 4, 1)) # ➞ 0
+
+
+# testing.
+# checkAgain.
+# checkResources.

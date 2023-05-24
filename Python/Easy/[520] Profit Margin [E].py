@@ -1,7 +1,9 @@
 """
 ##Profit Margin
 
-Create a function that calculates the profit margin given cost_price and sales_price. Return the result as a percentage formatted string, and rounded to one decimal. To calculate profit margin you subtract the cost from the sales price, then divide by sales price.
+Create a function that calculates the profit margin given cost_price and sales_price.
+Return the result as a percentage formatted string, and rounded to one decimal.
+To calculate profit margin you subtract the cost from the sales price, then divide by sales price.
 
 
 [Examples]
@@ -64,3 +66,24 @@ _________
 """ 
 # Your code should go here:
 
+def profitMargin(costP, salesP):
+    a = costP / 100
+    b = salesP - costP
+    c = b / a
+    # c = b / salesP
+    return a, b, c
+
+
+
+
+print(profitMargin(50, 50)) # ➞ "0.0%"
+
+print(profitMargin(28, 39)) # ➞ "28.2%"
+
+print(profitMargin(33, 84)) # ➞ "60.7%"
+
+
+# incomplete.
+# checkAgain.
+# checkResources.
+# check the percentage formula and understand it.

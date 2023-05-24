@@ -50,3 +50,29 @@ _________
 """ 
 # Your code should go here:
 
+def unique(lst1):
+    set1 = set(lst1)
+    lst2 = list(set1)
+    appendLst1 = []
+    appendLst2 = []
+
+    for i in lst2:
+        appendLst1.append(lst1.count(i)) # count
+
+    for i in appendLst1:
+        if i == 1:
+            a = appendLst1.index(i)
+    outputAns = lst2[a]
+    return outputAns
+
+
+print(unique([3, 3, 3, 7, 3, 3])) # ➞ 7
+
+print(unique([0, 0, 0.77, 0, 0])) # ➞ 0.77
+
+print(unique([0, 1, 1, 1, 1, 1, 1, 1])) # ➞ 0
+
+
+# testing.
+# checkResources.
+# makeEfficient.

@@ -74,3 +74,25 @@ _________
 """ 
 # Your code should go here:
 
+
+def mean(n):
+    lst1 = [int(x) for x in str(n)]
+    sumLst1 = lst1.sum()
+    meanIntOutput = sumLst1 / lst1.len()
+    return meanIntOutput
+
+
+
+print(mean(42)) # ➞ 3
+
+print(mean(12345)) # ➞ 3
+
+print(mean(666)) # ➞ 6
+
+
+# testing.
+# checkAgain.
+# checkResources.
+
+
+# sum means?
