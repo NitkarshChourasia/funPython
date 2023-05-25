@@ -55,3 +55,36 @@ _________
 """ 
 # Your code should go here:
 
+def centuryFromYear(year):
+    lst1 = [ x for x in str(year) ]
+    whichCentury = int(lst1[0] + lst1[1])
+    lastZeroCheck = (lst1[-2] + lst1[-1])
+    if lastZeroCheck == "00":
+        return whichCentury
+    elif lastZeroCheck != "00":
+        return whichCentury + 1
+
+print(centuryFromYear(2005)) # ➞ 21
+
+print(centuryFromYear(1950)) # ➞ 20
+
+print(centuryFromYear(1900)) # ➞ 19
+
+print(centuryFromYear(1234))
+
+print(centuryFromYear(2342))
+
+print(centuryFromYear(2423))
+
+print(centuryFromYear(2342))
+
+print(centuryFromYear(1422))
+
+print(centuryFromYear(1242))
+
+print(centuryFromYear(1423))
+
+
+# testing.
+# checkAgain.
+# checkResources.

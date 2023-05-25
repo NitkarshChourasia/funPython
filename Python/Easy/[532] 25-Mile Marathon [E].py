@@ -1,7 +1,12 @@
 """
 ##25-Mile Marathon
 
-Mary wants to run a 25-mile marathon. When she attempts to sign up for the marathon, she notices the sign-up sheet doesn't directly state the marathon's length. Instead, the marathon's length is listed in small, different portions. Help Mary find out how long the marathon actually is.
+Mary wants to run a 25-mile marathon.
+When she attempts to sign up for the marathon,
+she notices the sign-up sheet doesn't directly state the marathon's length.
+Instead, the marathon's length is listed in small,
+different portions.
+Help Mary find out how long the marathon actually is.
 Return True if the marathon is 25 miles long, otherwise, return False.
 
 
@@ -56,3 +61,28 @@ _________
 """ 
 # Your code should go here:
 
+def marathonDistance(lst1):
+    i = 0
+    sum = 0
+    while (i < lst1.len()):
+        sum = lst1[i].abs() + sum
+        i = i + 1
+    if sum == 25:
+        return True
+    elif sum != 25:
+        return False
+
+print(marathonDistance([1, 2, 3, 4])) # ➞ False
+
+print(marathonDistance([1, 9, 5, 8, 2])) # ➞ True
+
+print(marathonDistance([-6, 15, 4])) # ➞ True
+
+
+
+
+
+# Can I use list comprehension to make that negative postive to append to the list?
+# testing.
+# checkResources.
+# checkAgain.

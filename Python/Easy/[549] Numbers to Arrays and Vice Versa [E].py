@@ -53,3 +53,30 @@ _________
 """ 
 # Your code should go here:
 
+def mainFunction(n):
+    if type(n) == list:
+        # Don't use join.
+        # Yes, you can use join and then convert to int. But there is more of a good method i.e map method.
+        outputAns = map(int, n)
+        return outputAns
+    elif type(n) == int:
+        outputAns = [int(x) for x in str[n]]
+        return outputAns
+
+def toList():
+    pass
+
+def toNumber():
+    pass
+
+print(toList(235)) # ➞ [2, 3, 5]
+
+print(toList(0)) # ➞ [0]
+
+print(toNumber([2, 3, 5])) # ➞ 235
+
+print(toNumber([0])) # ➞ 0
+
+
+# incomplete.
+# checkResources.

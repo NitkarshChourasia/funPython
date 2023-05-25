@@ -1,7 +1,8 @@
 """
 ##Trace That Matrix
 
-Given a square matrix (i.e. same number of rows as columns), its trace is the sum of the entries in the main diagonal (i.e. the diagonal line from the top left to the bottom right).
+Given a square matrix (i.e. same number of rows as columns), its trace is the sum of the entries in the main diagonal
+(i.e. the diagonal line from the top left to the bottom right).
 As an example, for:
 ___
 [
@@ -79,3 +80,10 @@ _________
 """ 
 # Your code should go here:
 
+def trace(lst1):
+    pass
+
+# incomplete.
+# checkResources.
+# checkAgain.
+# matrices.

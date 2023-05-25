@@ -1,7 +1,9 @@
 """
 ##Find the Other Two Side Lengths
 
-Given the shortest side of a 30° by 60° by 90° triangle, find out the other two sides. Return the longest side and medium-length side in that order.
+Given the shortest side of a 30° by 60° by 90° triangle,
+find out the other two sides.
+Return the longest side and medium-length side in that order.
 
 
 [Examples]
@@ -55,3 +57,21 @@ _________
 """ 
 # Your code should go here:
 
+def returnSides(shortestSide):
+    hypotenuse = shortestSide * 2
+    longestSide = shortestSide * root3 # How to apply root 3 here? 1.79 is the key to apply it? How to do it?
+    outputAns = tuple(hypotenuse, longestSide)
+    return outputAns
+
+
+
+print(returnSides(1)) # ➞ (2, 1.73)
+
+print(returnSides(2)) # ➞ (4, 3.46)
+
+print(returnSides(3)) # ➞ (6, 5.2)
+
+
+# testing.
+# checkResources.
+# How to apply root 3? Which is 1.79? How to apply root 3, tell me?

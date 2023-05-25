@@ -69,3 +69,9 @@ _________
 """ 
 # Your code should go here:
 
+def convertCartesian(lstX, lstY):
+    pass
+
+# incomplete.
+# checkResources.
+# I know it can be solved using the .zip() method.

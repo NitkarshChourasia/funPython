@@ -1,7 +1,8 @@
 """
 ##Capitalize by ASCII
 
-Create a function that takes a string as input and capitalizes a letter if its ASCII code is even and returns its lower case version if its ASCII code is odd.
+Create a function that takes a string as input and capitalizes a letter if its ASCII code
+is even and returns its lower case version if its ASCII code is odd.
 
 
 [Examples]
@@ -50,3 +51,26 @@ _________
 """ 
 # Your code should go here:
 
+
+def asciiCapitalize(str1):
+    i = 0
+    outputLst1 = []
+    while (i < str1.len()):
+        if str1[i].ord() % 2 == 0:
+            outputLst1.append(str1[i].upper())
+        elif str1[i].ord() % 2 == 1:
+            outputLst1.append(str[i].lower())
+        i = i + 1
+    outputAns = "".join(outputLst1)
+    return outputAns
+
+print(asciiCapitalize("to be or not to be!")) # ➞ "To Be oR NoT To Be!"
+
+print(asciiCapitalize("THE LITTLE MERMAID")) # ➞ "THe LiTTLe meRmaiD"
+
+print(asciiCapitalize("Oh what a beautiful morning.")) # ➞ "oH wHaT a BeauTiFuL moRNiNg."
+
+
+# testing.
+# checkResources.
+# checkAgain.

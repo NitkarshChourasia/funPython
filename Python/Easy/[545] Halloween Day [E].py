@@ -1,7 +1,8 @@
 """
 ##Halloween Day
 
-Create a function that takes date in the format yyyy/mm/dd as an input and returns "Bonfire toffee" if the date is October 31, else return "toffee".
+Create a function that takes date in the format yyyy/mm/dd as an input
+and returns "Bonfire toffee" if the date is October 31, else return "toffee".
 
 
 [Examples]
@@ -50,3 +51,18 @@ _________
 """ 
 # Your code should go here:
 
+def halloween(date1):
+    if "10/31" in date1 or "31/10" in date1:
+        return "Bonfire toffee."
+    else:
+        return "toffee."
+
+print(halloween("2013/10/31")) # ➞ "Bonfire toffee"
+
+print(halloween("2012/07/31")) # ➞ "toffee"
+
+print(halloween("2011/10/12")) # ➞ "toffee"
+
+
+# testing.
+# checkResources.

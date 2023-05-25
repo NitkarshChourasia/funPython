@@ -1,8 +1,13 @@
 """
 ##Planetary Weight Converter
 
-In this challenge, you have to convert a weight weighed on a planet of the Solar System to the corresponding weight on another planet.
-To convert the weight, you have to divide it by the gravitational force of the planet on which is weighed and multiply the result (the mass) for the gravitational force of the other planet. See the table below for a list of gravitational forces:
+In this challenge,
+you have to convert a weight weighed on a planet of the
+Solar System to the corresponding weight on another planet.
+To convert the weight, you have to divide it by the gravitational force
+of the planet on which is weighed and multiply the result
+(the mass) for the gravitational force of the other planet.
+See the table below for a list of gravitational forces:
 weight on planet_a / gravitational force of planet_a * gravitational force of planet_b
 
 Given a weight weighed on planet_a, return the converted value for planet_b rounded to the nearest hundredth.
@@ -34,7 +39,8 @@ N/A
 _________
 Python Dictionaries
 https://www.w3schools.com/python/python_dictionaries.asp
-A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and  they have keys and values.
+A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and 
+ they have keys and values.
 _________
 _________
 round() Method
@@ -49,3 +55,10 @@ _________
 """ 
 # Your code should go here:
 
+
+def spaceWeights():
+    pass
+
+# incomplete
+# checkResources.
+# check the gravitational force of the planet to solve this problem.

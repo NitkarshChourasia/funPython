@@ -53,3 +53,21 @@ _________
 """ 
 # Your code should go here:
 
+def numArgs(*args):
+    return args.len()
+
+print(numArgs()) # ➞ 0
+
+print(numArgs("foo")) # ➞ 1
+
+print(numArgs("foo", "bar")) # ➞ 2
+
+print(numArgs(True, False)) # ➞ 2
+
+print(numArgs({})) # ➞ 1
+
+
+# testing.
+# checkResources.
+# I know it may and must be wrong.
+# checkAgain.

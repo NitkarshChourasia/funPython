@@ -50,3 +50,27 @@ _________
 """ 
 # Your code should go here:
 
+def oneOddOneEven(n):
+    lst1 = [int(x) for x in str(n)]
+    oddCount = 0
+    evenCount = 0
+    # if int[0] or int[1] % 2 == 1: Is it possible that this will work, so?
+    if lst1[0] % 2 == 1 or lst1[1] % 2 == 1:
+        oddCount = oddCount + 1
+    elif lst1[0] % 2 == 0 or lst1[1] % 2 == 0:
+        evenCount = evenCount + 1
+
+    if evenCount == 1 and oddCount == 1:
+        return True
+    else:
+        return False
+
+print(oneOddOneEven(12)) # ➞ True
+
+print(oneOddOneEven(55)) # ➞ False
+
+print(oneOddOneEven(22)) # ➞ False
+
+
+# testing.
+# checkResources.

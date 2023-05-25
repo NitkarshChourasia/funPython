@@ -1,7 +1,9 @@
 """
 ##Fix the Spacing
 
-Additional spaces have been added to a sentence. Return the correct sentence by removing them. All words should be separated by one space, and there should be no spaces at the beginning or end of the sentence.
+Additional spaces have been added to a sentence.
+Return the correct sentence by removing them.
+All words should be separated by one space, and there should be no spaces at the beginning or end of the sentence.
 
 
 [Examples]
@@ -83,3 +85,15 @@ _________
 """ 
 # Your code should go here:
 
+
+def correctSpacing(str1):
+    pass
+
+print(correctSpacing("The film   starts       at      midnight. "))
+# ➞ "The film starts at midnight."
+
+print(correctSpacing("The     waves were crashing  on the     shore.   "))
+# ➞ "The waves were crashing on the shore."
+
+print(correctSpacing(" Always look on    the bright   side of  life."))
+# ➞ "Always look on the bright side of life."

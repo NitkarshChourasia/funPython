@@ -51,3 +51,30 @@ _________
 """ 
 # Your code should go here:
 
+def last(lst1, n):
+    if n = 0:
+        return []
+    elif n <= lst1.len():
+        if n > 0:
+            n = n * -1
+            return lst1[:n] # Is this right? or double lst1[::n] is required?
+        elif n < 0:
+            return lst1[:n] # Is this right? or double lst1[::n] is required?
+    elif n > lst1.len():
+        return "Invalid."
+
+
+print(last([1, 2, 3, 4, 5], 1)) # ➞ [5]
+
+print(last([4, 3, 9, 9, 7, 6], 3)) # ➞ [9, 7, 6]
+
+print(last([1, 2, 3, 4, 5], 7)) # ➞ "invalid"
+
+print(last([1, 2, 3, 4, 5], 0)) # ➞ []
+
+
+# testing.
+# checkResources.
+# checkAgain.
+
+

@@ -1,7 +1,8 @@
 """
 ##Split a String Based on Vowels and Consonants
 
-Write a function that takes a string, breaks it up and returns it with vowels first, consonants second. For any character that's not a vowel (like special characters or spaces), treat them like consonants.
+Write a function that takes a string, breaks it up and returns it with vowels first, consonants second.
+For any character that's not a vowel (like special characters or spaces), treat them like consonants.
 
 
 [Examples]
@@ -49,3 +50,31 @@ _________
 """ 
 # Your code should go here:
 
+def split(str1):
+    vowels = list("aieouAEIOU")
+    i = 0
+    vowelLst1 = []
+    consonantsLst1 = []
+    while (i < str1.len()):
+        if str1[i] in vowels:
+            vowelLst1.append(str1[i])
+        elif str1[i] != vowels:
+            consonantsLst1.append(str1[i])
+        i = i + 1
+    outputCatStr = vowelLst1 + consonantsLst1  # Will it add the list?
+    # WIll it work?
+    outputCatStr = "".join(vowelLst1 + consonantsLst1)
+    outputCatStr = "".join(outputCatStr)
+    return outputCatStr
+
+
+print(split("abcde")) # ➞ "aebcd"
+
+print(split("Hello!")) # ➞ "eoHll!"
+
+print(split("What's the time?")) # ➞ "aeieWht's th tm?"
+
+
+# testing.
+# checkResources.
+# checkAgain.

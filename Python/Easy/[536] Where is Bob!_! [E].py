@@ -1,7 +1,8 @@
 """
 ##Where is Bob!?!
 
-Write a function that searches a list of names (unsorted) for the name "Bob" and returns the location in the list. If Bob is not in the list, return -1.
+Write a function that searches a list of names (unsorted) for the name "Bob"
+and returns the location in the list. If Bob is not in the list, return -1.
 
 
 [Examples]
@@ -60,3 +61,21 @@ _________
 """ 
 # Your code should go here:
 
+def findBob(lst1):
+    if "Bob" in lst1:
+        indexNum = lst1.index("Bob")
+        return indexNum
+    elif "Bob" not in lst1:
+        return -1
+
+
+print(findBob(["Jimmy", "Layla", "Bob"])) # ➞ 2
+
+print(findBob(["Bob", "Layla", "Kaitlyn", "Patricia"])) # ➞ 0
+
+print(findBob(["Jimmy", "Layla", "James"])) # ➞ -1
+
+
+# testing.
+# checkAgain.
+# checkResources.

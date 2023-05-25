@@ -1,7 +1,8 @@
 """
 ##Harshad Numbers
 
-A number n is a Harshad (also called Niven) number if it is divisible by the sum of its digits. For example, 666 is divisible by 6 + 6 + 6, so it is a Harshad number.
+A number n is a Harshad (also called Niven) number if it is divisible by the sum of its digits.
+For example, 666 is divisible by 6 + 6 + 6, so it is a Harshad number.
 Write a function to determine whether the given number is a Harshad number.
 
 
@@ -51,3 +52,19 @@ _________
 """ 
 # Your code should go here:
 
+def isHarshad(n):
+    lst1 = [int(x) for x in str(n)]
+    sumLst1 = lst1.sum()
+    if n % sumLst1 == 0:
+        return True
+    elif n % sumLst1 != 0:
+        return False
+
+print(isHarshad(209)) # ➞ True
+
+print(isHarshad(41)) # ➞ False
+
+print(isHarshad(12255)) # ➞ True
+
+# testing.
+# checkResources.

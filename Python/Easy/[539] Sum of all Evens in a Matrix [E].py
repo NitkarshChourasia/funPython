@@ -67,3 +67,34 @@ _________
 """ 
 # Your code should go here:
 
+def sumOfEvens(lst1):
+    pass
+
+print(sumOfEvens([
+    [1, 0, 2],
+    [5, 5, 7],
+    [9, 4, 3]
+])) # ➞ 6
+
+# // 2 + 4 = 6
+
+print(sumOfEvens([
+    [1, 1],
+    [1, 1]
+])) # ➞ 0
+
+print(sumOfEvens([
+    [42, 9],
+    [16, 8]
+])) # ➞ 66
+
+print(sumOfEvens([
+    [],
+    [],
+    []
+])) # ➞ 0
+
+
+# incomplete.
+# checkResources.
+# checkAgain.

@@ -1,7 +1,8 @@
 """
 ##Count the Letters and Digits
 
-Write a function that takes a string and calculates the number of letters and digits within it. Return the result in a dictionary.
+Write a function that takes a string and calculates the number of letters and digits within it.
+Return the result in a dictionary.
 
 
 [Examples]
@@ -50,7 +51,9 @@ _________
 _________
 Python RegEx
 https://www.w3schools.com/python/python_regex.asp
-.span() returns a tuple containing the start-, and end positions of the match. .string returns the string passed into the function .group() returns the part of the st …
+.span() returns a tuple containing the start-, and end positions of the match.
+ .string returns the string passed into the function
+ .group() returns the part of the st …
 _________
 _________
 Online Regex Tester and Debugger
@@ -60,3 +63,24 @@ _________
 """ 
 # Your code should go here:
 
+def countAll(str1):
+    i = 0
+    lettersCount = 0
+    digitsCount = 0
+    while(i < str1.len()):
+        if str1[i].isalpha():
+            lettersCount = lettersCount + 1
+        elif str1[i].isdigit():
+            digitsCount = digitsCount + 1
+        i = i + 1
+    return {"Letters": lettersCount, "Digits": digitsCount}
+
+print(countAll("Hello World")) # ➞ { "LETTERS":  10, "DIGITS": 0 }
+
+print(countAll("H3ll0 Wor1d")) # ➞ { "LETTERS":  7, "DIGITS": 3 }
+
+print(countAll("149990")) # ➞ { "LETTERS": 0, "DIGITS": 6 }
+
+
+# testing.
+# checkResources.

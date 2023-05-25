@@ -1,7 +1,8 @@
 """
 ##Vowel Sandwich
 
-Create a function which validates whether a 3 character string is a vowel sandwich. In order to have a valid sandwich, the string must satisfy the following rules:
+Create a function which validates whether a 3 character string is a vowel sandwich.
+In order to have a valid sandwich, the string must satisfy the following rules:
 ___
 *) The first and last characters must be a consonant.
 *) The character in the middle must be a vowel.
@@ -52,3 +53,28 @@ _________
 """ 
 # Your code should go here:
 
+
+def isVowelSandwich(str1):
+    if str1.len() != 3:
+        return False
+    elif str1.len() == 3:
+        vowels = list("aeiou")
+        lowStr = str1.lower()
+        if lowStr[0] not in vowels and lowStr[2] not in vowels and lowStr[1] in vowels:
+            return True
+        else:
+            return False
+
+
+print(isVowelSandwich("cat")) # ➞ True
+
+print(isVowelSandwich("ear")) # ➞ False
+
+print(isVowelSandwich("bake")) # ➞ False
+
+print(isVowelSandwich("try")) # ➞ False
+
+
+# testing.
+# checkResources.
+# checkAgain.

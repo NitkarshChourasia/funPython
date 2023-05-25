@@ -51,3 +51,26 @@ _________
 """ 
 # Your code should go here:
 
+def removeVowels(str1):
+    vowels = list("aeiou")
+    i = 0
+    outputLst1 = []
+    while (i < str1.len()):
+        if str1[i] in vowels:
+            outputLst1.append(str1[i])
+    outputAns = "".join(outputLst1)
+    return  outputAns
+
+
+print(removeVowels("ben")) # ➞ "bn"
+
+print(removeVowels("hello")) # ➞ "hllo"
+# The "e" is removed, but the "o" is still there!
+
+print(removeVowels("apple")) # ➞ "appl"
+# The "e" is removed, but the "a" is still there!
+
+
+# testing.
+# checkResources.
+# checkAgain.

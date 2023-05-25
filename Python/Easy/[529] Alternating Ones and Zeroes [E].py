@@ -48,3 +48,24 @@ _________
 """ 
 # Your code should go here:
 
+def canAlternate(str1):
+    countZero = str1.count("0")
+    countOne = str1.count("1")
+    if countOne == countZero:
+        return True
+    elif countOne != countZero:
+        return False
+
+print(canAlternate("0001111")) # ➞ True
+# Can make: "1010101"
+
+print(canAlternate("01001")) # ➞ True
+# Can make: "01010"
+
+print(canAlternate("010001")) # ➞ False
+
+print(canAlternate("1111")) # ➞ False
+
+
+# testing.
+# checkResources.
