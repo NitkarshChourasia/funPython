@@ -46,3 +46,8 @@ _________
 """ 
 # Your code should go here:
 
+print(catchZeroDivision("2 / 0") ➞ True
+
+print(catchZeroDivision("4 / (2 + 3 - 5)") ➞ True
+
+print(catchZeroDivision("2 * 5 - 10") ➞ False
