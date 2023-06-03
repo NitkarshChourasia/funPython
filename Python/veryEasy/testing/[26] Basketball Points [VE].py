@@ -45,12 +45,19 @@ _________
 def bbPoints(threePointers, twoPointers):
     return threePointers*3 + twoPointers*2
 
+def bbPoints(twoPointers, threePointers):
+    outputAns = (twoPointers * 2) + (threePointers * 3)
+    return outputAns
 
-print(bbPoints(1, 1))
-print(bbPoint(7, 5))
-print(bbPoint(38, 8))
+
+print(bbPoints(1, 1)) # ➞ 5
+
+print(bbPoints(7, 5)) # ➞ 29
+
+print(bbPoints(38, 8)) # ➞ 100
 
 
-# Incomplete.
-# testing.
-# checkAgain.
+
+# complete.
+# tested.
+# checkResources.

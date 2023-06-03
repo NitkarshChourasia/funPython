@@ -52,11 +52,13 @@ def isSameNum(num1, num2):
     else:
         return False
 
+print(isSameNum(4, 8)) # ➞ False
 
-print(isSameNum(4, 8))
-print(isSameNum(2, 2))
-print(isSameNum(2, "2"))
+print(isSameNum(2, 2)) # ➞  True
 
+print(isSameNum(2, "2")) # ➞ False
 
-# testing.
+# tested.
+# complete.
+# checkResources.
 

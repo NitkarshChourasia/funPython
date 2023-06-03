@@ -1,16 +1,12 @@
+def smallestEvenMultiple(n: int) -> int:
+    i = 1
+    multiply = 0
+    while True:
+        multiply = i * n
+        if multiply % 2 == 0 and multiply % n == 0:
+            break
+        i += 1
+    return multiply
 
 
-def rotateList(nums : list[int], k: int) -> None:
-    #a = nums[-3:]
-    #b = nums[:-3]
-    #nums1 = a + b
-    nums = nums[-k:]  + nums[:-k]
-
-    #print(a)
-    #print(b)
-    #print(nums)
-    print(nums)
-
-
-
-print(rotateList([1,2,3,4,5,6,7], 3))
+print(smallestEvenMultiple(5))

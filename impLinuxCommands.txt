@@ -26,3 +26,10 @@ chatGPT combined with your own research too, works ultimatum.
 It works well, just needs a nudge in the right direction.
 
 
+Important vim commands.
+
+To apply '#' to the input parameters list.
+
+
+To apply ')' i.e closing bracket to the input parameter list.
+:%s/)\s*#\s*➞/)) # ➞/g

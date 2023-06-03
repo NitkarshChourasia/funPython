@@ -72,10 +72,13 @@ def divBy5(num1):
     else:
         return False
 
-print(divBy5(5))
-print(divBy5(-55))
-print(divBy5(37))
+print(divBy5(5)) # ➞ True
 
-# Incomplete.
-# checkAgain.
-# testing.
+print(divBy5(-55)) # ➞ True
+
+print(divBy5(37)) # ➞ False
+
+
+# complete.
+# tested.
+# checkResources.

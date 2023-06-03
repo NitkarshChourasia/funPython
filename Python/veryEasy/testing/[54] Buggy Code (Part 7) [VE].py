@@ -1,7 +1,7 @@
 """
 ##Buggy Code (Part 7)
 
-Mubashir wants to swap two given numbers!
+Nitkarsh wants to swap two given numbers!
 It is not returning the right values. Can you help him fix it?
 ___
 a = 100
@@ -55,11 +55,11 @@ def swap(a, b):
     a = temp
     return a, b
 
+print(swap(100, 200)) # ➞ [200, 100]
 
-print(swap(100, 200))
-print(swap(44, 33))
-print(swap(21, 12))
-print(swap(12314141, 131))
+print(swap(44, 33)) # ➞ [33, 44]
+
+print(swap(21, 12)) # ➞ [12, 21]
 
 
 # testing.
