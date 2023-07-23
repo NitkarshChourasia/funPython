@@ -3,9 +3,15 @@
 
 A graph is a set of nodes and edges that connect those nodes.
 
-There are two types of graphs; directed and undirected. In an undirected graph, the edges between nodes have no particular direction (like a two-way street) whereas in a directed graph, each edge has a direction associated with it (like a one-way street).
-For two nodes in a graph to be considered adjacent to one another, there must be an edge between them. In the example given above, nodes 0 and 1 are adjacent, but nodes 0 and 2 are not.
-We can encode graphs using an adjacency matrix. An adjacency matrix for a graph with "n" nodes is an "n * n" matrix where the entry at row "i" and column "j" is a 0 if nodes "i" and "j" are not adjacent, and 1 if nodes "i" and "j" are adjacent.
+There are two types of graphs; directed and undirected. In an undirected graph,
+the edges between nodes have no particular direction (like a two-way street) whereas in a directed graph,
+ each edge has a direction associated with it (like a one-way street).
+For two nodes in a graph to be considered adjacent to one another,
+there must be an edge between them.
+In the example given above, nodes 0 and 1 are adjacent, but nodes 0 and 2 are not.
+We can encode graphs using an adjacency matrix.
+An adjacency matrix for a graph with "n" nodes is an "n * n" matrix where the entry at row "i" and column "j" is a 0 if nodes "i" and "j" are not adjacent,
+and 1 if nodes "i" and "j" are adjacent.
 For the example above, the adjacency matrix would be as follows:
 ___
 [
@@ -106,5 +112,51 @@ Is created by placing all the items (elements) inside square brackets [], separa
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def adjacencyMatrix(matrixInput, node1, node2):
+    if not isinstance(matrixInput, list):
+        return "Invalid matrix input."
+    elif len(matrixInput) > 0:
+        if matrixInput[node1][node2] == 1:
+            return True
+        else:
+            return False
+    elif len(matrixInput) == 0:
+        return "Matrix is zero can't determine anything."
+
+
+# Edge cases will have to be included.
+
+matrix1 = [
+    [0, 1, 0, 0],
+    [1, 0, 1, 1],
+    [0, 1, 0, 1],
+    [0, 1, 1, 0]
+]
+
+matrix2 = [
+    [0, 1, 0, 1, 1],
+    [1, 0, 1, 0, 0],
+    [0, 1, 0, 1, 0],
+    [1, 0, 1, 0, 1],
+    [1, 0, 0, 1, 0]
+]
+
+print(adjacencyMatrix(matrixInput=matrix1, node1=0, node2=1))
+print(adjacencyMatrix(matrixInput=matrix1, node1=0, node2=2))
+
+print(adjacencyMatrix(matrixInput=matrix2, node1=0, node2=3))
+print(adjacencyMatrix(matrixInput=matrix2, node1=1, node2=4))
+
+print("Reversed inputs test.")
+
+print(adjacencyMatrix(matrixInput=matrix1, node1=0, node2=1))
+print(adjacencyMatrix(matrixInput=matrix1, node1=0, node2=2))
+
+print(adjacencyMatrix(matrixInput=matrix2, node1=0, node2=3))
+print(adjacencyMatrix(matrixInput=matrix2, node1=1, node2=4))
+
+# complete.

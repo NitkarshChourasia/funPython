@@ -1,7 +1,8 @@
 """
 ####  Correct the Mistakes  ####
 
-Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+Fix the code in the code tab to pass this challenge (only syntax errors).
+Look at the examples below to get an idea of what the function should do.
 
 
 [Examples]
@@ -48,5 +49,27 @@ metal gecko wall art gecko wall art metal wall art funky gecko metal wall art w 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def squared(n):
+    try:
+        assert n >= 0
+        return pow(n, 2)
+    except AssertionError:
+        return "Positive values only."
+
+
+print(squared(5))  # ➞ 25
+
+print(squared(9))  # ➞ 81
+
+print(squared(100))  # ➞ 10000
+
+print(squared(0))
+
+print(squared(-10))
+
+# complete.

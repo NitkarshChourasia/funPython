@@ -1,7 +1,9 @@
 """
 ####  Recursion to Repeat a String n Number of Times  ####
 
-Create a recursive function that takes two parameters and repeats the string n number of times. The first parameter txt is the string to be repeated and the second parameter is the number of times the string is to be repeated.
+Create a recursive function that takes two parameters and repeats the string n number of times.
+The first parameter txt is the string to be repeated and
+the second parameter is the number of times the string is to be repeated.
 
 
 [Examples]
@@ -49,5 +51,62 @@ Multiply a string with the multiplication operator * by an integer n to concaten
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+# I wanted to preserve the original string therefore did all this manipulations.
+def repetition1(string1, ntimes):
+    if ntimes == 0:
+        return ""
+
+    elif ntimes == 1:
+        return string1
+
+    elif ntimes > 1:
+        result = ""
+        i = 0
+        while i < ntimes:  # While loop defeats the purpose of recursion.
+            result += string1
+            i += 1
+        return result
+
+    # return repetition(string1, ntimes - 1)
+
+
+# print(repetition("ab", 3))  # ➞ "ababab"
+#
+# print(repetition("kiwi", 1))  # ➞ "kiwi"
+#
+# print(repetition("cherry", 2))  # ➞ "cherrycherry"
+
+
+def repetition(string1, ntimes):
+    if ntimes == 0:
+        return ""
+    elif ntimes == 1:
+        return string1 + string1 + string1
+    print(string1, end="")
+
+    return repetition(string1, ntimes - 1)
+
+
+print(repetition("ab", 3))  # ➞ "ababab"
+
+print(repetition("kiwi", 1))  # ➞ "kiwi"
+
+print(repetition("cherry", 3))  # ➞ "cherrycherry"
+
+# inc.
+
+# successful toh hua, par kya sahi mai hua lekin?
+# successful toh hua, par kya sahi mai yeh recursion hai?
+# chatgpt, ko puchna padega.
+# par at least recursion ke t
+# is recursion ko auur chota kar sakta hu mai. Kaise?
+# elif == 1 hatha kar mai iss recursion ko auur chota kar sakta hu.
+# aur koi tarika hai isse chota karne ka? efficient aur efficient banane ka?
+# par recursion toh hua lekin chatgpt ko puchuga ki aurr kaise behtar banaau isse...
+
+
+# ERROR ke liye Return Value dekho, please.

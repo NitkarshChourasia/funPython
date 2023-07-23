@@ -1,7 +1,9 @@
 """
 ####  Burglary Series (14): Adjectives Total  ####
 
-You call your spouse in anger and a "little" argument takes place. Count the total amount of insults used. Given a dictionary of insults, return the total amount of insults used.
+You call your spouse in anger and a "little" argument takes place.
+Count the total amount of insults used.
+Given a dictionary of insults, return the total amount of insults used.
 
 
 [Examples]
@@ -54,5 +56,19 @@ If you want to know more about dictionaries and their construction
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def total_amount_adjectives(dict1):
+    return len(dict1)
+
+
+print(total_amount_adjectives({"a": "moron"}))  # ➞ 1
+
+print(total_amount_adjectives({"a": "idiot", "b": "idiot", "c": "idiot"}))  # ➞ 3
+
+print(total_amount_adjectives({"a": "moron", "b": "scumbag", "c": "moron", "d": "dirtbag"}))  # ➞ 4
+
+# complete.

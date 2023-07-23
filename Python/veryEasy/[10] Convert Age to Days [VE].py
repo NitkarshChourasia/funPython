@@ -54,5 +54,25 @@ Use this handy beginner's tutorial to understand how to multiply and divide numb
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def calc_age(age):
+    try:
+        assert age >= 0
+        return 365 * age
+    except AssertionError:
+        return "Please input zero or positive age only."
+
+
+print(calc_age(65))  # ➞ 23725
+
+print(calc_age(0))  # ➞ 0
+
+print(calc_age(20))  # ➞ 7300
+
+print(calc_age(-1))
+
+# complete.

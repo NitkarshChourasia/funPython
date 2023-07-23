@@ -39,5 +39,19 @@ In Python and generally speaking, the modulo (or modulus) is referred to as the 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def mod(num1, num2):
+    return num1 % num2
+
+
+print(mod(-13, 64))  # ➞ 51
+
+print(mod(50, 25))  # ➞ 0
+
+print(mod(-6, 3))  # ➞ 0
+
+# complete.

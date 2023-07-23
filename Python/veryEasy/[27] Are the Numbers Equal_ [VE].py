@@ -44,5 +44,23 @@ The general Python syntax for a simple if statement is. if condition : indentedS
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def isSameNum(num1, num2):
+    try:
+        assert num1 == num2
+        return True
+    except AssertionError:
+        return False
+
+
+print(isSameNum(4, 8))  # ➞ False
+
+print(isSameNum(2, 2))  # ➞  True
+
+print(isSameNum(2, "2"))  # ➞ False
+
+# complete.

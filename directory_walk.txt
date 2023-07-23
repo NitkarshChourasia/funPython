@@ -1,0 +1,860 @@
+Current Path: D:\coding\funPy
+Directories: ['.git', '.idea', 'Miscellaneous', 'Python', 'venv', '__pycache__']
+Files: ['directory_walk.txt', 'hello.txt', 'impLinuxCommands.txt', 'os_module_methods.txt', 'practice.py', 'practice_file.py', 'practice_file_child.py', 'README.md', 'repository_list.txt', 'repository_lst.txt']
+
+Current Path: D:\coding\funPy\.git
+Directories: ['fsmonitor--daemon', 'hooks', 'info', 'logs', 'objects', 'refs']
+Files: ['COMMIT_EDITMSG', 'config', 'description', 'FETCH_HEAD', 'HEAD', 'index', 'ORIG_HEAD', 'packed-refs']
+
+Current Path: D:\coding\funPy\.git\fsmonitor--daemon
+Directories: ['cookies']
+Files: []
+
+Current Path: D:\coding\funPy\.git\fsmonitor--daemon\cookies
+Directories: []
+Files: []
+
+Current Path: D:\coding\funPy\.git\hooks
+Directories: []
+Files: ['applypatch-msg.sample', 'commit-msg.sample', 'fsmonitor-watchman.sample', 'post-update.sample', 'pre-applypatch.sample', 'pre-commit.sample', 'pre-merge-commit.sample', 'pre-push.sample', 'pre-rebase.sample', 'pre-receive.sample', 'prepare-commit-msg.sample', 'push-to-checkout.sample', 'update.sample']
+
+Current Path: D:\coding\funPy\.git\info
+Directories: []
+Files: ['exclude']
+
+Current Path: D:\coding\funPy\.git\logs
+Directories: ['refs']
+Files: ['HEAD']
+
+Current Path: D:\coding\funPy\.git\logs\refs
+Directories: ['heads', 'remotes']
+Files: []
+
+Current Path: D:\coding\funPy\.git\logs\refs\heads
+Directories: []
+Files: ['main']
+
+Current Path: D:\coding\funPy\.git\logs\refs\remotes
+Directories: ['origin']
+Files: []
+
+Current Path: D:\coding\funPy\.git\logs\refs\remotes\origin
+Directories: []
+Files: ['HEAD', 'main']
+
+Current Path: D:\coding\funPy\.git\objects
+Directories: ['39', '83', 'cb', 'info', 'pack']
+Files: []
+
+Current Path: D:\coding\funPy\.git\objects\39
+Directories: []
+Files: ['68f7ee08a433e210aa9a0e1620461682e5efbd']
+
+Current Path: D:\coding\funPy\.git\objects\83
+Directories: []
+Files: ['98bcf9f973e31cdabd55f4a927cb3305bcec63']
+
+Current Path: D:\coding\funPy\.git\objects\cb
+Directories: []
+Files: ['fcd425b1ac8845d3b4ac21157417b450ab5121']
+
+Current Path: D:\coding\funPy\.git\objects\info
+Directories: []
+Files: []
+
+Current Path: D:\coding\funPy\.git\objects\pack
+Directories: []
+Files: ['pack-a1393485df94f91994db08243c7f79675ab19368.idx', 'pack-a1393485df94f91994db08243c7f79675ab19368.pack']
+
+Current Path: D:\coding\funPy\.git\refs
+Directories: ['heads', 'remotes', 'tags']
+Files: []
+
+Current Path: D:\coding\funPy\.git\refs\heads
+Directories: []
+Files: ['main']
+
+Current Path: D:\coding\funPy\.git\refs\remotes
+Directories: ['origin']
+Files: []
+
+Current Path: D:\coding\funPy\.git\refs\remotes\origin
+Directories: []
+Files: ['HEAD', 'main']
+
+Current Path: D:\coding\funPy\.git\refs\tags
+Directories: []
+Files: []
+
+Current Path: D:\coding\funPy\.idea
+Directories: ['inspectionProfiles']
+Files: ['.gitignore', '.name', 'funPy.iml', 'misc.xml', 'modules.xml', 'vcs.xml', 'workspace.xml']
+
+Current Path: D:\coding\funPy\.idea\inspectionProfiles
+Directories: []
+Files: ['profiles_settings.xml']
+
+Current Path: D:\coding\funPy\Miscellaneous
+Directories: ['autoCommitScript']
+Files: ['incompleteFilesInfos.md', 'lastFileOpen.md', 'morningRedoFiles.md', 'toLearn.md']
+
+Current Path: D:\coding\funPy\Miscellaneous\autoCommitScript
+Directories: []
+Files: ['autoCommitScript.sh']
+
+Current Path: D:\coding\funPy\Python
+Directories: ['Easy', 'Hard', 'Medium', 'veryEasy', 'veryHard']
+Files: []
+
+Current Path: D:\coding\funPy\Python\Easy
+Directories: []
+Files: ['[411] Stuttering Function [E].py', '[412] Find the Discount [E].py', '[413] Radians to Degrees [E].py', '[414] Circle or Square [E].py', '[415] Curzon Numbers [E].py', '[416] Luke_ I Am Your [E].py', '[417] Sum of Resistance in Series Circuits [E].py', '[418] Solving Exponential Equations With Logarithms [E].py', '[419] Invert Colors [E].py', '[420] End Corona! [E].py', '[421] Basic Calculator [E].py', '[422] Calculating Damage [E].py', "[423] Let's Sort This List! [E].py", '[424] Return the Factorial [E].py', '[425] Number Split [E].py', '[426] Same Parity_ [E].py', '[427] RegEx XV_ Alternation [E].py', '[428] Instant JAZZ [E].py', '[429] Default Mood [E].py', '[430] Convert a Number to Base-2 [E].py', '[431] How Heavy Is It_ [E].py', '[432] Is it Time for Milk and Cookies_ [E].py', '[433] Pythagorean Triplet [E].py', '[434] Count Ones in Binary Representation of Integer [E].py', '[435] How Many Vowels_ [E].py', '[436] Find ASCII Charcode of Inverse Case Character [E].py', '[437] Sum of Evenly Divisible Numbers from a Range [E].py', '[438] Correct Inequality Signs [E].py', '[439] Vowel Replacer [E].py', '[440] Hiding the Card Number [E].py', '[441] Xs and Os_ Nobody Knows [E].py', '[442] Shuffle the Name [E].py', '[443] Find the Odd Integer [E].py', '[444] Hamming Distance [E].py', '[445] Filter out Strings from an Array [E].py', '[446] The Reverser! [E].py', '[447] Unpacking Lists [E].py', '[448] Characters in Shapes [E].py', '[449] Recursion_ Factorials [E].py', '[450] Moving to the End [E].py', '[451] Repeating Letters [E].py', '[452] Flip the Boolean [E].py', '[453] Folding a Piece of Paper [E].py', '[454] Return the Index of All Capital Letters [E].py', '[455] Recursion_ Sum [E].py', '[456] Even Number Generator [E].py', '[457] Filter Strings from Array [E].py', '[458] Add the Index [E].py', '[459] Probabilities (Part 1) [E].py', '[460] Volume of a Cone [E].py', '[461] Triangular Number Sequence [E].py', '[462] Find the Missing Number [E].py', '[463] Stand in Line [E].py', "[464] Get Sum of People's Budget [E].py", '[465] Alphabet Soup [E].py', '[466] Clone a List [E].py', '[467] Card Counting (BlackJack) [E].py', '[468] ATM PIN Code Validation [E].py', '[469] Compound Interest [E].py', '[470] Return Only the Integer [E].py', '[471] Chat Room Status [E].py', '[472] Western Showdown [E].py', '[473] List Operation [E].py', '[474] Simon Says [E].py', '[475] Secret Society [E].py', '[476] Is the Word an Isogram_ [E].py', '[477] Is the String in Order_ [E].py', '[478] Convert to Decimal Notation [E].py', '[479] Purge and Organize [E].py', '[480] Is the Number Symmetrical_ [E].py', '[481] Square Every Digit [E].py', '[482] Travelling Salesman Problem [E].py', '[483] _EdaBit_ Challenge [E].py', '[484] Count Palindrome Numbers in a Range [E].py', '[485] Transform into a List with No Duplicates [E].py', '[486] Get Student Names [E].py', '[487] Say Hello to Guests [E].py', '[488] Total Volume of All Boxes [E].py', '[489] Find the Mean of All Digits [E].py', '[490] Typing Game [E].py', '[491] Remove Every Vowel from a String [E].py', '[492] Bitwise Operations [E].py', '[493] True Ones_ False Zeros [E].py', '[494] Check for Anagrams [E].py', '[495] Is One List a Subset of Another_ [E].py', '[496] Minimal VI_ Ternary Operator [E].py', '[497] Halve and Halve Again [E].py', '[498] Nth Smallest Integer [E].py', '[499] Scrabble Hand [E].py', '[500] Automorphic Numbers [E].py', '[501] Lexicographically First and Last [E].py', '[502] Four Passengers and a Driver [E].py', '[503] Index Multiplier [E].py', '[504] Amplify the Multiples of Four [E].py', '[505] Upper or Lower Case [E].py', '[506] Which Number Is Not like the Others_ [E].py', '[507] Make a Circle with OOP [E].py', '[508] One Button Messaging Device [E].py', '[509] Sort a List by String Length [E].py', '[510] Move Capital Letters to the Front [E].py', '[511] Count Letters in a Word Search [E].py', '[512] Most Left Digit [E].py', '[513] Letters Only [E].py', '[514] Profit Margin [E].py', '[515] The Museum of Incredibly DULL Things [E].py', '[516] Toy Car Workshop [E].py', '[517] Hot Pics of Danny DeVito! [E].py', '[518] Equality of 3 Values [E].py', '[519] Sort by String Length [E].py', '[520] An Introduction to the Map-Reduce Pattern [E].py', '[521] Removing Enemies [E].py', '[522] Lowercase and Uppercase Map [E].py', '[523] Alternating Ones and Zeroes [E].py', '[524] Vowel Sandwich [E].py', '[525] 25-Mile Marathon [E].py', '[526] Capitalize by ASCII [E].py', '[527] Count the Arguments [E].py', '[528] Where is Bob!_! [E].py', '[529] Fix the Spacing [E].py', '[530] Retrieve the Last N Elements [E].py', '[531] Sum of all Evens in a Matrix [E].py', '[532] Trace That Matrix [E].py', '[533] Convert Year to Century [E].py', '[534] X and Y Coordinates [E].py', '[535] Split a String Based on Vowels and Consonants [E].py', '[536] Halloween Day [E].py', '[537] Count the Letters and Digits [E].py', '[538] Numbers to Arrays and Vice Versa [E].py', '[539] Return First and Last Parameter [E].py', '[540] Regex Series_ String Contains at Least One Digit [E].py', '[541] Return Odd _ Even [E].py', '[542] Alphanumeric Restriction [E].py', '[543] Factor Chain [E].py', '[544] Multi-division [E].py', '[545] Transforming Words into Binary Strings [E].py', '[546] Reverse Words Starting With a Particular Letter [E].py', '[547] Inclusive List Ranges [E].py', '[548] Return a List of Sublists [E].py', '[549] Apocalyptic Numbers [E].py', '[550] Two Lists inside a List to One [E].py', '[551] Return the Highest and Lowest Numbers [E].py', '[552] Burglary Series (10)_ Calculate Difference [E].py', '[553] Remove Duplicates from a List [E].py', '[554] Distance Between Two Points [E].py', '[555] Odds vs_ Evens [E].py', '[556] Applying Discounts [E].py', '[557] YouTube Upload Count [E].py', '[558] Compare by ASCII Codes [E].py', '[559] Find the Other Two Side Lengths [E].py', '[560] Older Than Me [E].py', '[561] Sort Numbers in Descending Order [E].py', '[562] Longest Sequence of Consecutive Zeroes [E].py', '[563] Maskify the String [E].py', '[564] Convert Key_ Values in a Dictionary to List [E].py', '[565] Determine If Two Numbers Add up to a Target Value [E].py', '[566] Minimal V_ Membership Operator [E].py', '[567] Harshad Numbers [E].py', '[568] Fix the Error_ Vowel Edition [E].py', '[569] Functioninator 8000 [E].py', '[570] Return the Sum of the Two Smallest Numbers [E].py', '[571] Planetary Weight Converter [E].py', '[572] Apples and Bananas [E].py', '[573] Snail Race [E].py', '[574] Find Number of Digits in Number [E].py', '[575] One Odd and One Even [E].py', '[576] Video Length in Seconds [E].py', '[577] Reverse the Order of Words with Five Letters or More [E].py', '[578] H4ck3r Sp34k [E].py', '[579] The DECIMATOR [E].py', '[580] Positive Count _ Negative Sum [E].py', '[581] Even All the Way [E].py', '[582] Shhh Be Quiet Function [E].py', '[583] Double Letters [E].py', '[584] War of Numbers [E].py', '[585] Intro to Nested Loops [E].py', '[586] Flatten the Curve [E].py', '[587] RegEx XVIII_ Fixed Quantifiers [E].py', '[588] Even or Odd_ Which is Greater_ [E].py', '[589] Phone Number Formatting [E].py', '[590] Sum of Number Elements in a List [E].py', '[591] Temperature Conversion [E].py', '[592] Frequency Distribution [E].py', '[593] Sum of Two Digit Numbers [E].py', '[594] Max Adjacent Product [E].py', '[595] Apocalyptic Numbers [E].py', '[596] Is There an Upward Trend_ [E].py', '[597] Calculate the Median [E].py', '[598] The Million Dollar Fence [E].py', '[599] CMS Selector Based on a Given String [E].py', '[600] Multiplying Numbers in a String [E].py', '[601] Even or Odd Number of Factors [E].py', '[602] Are Letters in the Second String Present in the First_ [E].py', '[603] Switcharoo [E].py', '[604] Error Messages [E].py', '[605] First and Last Index [E].py', '[606] Radioactive Decay [E].py', '[607] Magic Date [E].py', '[608] Find Unique Positive Numbers from Array [E].py', '[609] Fix the Error_ Filtering out Empty Arrays [E].py', '[610] Cumulative List Sum [E].py', '[611] Numbered Alphabet [E].py', '[612] Balancing Scales [E].py', '[613] Return the Middle Character(s) of a String [E].py', '[614] Preventing the Collapse of the Universe [E].py', '[615] Find the First Non-Repeated Character [E].py', '[616] Type of Value [E].py', '[617] Check if the String is a Palindrome [E].py', '[618] Something in the Box_ [E].py', '[619] Edabit Experience Points [E].py', '[620] Snail Goes Up the Stairs [E].py', '[621] Verbed Nouns [E].py', '[622] Find the nth Tetrahedral Number [E].py', '[623] One_ Two_ Skip a Few [E].py', '[624] Emotify the Sentence [E].py', '[625] Check if a Number is Prime [E].py', '[626] Tuck in List [E].py', '[627] Count the Towers [E].py', '[628] Length of Worm [E].py', '[629] Words that Start with a Vowel [E].py', '[630] First N Mid [E].py', '[631] Remove the Special Characters from a String [E].py', '[632] Replace Vowel With Another Character [E].py', '[633] Grab the City [E].py', '[634] Sum of Resistance in Parallel Circuits [E].py', '[635] Orthogonal Vector [E].py', '[636] Neatly Formatted Math [E].py', '[637] Number Length Sort [E].py', '[638] Recursion_ Reverse a String [E].py', '[639] Doubled Pay [E].py', '[640] Finding Nemo [E].py', '[641] Format V_ Alignment [E].py', '[642] Find the Area of a (Regular) Hexagon [E].py', '[643] Good Match_ [E].py', '[644] Narcissistic Numbers [E].py', '[645] Ranged Reversal [E].py', '[646] Strange Pair [E].py', '[647] Days in a Month [E].py', '[648] Complete the Binary Number [E].py', '[649] Index Filtering [E].py', '[650] Parity Bit Validation [E].py', '[651] Changing Mixed Types [E].py', "[652] What's the Data Type_ [E].py", '[653] Does a Number Exist_ [E].py', '[654] Capitalize the First Letter of Each Word [E].py', '[655] Count the Number of Duplicate Characters [E].py', '[656] Format VI_ Padding [E].py', '[657] RegEx II_ Line Anchors [E].py', '[658] Sine_ Cosine and Tangent [E].py', '[659] Remove the Letters ABC [E].py', '[660] Spin Around_ Touch the Ground [E].py', "[661] Calculate the Missing Value with Ohm's Law [E].py", '[662] N-Sized Parts [E].py', '[663] RegEx XI-C_ Whitespace Character Class [E].py', '[664] Secret Function 2_0 [E].py', '[665] Extremely Over-Nested [E].py', '[666] Minimal VIII_ This and That [E].py', '[667] String Slice-athon [E].py', '[668] Partially Hidden String [E].py', '[669] Number of Apples Left [E].py', '[670] Puzzle Pieces [E].py', '[671] Format Number with Comma(s) Separating Thousands [E].py', '[672] String Flips [E].py', '[673] Recursion_ Fibonacci Numbers [E].py', '[674] XOR Swap Algorithm [E].py', '[675] Malthusian Catastrophe [E].py', "[676] Noddy's Mystery Function [E].py", '[677] Fix the Code_ Un-Mutating a List [E].py', '[678] Compounding Letters [E].py', '[679] Smooth Sentences [E].py', '[680] Superheroes [E].py', '[681] Position in the Alphabet [E].py', '[682] GCD of Two Numbers [E].py', '[683] Transform Upvotes [E].py', '[684] Find the Second Occurrence of _zip_ in a String [E].py', '[685] Character Code Math [E].py', '[686] Special Lists [E].py', '[687] Get the Century [E].py', '[688] Double Factorial [E].py', '[689] Amazing Alliteration [E].py', "[690] Minimal III_ You're a Boolean Now [E].py", '[691] Regex Series_ 5-Digit Zip Code [E].py', '[692] ASCII Charts (Part 1_ Progress Bar) [E].py', '[693] The Collatz Conjecture [E].py', '[694] How Many Rectangles_ [E].py', '[695] Letter Occurrences Per Word [E].py', '[696] Counting Adverbs [E].py', '[697] Enharmonic Equivalents [E].py', '[698] Flick Switch [E].py', '[699] RegEx I_ Line Anchors [E].py', "[700] Who's The Oldest_ [E].py", '[701] Recursion_ GCD [E].py', '[702] Remove Surrounding Duplicate Items [E].py', '[703] String Pairs [E].py', '[704] Derivative of a Function [E].py']
+
+Current Path: D:\coding\funPy\Python\Hard
+Directories: []
+Files: ['[1237] Imaginary Coding Interview [H].py', '[1238] Find Domain Name From DNS Pointer (PTR) Records Using IP Address [H].py', '[1239] Up the Hill_ Down the Hill [H].py', '[1240] Flipping Bits [H].py', '[1241] The Snake — Area Filling [H].py', '[1242] Basic Arithmetic Operations on a String Number [H].py', '[1243] Encode Morse [H].py', '[1244] Disarium Number [H].py', '[1245] Natural Emptiness [H].py', '[1246] Pentagonal Number [H].py', "[1247] The Karaca's Encryption Algorithm [H].py", '[1248] Friday the 13th [H].py', '[1249] Combined Consecutive Sequence [H].py', '[1250] Add the Values of the Symbols in a Matrix [H].py', '[1251] Tallest Skyscraper [H].py', '[1252] Convert to Hex [H].py', '[1253] Mahjong Tiles [H].py', '[1254] RegEx VII-A_ Negative Lookbehind [H].py', '[1255] Paint the Walls [H].py', '[1256] Sales by Match [H].py', '[1257] C_ns_r_d Str_ngs [H].py', '[1258] Tidy Hyperlinks [H].py', '[1259] The Twins Paradox [H].py', '[1260] Factorial of Factorials [H].py', '[1261] Calculated Bonus [H].py', '[1262] Geometry 3_ Perimeter of a Triangle [H].py', '[1263] Highest Index (With a Twist) [H].py', '[1264] Majority Vote [H].py', '[1265] Censor Words from List [H].py', '[1266] Secret Function 4_0 [H].py', '[1267] Loves Me_ Loves Me Not [H].py', '[1268] 3n + 1 Problem (Collatz Conjecture) [H].py', '[1269] Pluralize! [H].py', '[1270] Encoded String Parse [H].py', '[1271] Count and Identify Data Types [H].py', '[1272] Remove The Word! [H].py', '[1273] The Collatz Sequence [H].py', '[1274] The Magic Square Game [H].py', '[1275] Power Ranger [H].py', '[1276] How Many Unique Styles_ [H].py', '[1277] Rearrange the Number [H].py', '[1278] Count The Digits [H].py', '[1279] Vowel to Vowel Links [H].py', '[1280] First Before Second Letter [H].py', '[1281] Boolean Chain [H].py', '[1282] Shared vs_ Unique Letters [H].py', '[1283] Fast Fibonacci [H].py', '[1284] Making a Box [H].py', '[1285] Rhyme Time [H].py', '[1286] RegEx VIII-A_ Digit Character Class [H].py', '[1287] Sharing is Caring [H].py', '[1288] Words With Duplicate Letters [H].py', '[1289] Multiplication Table [H].py', '[1290] Magic Function [H].py', '[1291] RegEx Repairs! [H].py', '[1292] Building a Pie Chart [H].py', '[1293] 3D Visual Block Sequence [H].py', '[1294] Valid Hex Code [H].py', '[1295] Sort Names According to the Length of Their Last Names [H].py', '[1296] Bitwise Operator to Check Odd_ Regular Expression to Check Even [H].py', '[1297] Cup Swapping [H].py', '[1298] Beginning and End Pairs [H].py', '[1299] Re-Map a Number from One Range to Another [H].py', '[1300] Find the Difference [H].py', '[1301] Flip the Array [H].py', '[1302] Find the Fulcrum [H].py', '[1303] Pile of Cubes [H].py', '[1304] Is the Number a Prime_ (with a twist) [H].py', '[1305] Palindromic Anagrams [H].py', '[1306] Next Prime [H].py', '[1307] Creating a Picture Frame [H].py', '[1308] Layers in a Rug [H].py', '[1309] Filter Primes from a List [H].py', '[1310] Get the Date [H].py', '[1311] Ones_ Threes and Nines (Version #2) [H].py', '[1312] Perfect or Amicable_ [H].py', '[1313] Binary Tree Nodes [H].py', '[1314] Alternating between Numbers Two and Eight with a Catch [H].py', '[1315] Fibonacci !Recursion [H].py', '[1316] Sum of Negative Integers [H].py', '[1317] Generating Words from Names [H].py', '[1318] Oddly or Evenly Positioned [H].py', '[1319] Sort by the Letters [H].py', '[1320] Algorithms_ Binary Search [H].py', '[1321] Math Marking [H].py', '[1322] Grocery Store Prices [H].py', '[1323] Look and Say Numbers [H].py', '[1324] Sum of Prime Numbers [H].py', '[1325] Fibonacci Sequence [H].py', '[1326] Number Pairs [H].py', '[1327] Add Dollar Bills [H].py', '[1328] Burglary Series (16)_ Nested Objects (Dicts) [H].py', '[1329] Collatz Calculator [H].py', '[1330] Sentence Searcher [H].py', '[1331] Divide Array into Chunks [H].py', '[1332] Number of Two or More Consecutive Ones [H].py', '[1333] Decimal and Binary Palindromes [H].py', '[1334] Track the Robot (Part 1) [H].py', '[1335] The Kempner Function [H].py', '[1336] Ransom Letter [H].py', '[1337] Add Two String Numbers [H].py', '[1338] Unmix My Strings [H].py', '[1339] Larger than All Numbers to Their Right [H].py', '[1340] Who Left the List_ [H].py', '[1341] Italian Grammar_ Present Tense of First Conjugation Verbs [H].py', '[1342] The Hangman Game [H].py', '[1343] Sum of Round Numbers [H].py', '[1344] Recursion_ List Summation [H].py', '[1345] Factorials [H].py', "[1346] Let's Meet! [H].py", '[1347] Anonymous Name [H].py', '[1348] Change the Word [H].py', '[1349] Unlucky Years [H].py', '[1350] Hashtag Generator [H].py', '[1351] Tweaking Letters [H].py', '[1352] Round to Closest N [H].py', '[1353] Get SHA-256 Hash [H].py', '[1354] Basic Statistics_ Mode [H].py', '[1355] Water Balloon [H].py', '[1356] Wrap Around [H].py', '[1357] All or Nothing [H].py', '[1358] How Many _Prime Numbers_ Are There_ [H].py', '[1359] Almost Palindrome [H].py', '[1360] Split the String into N Cases of Equal Length [H].py', '[1361] Parseltongue [H].py', '[1362] Number of Covered Integers [H].py', '[1363] In N Days [H].py', '[1364] RegEx XIII_ Hexadecimal Character Class [H].py', '[1365] Count Missing Numbers [H].py', '[1366] Know Your Neighbor [H].py', '[1367] Checkerboard Generator [H].py', '[1368] Algorithms III_ Binary Search [H].py', '[1369] Super Strict Grading [H].py', '[1370] Through the Grid [H].py', '[1371] Happy Numbers [H].py', '[1372] Simple Symbols [H].py', '[1373] Pizza Points™ 🍕 [H].py', '[1374] Rolling Cipher [H].py', '[1375] How Close to the Speed of Light_ [H].py', '[1376] Sort Positives_ Keep Negatives [H].py', '[1377] Uno (Part 2) [H].py', '[1378] Return Exponents of Prime Factors [H].py', '[1379] Same on Both Ends [H].py', '[1380] Priority Sort [H].py', '[1381] Print Grid [H].py', '[1382] Tall People [H].py', '[1383] Phrase or Word Inverse [H].py', '[1384] Leaderboard Sort [H].py', '[1385] Almost Sorted Sequence [H].py', '[1386] Fridge Poetry [H].py', '[1387] Possible Palindrome [H].py', '[1388] Get Notes Distribution [H].py', '[1389] RegEx IV_ Positive Lookahead [H].py', '[1390] The Day in Dutch [H].py', '[1391] Muddled Middles [H].py', '[1392] Get Free Wi-Fi Anywhere You Go [H].py', '[1393] Smallest Transform [H].py', '[1394] Smallest Missing Positive Integer [H].py', '[1395] Stock Picker [H].py', '[1396] Polydivisible Numbers [H].py', '[1397] Bridge Shuffle [H].py', '[1398] Reorder Digits [H].py', '[1399] Number Groups [H].py', '[1400] Rotate a Matrix 90 Degrees Clockwise [H].py', '[1401] Anna Likes Daniel [H].py', '[1402] Repeat the Shorter String [H].py', '[1403] Matrix Transpose [H].py', '[1404] Holey Sort [H].py', '[1405] Ones and Zeroes [H].py', '[1406] Farthest Hamming Anagrams [H].py', '[1407] Swap the Numbers [H].py', '[1408] Shadow Sentences [H].py', '[1409] N-Length Letter Groups [H].py', '[1410] A Week Later [H].py', '[1411] Shuffled Properly_ [H].py', '[1412] Ice Cream Sandwich [H].py', '[1413] A Capital Challenge [H].py', '[1414] ABA Integers_ the Undulating Numbers [H].py', '[1415] Burrows-Wheeler Transform [H].py', '[1416] Expensive Words [H].py', '[1417] Find the Primorial [H].py', '[1418] Valid Rondo Form_ [H].py', '[1419] Caesar Cipher [H].py', '[1420] Hole Number Sequence [H].py', '[1421] Numbers That are Also Writers [H].py', '[1422] Needle in a Hex String [H].py', '[1423] Fibonacci String [H].py', '[1424] Increasing Word Weights [H].py', '[1425] Count the Lone Ones [H].py', '[1426] Is It an Ordered Sublist_ [H].py', '[1427] Count Substring [H].py', '[1428] pigLatin 3_0 [H].py', '[1429] Moran Numbers [H].py', '[1430] True Alphabetical Order [H].py', '[1431] Get Student with Best Test Avg_ [H].py', '[1432] Sorting Time [H].py', '[1433] Happy Numbers [H].py', '[1434] RegEx XI-B_ Whitespace Character Class [H].py', '[1435] Find the Single Number [H].py', '[1436] Lonely Numbers [H].py', '[1437] Find Greatest Common Divisor of N Numbers [H].py', '[1438] Contact List [H].py', '[1439] Common Divisor of List [H].py', '[1440] Junction or Self_ [H].py', '[1441] Check If an Array Is Sorted and Rotated [H].py', '[1442] Validating a Set in the Set Game [H].py', '[1443] Meme Sum _) [H].py', "[1444] What's the Length of the Missing List_ [H].py", '[1445] Combined Vector Sequence [H].py', '[1446] Poker Flush_ [H].py', '[1447] Track the Robot (Part 2) [H].py', '[1448] Briscola! (Part I) [H].py', '[1449] Hall Monitor 2 [H].py', '[1450] Identical Row and Column_ [H].py', '[1451] Subtract Without Subtract [H].py', '[1452] Matrix Transpose [H].py', '[1453] Swap X and Y Coordinates [H].py', '[1454] Sort by Answer [H].py', '[1455] Tidy Title and Author Strings [H].py', '[1456] Determine if Three Points are on a Line [H].py', '[1457] The Frugal Gentleman [H].py', '[1458] Compass Directions [H].py', '[1459] Sieve of Eratosthenes [H].py', '[1460] Left Side_ Right Side [H].py', '[1461] How Many Boxes_ [H].py', '[1462] Complete Prime Factorization [H].py', '[1463] Block the Square in Tic Tac Toe [H].py', '[1464] Digital Division [H].py', '[1465] The Alternating Numbers [H].py', '[1466] Modify Words [H].py', '[1467] Two Product Problem (Part 2) [H].py', "[1468] Mona's Sort [H].py", '[1469] String to Phone Number [H].py', '[1470] Product of Remaining Elements [H].py', '[1471] Nearest Vowel [H].py', '[1472] Swapping Two by Two [H].py', '[1473] Fibonacci Recursion [H].py', '[1474] Interprime Numbers [H].py', '[1475] Count 5s and Win [H].py', '[1476] Factor Tractor [H].py', '[1477] Sort Odds Keeping Evens in Place [H].py', '[1478] Centroid of a Triangle [H].py', '[1479] Column With Maximum Sum [H].py', '[1480] Simon Says [H].py', '[1481] Building a Staircase [H].py', '[1482] Check Password Hash [H].py', '[1483] Digital Vowel Ban [H].py', '[1484] Find All Digits [H].py', '[1485] Zygodromes [H].py', '[1486] Alphabetically Sorted [H].py', '[1487] Sort by Digit Length_ then By Number Itself [H].py', '[1488] Reverse Coding Challenge #5 [H].py', '[1489] Uban Numbers [H].py', '[1490] Twitter Messages [H].py', '[1491] Morse Code Decoded [H].py', '[1492] Break Point [H].py', '[1493] Spaces Apart [H].py', '[1494] Sum Quadratic Roots [H].py', '[1495] Series and Parallel Resistor Calculator [H].py', '[1496] All Rotations of a String [H].py', '[1497] Find the Longest Word [H].py', '[1498] Cluster Vowels_ Single Out Consonants [H].py', '[1499] Get the Excel Column [H].py', '[1500] Playback Duration [H].py', '[1501] Lychrel Numbers [H].py', '[1502] Mind the Gap [H].py', '[1503] Valid JavaScript Comments [H].py', '[1504] Minimum Swaps to Alternate a Binary String [H].py', '[1505] Swapping Cards [H].py', '[1506] ASCII Capitals [H].py', '[1507] Rearrange the Sentence [H].py', '[1508] Seven Segment Display [H].py', '[1509] Longest Abecedarian Word [H].py', '[1510] Compare Diagonal [H].py', '[1511] Happy Number [H].py', '[1512] Burglary Series (05)_ Third Most Expensive [H].py', '[1513] Find the Lost Dog [H].py', '[1514] Smallest Square Ending [H].py', '[1515] RegEx X-B_ Word Character Class [H].py', '[1516] FSA_ Individual Instructions [H].py', '[1517] Snail Crawl out of the Bucket [H].py', '[1518] Sum of Factors of Factors [H].py', '[1519] Programming Polyglot [H].py', '[1520] Zipping Up a List [H].py', '[1521] The Fiscal Code (Part II)_ the Check Letter [H].py', '[1522] Sherlock and Squares [H].py', '[1523] Maximum Occurrence [H].py', '[1524] Alternate Sort [H].py', '[1525] String Like Square [H].py', '[1526] All Pairs that Sum to Target [H].py', '[1527] Super-d Numbers [H].py', '[1528] Javelin Parabolic Throw [H].py', '[1529] RegEx VII-B_ Negative Lookbehind [H].py', '[1530] Is a String Stretched_ [H].py', '[1531] Longest Range in the List (Casual Version) [H].py', '[1532] Geometric Mean [H].py', '[1533] Catalan Number [H].py', '[1534] Where Are My Glasses_ [H].py', '[1535] Split String by Identical Characters [H].py', '[1536] Star Shorthand [H].py', '[1537] Words Inside Words [H].py', '[1538] RegEx XVII_ Quantifiers [H].py', '[1539] Semiprimes [H].py', '[1540] Decompose Address [H].py', '[1541] Mangle The String [H].py', '[1542] Reverse Coding Challenge #2 [H].py', '[1543] Password Validation [H].py', '[1544] Bit Masking [H].py', '[1545] Calculate Depth of Array [H].py', '[1546] Seven Ate Nine [H].py', '[1547] Temperature Converter [H].py', '[1548] List Up a List of Strings in a Proper Way [H].py', '[1549] Staircase of Recursion [H].py', '[1550] Star Ratings [H].py', '[1551] Even vs_ Odds [H].py', '[1552] Scrabble Scores (Part 1) [H].py', '[1553] Matryoshka Dolls [H].py', '[1554] Checkerboard Pattern [H].py', '[1555] Longest Common Ending [H].py', '[1556] Seasons on Earth [H].py', '[1557] Ice Cream Stand [H].py', '[1558] Energy Bill Calculator [H].py', "[1559] Pascal's Triangle [H].py", '[1560] Express Number in Expanded Notation [H].py', '[1561] Highest Pair [H].py', '[1562] Length of a Nested List [H].py', '[1563] Get Students with Names and Top Notes II [H].py', '[1564] Replace With Next Largest Number [H].py', '[1565] Find the Overlapping Range [H].py', '[1566] Reverse Letters_ Keep Numbers in Place [H].py', '[1567] Positive Integer Into Base 2_ 8 and 16 [H].py', '[1568] Pricey Products [H].py', '[1569] Elastic Words [H].py', '[1570] Word Chain [H].py', '[1571] Lemonade Stand [H].py', '[1572] String Expansion [H].py', '[1573] Multidimensional List Into Single Dimensional List [H].py', '[1574] Matrix Multiplication [H].py', '[1575] Awarding Prizes [H].py', '[1576] Find the LCM of Three Numbers [H].py', '[1577] Validate the Relationships Between Integers in a String [H].py', '[1578] Matrix Padder [H].py', '[1579] Recursion_ Inclusive List Ranges [H].py', '[1580] Calculate the Volume of a Pyramid [H].py', '[1581] 24-Hour Time [H].py', '[1582] Closest Palindrome Number [H].py', '[1583] Blood Types [H].py', '[1584] The Red_Yellow Sequence [H].py', '[1585] Sort by Length [H].py', '[1586] Letters Formed from the Longest Word [H].py', '[1587] Tree Photography [H].py', '[1588] The Humble Sequence of the Modest Numbers [H].py', '[1589] Squishing a List [H].py', '[1590] Consonant-Vowel Coding [H].py', '[1591] Mirror Cipher [H].py', '[1592] Pronouncing A_E [H].py', '[1593] Find the Shortest Word(s) in a Sentence [H].py', '[1594] Employee Parsing [H].py', '[1595] Deep List Count [H].py', '[1596] Selective List Reversal [H].py', '[1597] Tally Marks [H].py', '[1598] RGB to Hex Color Converter [H].py', "[1599] Gauss's Addition [H].py", '[1600] To the Right_ to the Right! [H].py', '[1601] Every Value Needs Some Testing (To Pass) [H].py', '[1602] Combine Arrays [H].py', '[1603] Double Palindromes [H].py', '[1604] IPv4 Validation [H].py', '[1605] Clear Brackets [H].py', '[1606] Checking Palindrome String Using Stack [H].py', '[1607] Grade Point Average [H].py', '[1608] Imgur URL Parser [H].py', '[1609] String Factoring [H].py', '[1610] Count the Primes within a Range [H].py', '[1611] How Many Days Until 2021_ [H].py', '[1612] Digitaldrome [H].py', '[1613] Sort by Frequency [H].py', '[1614] Can You Make the Numbers_ [H].py', '[1615] Is One String in the Other_ [H].py', '[1616] Sum Consecutive Integers [H].py', '[1617] List with Zero Sum [H].py', '[1618] Making a Box 2_0! [H].py', '[1619] Remove Trailing and Leading Zeros [H].py', '[1620] Backspace Attack [H].py', '[1621] Digital Egomania_ the Self-Describing Numbers [H].py', '[1622] Maze Escape [H].py', '[1623] Basic Pig Latin Translation [H].py', '[1624] Lucky Seven [H].py', '[1625] Musical Instrument Note Ranges [H].py', '[1626] Look-And-Say Sequence [H].py', '[1627] Find an Anagram of a String in Another String [H].py', '[1628] Secret Function [H].py', '[1629] Repeating Cycle [H].py', '[1630] People Sort [H].py', '[1631] Find the Most Frequent Element in a List [H].py', '[1632] Reverse Coding Challenge #4 [H].py', '[1633] No Intersecting Ones [H].py', '[1634] Complex Numbers [H].py', '[1635] Broken Bridge II [H].py', '[1636] Add up to Even Number with Primes [H].py', '[1637] Is the Die Loaded [H].py', '[1638] 12 vs 24 Hours [H].py', '[1639] Closing in Sum [H].py', '[1640] Squaring the Circle [H].py', '[1641] Find the Lowest Neighbor of a 2D Vector Element [H].py', '[1642] Tic Tac Toe [H].py', '[1643] Digits Battle! [H].py', '[1644] Morse Alphabet [H].py', '[1645] Instances of the Fibonacci Sequence [H].py', '[1646] Bring Down the Class Average [H].py', '[1647] Dead End Number Sequence [H].py', '[1648] Sorting Band Names without Articles [H].py', '[1649] Replace Every Nth Instance of a Character [H].py', '[1650] Check Magic Square [H].py', '[1651] Return the Sum of Two Numbers (on the Moon) [H].py', '[1652] Two Powers of Two [H].py', '[1653] The Actual Memory Size of your USB Flash Drive [H].py', '[1654] Briefcase Lock [H].py', '[1655] Money Bill Count [H].py', '[1656] Determinant of Square Matrix [H].py', '[1657] Goldbach Conjecture [H].py', '[1658] Headline Hash Tags [H].py', '[1659] Souvenir Shop [H].py', '[1660] Group Monotonicity [H].py', '[1661] Increasing or Decreasing Numbers [H].py', '[1662] Odd One Out [H].py', '[1663] A Product Pair [H].py', '[1664] Message Screen Glitch [H].py', '[1665] Remove the Last Vowel [H].py', '[1666] Is the List Circular_ [H].py', '[1667] Almost-Palindrome Sieve [H].py', '[1668] Growing and Shrinking Potions [H].py', '[1669] Not Quite Perfect [H].py', '[1670] New Numbers [H].py', '[1671] Molar Mass of Chemical Compound [H].py', '[1672] Casting Out Nines [H].py', '[1673] Magic Square [H].py', '[1674] Alt Facts_ Semi Facts [H].py', '[1675] Daniel Likes Wendy [H].py', '[1676] Prime Factorization [H].py', '[1677] Spoonerisms [H].py', '[1678] Binary To Text [H].py', '[1679] Flatten a List [H].py', '[1680] Electricity Bill [H].py', '[1681] Name Count Equality [H].py', '[1682] Balanced Brackets [H].py', '[1683] Amount of Unique Fractions [H].py', '[1684] Amount of Fibonacci Numbers [H].py', '[1685] Sample Points from a Curve [H].py', '[1686] Wild Tiles [H].py', '[1687] Pages and Chapters [H].py', '[1688] Books and Book Ends [H].py', '[1689] The Nth Term of the Sequence [H].py', '[1690] Mystery Challenge [H].py', '[1691] Exact Factorial Bounds [H].py', '[1692] New Driving License [H].py', '[1693] Equalize a List [H].py', '[1694] Finding the Center and Radius of a Circle [H].py', '[1695] Generate All String Character Permutations [H].py', '[1696] Maximum Sum [H].py', '[1697] iccanobiF Numbers [H].py', "[1698] Euler's Phi Function [H].py", '[1699] Calculate Next Position of One Point Moving Towards Another [H].py', '[1700] Self-Descriptive Numbers [H].py', '[1701] Recursion_ Integer Digits Count [H].py', '[1702] Flatten the Nested List [H].py', '[1703] Reformatting the Date [H].py', '[1704] Unashamed Primes_ Sexy Triplets [H].py', '[1705] Make a Number [H].py', '[1706] Conveyor Belts_ Warp Tunnels [H].py', '[1707] Time Elapsed [H].py', '[1708] Minimum Swaps to Alternate a Binary String [H].py', '[1709] Funny Numbers [H].py', '[1710] Standard Competition Ranking [H].py', '[1711] Minimum and Maximum Value in BST [H].py', '[1712] Find Repeating [H].py', '[1713] Reverse String Without Affecting Special Characters [H].py', '[1714] Adder Functions [H].py', '[1715] Parity of the Smallest Integer [H].py', '[1716] Sum of Positive Integers [H].py', '[1717] Is It a Right-Angled Triangle_ [H].py', '[1718] Shiny Semiprimes_ Brilliant Numbers [H].py', '[1719] YouTube Video ID Extractor [H].py', '[1720] Wait Who Am I_ [H].py', '[1721] Max Increase While Keeping City Skyline [H].py', '[1722] First Recurrence Index [H].py', '[1723] WordRank Scoring System [H].py', '[1724] The Happy Function [H].py', '[1725] Recursion_ Case and Index Inverter [H].py', '[1726] Shape in Shape [H].py', '[1727] Building Profiles [H].py', '[1728] Roundabout [H].py', '[1729] Image Manipulation_ Invert (Part 1) [H].py', '[1730] Calculate Elapsed Time [H].py', '[1731] Inside_ not Outside a Box [H].py', '[1732] Track the Robot (Part 3) [H].py', '[1733] Triplet Sum [H].py', '[1734] HTTP Requests [H].py', '[1735] Mutations Only_ Zeroes to the End [H].py', '[1736] Shiritori Game [H].py', '[1737] Less or Equal [H].py', '[1738] Longest Streak [H].py', '[1739] Sum of Largest Integer [H].py', '[1740] Recomposing Strings [H].py', '[1741] No Sh_t Sherlock [H].py', '[1742] Word Game Using First_Last Letter [H].py', '[1743] Unique Character Mapping [H].py', '[1744] Recursion_ Harshad Number [H].py', '[1745] Balanced Words [H].py', '[1746] Validate Credit Card Number [H].py', '[1747] Topsy Turvy Numbers [H].py', '[1748] Carrying the Digits [H].py', '[1749] ABACABA Pattern [H].py', '[1750] Maneuvering in a Cave [H].py', '[1751] A Periodic Series [H].py', '[1752] Reverse Polish Notation [H].py', '[1753] Primal Strength [H].py', '[1754] Reverse LEGO Yoda [H].py', '[1755] Harshad Numbers [H].py', '[1756] Find Highest Occurrence [H].py', '[1757] Basal Metabolic Rate [H].py', '[1758] Game of Thrones_ Character Titles [H].py', '[1759] Splitting Objects Inside a List [H].py', '[1760] Cannon Fire [H].py', '[1761] Regex HTML Get Request Checker [H].py', '[1762] Image Manipulation_ 255 Shades of Grey (Part 2) [H].py', '[1763] Repeated String [H].py', '[1764] Building up a Word [H].py', '[1765] Cartesian Matrix [H].py', '[1766] Employee Class with Keywords [H].py', '[1767] Recursive Digit [H].py', '[1768] Cuban Prime [H].py', '[1769] A Watermelon 🍉 [H].py', '[1770] Recursion_ Disarium Number [H].py', '[1771] Tic-Tac-Toe [H].py', '[1772] Injection II_ Using Eval [H].py', '[1773] Does the Triangle Fit into the Triangular Hole_ [H].py', '[1774] Recursion_ Shift Left by Addition [H].py', '[1775] Recursion_ Pronic Number [H].py', '[1776] RegEx XX_ Capturing Groups [H].py', '[1777] Is It a Leap Year_ [H].py', '[1778] Deadly Virus [H].py', '[1779] Product of Digits of Sum [H].py', '[1780] RegEx swapcase() [H].py', '[1781] Recursion_ Count The Digits [H].py', '[1782] Persistence [H].py', '[1783] Range of Rolled Dice [H].py', '[1784] Clock Hands [H].py', "[1785] It's a Meteor! [H].py", '[1786] Casino Security [H].py', '[1787] Find the Pattern [H].py']
+
+Current Path: D:\coding\funPy\Python\Medium
+Directories: []
+Files: ['[0]practiceFile.py', '[1000] Replacing Letters with Hashes [M].py', '[1001] Return the Sum of Two Numbers (With a Twist) [M].py', '[1002] Negative Image [M].py', '[1003] The Major Sum [M].py', '[1004] Generate N-Size Combinations from a List [M].py', '[1005] Count the Smiley Faces _) [M].py', '[1006] N Differences [M].py', '[1007] Sort a String by Its Last Character [M].py', '[1008] Unfair Hurdles [M].py', '[1009] Bug_ Regular Expression [M].py', '[1010] Hidden Calculator Words [M].py', '[1011] Intersection of Two Dictionaries [M].py', '[1012] Find the Missing Letter [M].py', '[1013] Remix the String [M].py', '[1014] The List Twins [M].py', '[1015] Read the Abacus (Part 1_ Russian Schoty) [M].py', '[1016] The Sweetest Ice Cream [M].py', '[1017] Count the Points in a Circle [M].py', '[1018] Hall Monitor [M].py', '[1019] One Plus One [M].py', '[1020] Arrow Pattern [M].py', "[1021] Finish the Sentence You're On! [M].py", "[1022] Arun's Super Cool Strings [M].py", '[1023] Guess the Sequence [M].py', '[1024] Integral of a Function [M].py', '[1025] Big Countries [M].py', '[1026] Simulate the Game _Rock_ Paper_ Scissors_ [M].py', '[1027] Blah_ Blah_ Blah [M].py', '[1028] You Sunk My Battleship! [M].py', '[1029] The Antipodes Average [M].py', '[1030] Check That Input Type Is the Same [M].py', '[1031] Shift and Multiple Validators [M].py', '[1032] Chess Board Squares [M].py', '[1033] Total Sales of Product [M].py', '[1034] Format VII_ Truncating Strings [M].py', '[1035] Primes Below a Given Number [M].py', '[1036] Numerical Morphisms [M].py', '[1037] A Possible Shape_ [M].py', '[1038] Burglary Series (02)_ Most Valuable Item [M].py', '[1039] Triple Letter Groupings [M].py', '[1040] Move Zeroes [M].py', '[1041] Changing a String into camelCase [M].py', '[1042] Converting One Binary String to Another [M].py', '[1043] Diamond Shaped Array [M].py', '[1044] Random Number Generator [M].py', '[1045] Word Riddles [M].py', '[1046] Solving Linear Equations (Part 1) [M].py', '[1047] Longest Word in a 7 Segment Display [M].py', '[1048] An Ordered Matrix [M].py', '[1049] Format VIII_ Dynamic Formatting [M].py', '[1050] Python Classes Mini Challenge [M].py', '[1051] Anti Lists [M].py', '[1052] Order by Length First [M].py', '[1053] Shorthand for Key Signatures [M].py', '[1054] String to Dictionary [M].py', '[1055] RegEx Exercise #6_ Float Number [M].py', '[1056] Summation of the First n Terms [M].py', '[1057] Anti-Divisors of a Number [M].py', '[1058] Retrieve Name from Email Address [M].py', '[1059] Just Another Sum Problem But 😰😱 [M].py', '[1060] Word Builder [M].py', '[1061] Is it a Probability Matrix_ [M].py', "[1062] A Letter's Best Friend [M].py", '[1063] Recursion_ Right Shift by Division [M].py', '[1064] Get Students with Names and Notes Average [M].py', '[1065] Strictly Increasing or Decreasing [M].py', '[1066] Most Common Last Vowel [M].py', '[1067] Dice Gambling [M].py', '[1068] Phone Number Word Decoder [M].py', '[1069] Expand a Number I [M].py', '[1070] Convert String to camelCase [M].py', '[1071] Left_ Right Shift [M].py', '[1072] Pages in a Book [M].py', '[1073] Maximum Travel Distance [M].py', '[1074] Merge Two Lists [M].py', '[1075] Little Big Sequence [M].py', '[1076] RegEx III_ Boundary Assertions [M].py', '[1077] Sort the Unsortable [M].py', '[1078] Author Sorting [M].py', '[1079] Subset of a Cartasian Product [M].py', '[1080] Scoring a Field Goal [M].py', '[1081] Generate a List of 15 Palindrome Numbers [M].py', '[1082] Solving Linear Equations (Part 2) [M].py', '[1083] Two is the Difference [M].py', '[1084] Rotated Words [M].py', '[1085] Minimum Removals to Make Two Strings Anagrams [M].py', '[1086] Map the Letters in a String [M].py', '[1087] RegEx Exercise #0_ Existentialism [M].py', '[1088] Playing RisiKo! [M].py', '[1089] A Simple Equation [M].py', '[1090] Numbers in Strings [M].py', '[1091] Multiplication Table [M].py', '[1092] Time Conversion [M].py', '[1093] Directionally Challenged [M].py', "[1094] What's the Missing Letter_ [M].py", '[1095] Happy Birthday! 🍩 [M].py', '[1096] Rock_ Paper_ Scissors! [M].py', '[1097] Split and Delimit [M].py', '[1098] The Recamán Sequence [M].py', '[1099] Indicate the Media Type from HTTP Response Header [M].py', '[1100] Generating and Swapping Key-Value-Pairs in Dictionary [M].py', '[1101] LCM of Two Numbers [M].py', '[1102] Word Nests [M].py', '[1103] Leader in a List [M].py', '[1104] Mega Milestones [M].py', '[1105] Multiplicity of Numbers [M].py', '[1106] A Simple Dance [M].py', '[1107] Twitter Link Finder [M].py', '[1108] Sliding Sum [M].py', '[1109] Count Number of Identical Lists [M].py', '[1110] No Yelling [M].py', '[1111] Find the Bugs_ Returning Valid Prices [M].py', '[1112] Number of Boomerangs [M].py', '[1113] Add It Up! [M].py', '[1114] Substituting the The [M].py', '[1115] The Conquering Queen [M].py', '[1116] A Normal Sequence [M].py', '[1117] Longest Daily Streak [M].py', '[1118] Mubashir Cipher [M].py', '[1119] Grab the Numbers [M].py', '[1120] Product of All Other Numbers [M].py', '[1121] Find Number of Repetitions of Substring [M].py', '[1122] Digits Sum Root [M].py', '[1123] Diagonal Domination [M].py', '[1124] Positives and Negatives [M].py', '[1125] Pronic Number [M].py', '[1126] No Good Numbers [M].py', '[1127] Neighboring Letters [M].py', '[1128] Correct My Sentence [M].py', '[1129] First Class Function [M].py', '[1130] Simplifying to Simplest Ratio [M].py', "[1131] Where's Waldo_ [M].py", '[1132] The Bottom of the Matrix [M].py', '[1133] A Simple Pair [M].py', '[1134] Straight Digital Numbers [M].py', '[1135] Swap Dictionary [M].py', '[1136] An Absolute [M].py', '[1137] Christmas Tree [M].py', '[1138] Shared Digits [M].py', '[1139] Convert _Zero_ and _One_ to _1_ and _0_ [M].py', '[1140] Weekly Salary [M].py', '[1141] Blackjack [M].py', '[1142] Pokemon Damage Calculator [M].py', '[1143] Persistence [M].py', '[1144] Convert camelCase to snake_case [M].py', '[1145] Words to Sentence [M].py', '[1146] The Perrin Sequence [M].py', '[1147] Sort Words by a String [M].py', '[1148] Body Mass Index [M].py', '[1149] Gold Distribution [M].py', '[1150] Coin Co-Operation [M].py', '[1151] Digital Decipher [M].py', '[1152] Primorial of a Number [M].py', '[1153] Persistent Little Bugger [M].py', '[1154] Reverse Dictionary [M].py', '[1155] Recreating Multiplication [M].py', '[1156] AlTeRnAtInG cApS [M].py', '[1157] A Simple Modification [M].py', '[1158] Any Prime Number in Range [M].py', '[1159] Who is Currently Winning [M].py', '[1160] Generate Floats [M].py', '[1161] Domino Chain [M].py', '[1162] Hours Passed [M].py', '[1163] Magic Sigil Generator [M].py', '[1164] The Missing Link of an Arithmetic Progression [M].py', '[1165] Currying Functions [M].py', '[1166] Complete the Square (Matrix) [M].py', '[1167] Dance for Cash [M].py', '[1168] Nth Fibonacci Number [M].py', '[1169] Money Formatting [M].py', '[1170] Key - Mouse (Logic) [M].py', '[1171] Matrix Subtraction [M].py', '[1172] Got Enough Money_ [M].py', '[1173] Get the Diagonals [M].py', '[1174] List of Prime Factors [M].py', '[1175] Plant Trees 🌲 [M].py', '[1176] camelCase ⇄ snake_case [M].py', '[1177] Find the Largest Prime within a Range [M].py', '[1178] First Tuesday of the Month [M].py', '[1179] Dice Score [M].py', '[1180] Number of Even or Odd Digits [M].py', '[1181] Check If the Brick Fits through the Hole [M].py', '[1182] Mexican Wave Simulator [M].py', '[1183] Choosing a Fuse [M].py', '[1184] When Will You Save a Million_ [M].py', '[1185] Is the Input Factorial of an Integer_ [M].py', '[1186] Crypto Wars_ Missing Number [M].py', '[1187] Trailing Zeros [M].py', '[1188] ABACABADABACABA [M].py', '[1189] Enter the Matrix [M].py', '[1190] Kaprekar Numbers [M].py', '[1191] Safecracker [M].py', '[1192] Fractions and Rounding [M].py', '[1193] Truncate String at a Given Length [M].py', '[1194] Recursion_ Left Shift By Powers of Two [M].py', '[1195] Amateur Hour [M].py', '[1196] A Simple Comparison [M].py', '[1197] All About Strings [M].py', '[1198] Temperature Converter [M].py', '[1199] Fret Frequencies on the Guitar [M].py', '[1200] Coloured Triangles [M].py', '[1201] Sum of the Items in a List [M].py', '[1202] Return the End Letters of Numbers [M].py', '[1203] Make a Vessel of Height [M].py', '[1204] 💥repeatedrepeatedrepeated💥 [M].py', '[1205] Sum of Slices of a List (Part 1) [M].py', '[1206] Adding Up Letters [M].py', '[1207] Digital Cipher [M].py', '[1208] Recursion_ Halve and Halve Again [M].py', '[1209] Binary to ASCII Conversion [M].py', '[1210] Triple + Double = So Much Trouble [M].py', '[1211] The Nearest Element [M].py', '[1212] East or West [M].py', '[1213] Recursion_ Palindrome Word [M].py', '[1214] Numeric Seesaw [M].py', '[1215] Hamming Code [M].py', '[1216] RNA Reverse Complement [M].py', '[1217] RegEx XXII_ Named Groups [M].py', '[1218] Return the Most Frequent Character [M].py', '[1219] Minimum Difference Pair [M].py', '[1220] Microwave Buttons [M].py', '[1221] Chemical Reactions [M].py', '[1222] Consecutive Numbers [M].py', '[1223] Simple Row Sum [M].py', '[1224] Sum of a List of Times [M].py', '[1225] Calculate an Earned Run Average [M].py', '[1226] Total Count of Numbers in a MultiDimensional List [M].py', '[1227] Bird Names to Four Letter Bird Codes [M].py', '[1228] Is the Sequence Linear_ Quadratic or Cubic_ [M].py', '[1229] RegEx VI_ Positive lookbehind [M].py', '[1230] Pronouncing the Xs [M].py', '[1231] Can You Spare a Square_ [M].py', '[1232] Does the Cargo Fit_ (Part 2) [M].py', '[1233] Word to Bitstring to Boolean List [M].py', '[1234] Consecutive Sum Check [M].py', '[1235] Powerful Numbers [M].py', '[1236] Perimeters with a Catch [M].py', '[705] Finding Adjacent Nodes [M].py', '[706] Virtual DAC [M].py', '[707] Drunken Python [M].py', '[708] Right Shift by Division [M].py', '[709] Find the Highest Integer in the List Using Recursion [M].py', '[710] Length of Number [M].py', '[711] FizzBuzz Interview Question [M].py', '[712] Geometry 1_ Length of Line Segment [M].py', '[713] Sum of Odd and Even Numbers [M].py', '[714] Cricket Balls to Overs! [M].py', '[715] Burglary Series (03)_ Is It Gone_ [M].py', '[716] A Circle and Two Squares [M].py', '[717] Get Students with Names and Top Notes [M].py', '[718] Calculate the Profit [M].py', '[719] Get the Area of a Country [M].py', '[720] Next Number Greater Than A and B and Divisible by B [M].py', '[721] How Many Solutions Does This Quadratic Have_ [M].py', '[722] Date Format [M].py', '[723] Adding Numbers [M].py', '[724] List of Multiples [M].py', '[725] Quadratic Equation [M].py', '[726] Simple OOP Calculator [M].py', '[727] Format IV_ Escaping Curly Braces [M].py', '[728] Robot Path 🤖 [M].py', '[729] Return the Time Saved by Speeding [M].py', '[730] Designing Rugs [M].py', '[731] Hex to Binary [M].py', '[732] Characters and ASCII Code Dictionary [M].py', '[733] Ones_ Threes and Nines (Version #1) [M].py', '[734] RegEx XVI_ Negation [M].py', '[735] Invert Keys and Values [M].py', '[736] Incorrect Import Statement [M].py', '[737] Classes For Fetching Information on a Sports Player [M].py', '[738] Fullname and Email [M].py', '[739] CAPS LOCK DAY is over! [M].py', '[740] Check If Lines Are Parallel [M].py', '[741] Sum of v0w3ls [M].py', '[742] Burglary Series (06)_ Convert to Number [M].py', '[743] RegEx VIII-B_ Digit Character Class [M].py', '[744] Volume of a Spherical Shell [M].py', '[745] Algorithms I_ Introduction to Recursion [M].py', '[746] Sum Fractions [M].py', '[747] Harshad Number [M].py', '[748] Two Distinct Elements [M].py', '[749] Three Lists! [M].py', '[750] Algebra Sequence — Boxes [M].py', '[751] Stupid Addition [M].py', '[752] Format IX_ Unpacking Lists [M].py', '[753] All About Lambda Expressions_ Adding [M].py', '[754] Which Function Returns the Larger Number_ [M].py', '[755] Face Interval [M].py', '[756] Harmonic Series [M].py', '[757] Sastry Numbers [M].py', '[758] Last Digit Ultimate [M].py', '[759] Wash Your Hands _) [M].py', '[760] Validate Pin [M].py', '[761] All Occurrences of an Element in a List [M].py', '[762] New Word Builder [M].py', '[763] International Greetings [M].py', '[764] Transcribe to mRNA [M].py', '[765] Name Classes [M].py', '[766] Letters Shared Between Two Words [M].py', '[767] List Multiplier [M].py', '[768] Find the Vertex of a Quadratic [M].py', '[769] A Long Long Time [M].py', '[770] Emphasise the Words [M].py', '[771] Counting Instances Created from a Class [M].py', '[772] Count Number of Instances [M].py', '[773] Change Every Letter to the Next Letter [M].py', '[774] How Many Days Between Two Dates [M].py', '[775] Reverse Words in a String [M].py', '[776] Sum of List Elements Except Itself [M].py', '[777] Diagonal of a Cube [M].py', '[778] Concatenate Variable Number of Input Lists [M].py', '[779] Likes vs_ Dislikes [M].py', '[780] Book Shelf [M].py', '[781] Sum of Missing Numbers [M].py', '[782] Stalactites or Stalagmites_ [M].py', '[783] Calculate the Total Price of Groceries [M].py', '[784] Combinatorial Exploration [M].py', '[785] Lottery Ticket [M].py', '[786] Intersecting Intervals [M].py', '[787] Pandigital Numbers [M].py', '[788] Buggy Uppercase Counting [M].py', '[789] Oddish vs_ Evenish [M].py', '[790] Expensive Orders [M].py', '[791] Box Completely Filled_ [M].py', '[792] Is Johnny Making Progress_ [M].py', '[793] Converting Dictionaries to Lists [M].py', '[794] Perfect Square Patch [M].py', '[795] Number of Lists in a List [M].py', '[796] Making a Countdown [M].py', '[797] The Fifth Argument [M].py', '[798] The Fizz Buzz Test [M].py', '[799] Is the Number a Repdigit [M].py', '[800] All About Lambda Expressions_ Adding Suffixes [M].py', '[801] Scottish Screaming [M].py', '[802] Censor Words Longer Than Four Characters [M].py', '[803] Count a Specific Digit [M].py', '[804] Neutralisation [M].py', '[805] Missing Letters [M].py', '[806] Squares and Cubes [M].py', '[807] Valid Division [M].py', '[808] Reverse Coding Challenge #6 [M].py', '[809] Iterated Square Root [M].py', '[810] Are the Sum of Digits in the Numbers Equal_ [M].py', '[811] Count the Number of Duplicate Characters [M].py', '[812] Integer Digits Count [M].py', '[813] Histogram Function [M].py', '[814] Number of Times a Character Appears [M].py', "[815] Don't Roll Doubles! [M].py", '[816] Syncopated Rhythm [M].py', '[817] Match the Last Item [M].py', '[818] Unusual Subtraction [M].py', '[819] Father and Son Ages [M].py', '[820] Capital Split [M].py', '[821] Double Character Swap [M].py', '[822] Longest Word [M].py', '[823] Bundle Up! [M].py', '[824] In the Centre_ [M].py', '[825] Hold Your Breath! [M].py', '[826] Odd Up_ Even Down — N Times [M].py', '[827] Perfect Number [M].py', '[828] Seven Boom! [M].py', '[829] Binary to Decimal Converter [M].py', '[830] Check if a String is a Mathematical Expression [M].py', '[831] Accumulating List [M].py', '[832] Is the Sum of Letters Even or Odd_ [M].py', '[833] Musical Cadences [M].py', '[834] Find The Largest Even Number [M].py', '[835] Fruit Juices [M].py', '[836] Operations [M].py', '[837] Logarithms - Basic [M].py', '[838] Extending The String [M].py', '[839] Impossible Date [M].py', '[840] Get Student Top Notes [M].py', '[841] Consecutive Numbers [M].py', '[842] Numbered Cards [M].py', '[843] Reversing a Binary String [M].py', '[844] Construct and Deconstruct [M].py', '[845] GCD and LCM ( Part 1) [M].py', '[846] Basic Statistics_ Median [M].py', '[847] Free Throw Probability [M].py', '[848] Crowded Carriage Capacity [M].py', '[849] Digit Distance [M].py', '[850] Finding Common Elements [M].py', '[851] Capitalize the Last Letter [M].py', '[852] Format X_ Unpacking Dictionaries [M].py', '[853] Record Temperatures [M].py', '[854] Peeling off the Outer Layers [M].py', '[855] Palindromic Dates [M].py', '[856] Returning an _Add_ Function [M].py', '[857] Extend the Vowels [M].py', '[858] Abbreviating a Sentence [M].py', '[859] Does the Cargo Fit_ (Part 1) [M].py', '[860] From A to Z [M].py', '[861] Sum of Missing Numbers [M].py', '[862] Stretched Words [M].py', '[863] Is This a Right Angled Triangle_ [M].py', '[864] Rectangle in Circle [M].py', '[865] Sum of Every Nth Number [M].py', '[866] Reversible Inclusive List Ranges [M].py', '[867] Remove Repeated Letters [M].py', '[868] Subset Validation [M].py', '[869] RegEx XI-A_ Whitespace Character Class [M].py', '[870] Balanced List [M].py', '[871] Car Timer 🏎️ [M].py', '[872] Percentage Changed [M].py', '[873] Letters Only [M].py', '[874] Circular Shift [M].py', '[875] Calculate the Shortest Distance Between Two Points [M].py', '[876] Rock_ Paper_ Scissors [M].py', '[877] Mini Sudoku [M].py', '[878] Find the Shared Letters between Two Strings [M].py', '[879] Adding Both Ends Together [M].py', '[880] Simple Circle Collision Detection [M].py', '[881] Largest Gap [M].py', '[882] Reverse the Odd Length Words [M].py', '[883] Smiley Faces _) [M].py', '[884] Explosion Intensity [M].py', '[885] Are They the Same_ [M].py', '[886] RegEx XIV_ Character Sets [M].py', '[887] Evaluating Factorials [M].py', '[888] Coaxial Cable Impedance [M].py', "[889] Let's Talk Like a Monkey 🐵 [M].py", '[890] Joining Digits Together [M].py', '[891] Remove Repeated Characters [M].py', '[892] Return Duplicate Numbers [M].py', '[893] String Match by Two Letters [M].py', '[894] Union and Intersection of Lists [M].py', '[895] Food for Everyone! [M].py', '[896] Making a Sandwich [M].py', '[897] A Simple Task [M].py', '[898] GCD and LCM (Part 2) [M].py', '[899] Replace Letters With Position In Alphabet [M].py', '[900] House of Cards [M].py', '[901] Collatz Conjecture [M].py', '[902] Next Happy Year [M].py', '[903] Standard Deviation [M].py', '[904] First N Vowels [M].py', "[905] Mubashir's Mystery Challenge [M].py", '[906] Accumulating Product [M].py', '[907] Merge Lists in Order [M].py', '[908] Turn That Frown Upside Down [M].py', '[909] Power of Two [M].py', '[910] Percentage of Box Filled In [M].py', '[911] Filtering by Star Rating [M].py', '[912] Tower of Hanoi [M].py', '[913] All Numbers in List Are Prime [M].py', '[914] The Fibonacci Number [M].py', '[915] Split Item Codes [M].py', '[916] Broken Keyboard [M].py', '[917] Sum of Digits Between Two Numbers [M].py', '[918] RegEx IX_ Dot [M].py', '[919] Uno (Part 1) [M].py', '[920] Baseball Batting Average [M].py', '[921] Height of the Tallest Building [M].py', '[922] The Empty Square Sequence [M].py', '[923] Number of Leap Years [M].py', '[924] Mini Peaks [M].py', '[925] Recursion_ Count Vowels [M].py', '[926] Club Entry [M].py', '[927] Slidey Numbers [M].py', '[928] Return the Objects Keys and Values [M].py', '[929] Poker Full House [M].py', '[930] Sum of Decimals [M].py', '[931] Product of Two Largest Numbers [M].py', '[932] A Redundant Function [M].py', '[933] A Simple Check [M].py', '[934] Just Find the Vertex [M].py', '[935] Positive Dominant [M].py', '[936] Case and Index Inverter [M].py', '[937] Reverse Coding Challenge #1 [M].py', '[938] Find the True Equations [M].py', '[939] Flash Cards [M].py', '[940] Emptying the Values [M].py', '[941] Birthday Cake [M].py', '[942] Count How Many Times an Element is Repeated [M].py', '[943] Delete Occurrences of Extra Elements in a List [M].py', '[944] Recursion_ String Palindromes [M].py', '[945] Is the Phone Number Formatted Correctly_ [M].py', '[946] RegEx XIX_ Greedy vs Lazy Quantifiers [M].py', "[947] What's My Golf Score_ [M].py", '[948] Sum of Two Numbers in List Equal to Given Number [M].py', '[949] RegEx XII_ Tab Character Class [M].py', '[950] Ping Pong! [M].py', '[951] Bound Sort [M].py', '[952] Dashed Vowels [M].py', '[953] Sock Pairs [M].py', '[954] Solve a Linear Equation [M].py', '[955] Divisible by Left Digit_ [M].py', '[956] Do All Bigrams Exist_ [M].py', '[957] List Chunking [M].py', '[958] White Spaces Between Lower and Uppercase Letters [M].py', '[959] Poker Deck [M].py', '[960] Average Word Length [M].py', '[961] Back and Forth [M].py', '[962] Drink Sorting [M].py', '[963] Initialize [M].py', '[964] Simple Numbers [M].py', '[965] Switching Between Pencils [M].py', '[966] Is It the Same Upside Down_ [M].py', '[967] Fruit Salad 🍇🍓🍎 [M].py', '[968] Moving Partition [M].py', '[969] The Most Brilliant Exciting Fantastic Number [M].py', '[970] Fibonacci Sequence [M].py', '[971] Letter Distance [M].py', '[972] Greater Than the Sum_ [M].py', '[973] Wurst Is Better [M].py', '[974] Come Check Out This Crazy Function [M].py', "[975] A Pirate's Tale [M].py", '[976] RNA Reverse Complement [M].py', '[977] Gold Distribution [M].py', '[978] Names_ Ages and Occupations [M].py', '[979] Spelling Bee [M].py', '[980] Basic E-Mail Validation [M].py', '[981] Global Variable [M].py', '[982] Spicy Food [M].py', '[983] Function Factory [M].py', '[984] Scalable Mountain_ [M].py', '[985] Smallest N Digit Number [M].py', '[986] Swimming Pool [M].py', '[987] Find First Character That Repeats [M].py', '[988] Regex Series_ Even Number_ [M].py', '[989] Abbreviations Unique_ [M].py', '[990] Keeping Count [M].py', '[991] ASCII Art! [M].py', '[992] Making Change [M].py', '[993] Shopping for Memorial Day! [M].py', '[994] Divide a Fraction by Two [M].py', "[995] Legendre's Formula [M].py", '[996] Algorithms II_ The Euclidean Algorithm [M].py', '[997] Wiggled Strings [M].py', '[998] Sort By Index of Character [M].py', '[999] Concatenate to Form Target List [M].py']
+
+Current Path: D:\coding\funPy\Python\veryEasy
+Directories: []
+Files: ['trashCanForLinux.py', '[100] Stack the Boxes [VE].py', '[101] Make My Way Home [VE].py', '[102] Return the First and Last Elements in a List [VE].py', '[103] AND_ OR and NOT [VE].py', '[104] Buggy Code (Part 5) [VE].py', '[105] Return Sole Element in a Set [VE].py', "[106] I'd Like a New Shade of Blue_ Please [VE].py", '[107] Convert Yen to USD [VE].py', '[108] Broken Bridge [VE].py', '[109] Recreating the abs() Function [VE].py', '[10] Convert Age to Days [VE].py', '[110] The 3 Programmers Problem [VE].py', '[111] No Conditionals_ [VE].py', '[112] Calculate Using String Operation [VE].py', '[113] Using Lambda Functions [VE].py', '[114] Many Operators! [VE].py', "[115] Check If It's a Title String [VE].py", '[116] List From a Range of Numbers [VE].py', '[117] Nothing is Nothing_ [VE].py', '[118] Drinks Allowed_ [VE].py', '[119] Return Last Item [VE].py', '[11] Find the Perimeter of a Rectangle [VE].py', '[120] Convert Kilometers to Miles [VE].py', '[121] Find the Amount of Potatoes [VE].py', '[122] Indexing with Integer Division [VE].py', '[123] Slice of Pie [VE].py', '[124] Does the Dictionary Contain a Given Key_ [VE].py', '[125] Raucous Applause [VE].py', '[126] Amazing Edabit! [VE].py', '[127] Nth Star Number [VE].py', '[128] Destructuring Assignment (Ignoring Values) [VE].py', '[129] Invert a List [VE].py', '[12] Power Calculator [VE].py', '[130] Minimal II_ Boolean Redundancy [VE].py', '[131] Buggy Code [VE].py', '[132] Random Integer Generator [VE].py', '[133] Kinetic Energy [VE].py', '[134] Maximum Weight Allowed [VE].py', '[135] Cube the Square Root [VE].py', '[136] First Class_ Second Class and Third Class Levers [VE].py', '[137] Fix Basic Calculator [VE].py', '[138] Tallest Birthday Cake Candles [VE].py', '[139] 50-30-20 Strategy [VE].py', '[13] Sum of Polygon Angles [VE].py', '[140] Format II_ Argument Indices [VE].py', '[141] Slightly Superior [VE].py', '[142] Is the Dictionary Empty_ [VE].py', '[143] Movie Theatre Admittance [VE].py', '[144] Century Crisis [VE].py', '[145] Repeat String [VE].py', '[146] Among Us Imposter Formula [VE].py', '[147] Less Than_ Greater Than [VE].py', '[148] Taxi Journey [VE].py', '[149] C String to C++ String (in Python) [VE].py', '[14] To the Power of [VE].py', '[150] Word Numbers! [VE].py', '[151] Binary Addition + 0 1 0 1 [VE].py', '[152] Using Ternary Operators [VE].py', '[153] Convert All List Items to String [VE].py', '[154] Rotate the List by One 🔄 [VE].py', '[155] Similar Bread [VE].py', '[156] Assign Person to Occupation [VE].py', '[157] Upvotes vs Downvotes [VE].py', '[158] Case Insensitive Comparison [VE].py', '[159] Minimal VII_ Lambda Functions [VE].py', '[15] Boolean to String Conversion [VE].py', '[160] Fraction Greater Than One [VE].py', '[161] Sum Greater Than Five [VE].py', '[162] The Modulus Operator Function [VE].py', '[163] Even Index Elements in a List [VE].py', '[164] Format I_ Template String [VE].py', '[165] Find None in a List [VE].py', '[166] Buggy Code (Part 6) [VE].py', '[167] Get the File Name [VE].py', '[168] Sum of Cubes [VE].py', '[169] Which Generation Are You_ [VE].py', '[16] Correct the Mistakes [VE].py', '[170] Sandwich Fillings [VE].py', '[171] The Study of Wumbology [VE].py', '[172] Sum of Minimums [VE].py', '[173] Find Out the Leap Year [VE].py', '[174] A Day at the Market [VE].py', '[175] Find the Total Number of Digits the Given Number Has [VE].py', '[176] Find the Bomb [VE].py', '[177] The Forbidden Letter [VE].py', '[178] Count Instances of a Character in a String [VE].py', '[179] Back to Home_ [VE].py', '[17] Return the First Element in a List [VE].py', '[180] Automorphic Number [VE].py', '[181] Re-Form the Word [VE].py', '[182] Check if One Array can be Nested in Another [VE].py', '[183] Adding Parity Bits [VE].py', '[184] Keyboard Mistakes [VE].py', '[185] Trimmed Averages [VE].py', '[186] Destructuring Lists II [VE].py', '[187] List of Strings to List of Numbers [VE].py', '[188] Difference of Volumes of Cuboids [VE].py', '[189] Count Syllables [VE].py', '[18] Football Points [VE].py', '[190] Even and Odd Strings [VE].py', '[191] Simple Letters [VE].py', '[192] Recreating a len() Function [VE].py', '[193] Sort Numbers in Ascending Order [VE].py', '[194] Find the Index [VE].py', '[195] Integer in Range_ [VE].py', '[196] Summing a Slice [VE].py', '[197] Minimal IV_ if-elif-else Inferno [VE].py', '[198] Convert a List to a String [VE].py', '[199] Factors of a Given Number [VE].py', '[19] The Farm Problem [VE].py', '[1] Return the Sum of Two Numbers [VE].py', '[200] Is the Water Boiling_ [VE].py', '[201] Reverse Psychology [VE].py', '[202] Largest Numbers [VE].py', '[203] Find the Falsehoods [VE].py', '[204] Skip the Drinks with Too Much Sugar [VE].py', '[205] Modifying the Last Character [VE].py', '[206] Equality Check [VE].py', '[207] The Full Length of a Google [VE].py', '[208] Maximum Possible Total [VE].py', '[209] Fix the Broken Code [VE].py', '[20] Basic Variable Assignment [VE].py', '[210] Find the Unique Letters [VE].py', '[211] Check if the Same Case [VE].py', '[212] Count the Syllables [VE].py', '[213] Fix the Error_ Mutating Arrays [VE].py', '[214] Age Difference Between Spouses [VE].py', '[215] Length and Element of Range [VE].py', '[216] Cowboy Shootout [VE].py', '[217] Reverse the Case [VE].py', '[218] How Much is True_ [VE].py', '[219] Lowercase_ Uppercase or Mixed_ [VE].py', '[21] Convert Hours and Minutes into Seconds [VE].py', '[220] Find the Second Largest Number [VE].py', '[221] Video Streaming Plans [VE].py', '[222] Format III_ Keyword Arguments [VE].py', '[223] Hashes and Pluses [VE].py', '[224] Next Element in Arithmetic Sequence [VE].py', '[225] Measure the Depth of Emptiness [VE].py', '[226] Fix the Bug_ Simple List Manipulation [VE].py', '[227] Is it True_ [VE].py', '[228] Minimal IX_ This or That [VE].py', '[229] Is It a Triangle_ [VE].py', '[22] Burglary Series (14)_ Adjectives Total [VE].py', '[230] Truthy or Falsy_ [VE].py', '[231] Number to Reversed Array [VE].py', '[232] Both Zero_ Negative or Positive [VE].py', '[233] Cleaning Up Messy Lists [VE].py', '[234] Highest Digit [VE].py', '[235] Reverse and Capitalize [VE].py', '[236] Spaces Between Each Character [VE].py', '[237] Multiply Every List Item by Two [VE].py', '[238] Find Unique Number in List [VE].py', '[239] Volume of a Pizza [VE].py', '[23] String to Integer and Vice Versa [VE].py', '[240] Sum of the Odd Numbers [VE].py', '[241] Shapes With N Sides [VE].py', '[242] ReverseAndNot [VE].py', '[243] Spotlight Sum [VE].py', '[244] Free Coffee Cups [VE].py', '[245] Scoring System [VE].py', '[246] Zip It_ If You Can_ [VE].py', '[247] Valid Variable Names [VE].py', '[248] Negate the List of Numbers [VE].py', '[249] Basic Statistics_ Mean [VE].py', '[24] Check if objOne Is Equal to objTwo [VE].py', '[250] Reverse Titling [VE].py', '[251] Summing the Squares [VE].py', '[252] Reverse the Number [VE].py', '[253] Additive Inverse [VE].py', '[254] Reverse a List [VE].py', '[255] Array of Word Lengths [VE].py', '[256] Add a Consecutive List of Numbers [VE].py', '[257] Tile Teamwork Tactics [VE].py', '[258] Printer Levels [VE].py', '[259] Are the Numbers Equal_ [VE].py', '[25] Return Something to Me! [VE].py', '[260] Say _Hello_ Say _Bye_ [VE].py', '[261] Single Occurrence [VE].py', '[262] Height of an Equilateral Triangle [VE].py', '[263] Adding Numbers in a String [VE].py', '[264] Give Me the Even Numbers [VE].py', '[265] After N Months [VE].py', '[266] Missing Third Angle [VE].py', '[267] Leap Years [VE].py', '[268] Find the Average of the Letters 📊 [VE].py', '[269] Add_ Subtract_ Multiply or Divide_ [VE].py', '[26] Basketball Points [VE].py', '[270] Is the String a Palindrome_ [VE].py', '[271] List of Consecutive Numbers [VE].py', "[272] Limit a Number's Value [VE].py", '[273] Hello; Hello World; World [VE].py', '[274] Find the Index (Part 1) [VE].py', "[275] Edabit's Markdown Formatting [VE].py", '[276] Coding Website Score Calculator [VE].py', '[277] Lonely Integer [VE].py', '[278] N Tables + 1 [VE].py', '[279] Burglary Series (11)_ Say What [VE].py', '[27] Are the Numbers Equal_ [VE].py', '[280] Primitive Darts Game [VE].py', '[281] Volume of a Box [VE].py', '[282] Find the Index (Part #2) [VE].py', '[283] Matchstick Houses [VE].py', '[284] Count the Capital Letters [VE].py', '[285] Leap Year Function ⌚ [VE].py', '[286] Sum of Numbers in a List [VE].py', '[287] String or Integer_ [VE].py', '[288] Return the Total Number of Parameters [VE].py', '[289] Ageing the Population [VE].py', '[28] Is the Number Less than or Equal to Zero_ [VE].py', '[290] Numbers to Dictionaries [VE].py', '[291] Owofied a Sentence [VE].py', '[292] Join Two Portions of a Path [VE].py', '[293] The pH Scale [VE].py', '[294] Perfect Roots [VE].py', '[295] Online Shopping [VE].py', '[296] Reverse Coding Challenge #3 [VE].py', '[297] Same Number of Unique Elements [VE].py', "[298] What's Hiding Amongst the Crowd_ [VE].py", '[299] Get Word Count [VE].py', '[29] Buggy Code (Part 4) [VE].py', '[2] Return the Next Number from the Integer Passed [VE].py', '[300] Get the File Extension [VE].py', '[301] Which One Is Your Type_ [VE].py', '[302] Stripping a Sentence Down [VE].py', '[303] Word Endings [VE].py', "[304] Who's in First Place_ [VE].py", '[305] Sum of Cubes [VE].py', '[306] Check if a String Contains only Identical Characters [VE].py', '[307] Check if Number is within a Given Range [VE].py', '[308] Minimum Removals to Make Sum Even [VE].py', '[309] Binary List to Decimal [VE].py', '[30] Proper Modulo Operator [VE].py', '[310] Hitting the Jackpot [VE].py', '[311] Rotate for Max Number [VE].py', '[312] No Hidden Fees [VE].py', '[313] Is Sam with Frodo_ [VE].py', '[314] Remove the First and Last Characters [VE].py', '[315] Generate a Countdown of Numbers in a List [VE].py', '[316] Unlucky 13 [VE].py', '[317] Calculate Determinant of a 2x2 Matrix [VE].py', '[318] Extract City Facts [VE].py', '[319] Filter by Digit Length [VE].py', '[31] Find the Largest Number in a List [VE].py', '[320] Hurdle Jump [VE].py', '[321] List from Comma-Delimited String [VE].py', '[322] Find the Bug_ Checking Even Numbers [VE].py', '[323] Mirror Array [VE].py', '[324] How Many Decimal Places_ [VE].py', '[325] Total Number of Unique Characters [VE].py', '[326] Check Factors [VE].py', '[327] Filter a String [VE].py', '[328] Next Perfect Square [VE].py', '[329] Reverse the Order of a String [VE].py', '[32] Find the Smallest Number in a List [VE].py', '[330] Pyramid Lists [VE].py', '[331] Burglary Series (01)_ Calculate Total Losses [VE].py', '[332] What Type of Triangle_ [VE].py', '[333] Semantic Versioning [VE].py', '[334] Factorize a Number [VE].py', '[335] Omnipresent Value [VE].py', '[336] Between Words [VE].py', '[337] Index Shuffle [VE].py', '[338] Retrieve the Subreddit [VE].py', '[339] Capture the Rook [VE].py', '[33] Fix the Expression [VE].py', '[340] Remove None from a List [VE].py', '[341] Multiply by Length [VE].py', '[342] Not Not Not True [VE].py', '[343] How Many Digits_ [VE].py', '[344] Filter Repeating Character Strings [VE].py', '[345] Find Unique Character Strings [VE].py', '[346] Check if One List is a Subset of Another [VE].py', '[347] Repeat the Same Item Multiple Times [VE].py', '[348] Product Divisible by Sum_ [VE].py', '[349] Exists a Number Higher_ [VE].py', '[34] Difference of Max and Min Numbers in List [VE].py', '[350] Sum of Found Indexes [VE].py', '[351] Product of All Odd Integers [VE].py', '[352] Smaller String Number [VE].py', '[353] Valid Zip Code [VE].py', '[354] Repeating Letters N Times [VE].py', '[355] Pi to N Decimal Places [VE].py', '[356] Odd Up_ Even Down [VE].py', '[357] Number of Squares in an N _ N Grid [VE].py', '[358] Same ASCII_ [VE].py', '[359] Potential Friend_ [VE].py', '[35] Concatenating Two Integer Lists [VE].py', '[360] Convenience Store [VE].py', '[361] Check if a Number is a Palindrome [VE].py', '[362] State Names and Abbreviations [VE].py', '[363] Largest Swap [VE].py', '[364] Prefixes vs_ Suffixes [VE].py', '[365] Even Odd Partition [VE].py', '[366] Return Types [VE].py', '[367] Identical Sublists [VE].py', '[368] Is the Average of All Elements a Whole Number_ [VE].py', '[369] Convert Number to Corresponding Month Name [VE].py', '[36] Maximum Difference [VE].py', '[370] Absolute Sum [VE].py', '[371] Little Dictionary [VE].py', '[372] Eliminate Odd Numbers within a List [VE].py', '[373] Increment to Top [VE].py', '[374] Return the Four Letter Strings [VE].py', '[375] Chinese Zodiac [VE].py', '[376] Count Ones in a 2D Array [VE].py', '[377] Check if String Ending Matches Second String [VE].py', '[378] Calculate the Mean [VE].py', '[379] Rounding in Millions [VE].py', '[37] Less Than 100_ [VE].py', '[380] Mumbling Challenge [VE].py', '[381] Spelling it Out [VE].py', '[382] Capitalize the Names [VE].py', '[383] Return the Index of the First Vowel [VE].py', '[384] Find the Largest Numbers in a Group of Lists [VE].py', '[385] How Good is Your Name_ [VE].py', '[386] Even and Last [VE].py', '[387] Recursion_ Array Sum [VE].py', '[388] Chocolate Dilemma [VE].py', '[389] Barbecue Skewers [VE].py', '[38] Return the Last Element in a List [VE].py', '[390] Simple Encoder [VE].py', '[391] Add up the Numbers from a Single Number [VE].py', '[392] Human_ Cat and Dog Years 🧑🏻🐱🐶 [VE].py', '[393] Narcissistic Number [VE].py', '[394] Cycling Through Strings [VE].py', '[395] Outlier Number [VE].py', '[396] Arithmetic Progression [VE].py', '[397] Clear the Fog [VE].py', '[398] Doubleton Number [VE].py', '[399] Left Shift by Powers of Two [VE].py', '[39] Name Greeting! [VE].py', '[3] Convert Minutes into Seconds [VE].py', '[400] Simple Counting [VE].py', '[401] List Index [VE].py', '[402] Sum of Even Pairs in List [VE].py', '[403] RegEx X-A_ Word Character Class [VE].py', '[404] A Simple Timer [VE].py', '[405] Opposite House 🏘️ [VE].py', '[406] Running Athlete 🏃 [VE].py', '[407] You FAILEDPASSED the Exam [VE].py', '[408] Radian to Degree [VE].py', '[409] Recursion_ Sum of Multiplication [VE].py', '[40] Two Makes Ten [VE].py', '[410] Recursion_ Length of a String [VE].py', '[41] Profitable Gamble [VE].py', '[42] Check if an Integer is Divisible By Five [VE].py', '[43] Get the Sum of All List Elements [VE].py', '[44] Frames Per Second [VE].py', '[45] Multiple of 100 [VE].py', '[46] Using the _and_ Operator [VE].py', '[47] Testing K^K == N_ [VE].py', '[48] Buggy Code (Part 2) [VE].py', '[49] Compare Strings by Count of Characters [VE].py', '[4] Area of a Triangle [VE].py', '[50] Divides Evenly [VE].py', "[51] Let's Fuel Up! [VE].py", '[52] Is the String Empty_ [VE].py', '[53] Recursion to Repeat a String n Number of Times [VE].py', '[54] Buggy Code (Part 7) [VE].py', '[55] Return Negative [VE].py', '[56] Sum of List Less Than 100 List Remix [VE].py', '[57] Concatenate First and Last Name into One String [VE].py', '[58] Miserable Parody of a Calculator [VE].py', '[59] Concatenating First and Last Character of a String [VE].py', '[5] Buggy Code (Part 1) [VE].py', '[60] Is the String Odd or Even_ [VE].py', '[61] Pair Management [VE].py', '[62] Front 3 - Slice Check Repeat Concatenate [VE].py', '[63] Fix the Error_ Value vs_ Reference Types [VE].py', '[64] Minimal I_ If Boolean Then Boolean [VE].py', '[65] Inches to Feet [VE].py', '[66] Even or Odd_ [VE].py', '[67] Fix the Error_ Check Whether a Given Number Is Odd [VE].py', '[68] Convert Number to String of Dashes [VE].py', '[69] Area of a Rectangle [VE].py', '[6] Convert Hours into Seconds [VE].py', '[70] Check if a List Contains a Given Number [VE].py', '[71] Buggy Code (Part 3) [VE].py', '[72] Is the Number Even or Odd_ [VE].py', '[73] Is the Word Singular or Plural_ [VE].py', '[74] On_Off Switches [VE].py', '[75] Is the Last Character an _N [VE].py', '[76] Moving House [VE].py', '[77] Find the Bug_ Returning the Container [VE].py', '[78] Burrrrrrrp [VE].py', '[79] Char-to-ASCII [VE].py', '[7] Maximum Edge of a Triangle [VE].py', '[80] Evaluate an Equation [VE].py', '[81] WordCharWord [VE].py', '[82] Flip the Boolean [VE].py', '[83] Fix the Errors _ Comparing Arrays [VE].py', '[84] Word without First Character [VE].py', '[85] Destructuring Lists III [VE].py', '[86] Solve the Equation [VE].py', '[87] Triangle and Parallelogram Area Finder [VE].py', '[88] Half_ Quarter and Eighth [VE].py', '[89] Edaaaaabit [VE].py', '[8] Return the Remainder from Two Numbers [VE].py', '[90] Nth Even Number [VE].py', '[91] Find the Smallest and Biggest Numbers [VE].py', '[92] Check String for Spaces [VE].py', '[93] Destructuring Assignment [VE].py', '[94] Number of Stickers [VE].py', "[95] How Many D's Are There_ [VE].py", '[96] Check if All Values Are True [VE].py', '[97] City School Creating IDS [VE].py', '[98] Iterable Unpacking [VE].py', '[99] Smash Factor [VE].py', '[9] Return a String as an Integer [VE].py']
+
+Current Path: D:\coding\funPy\Python\veryHard
+Directories: []
+Files: ['[1788] Vowel Families [VH].py', '[1789] Underscore-Hash Staircase [VH].py', '[1790] Atbash Cipher [VH].py', '[1791] Parentheses Clusters [VH].py', '[1792] Concert Seats [VH].py', '[1793] Identity Matrix [VH].py', '[1794] Create a Stair [VH].py', '[1795] When to Sleep_ [VH].py', '[1796] Regular Expression Matching [VH].py', '[1797] Tic Tac Toe [VH].py', '[1798] Prison Break [VH].py', '[1799] Advanced List Sort [VH].py', '[1800] Tic Tac Toe [VH].py', '[1801] Simplified Fractions [VH].py', '[1802] Modular Arithmetic (Part #1) [VH].py', '[1803] Prime Factorization of an Integer [VH].py', '[1804] Alphabet Clash (Battle of the ASCII Values) [VH].py', '[1805] Numbers Transformation [VH].py', '[1806] Mastermind [VH].py', '[1807] Heroes vs_ Monsters_ a Role Playing Game Battle System [VH].py', '[1808] Recursion_ N-Length Letter Groups [VH].py', '[1809] Recursion_ Palindrome Phrase [VH].py', '[1810] Check if the Formula is Correct [VH].py', '[1811] Strings & Frets [VH].py', '[1812] Premier League Champions [VH].py', '[1813] The Primiera [VH].py', "[1814] Check Rubik's Cubes [VH].py", '[1815] Super Reduced String [VH].py', '[1816] Word Nests (Part 2) [VH].py', '[1817] Nearest Chapter [VH].py', '[1818] Maximum and Minimum Product Triplets [VH].py', '[1819] First Letter Shift [VH].py', '[1820] Help Bobby Fix His Code [VH].py', '[1821] Bingo Check [VH].py', '[1822] Sales Season [VH].py', '[1823] Climbing Competition [VH].py', '[1824] RegEx XXI_ Non-Capturing Groups [VH].py', '[1825] Sort the Dates [VH].py', '[1826] Land Perimeter [VH].py', '[1827] Excel Sheet Column Number [VH].py', '[1828] Splitting Up Numbers [VH].py', '[1829] Party People Part I_ Make it Recursive [VH].py', '[1830] Reverse the String (with a catch) [VH].py', '[1831] Remove the Computer Virus [VH].py', '[1832] Dakti 🌊🌴 [VH].py', '[1833] Freshly Made Pizzas [VH].py', '[1834] Burglary Series (23)_ Find and Remove [VH].py', '[1835] Sort the String [VH].py', '[1836] Fives and Threes Only [VH].py', '[1837] The Out-Shuffle [VH].py', '[1838] RGB or Hex Colour [VH].py', '[1839] Shortest Subarray Whose Sum Exceeds N [VH].py', '[1840] A Subtle Switcheroo [VH].py', '[1841] Mod 10 Algorithm [VH].py', '[1842] Fibonacci Word [VH].py', '[1843] K-th Element of a Binary Sorted List [VH].py', '[1844] Matrix Multiplication [VH].py', '[1845] Sort by Factor Length [VH].py', '[1846] To Adjust the Time [VH].py', '[1847] Scrambled Letters [VH].py', '[1848] Recursion_ Happy Number [VH].py', '[1849] RegEx Exercise #2_ HTML Tags [VH].py', '[1850] Oddly or Evenly Positioned From Last [VH].py', '[1851] Reverse a Linked List [VH].py', '[1852] One Time Pad Training Program_ Pt_ 1 [VH].py', '[1853] The Secret Bases of Words [VH].py', '[1854] Sort Characters by Frequency_ Case_ Alphabet [VH].py', '[1855] Postman Harry [VH].py', '[1856] Messing with Equality [VH].py', '[1857] Incrementing Rows and Columns [VH].py', '[1858] Esthetic Numbers [VH].py', '[1859] Maximize the First Number [VH].py', '[1860] Pagination Class with OOP [VH].py', '[1861] Cleaning Project Files [VH].py', '[1862] License Plate [VH].py', '[1863] Sherlock and the Valid String [VH].py', '[1864] Extracting Words with _-ing_ Inflection [VH].py', '[1865] Exploring Mutable Methods [VH].py', '[1866] How Many Shuffles_ [VH].py', '[1867] Single Letter Swaps [VH].py', '[1868] Roll the Dice [VH].py', '[1869] Astonishing Numbers [VH].py', '[1870] Index Parity of Largest Even [VH].py', '[1871] Difference Cipher [VH].py', '[1872] Word Overlapping [VH].py', '[1873] Reverse Sort_ Lexical and Length [VH].py', '[1874] Deepest Sublist [VH].py', '[1875] English to Numbers [VH].py', '[1876] Sexagenary Cycle (Chinese Zodiac) [VH].py', '[1877] Piggy Bank [VH].py', '[1878] RegEx V_ Negative Lookahead [VH].py', '[1879] Complete the Word [VH].py', '[1880] Perfect Square Binomial [VH].py', '[1881] Primitive Pythagorean Triples [VH].py', '[1882] FSA_ Creating Machines [VH].py', '[1883] Manipulating Randomness [VH].py', '[1884] LCM of More Than Three Numbers [VH].py', '[1885] Movie Theater Seating [VH].py', "[1886] Caesar's Cipher [VH].py", '[1887] Escape Velocity I [VH].py', '[1888] Palindrome Sequence [VH].py', '[1889] Get Sqrt of a Number Using Bisection Search [VH].py', '[1890] Vending Machine [VH].py', '[1891] Maya Number System [VH].py', '[1892] Vertical Text [VH].py', '[1893] Injection I_ Avoid Exec [VH].py', '[1894] Fruit Smoothie [VH].py', '[1895] Letter Shifting [VH].py', '[1896] Mowing the Lawn [VH].py', '[1897] Day Number of Year [VH].py', '[1898] Palindrome Descendant [VH].py', '[1899] RegEx Exercise #4_ Edit the Body Element [VH].py', '[1900] Decimal Range Function [VH].py', '[1901] Three Sum Problem [VH].py', '[1902] Number of Paths Between Points [VH].py', '[1903] Ordering People in a Line [VH].py', '[1904] Rectangle or Not_ (Part 2) [VH].py', '[1905] Sort by Number of Calls [VH].py', '[1906] Is Edabit in the String_ [VH].py', '[1907] String Incrementer [VH].py', '[1908] Lambda Expressions All the Way Down [VH].py', '[1909] Creating a Counter [VH].py', '[1910] Car Park Exit [VH].py', '[1911] Paul Cipher [VH].py', '[1912] Text Twist! [VH].py', '[1913] Is It a Parallelogram_ [VH].py', '[1914] Diagonal Rug [VH].py', '[1915] Are Pairs Sufficient for a Clear Ordering_ [VH].py', '[1916] Fit the Pattern [VH].py', '[1917] Repeating Cycle [VH].py', '[1918] Group in Order [VH].py', '[1919] Mountains or Valleys [VH].py', '[1920] Sexy Primes [VH].py', '[1921] The Connell Sequence [VH].py', '[1922] Counting Nespers [VH].py', '[1923] Longest Palindrome [VH].py', '[1924] Free Range [VH].py', '[1925] Simple Minesweeper [VH].py', '[1926] Current Streak [VH].py', '[1927] Prime Divisors [VH].py', '[1928] Slope to Angle Conversion [VH].py', '[1929] Evaluating Simple Algebra [VH].py', '[1930] Magic Square Check [VH].py', '[1931] Scoring Strings [VH].py', '[1932] XOR Cipher [VH].py', '[1933] Time Around the World [VH].py', '[1934] Longest Consecutive Run [VH].py', "[1935] Pascal's Triangle [VH].py", '[1936] Not a Simple Increment [VH].py', '[1937] Consecutive Ascending Numbers [VH].py', '[1938] RegEx Exercise #7_ Distinct Digits [VH].py', '[1939] Widen the Streets! [VH].py', '[1940] Two Product Problem [VH].py', "[1941] Floyd's Triangle [VH].py", '[1942] Recursion_ Reversible Inclusive List Ranges [VH].py', '[1943] Wrong Number [VH].py', '[1944] Divisibility Rule [VH].py', '[1945] Expand a Number II [VH].py', '[1946] Who Won the League_ [VH].py', '[1947] Eight Sums Up [VH].py', '[1948] Give Me a Hint [VH].py', '[1949] Maximum Product of Digits [VH].py', '[1950] Pyramidal Strings [VH].py', '[1951] Roman Numerals [VH].py', '[1952] Sun Loungers [VH].py', '[1953] Sudoku Validation [VH].py', '[1954] Sum the Digits of All Integers 0 to 10^n - 1 [VH].py', '[1955] Secret Agent Password [VH].py', '[1956] Numbers First_ Letters Second [VH].py', '[1957] The Unprimeables [VH].py', '[1958] Gaderypoluki Cipher [VH].py', '[1959] Seven Segment Display [VH].py', '[1960] Early Birds [VH].py', '[1961] Intersecting Rows and Columns [VH].py', '[1962] Minimum Steps to a Palindrome [VH].py', '[1963] Block Dude [VH].py', '[1964] Same Letter Patterns [VH].py', '[1965] Discount! Discount! Discount! [VH].py', '[1966] Diamond Sum [VH].py', '[1967] Constrained Writing [VH].py', '[1968] Sums of Powers of Two [VH].py', '[1969] Calculating Mathematical Expression [VH].py', '[1970] The Susquehanna Hat Company [VH].py', '[1971] An OSHA Approved Ladder_ [VH].py', '[1972] Combinator [VH].py', '[1973] Breaking News! [VH].py', '[1974] [Color Conversion] RGB to HEX and HEX to RGB [VH].py', '[1975] Powerful Prime Factor [VH].py', '[1976] The Recursive Staircase Problem [VH].py', '[1977] Strong Password [VH].py', '[1978] The Complete Bracelet [VH].py', '[1979] The Trains Are Delayed Again [VH].py', '[1980] Multiple Choice Tests [VH].py', '[1981] Recursion_ Isolated or Grouped_ [VH].py', '[1982] Recursion_ Fibonacci String [VH].py', '[1983] Interquartile Range (IQR) [VH].py', '[1984] Validate Subsequences [VH].py', '[1985] Largest Exponential [VH].py', '[1986] Chess Pieces [VH].py', '[1987] Diagonal Matrices [VH].py', '[1988] Message from Space [VH].py', '[1989] Capitalization Families [VH].py', '[1990] Spotlight Map [VH].py', '[1991] Exactly Three [VH].py', '[1992] Hexadecimal Color Mixer [VH].py', '[1993] Postfix Notation (Part 1_ Evaluation) [VH].py', '[1994] Sum of Elements [VH].py', '[1995] Pilish Strings [VH].py', '[1996] Multiply by 11 [VH].py', '[1997] Fix the Right Answer [VH].py', '[1998] Maximum Score From Two Parts of a String [VH].py', '[1999] Dividing into Chunks of Maximum Sum N [VH].py', '[2000] Chain Reaction (Part #2) [VH].py', '[2001] Complex Numbers Sum [VH].py', '[2002] Colour Harmony [VH].py', '[2003] Rectangle or Not_ [VH].py', "[2004] Kaprekar's Constant [VH].py", '[2005] Guitar Tuner [VH].py', '[2006] 2048 Tiles Slide [VH].py']
+
+Current Path: D:\coding\funPy\venv
+Directories: ['Lib', 'Scripts']
+Files: ['.gitignore', 'pyvenv.cfg']
+
+Current Path: D:\coding\funPy\venv\Lib
+Directories: ['site-packages']
+Files: []
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages
+Directories: ['pip', 'pip-23.1.2.dist-info', 'pkg_resources', 'setuptools', 'setuptools-68.0.0.dist-info', 'wheel', 'wheel-0.40.0.dist-info', '_distutils_hack', '__pycache__']
+Files: ['distutils-precedence.pth', '_virtualenv.pth', '_virtualenv.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip
+Directories: ['_internal', '_vendor', '__pycache__']
+Files: ['py.typed', '__init__.py', '__main__.py', '__pip-runner__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal
+Directories: ['cli', 'commands', 'distributions', 'index', 'locations', 'metadata', 'models', 'network', 'operations', 'req', 'resolution', 'utils', 'vcs', '__pycache__']
+Files: ['build_env.py', 'cache.py', 'configuration.py', 'exceptions.py', 'main.py', 'pyproject.py', 'self_outdated_check.py', 'wheel_builder.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\cli
+Directories: ['__pycache__']
+Files: ['autocompletion.py', 'base_command.py', 'cmdoptions.py', 'command_context.py', 'main.py', 'main_parser.py', 'parser.py', 'progress_bars.py', 'req_command.py', 'spinners.py', 'status_codes.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\cli\__pycache__
+Directories: []
+Files: ['autocompletion.cpython-311.pyc', 'base_command.cpython-311.pyc', 'cmdoptions.cpython-311.pyc', 'command_context.cpython-311.pyc', 'main.cpython-311.pyc', 'main_parser.cpython-311.pyc', 'parser.cpython-311.pyc', 'progress_bars.cpython-311.pyc', 'req_command.cpython-311.pyc', 'spinners.cpython-311.pyc', 'status_codes.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\commands
+Directories: ['__pycache__']
+Files: ['cache.py', 'check.py', 'completion.py', 'configuration.py', 'debug.py', 'download.py', 'freeze.py', 'hash.py', 'help.py', 'index.py', 'inspect.py', 'install.py', 'list.py', 'search.py', 'show.py', 'uninstall.py', 'wheel.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\commands\__pycache__
+Directories: []
+Files: ['cache.cpython-311.pyc', 'check.cpython-311.pyc', 'completion.cpython-311.pyc', 'configuration.cpython-311.pyc', 'debug.cpython-311.pyc', 'download.cpython-311.pyc', 'freeze.cpython-311.pyc', 'hash.cpython-311.pyc', 'help.cpython-311.pyc', 'index.cpython-311.pyc', 'inspect.cpython-311.pyc', 'install.cpython-311.pyc', 'list.cpython-311.pyc', 'search.cpython-311.pyc', 'show.cpython-311.pyc', 'uninstall.cpython-311.pyc', 'wheel.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\distributions
+Directories: ['__pycache__']
+Files: ['base.py', 'installed.py', 'sdist.py', 'wheel.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\distributions\__pycache__
+Directories: []
+Files: ['base.cpython-311.pyc', 'installed.cpython-311.pyc', 'sdist.cpython-311.pyc', 'wheel.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\index
+Directories: ['__pycache__']
+Files: ['collector.py', 'package_finder.py', 'sources.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\index\__pycache__
+Directories: []
+Files: ['collector.cpython-311.pyc', 'package_finder.cpython-311.pyc', 'sources.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\locations
+Directories: ['__pycache__']
+Files: ['base.py', '_distutils.py', '_sysconfig.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\locations\__pycache__
+Directories: []
+Files: ['base.cpython-311.pyc', '_distutils.cpython-311.pyc', '_sysconfig.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\metadata
+Directories: ['importlib', '__pycache__']
+Files: ['base.py', 'pkg_resources.py', '_json.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\metadata\importlib
+Directories: ['__pycache__']
+Files: ['_compat.py', '_dists.py', '_envs.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__
+Directories: []
+Files: ['_compat.cpython-311.pyc', '_dists.cpython-311.pyc', '_envs.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\metadata\__pycache__
+Directories: []
+Files: ['base.cpython-311.pyc', 'pkg_resources.cpython-311.pyc', '_json.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\models
+Directories: ['__pycache__']
+Files: ['candidate.py', 'direct_url.py', 'format_control.py', 'index.py', 'installation_report.py', 'link.py', 'scheme.py', 'search_scope.py', 'selection_prefs.py', 'target_python.py', 'wheel.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\models\__pycache__
+Directories: []
+Files: ['candidate.cpython-311.pyc', 'direct_url.cpython-311.pyc', 'format_control.cpython-311.pyc', 'index.cpython-311.pyc', 'installation_report.cpython-311.pyc', 'link.cpython-311.pyc', 'scheme.cpython-311.pyc', 'search_scope.cpython-311.pyc', 'selection_prefs.cpython-311.pyc', 'target_python.cpython-311.pyc', 'wheel.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\network
+Directories: ['__pycache__']
+Files: ['auth.py', 'cache.py', 'download.py', 'lazy_wheel.py', 'session.py', 'utils.py', 'xmlrpc.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\network\__pycache__
+Directories: []
+Files: ['auth.cpython-311.pyc', 'cache.cpython-311.pyc', 'download.cpython-311.pyc', 'lazy_wheel.cpython-311.pyc', 'session.cpython-311.pyc', 'utils.cpython-311.pyc', 'xmlrpc.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\operations
+Directories: ['build', 'install', '__pycache__']
+Files: ['check.py', 'freeze.py', 'prepare.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\operations\build
+Directories: ['__pycache__']
+Files: ['build_tracker.py', 'metadata.py', 'metadata_editable.py', 'metadata_legacy.py', 'wheel.py', 'wheel_editable.py', 'wheel_legacy.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\operations\build\__pycache__
+Directories: []
+Files: ['build_tracker.cpython-311.pyc', 'metadata.cpython-311.pyc', 'metadata_editable.cpython-311.pyc', 'metadata_legacy.cpython-311.pyc', 'wheel.cpython-311.pyc', 'wheel_editable.cpython-311.pyc', 'wheel_legacy.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\operations\install
+Directories: ['__pycache__']
+Files: ['editable_legacy.py', 'wheel.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\operations\install\__pycache__
+Directories: []
+Files: ['editable_legacy.cpython-311.pyc', 'wheel.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\operations\__pycache__
+Directories: []
+Files: ['check.cpython-311.pyc', 'freeze.cpython-311.pyc', 'prepare.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\req
+Directories: ['__pycache__']
+Files: ['constructors.py', 'req_file.py', 'req_install.py', 'req_set.py', 'req_uninstall.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\req\__pycache__
+Directories: []
+Files: ['constructors.cpython-311.pyc', 'req_file.cpython-311.pyc', 'req_install.cpython-311.pyc', 'req_set.cpython-311.pyc', 'req_uninstall.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\resolution
+Directories: ['legacy', 'resolvelib', '__pycache__']
+Files: ['base.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\resolution\legacy
+Directories: ['__pycache__']
+Files: ['resolver.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__
+Directories: []
+Files: ['resolver.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\resolution\resolvelib
+Directories: ['__pycache__']
+Files: ['base.py', 'candidates.py', 'factory.py', 'found_candidates.py', 'provider.py', 'reporter.py', 'requirements.py', 'resolver.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__
+Directories: []
+Files: ['base.cpython-311.pyc', 'candidates.cpython-311.pyc', 'factory.cpython-311.pyc', 'found_candidates.cpython-311.pyc', 'provider.cpython-311.pyc', 'reporter.cpython-311.pyc', 'requirements.cpython-311.pyc', 'resolver.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\resolution\__pycache__
+Directories: []
+Files: ['base.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\utils
+Directories: ['__pycache__']
+Files: ['appdirs.py', 'compat.py', 'compatibility_tags.py', 'datetime.py', 'deprecation.py', 'direct_url_helpers.py', 'egg_link.py', 'encoding.py', 'entrypoints.py', 'filesystem.py', 'filetypes.py', 'glibc.py', 'hashes.py', 'inject_securetransport.py', 'logging.py', 'misc.py', 'models.py', 'packaging.py', 'setuptools_build.py', 'subprocess.py', 'temp_dir.py', 'unpacking.py', 'urls.py', 'virtualenv.py', 'wheel.py', '_jaraco_text.py', '_log.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\utils\__pycache__
+Directories: []
+Files: ['appdirs.cpython-311.pyc', 'compat.cpython-311.pyc', 'compatibility_tags.cpython-311.pyc', 'datetime.cpython-311.pyc', 'deprecation.cpython-311.pyc', 'direct_url_helpers.cpython-311.pyc', 'egg_link.cpython-311.pyc', 'encoding.cpython-311.pyc', 'entrypoints.cpython-311.pyc', 'filesystem.cpython-311.pyc', 'filetypes.cpython-311.pyc', 'glibc.cpython-311.pyc', 'hashes.cpython-311.pyc', 'inject_securetransport.cpython-311.pyc', 'logging.cpython-311.pyc', 'misc.cpython-311.pyc', 'models.cpython-311.pyc', 'packaging.cpython-311.pyc', 'setuptools_build.cpython-311.pyc', 'subprocess.cpython-311.pyc', 'temp_dir.cpython-311.pyc', 'unpacking.cpython-311.pyc', 'urls.cpython-311.pyc', 'virtualenv.cpython-311.pyc', 'wheel.cpython-311.pyc', '_jaraco_text.cpython-311.pyc', '_log.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\vcs
+Directories: ['__pycache__']
+Files: ['bazaar.py', 'git.py', 'mercurial.py', 'subversion.py', 'versioncontrol.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\vcs\__pycache__
+Directories: []
+Files: ['bazaar.cpython-311.pyc', 'git.cpython-311.pyc', 'mercurial.cpython-311.pyc', 'subversion.cpython-311.pyc', 'versioncontrol.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_internal\__pycache__
+Directories: []
+Files: ['build_env.cpython-311.pyc', 'cache.cpython-311.pyc', 'configuration.cpython-311.pyc', 'exceptions.cpython-311.pyc', 'main.cpython-311.pyc', 'pyproject.cpython-311.pyc', 'self_outdated_check.cpython-311.pyc', 'wheel_builder.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor
+Directories: ['cachecontrol', 'certifi', 'chardet', 'colorama', 'distlib', 'distro', 'idna', 'msgpack', 'packaging', 'pkg_resources', 'platformdirs', 'pygments', 'pyparsing', 'pyproject_hooks', 'requests', 'resolvelib', 'rich', 'tenacity', 'tomli', 'urllib3', 'webencodings', '__pycache__']
+Files: ['six.py', 'typing_extensions.py', 'vendor.txt', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\cachecontrol
+Directories: ['caches', '__pycache__']
+Files: ['adapter.py', 'cache.py', 'compat.py', 'controller.py', 'filewrapper.py', 'heuristics.py', 'serialize.py', 'wrapper.py', '_cmd.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches
+Directories: ['__pycache__']
+Files: ['file_cache.py', 'redis_cache.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__
+Directories: []
+Files: ['file_cache.cpython-311.pyc', 'redis_cache.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__
+Directories: []
+Files: ['adapter.cpython-311.pyc', 'cache.cpython-311.pyc', 'compat.cpython-311.pyc', 'controller.cpython-311.pyc', 'filewrapper.cpython-311.pyc', 'heuristics.cpython-311.pyc', 'serialize.cpython-311.pyc', 'wrapper.cpython-311.pyc', '_cmd.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\certifi
+Directories: ['__pycache__']
+Files: ['cacert.pem', 'core.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\certifi\__pycache__
+Directories: []
+Files: ['core.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\chardet
+Directories: ['cli', 'metadata', '__pycache__']
+Files: ['big5freq.py', 'big5prober.py', 'chardistribution.py', 'charsetgroupprober.py', 'charsetprober.py', 'codingstatemachine.py', 'codingstatemachinedict.py', 'cp949prober.py', 'enums.py', 'escprober.py', 'escsm.py', 'eucjpprober.py', 'euckrfreq.py', 'euckrprober.py', 'euctwfreq.py', 'euctwprober.py', 'gb2312freq.py', 'gb2312prober.py', 'hebrewprober.py', 'jisfreq.py', 'johabfreq.py', 'johabprober.py', 'jpcntx.py', 'langbulgarianmodel.py', 'langgreekmodel.py', 'langhebrewmodel.py', 'langhungarianmodel.py', 'langrussianmodel.py', 'langthaimodel.py', 'langturkishmodel.py', 'latin1prober.py', 'macromanprober.py', 'mbcharsetprober.py', 'mbcsgroupprober.py', 'mbcssm.py', 'resultdict.py', 'sbcharsetprober.py', 'sbcsgroupprober.py', 'sjisprober.py', 'universaldetector.py', 'utf1632prober.py', 'utf8prober.py', 'version.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\chardet\cli
+Directories: ['__pycache__']
+Files: ['chardetect.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\chardet\cli\__pycache__
+Directories: []
+Files: ['chardetect.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\chardet\metadata
+Directories: ['__pycache__']
+Files: ['languages.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\chardet\metadata\__pycache__
+Directories: []
+Files: ['languages.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\chardet\__pycache__
+Directories: []
+Files: ['big5freq.cpython-311.pyc', 'big5prober.cpython-311.pyc', 'chardistribution.cpython-311.pyc', 'charsetgroupprober.cpython-311.pyc', 'charsetprober.cpython-311.pyc', 'codingstatemachine.cpython-311.pyc', 'codingstatemachinedict.cpython-311.pyc', 'cp949prober.cpython-311.pyc', 'enums.cpython-311.pyc', 'escprober.cpython-311.pyc', 'escsm.cpython-311.pyc', 'eucjpprober.cpython-311.pyc', 'euckrfreq.cpython-311.pyc', 'euckrprober.cpython-311.pyc', 'euctwfreq.cpython-311.pyc', 'euctwprober.cpython-311.pyc', 'gb2312freq.cpython-311.pyc', 'gb2312prober.cpython-311.pyc', 'hebrewprober.cpython-311.pyc', 'jisfreq.cpython-311.pyc', 'johabfreq.cpython-311.pyc', 'johabprober.cpython-311.pyc', 'jpcntx.cpython-311.pyc', 'langbulgarianmodel.cpython-311.pyc', 'langgreekmodel.cpython-311.pyc', 'langhebrewmodel.cpython-311.pyc', 'langhungarianmodel.cpython-311.pyc', 'langrussianmodel.cpython-311.pyc', 'langthaimodel.cpython-311.pyc', 'langturkishmodel.cpython-311.pyc', 'latin1prober.cpython-311.pyc', 'macromanprober.cpython-311.pyc', 'mbcharsetprober.cpython-311.pyc', 'mbcsgroupprober.cpython-311.pyc', 'mbcssm.cpython-311.pyc', 'resultdict.cpython-311.pyc', 'sbcharsetprober.cpython-311.pyc', 'sbcsgroupprober.cpython-311.pyc', 'sjisprober.cpython-311.pyc', 'universaldetector.cpython-311.pyc', 'utf1632prober.cpython-311.pyc', 'utf8prober.cpython-311.pyc', 'version.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\colorama
+Directories: ['tests', '__pycache__']
+Files: ['ansi.py', 'ansitowin32.py', 'initialise.py', 'win32.py', 'winterm.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\colorama\tests
+Directories: ['__pycache__']
+Files: ['ansitowin32_test.py', 'ansi_test.py', 'initialise_test.py', 'isatty_test.py', 'utils.py', 'winterm_test.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\colorama\tests\__pycache__
+Directories: []
+Files: ['ansitowin32_test.cpython-311.pyc', 'ansi_test.cpython-311.pyc', 'initialise_test.cpython-311.pyc', 'isatty_test.cpython-311.pyc', 'utils.cpython-311.pyc', 'winterm_test.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\colorama\__pycache__
+Directories: []
+Files: ['ansi.cpython-311.pyc', 'ansitowin32.cpython-311.pyc', 'initialise.cpython-311.pyc', 'win32.cpython-311.pyc', 'winterm.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\distlib
+Directories: ['__pycache__']
+Files: ['compat.py', 'database.py', 'index.py', 'locators.py', 'manifest.py', 'markers.py', 'metadata.py', 'resources.py', 'scripts.py', 't32.exe', 't64-arm.exe', 't64.exe', 'util.py', 'version.py', 'w32.exe', 'w64-arm.exe', 'w64.exe', 'wheel.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\distlib\__pycache__
+Directories: []
+Files: ['compat.cpython-311.pyc', 'database.cpython-311.pyc', 'index.cpython-311.pyc', 'locators.cpython-311.pyc', 'manifest.cpython-311.pyc', 'markers.cpython-311.pyc', 'metadata.cpython-311.pyc', 'resources.cpython-311.pyc', 'scripts.cpython-311.pyc', 'util.cpython-311.pyc', 'version.cpython-311.pyc', 'wheel.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\distro
+Directories: ['__pycache__']
+Files: ['distro.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\distro\__pycache__
+Directories: []
+Files: ['distro.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\idna
+Directories: ['__pycache__']
+Files: ['codec.py', 'compat.py', 'core.py', 'idnadata.py', 'intranges.py', 'package_data.py', 'uts46data.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\idna\__pycache__
+Directories: []
+Files: ['codec.cpython-311.pyc', 'compat.cpython-311.pyc', 'core.cpython-311.pyc', 'idnadata.cpython-311.pyc', 'intranges.cpython-311.pyc', 'package_data.cpython-311.pyc', 'uts46data.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\msgpack
+Directories: ['__pycache__']
+Files: ['exceptions.py', 'ext.py', 'fallback.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\msgpack\__pycache__
+Directories: []
+Files: ['exceptions.cpython-311.pyc', 'ext.cpython-311.pyc', 'fallback.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\packaging
+Directories: ['__pycache__']
+Files: ['markers.py', 'requirements.py', 'specifiers.py', 'tags.py', 'utils.py', 'version.py', '_manylinux.py', '_musllinux.py', '_structures.py', '__about__.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\packaging\__pycache__
+Directories: []
+Files: ['markers.cpython-311.pyc', 'requirements.cpython-311.pyc', 'specifiers.cpython-311.pyc', 'tags.cpython-311.pyc', 'utils.cpython-311.pyc', 'version.cpython-311.pyc', '_manylinux.cpython-311.pyc', '_musllinux.cpython-311.pyc', '_structures.cpython-311.pyc', '__about__.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pkg_resources
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\platformdirs
+Directories: ['__pycache__']
+Files: ['android.py', 'api.py', 'macos.py', 'unix.py', 'version.py', 'windows.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache__
+Directories: []
+Files: ['android.cpython-311.pyc', 'api.cpython-311.pyc', 'macos.cpython-311.pyc', 'unix.cpython-311.pyc', 'version.cpython-311.pyc', 'windows.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments
+Directories: ['filters', 'formatters', 'lexers', 'styles', '__pycache__']
+Files: ['cmdline.py', 'console.py', 'filter.py', 'formatter.py', 'lexer.py', 'modeline.py', 'plugin.py', 'regexopt.py', 'scanner.py', 'sphinxext.py', 'style.py', 'token.py', 'unistring.py', 'util.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\filters
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\formatters
+Directories: ['__pycache__']
+Files: ['bbcode.py', 'groff.py', 'html.py', 'img.py', 'irc.py', 'latex.py', 'other.py', 'pangomarkup.py', 'rtf.py', 'svg.py', 'terminal.py', 'terminal256.py', '_mapping.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__
+Directories: []
+Files: ['bbcode.cpython-311.pyc', 'groff.cpython-311.pyc', 'html.cpython-311.pyc', 'img.cpython-311.pyc', 'irc.cpython-311.pyc', 'latex.cpython-311.pyc', 'other.cpython-311.pyc', 'pangomarkup.cpython-311.pyc', 'rtf.cpython-311.pyc', 'svg.cpython-311.pyc', 'terminal.cpython-311.pyc', 'terminal256.cpython-311.pyc', '_mapping.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\lexers
+Directories: ['__pycache__']
+Files: ['python.py', '_mapping.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__
+Directories: []
+Files: ['python.cpython-311.pyc', '_mapping.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\styles
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pygments\__pycache__
+Directories: []
+Files: ['cmdline.cpython-311.pyc', 'console.cpython-311.pyc', 'filter.cpython-311.pyc', 'formatter.cpython-311.pyc', 'lexer.cpython-311.pyc', 'modeline.cpython-311.pyc', 'plugin.cpython-311.pyc', 'regexopt.cpython-311.pyc', 'scanner.cpython-311.pyc', 'sphinxext.cpython-311.pyc', 'style.cpython-311.pyc', 'token.cpython-311.pyc', 'unistring.cpython-311.pyc', 'util.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyparsing
+Directories: ['diagram', '__pycache__']
+Files: ['actions.py', 'common.py', 'core.py', 'exceptions.py', 'helpers.py', 'results.py', 'testing.py', 'unicode.py', 'util.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyparsing\diagram
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyparsing\diagram\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyparsing\__pycache__
+Directories: []
+Files: ['actions.cpython-311.pyc', 'common.cpython-311.pyc', 'core.cpython-311.pyc', 'exceptions.cpython-311.pyc', 'helpers.cpython-311.pyc', 'results.cpython-311.pyc', 'testing.cpython-311.pyc', 'unicode.cpython-311.pyc', 'util.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyproject_hooks
+Directories: ['_in_process', '__pycache__']
+Files: ['_compat.py', '_impl.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process
+Directories: ['__pycache__']
+Files: ['_in_process.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache__
+Directories: []
+Files: ['_in_process.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache__
+Directories: []
+Files: ['_compat.cpython-311.pyc', '_impl.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\requests
+Directories: ['__pycache__']
+Files: ['adapters.py', 'api.py', 'auth.py', 'certs.py', 'compat.py', 'cookies.py', 'exceptions.py', 'help.py', 'hooks.py', 'models.py', 'packages.py', 'sessions.py', 'status_codes.py', 'structures.py', 'utils.py', '_internal_utils.py', '__init__.py', '__version__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\requests\__pycache__
+Directories: []
+Files: ['adapters.cpython-311.pyc', 'api.cpython-311.pyc', 'auth.cpython-311.pyc', 'certs.cpython-311.pyc', 'compat.cpython-311.pyc', 'cookies.cpython-311.pyc', 'exceptions.cpython-311.pyc', 'help.cpython-311.pyc', 'hooks.cpython-311.pyc', 'models.cpython-311.pyc', 'packages.cpython-311.pyc', 'sessions.cpython-311.pyc', 'status_codes.cpython-311.pyc', 'structures.cpython-311.pyc', 'utils.cpython-311.pyc', '_internal_utils.cpython-311.pyc', '__init__.cpython-311.pyc', '__version__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\resolvelib
+Directories: ['compat', '__pycache__']
+Files: ['providers.py', 'reporters.py', 'resolvers.py', 'structs.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\resolvelib\compat
+Directories: ['__pycache__']
+Files: ['collections_abc.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\resolvelib\compat\__pycache__
+Directories: []
+Files: ['collections_abc.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache__
+Directories: []
+Files: ['providers.cpython-311.pyc', 'reporters.cpython-311.pyc', 'resolvers.cpython-311.pyc', 'structs.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\rich
+Directories: ['__pycache__']
+Files: ['abc.py', 'align.py', 'ansi.py', 'bar.py', 'box.py', 'cells.py', 'color.py', 'color_triplet.py', 'columns.py', 'console.py', 'constrain.py', 'containers.py', 'control.py', 'default_styles.py', 'diagnose.py', 'emoji.py', 'errors.py', 'filesize.py', 'file_proxy.py', 'highlighter.py', 'json.py', 'jupyter.py', 'layout.py', 'live.py', 'live_render.py', 'logging.py', 'markup.py', 'measure.py', 'padding.py', 'pager.py', 'palette.py', 'panel.py', 'pretty.py', 'progress.py', 'progress_bar.py', 'prompt.py', 'protocol.py', 'region.py', 'repr.py', 'rule.py', 'scope.py', 'screen.py', 'segment.py', 'spinner.py', 'status.py', 'style.py', 'styled.py', 'syntax.py', 'table.py', 'terminal_theme.py', 'text.py', 'theme.py', 'themes.py', 'traceback.py', 'tree.py', '_cell_widths.py', '_emoji_codes.py', '_emoji_replace.py', '_export_format.py', '_extension.py', '_fileno.py', '_inspect.py', '_log_render.py', '_loop.py', '_null_file.py', '_palettes.py', '_pick.py', '_ratio.py', '_spinners.py', '_stack.py', '_timer.py', '_win32_console.py', '_windows.py', '_windows_renderer.py', '_wrap.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\rich\__pycache__
+Directories: []
+Files: ['abc.cpython-311.pyc', 'align.cpython-311.pyc', 'ansi.cpython-311.pyc', 'bar.cpython-311.pyc', 'box.cpython-311.pyc', 'cells.cpython-311.pyc', 'color.cpython-311.pyc', 'color_triplet.cpython-311.pyc', 'columns.cpython-311.pyc', 'console.cpython-311.pyc', 'constrain.cpython-311.pyc', 'containers.cpython-311.pyc', 'control.cpython-311.pyc', 'default_styles.cpython-311.pyc', 'diagnose.cpython-311.pyc', 'emoji.cpython-311.pyc', 'errors.cpython-311.pyc', 'filesize.cpython-311.pyc', 'file_proxy.cpython-311.pyc', 'highlighter.cpython-311.pyc', 'json.cpython-311.pyc', 'jupyter.cpython-311.pyc', 'layout.cpython-311.pyc', 'live.cpython-311.pyc', 'live_render.cpython-311.pyc', 'logging.cpython-311.pyc', 'markup.cpython-311.pyc', 'measure.cpython-311.pyc', 'padding.cpython-311.pyc', 'pager.cpython-311.pyc', 'palette.cpython-311.pyc', 'panel.cpython-311.pyc', 'pretty.cpython-311.pyc', 'progress.cpython-311.pyc', 'progress_bar.cpython-311.pyc', 'prompt.cpython-311.pyc', 'protocol.cpython-311.pyc', 'region.cpython-311.pyc', 'repr.cpython-311.pyc', 'rule.cpython-311.pyc', 'scope.cpython-311.pyc', 'screen.cpython-311.pyc', 'segment.cpython-311.pyc', 'spinner.cpython-311.pyc', 'status.cpython-311.pyc', 'style.cpython-311.pyc', 'styled.cpython-311.pyc', 'syntax.cpython-311.pyc', 'table.cpython-311.pyc', 'terminal_theme.cpython-311.pyc', 'text.cpython-311.pyc', 'theme.cpython-311.pyc', 'themes.cpython-311.pyc', 'traceback.cpython-311.pyc', 'tree.cpython-311.pyc', '_cell_widths.cpython-311.pyc', '_emoji_codes.cpython-311.pyc', '_emoji_replace.cpython-311.pyc', '_export_format.cpython-311.pyc', '_extension.cpython-311.pyc', '_fileno.cpython-311.pyc', '_inspect.cpython-311.pyc', '_log_render.cpython-311.pyc', '_loop.cpython-311.pyc', '_null_file.cpython-311.pyc', '_palettes.cpython-311.pyc', '_pick.cpython-311.pyc', '_ratio.cpython-311.pyc', '_spinners.cpython-311.pyc', '_stack.cpython-311.pyc', '_timer.cpython-311.pyc', '_win32_console.cpython-311.pyc', '_windows.cpython-311.pyc', '_windows_renderer.cpython-311.pyc', '_wrap.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\tenacity
+Directories: ['__pycache__']
+Files: ['after.py', 'before.py', 'before_sleep.py', 'nap.py', 'retry.py', 'stop.py', 'tornadoweb.py', 'wait.py', '_asyncio.py', '_utils.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\tenacity\__pycache__
+Directories: []
+Files: ['after.cpython-311.pyc', 'before.cpython-311.pyc', 'before_sleep.cpython-311.pyc', 'nap.cpython-311.pyc', 'retry.cpython-311.pyc', 'stop.cpython-311.pyc', 'tornadoweb.cpython-311.pyc', 'wait.cpython-311.pyc', '_asyncio.cpython-311.pyc', '_utils.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\tomli
+Directories: ['__pycache__']
+Files: ['_parser.py', '_re.py', '_types.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\tomli\__pycache__
+Directories: []
+Files: ['_parser.cpython-311.pyc', '_re.cpython-311.pyc', '_types.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3
+Directories: ['contrib', 'packages', 'util', '__pycache__']
+Files: ['connection.py', 'connectionpool.py', 'exceptions.py', 'fields.py', 'filepost.py', 'poolmanager.py', 'request.py', 'response.py', '_collections.py', '_version.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\contrib
+Directories: ['_securetransport', '__pycache__']
+Files: ['appengine.py', 'ntlmpool.py', 'pyopenssl.py', 'securetransport.py', 'socks.py', '_appengine_environ.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport
+Directories: ['__pycache__']
+Files: ['bindings.py', 'low_level.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__
+Directories: []
+Files: ['bindings.cpython-311.pyc', 'low_level.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__
+Directories: []
+Files: ['appengine.cpython-311.pyc', 'ntlmpool.cpython-311.pyc', 'pyopenssl.cpython-311.pyc', 'securetransport.cpython-311.pyc', 'socks.cpython-311.pyc', '_appengine_environ.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\packages
+Directories: ['backports', '__pycache__']
+Files: ['six.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports
+Directories: ['__pycache__']
+Files: ['makefile.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__
+Directories: []
+Files: ['makefile.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__
+Directories: []
+Files: ['six.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\util
+Directories: ['__pycache__']
+Files: ['connection.py', 'proxy.py', 'queue.py', 'request.py', 'response.py', 'retry.py', 'ssltransport.py', 'ssl_.py', 'ssl_match_hostname.py', 'timeout.py', 'url.py', 'wait.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__
+Directories: []
+Files: ['connection.cpython-311.pyc', 'proxy.cpython-311.pyc', 'queue.cpython-311.pyc', 'request.cpython-311.pyc', 'response.cpython-311.pyc', 'retry.cpython-311.pyc', 'ssltransport.cpython-311.pyc', 'ssl_.cpython-311.pyc', 'ssl_match_hostname.cpython-311.pyc', 'timeout.cpython-311.pyc', 'url.cpython-311.pyc', 'wait.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\urllib3\__pycache__
+Directories: []
+Files: ['connection.cpython-311.pyc', 'connectionpool.cpython-311.pyc', 'exceptions.cpython-311.pyc', 'fields.cpython-311.pyc', 'filepost.cpython-311.pyc', 'poolmanager.cpython-311.pyc', 'request.cpython-311.pyc', 'response.cpython-311.pyc', '_collections.cpython-311.pyc', '_version.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\webencodings
+Directories: ['__pycache__']
+Files: ['labels.py', 'mklabels.py', 'tests.py', 'x_user_defined.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\webencodings\__pycache__
+Directories: []
+Files: ['labels.cpython-311.pyc', 'mklabels.cpython-311.pyc', 'tests.cpython-311.pyc', 'x_user_defined.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\_vendor\__pycache__
+Directories: []
+Files: ['six.cpython-311.pyc', 'typing_extensions.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc', '__main__.cpython-311.pyc', '__pip-runner__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pip-23.1.2.dist-info
+Directories: []
+Files: ['AUTHORS.txt', 'entry_points.txt', 'INSTALLER', 'LICENSE.txt', 'METADATA', 'RECORD', 'REQUESTED', 'top_level.txt', 'WHEEL']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources
+Directories: ['extern', '_vendor', '__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\extern
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\extern\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor
+Directories: ['importlib_resources', 'jaraco', 'more_itertools', 'packaging', 'platformdirs', '__pycache__']
+Files: ['typing_extensions.py', 'zipp.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources
+Directories: ['__pycache__']
+Files: ['abc.py', 'readers.py', 'simple.py', '_adapters.py', '_common.py', '_compat.py', '_itertools.py', '_legacy.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache__
+Directories: []
+Files: ['abc.cpython-311.pyc', 'readers.cpython-311.pyc', 'simple.cpython-311.pyc', '_adapters.cpython-311.pyc', '_common.cpython-311.pyc', '_compat.cpython-311.pyc', '_itertools.cpython-311.pyc', '_legacy.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\jaraco
+Directories: ['text', '__pycache__']
+Files: ['context.py', 'functools.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache__
+Directories: []
+Files: ['context.cpython-311.pyc', 'functools.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\more_itertools
+Directories: ['__pycache__']
+Files: ['more.py', 'recipes.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache__
+Directories: []
+Files: ['more.cpython-311.pyc', 'recipes.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\packaging
+Directories: ['__pycache__']
+Files: ['markers.py', 'metadata.py', 'requirements.py', 'specifiers.py', 'tags.py', 'utils.py', 'version.py', '_elffile.py', '_manylinux.py', '_musllinux.py', '_parser.py', '_structures.py', '_tokenizer.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__
+Directories: []
+Files: ['markers.cpython-311.pyc', 'metadata.cpython-311.pyc', 'requirements.cpython-311.pyc', 'specifiers.cpython-311.pyc', 'tags.cpython-311.pyc', 'utils.cpython-311.pyc', 'version.cpython-311.pyc', '_elffile.cpython-311.pyc', '_manylinux.cpython-311.pyc', '_musllinux.cpython-311.pyc', '_parser.cpython-311.pyc', '_structures.cpython-311.pyc', '_tokenizer.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\platformdirs
+Directories: ['__pycache__']
+Files: ['android.py', 'api.py', 'macos.py', 'unix.py', 'version.py', 'windows.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\platformdirs\__pycache__
+Directories: []
+Files: ['android.cpython-311.pyc', 'api.cpython-311.pyc', 'macos.cpython-311.pyc', 'unix.cpython-311.pyc', 'version.cpython-311.pyc', 'windows.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\_vendor\__pycache__
+Directories: []
+Files: ['typing_extensions.cpython-311.pyc', 'zipp.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\pkg_resources\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools
+Directories: ['command', 'config', 'extern', '_distutils', '_vendor', '__pycache__']
+Files: ['archive_util.py', 'build_meta.py', 'cli-32.exe', 'cli-64.exe', 'cli-arm64.exe', 'cli.exe', 'depends.py', 'dep_util.py', 'discovery.py', 'dist.py', 'errors.py', 'extension.py', 'glob.py', 'gui-32.exe', 'gui-64.exe', 'gui-arm64.exe', 'gui.exe', 'installer.py', 'launch.py', 'logging.py', 'monkey.py', 'msvc.py', 'namespaces.py', 'package_index.py', 'py312compat.py', 'sandbox.py', 'script (dev).tmpl', 'script.tmpl', 'unicode_utils.py', 'version.py', 'warnings.py', 'wheel.py', 'windows_support.py', '_entry_points.py', '_imp.py', '_importlib.py', '_itertools.py', '_normalization.py', '_path.py', '_reqs.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\command
+Directories: ['__pycache__']
+Files: ['alias.py', 'bdist_egg.py', 'bdist_rpm.py', 'build.py', 'build_clib.py', 'build_ext.py', 'build_py.py', 'develop.py', 'dist_info.py', 'easy_install.py', 'editable_wheel.py', 'egg_info.py', 'install.py', 'install_egg_info.py', 'install_lib.py', 'install_scripts.py', 'launcher manifest.xml', 'register.py', 'rotate.py', 'saveopts.py', 'sdist.py', 'setopt.py', 'test.py', 'upload.py', 'upload_docs.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\command\__pycache__
+Directories: []
+Files: ['alias.cpython-311.pyc', 'bdist_egg.cpython-311.pyc', 'bdist_rpm.cpython-311.pyc', 'build.cpython-311.pyc', 'build_clib.cpython-311.pyc', 'build_ext.cpython-311.pyc', 'build_py.cpython-311.pyc', 'develop.cpython-311.pyc', 'dist_info.cpython-311.pyc', 'easy_install.cpython-311.pyc', 'editable_wheel.cpython-311.pyc', 'egg_info.cpython-311.pyc', 'install.cpython-311.pyc', 'install_egg_info.cpython-311.pyc', 'install_lib.cpython-311.pyc', 'install_scripts.cpython-311.pyc', 'register.cpython-311.pyc', 'rotate.cpython-311.pyc', 'saveopts.cpython-311.pyc', 'sdist.cpython-311.pyc', 'setopt.cpython-311.pyc', 'test.cpython-311.pyc', 'upload.cpython-311.pyc', 'upload_docs.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\config
+Directories: ['_validate_pyproject', '__pycache__']
+Files: ['expand.py', 'pyprojecttoml.py', 'setupcfg.py', '_apply_pyprojecttoml.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\config\_validate_pyproject
+Directories: ['__pycache__']
+Files: ['error_reporting.py', 'extra_validations.py', 'fastjsonschema_exceptions.py', 'fastjsonschema_validations.py', 'formats.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache__
+Directories: []
+Files: ['error_reporting.cpython-311.pyc', 'extra_validations.cpython-311.pyc', 'fastjsonschema_exceptions.cpython-311.pyc', 'fastjsonschema_validations.cpython-311.pyc', 'formats.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\config\__pycache__
+Directories: []
+Files: ['expand.cpython-311.pyc', 'pyprojecttoml.cpython-311.pyc', 'setupcfg.cpython-311.pyc', '_apply_pyprojecttoml.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\extern
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\extern\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_distutils
+Directories: ['command', '__pycache__']
+Files: ['archive_util.py', 'bcppcompiler.py', 'ccompiler.py', 'cmd.py', 'config.py', 'core.py', 'cygwinccompiler.py', 'debug.py', 'dep_util.py', 'dir_util.py', 'dist.py', 'errors.py', 'extension.py', 'fancy_getopt.py', 'filelist.py', 'file_util.py', 'log.py', 'msvc9compiler.py', 'msvccompiler.py', 'py38compat.py', 'py39compat.py', 'spawn.py', 'sysconfig.py', 'text_file.py', 'unixccompiler.py', 'util.py', 'version.py', 'versionpredicate.py', '_collections.py', '_functools.py', '_log.py', '_macos_compat.py', '_msvccompiler.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_distutils\command
+Directories: ['__pycache__']
+Files: ['bdist.py', 'bdist_dumb.py', 'bdist_rpm.py', 'build.py', 'build_clib.py', 'build_ext.py', 'build_py.py', 'build_scripts.py', 'check.py', 'clean.py', 'config.py', 'install.py', 'install_data.py', 'install_egg_info.py', 'install_headers.py', 'install_lib.py', 'install_scripts.py', 'py37compat.py', 'register.py', 'sdist.py', 'upload.py', '_framework_compat.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_distutils\command\__pycache__
+Directories: []
+Files: ['bdist.cpython-311.pyc', 'bdist_dumb.cpython-311.pyc', 'bdist_rpm.cpython-311.pyc', 'build.cpython-311.pyc', 'build_clib.cpython-311.pyc', 'build_ext.cpython-311.pyc', 'build_py.cpython-311.pyc', 'build_scripts.cpython-311.pyc', 'check.cpython-311.pyc', 'clean.cpython-311.pyc', 'config.cpython-311.pyc', 'install.cpython-311.pyc', 'install_data.cpython-311.pyc', 'install_egg_info.cpython-311.pyc', 'install_headers.cpython-311.pyc', 'install_lib.cpython-311.pyc', 'install_scripts.cpython-311.pyc', 'py37compat.cpython-311.pyc', 'register.cpython-311.pyc', 'sdist.cpython-311.pyc', 'upload.cpython-311.pyc', '_framework_compat.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_distutils\__pycache__
+Directories: []
+Files: ['archive_util.cpython-311.pyc', 'bcppcompiler.cpython-311.pyc', 'ccompiler.cpython-311.pyc', 'cmd.cpython-311.pyc', 'config.cpython-311.pyc', 'core.cpython-311.pyc', 'cygwinccompiler.cpython-311.pyc', 'debug.cpython-311.pyc', 'dep_util.cpython-311.pyc', 'dir_util.cpython-311.pyc', 'dist.cpython-311.pyc', 'errors.cpython-311.pyc', 'extension.cpython-311.pyc', 'fancy_getopt.cpython-311.pyc', 'filelist.cpython-311.pyc', 'file_util.cpython-311.pyc', 'log.cpython-311.pyc', 'msvc9compiler.cpython-311.pyc', 'msvccompiler.cpython-311.pyc', 'py38compat.cpython-311.pyc', 'py39compat.cpython-311.pyc', 'spawn.cpython-311.pyc', 'sysconfig.cpython-311.pyc', 'text_file.cpython-311.pyc', 'unixccompiler.cpython-311.pyc', 'util.cpython-311.pyc', 'version.cpython-311.pyc', 'versionpredicate.cpython-311.pyc', '_collections.cpython-311.pyc', '_functools.cpython-311.pyc', '_log.cpython-311.pyc', '_macos_compat.cpython-311.pyc', '_msvccompiler.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor
+Directories: ['importlib_metadata', 'importlib_resources', 'jaraco', 'more_itertools', 'packaging', 'tomli', '__pycache__']
+Files: ['ordered_set.py', 'typing_extensions.py', 'zipp.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\importlib_metadata
+Directories: ['__pycache__']
+Files: ['_adapters.py', '_collections.py', '_compat.py', '_functools.py', '_itertools.py', '_meta.py', '_py39compat.py', '_text.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache__
+Directories: []
+Files: ['_adapters.cpython-311.pyc', '_collections.cpython-311.pyc', '_compat.cpython-311.pyc', '_functools.cpython-311.pyc', '_itertools.cpython-311.pyc', '_meta.cpython-311.pyc', '_py39compat.cpython-311.pyc', '_text.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\importlib_resources
+Directories: ['__pycache__']
+Files: ['abc.py', 'readers.py', 'simple.py', '_adapters.py', '_common.py', '_compat.py', '_itertools.py', '_legacy.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache__
+Directories: []
+Files: ['abc.cpython-311.pyc', 'readers.cpython-311.pyc', 'simple.cpython-311.pyc', '_adapters.cpython-311.pyc', '_common.cpython-311.pyc', '_compat.cpython-311.pyc', '_itertools.cpython-311.pyc', '_legacy.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\jaraco
+Directories: ['text', '__pycache__']
+Files: ['context.py', 'functools.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\jaraco\text
+Directories: ['__pycache__']
+Files: ['__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache__
+Directories: []
+Files: ['context.cpython-311.pyc', 'functools.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\more_itertools
+Directories: ['__pycache__']
+Files: ['more.py', 'recipes.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__
+Directories: []
+Files: ['more.cpython-311.pyc', 'recipes.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\packaging
+Directories: ['__pycache__']
+Files: ['markers.py', 'metadata.py', 'requirements.py', 'specifiers.py', 'tags.py', 'utils.py', 'version.py', '_elffile.py', '_manylinux.py', '_musllinux.py', '_parser.py', '_structures.py', '_tokenizer.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache__
+Directories: []
+Files: ['markers.cpython-311.pyc', 'metadata.cpython-311.pyc', 'requirements.cpython-311.pyc', 'specifiers.cpython-311.pyc', 'tags.cpython-311.pyc', 'utils.cpython-311.pyc', 'version.cpython-311.pyc', '_elffile.cpython-311.pyc', '_manylinux.cpython-311.pyc', '_musllinux.cpython-311.pyc', '_parser.cpython-311.pyc', '_structures.cpython-311.pyc', '_tokenizer.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\tomli
+Directories: ['__pycache__']
+Files: ['_parser.py', '_re.py', '_types.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache__
+Directories: []
+Files: ['_parser.cpython-311.pyc', '_re.cpython-311.pyc', '_types.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\_vendor\__pycache__
+Directories: []
+Files: ['ordered_set.cpython-311.pyc', 'typing_extensions.cpython-311.pyc', 'zipp.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools\__pycache__
+Directories: []
+Files: ['archive_util.cpython-311.pyc', 'build_meta.cpython-311.pyc', 'depends.cpython-311.pyc', 'dep_util.cpython-311.pyc', 'discovery.cpython-311.pyc', 'dist.cpython-311.pyc', 'errors.cpython-311.pyc', 'extension.cpython-311.pyc', 'glob.cpython-311.pyc', 'installer.cpython-311.pyc', 'launch.cpython-311.pyc', 'logging.cpython-311.pyc', 'monkey.cpython-311.pyc', 'msvc.cpython-311.pyc', 'namespaces.cpython-311.pyc', 'package_index.cpython-311.pyc', 'py312compat.cpython-311.pyc', 'sandbox.cpython-311.pyc', 'unicode_utils.cpython-311.pyc', 'version.cpython-311.pyc', 'warnings.cpython-311.pyc', 'wheel.cpython-311.pyc', 'windows_support.cpython-311.pyc', '_entry_points.cpython-311.pyc', '_imp.cpython-311.pyc', '_importlib.cpython-311.pyc', '_itertools.cpython-311.pyc', '_normalization.cpython-311.pyc', '_path.cpython-311.pyc', '_reqs.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\setuptools-68.0.0.dist-info
+Directories: []
+Files: ['entry_points.txt', 'INSTALLER', 'LICENSE', 'METADATA', 'RECORD', 'REQUESTED', 'top_level.txt', 'WHEEL']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel
+Directories: ['cli', 'vendored', '__pycache__']
+Files: ['bdist_wheel.py', 'macosx_libfile.py', 'metadata.py', 'util.py', 'wheelfile.py', '_setuptools_logging.py', '__init__.py', '__main__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\cli
+Directories: ['__pycache__']
+Files: ['convert.py', 'pack.py', 'tags.py', 'unpack.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\cli\__pycache__
+Directories: []
+Files: ['convert.cpython-311.pyc', 'pack.cpython-311.pyc', 'tags.cpython-311.pyc', 'unpack.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\vendored
+Directories: ['packaging', '__pycache__']
+Files: ['vendor.txt', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\vendored\packaging
+Directories: ['__pycache__']
+Files: ['markers.py', 'requirements.py', 'specifiers.py', 'tags.py', 'utils.py', 'version.py', '_elffile.py', '_manylinux.py', '_musllinux.py', '_parser.py', '_structures.py', '_tokenizer.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\vendored\packaging\__pycache__
+Directories: []
+Files: ['markers.cpython-311.pyc', 'requirements.cpython-311.pyc', 'specifiers.cpython-311.pyc', 'tags.cpython-311.pyc', 'utils.cpython-311.pyc', 'version.cpython-311.pyc', '_elffile.cpython-311.pyc', '_manylinux.cpython-311.pyc', '_musllinux.cpython-311.pyc', '_parser.cpython-311.pyc', '_structures.cpython-311.pyc', '_tokenizer.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\vendored\__pycache__
+Directories: []
+Files: ['__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel\__pycache__
+Directories: []
+Files: ['bdist_wheel.cpython-311.pyc', 'macosx_libfile.cpython-311.pyc', 'metadata.cpython-311.pyc', 'util.cpython-311.pyc', 'wheelfile.cpython-311.pyc', '_setuptools_logging.cpython-311.pyc', '__init__.cpython-311.pyc', '__main__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\wheel-0.40.0.dist-info
+Directories: []
+Files: ['entry_points.txt', 'INSTALLER', 'LICENSE.txt', 'METADATA', 'RECORD', 'REQUESTED', 'WHEEL']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\_distutils_hack
+Directories: ['__pycache__']
+Files: ['override.py', '__init__.py']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\_distutils_hack\__pycache__
+Directories: []
+Files: ['override.cpython-311.pyc', '__init__.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Lib\site-packages\__pycache__
+Directories: []
+Files: ['_virtualenv.cpython-311.pyc']
+
+Current Path: D:\coding\funPy\venv\Scripts
+Directories: []
+Files: ['activate', 'activate.bat', 'activate.fish', 'activate.nu', 'activate.ps1', 'activate_this.py', 'deactivate.bat', 'deactivate.nu', 'pip.exe', 'pip3.11.exe', 'pip3.exe', 'pydoc.bat', 'python.exe', 'pythonw.exe', 'wheel.exe']
+
+Current Path: D:\coding\funPy\__pycache__
+Directories: []
+Files: ['practice_file.cpython-311.pyc']
+

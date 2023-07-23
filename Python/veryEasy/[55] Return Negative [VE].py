@@ -51,5 +51,36 @@ Many programming languages support ternary operator, which basically define a co
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def returnNegative(n):
+    return abs(n) * -1
+
+
+print(returnNegative(4))  # ➞ -4
+
+print(returnNegative(15))  # ➞ -15
+
+print(returnNegative(-4))  # ➞ -4
+
+print(returnNegative(0))  # ➞ 0
+
+
+def returnNegative1(n):
+    if n >= 0:
+        return n * -1
+    elif n < 0:
+        return n
+
+
+print(returnNegative1(4))  # ➞ -4
+
+print(returnNegative1(15))  # ➞ -15
+
+print(returnNegative1(-4))  # ➞ -4
+
+print(returnNegative1(0))  # ➞ 0
+
+# complete.

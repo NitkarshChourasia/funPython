@@ -12,7 +12,9 @@ int("4") ➞ "4"
 int(4) ➞ "4"
 _____
 
-You need to create two functions to substitute str() and int(). A function called int_to_str() that converts integers into strings and a function called str_to_int() that converts strings into integers.
+You need to create two functions to substitute str() and int().
+A function called int_to_str() that converts integers into strings
+and a function called str_to_int() that converts strings into integers.
 
 
 [Examples:]
@@ -74,5 +76,95 @@ Guide to Python format() Function. Here we discuss the Introduction to Python f
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def experiment():
+    print("String only.")
+    print(str(4))
+    print(type(str(4)))
+
+    print(str("4"))
+    print(type(str("4")))
+
+    print("Int only.")
+    print(int(4))
+    print(type(int(4)))
+
+    print(int("4"))
+    print(type(int("4")))
+
+
+# experiment()
+
+
+def strToInt(input):
+    try:
+        return int(input)
+    except ValueError:
+        return "valid input only."
+
+
+def intToStr(input):
+    return str(input)
+
+
+# To Include Letters, Numbers, Symbols with Type and Reverse Inputs
+
+# Outputs
+letter1 = "Abcd"
+
+intNumber1 = 99
+intNumber2 = 424
+
+strNumber1 = "101"
+strNumber2 = "13421"
+
+symbols1 = "-+-"
+symbols2 = "/=-)("
+symbols3 = "/"
+
+print("To Integer.")
+print(strToInt(letter1))
+print(type(strToInt(letter1)))
+
+print(strToInt(intNumber1))
+print(type(strToInt(intNumber1)))
+print(strToInt(intNumber2))
+print(type(strToInt(intNumber2)))
+
+print(strToInt(strNumber1))
+print(type(strToInt(strNumber1)))
+print(strToInt(strNumber2))
+print(type(strToInt(strNumber2)))
+
+print(strToInt(symbols1))
+print(type(strToInt(symbols1)))
+print(strToInt(symbols2))
+print(type(strToInt(symbols2)))
+print(strToInt(symbols3))
+print(type(strToInt(symbols3)))
+
+# print("To integer.")
+print("To String.")
+print(intToStr(letter1))
+print(type(intToStr(letter1)))
+
+print(intToStr(intNumber1))
+print(type(intToStr(intNumber1)))
+print(intToStr(intNumber2))
+print(type(intToStr(intNumber2)))
+
+print(intToStr(strNumber1))
+print(type(intToStr(strNumber1)))
+print(intToStr(strNumber2))
+print(type(intToStr(strNumber2)))
+
+print(intToStr(symbols1))
+print(type(intToStr(symbols1)))
+print(intToStr(symbols2))
+print(type(intToStr(symbols2)))
+print(intToStr(symbols3))
+print(type(intToStr(symbols3)))

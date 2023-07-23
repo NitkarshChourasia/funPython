@@ -55,5 +55,34 @@ You can convert the tuple into a list, change the list, and convert the list bac
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def colorInvert(tuple1):
+    invertRed = 255 - tuple1[0]
+    invertGreen = 255 - tuple1[1]
+    invertBlue = 255 - tuple1[2]
+    # output = tuple(invertRed, invertGreen, invertBlue) # Find out what is this error.
+    output = (invertRed, invertGreen, invertBlue)
+    print(output)
+    return type(output)
+
+
+print(colorInvert((255, 255, 255)))  # ➞ (0, 0, 0)
+# (255, 255, 255) is the color white.
+# The opposite is (0, 0, 0), which is black.
+
+print(colorInvert((0, 0, 0)))  # ➞ (255, 255, 255)
+
+print(colorInvert((165, 170, 221)))  # ➞ (90, 85, 34)
+
+# Want to read the last website. That is, change tuple value.
+
+# This is complete, just need the last one to be proper.
+
+# find out that error, regarding tuple.
+
+# Everything else is complete, just need little here and there.
+
+# inc.

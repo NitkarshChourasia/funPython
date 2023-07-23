@@ -53,5 +53,29 @@ Converts the specified value into an integer number.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def stringInt(n: str) -> int:
+    try:
+        newN = int(n)
+        assert newN > 0
+        return newN
+    except AssertionError:
+        return "Positive integers only."
+    except ValueError:
+        return "Input positive integers as number only."
+
+
+print(stringInt("6"))  # ➞ 6
+
+print(stringInt("1000"))  # ➞ 1000
+
+print(stringInt("12"))  # ➞ 12
+
+print(stringInt("0"))
+print(stringInt("Hello"))
+
+# complete.

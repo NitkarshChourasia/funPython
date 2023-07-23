@@ -1,7 +1,8 @@
 """
 ####  Basketball Points  ####
 
-You are counting points for a basketball game, given the amount of 3-pointers scored and 2-pointers scored, find the final points for the team and return that value ([2 -pointers scored, 3-pointers scored]).
+You are counting points for a basketball game, given the amount of 3-pointers scored and 2-pointers scored,
+find the final points for the team and return that value ([2 -pointers scored, 3-pointers scored]).
 
 
 [Examples]
@@ -39,5 +40,19 @@ Is used in Python with more than one meaning attached to it.For numeric data typ
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def points(twoPointer, threePointer):
+    return threePointer * 3 + twoPointer * 2
+
+
+print(points(1, 1))  # ➞ 5
+
+print(points(7, 5))  # ➞ 29
+
+print(points(38, 8))  # ➞ 100
+
+# complete.

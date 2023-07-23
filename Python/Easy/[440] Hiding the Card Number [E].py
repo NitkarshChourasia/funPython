@@ -1,7 +1,8 @@
 """
 ####  Hiding the Card Number  ####
 
-Write a function that takes a credit card number and only displays the last four characters. The rest of the card number must be replaced by ************.
+Write a function that takes a credit card number and only displays the last four characters.
+The rest of the card number must be replaced by ************.
 
 
 [Examples]
@@ -58,5 +59,94 @@ You can return a range of characters by using the slice syntax. Specify the star
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def cardHide(theString1: str) -> str:
+    # Counting the length.
+    try:
+        count = 0
+        while True:
+            theString1[count]
+            count += 1
+    except IndexError:
+        pass
+
+    # Setting the limit of credit card.
+    # The limit should be either 14 or 16.
+
+    try:
+        assert count == 14
+    except AssertionError:
+        try:
+            assert count == 16
+        except AssertionError:
+            # return "The number entered, is not credit card number."
+            return "The number entered is invalid credit card number."
+
+    # Now make a algorithm like whether it should have hundred or thousand.
+    # It should * all the indexs except lasts.
+
+    # Let's perform the main function.
+    starSide = theString1[:-4]
+    fourDigitSide = theString1[-4:]
+    # starSide[:] = "*"  # There should be much more simpler way to just
+    # Replace all the indexes with * symbol.
+
+    # Replacing with '*' all the theString1[:-4]
+    starSide = list(starSide)
+    i = 0
+    while i < count - 4:
+        starSide[i] = "*"
+        i += 1
+    print(starSide)
+    print(type(starSide))
+    print(len(starSide))
+    # Converting into string.
+    i = 0
+    # starSideString = ""
+    while i < count - 4:
+        # starSideString += str(starSide[i])
+        # starSideString += starSide[i]
+        starSide += str(starSide[i])
+        i += 1
+
+    print(starSide)
+    print(len(starSide))
+    print(type(starSide))
+
+    # Amending the output together.
+
+    outputStrings = starSide + fourDigitSide
+    # outputStrings = starSideString + fourDigitSide
+    return outputStrings
+
+
+# Why the lengths are 16, 16 and 14?
+# Please do check it out.
+# Please do look into this matter.
+
+print(cardHide("1234123456785678"))  # ➞ "************5678"
+
+
+# print(cardHide("8754456321113213"))  # ➞ "************3213"
+
+# print(cardHide("35123413355523"))  # ➞ "**********5523"
+
+# inc.
+# Read the unknown resources.
+# It is just solved. Just it need to be revised once again.
+# Just use the starSideString with the string += thing.
+# return the starSideString
+
+# By the way, do it the official way too.
+# By reading the resources.
+# Like, by using the methods and functions.
+
+
+def cardHideMain(theString1: str) -> str:
+    return "Do the way of using methods and functions."
+
+
+print(cardHideMain())

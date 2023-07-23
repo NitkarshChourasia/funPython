@@ -1,7 +1,8 @@
 """
 ####  Find ASCII Charcode of Inverse Case Character  ####
 
-Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.
+Create a function that takes a single character as an argument
+and returns the char code of its lowercased / uppercased counterpart.
 
 
 [Examples]
@@ -65,5 +66,59 @@ Check if all the characters in the text are letters.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def counterPartCharCode(input1: str) -> int:
+    # Making character ranges.
+    upperCaseRange = range(65, 65 + 26)
+    lowerCaseRange = range(97, 97 + 26)
+    charUpperRange = [chr(n) for n in upperCaseRange]
+    charLowerRange = [chr(n) for n in lowerCaseRange]
+    # print(charLowerRange)
+    # print(charUpperRange)
+
+    # Checking it's length.
+    count = 0
+    try:
+        while True:
+            # if input1[i] == True:  # This may be a ticket to not using the while True:
+            #     count += 1
+            #     i += 1
+            # elif input1[i] != True:
+            #     pass
+
+            input1[count]
+            count += 1
+    except IndexError:
+        pass
+
+    # Setting count limit.
+    if count == 1:
+
+        # Checking if it is only character or not.
+        if input1 in charLowerRange or charUpperRange:
+
+            # Now swapping them.
+            if input1 in charLowerRange:
+                formula = chr(ord(input1) - (25 + 7))
+                return formula
+            elif input1 in charUpperRange:
+                formula = chr(ord(input1) + (25 + 7))
+                return formula
+
+        elif input1 not in charLowerRange or charUpperRange:
+            return "Input provided is not a letter."
+            # return "Input given is not a letter."
+            # return "Input is not a letter."
+
+
+    elif count == 0 or count > 1:
+        return "Input length should be 1 only."
+
+    # Checking if it is only letter?
+
+
+print(counterPartCharCode("n"))
+# Now the work is remaining for it to output in the swapcased ASCII number.

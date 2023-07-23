@@ -1,0 +1,294 @@
+[411] Stuttering Function [E].py
+[412] Find the Discount [E].py
+[413] Radians to Degrees [E].py
+[414] Circle or Square [E].py
+[415] Curzon Numbers [E].py
+[416] Luke_ I Am Your [E].py
+[417] Sum of Resistance in Series Circuits [E].py
+[418] Solving Exponential Equations With Logarithms [E].py
+[419] Invert Colors [E].py
+[420] End Corona! [E].py
+[421] Basic Calculator [E].py
+[422] Calculating Damage [E].py
+[423] Let's Sort This List! [E].py
+[424] Return the Factorial [E].py
+[425] Number Split [E].py
+[426] Same Parity_ [E].py
+[427] RegEx XV_ Alternation [E].py
+[428] Instant JAZZ [E].py
+[429] Default Mood [E].py
+[430] Convert a Number to Base-2 [E].py
+[431] How Heavy Is It_ [E].py
+[432] Is it Time for Milk and Cookies_ [E].py
+[433] Pythagorean Triplet [E].py
+[434] Count Ones in Binary Representation of Integer [E].py
+[435] How Many Vowels_ [E].py
+[436] Find ASCII Charcode of Inverse Case Character [E].py
+[437] Sum of Evenly Divisible Numbers from a Range [E].py
+[438] Correct Inequality Signs [E].py
+[439] Vowel Replacer [E].py
+[440] Hiding the Card Number [E].py
+[441] Xs and Os_ Nobody Knows [E].py
+[442] Shuffle the Name [E].py
+[443] Find the Odd Integer [E].py
+[444] Hamming Distance [E].py
+[445] Filter out Strings from an Array [E].py
+[446] The Reverser! [E].py
+[447] Unpacking Lists [E].py
+[448] Characters in Shapes [E].py
+[449] Recursion_ Factorials [E].py
+[450] Moving to the End [E].py
+[451] Repeating Letters [E].py
+[452] Flip the Boolean [E].py
+[453] Folding a Piece of Paper [E].py
+[454] Return the Index of All Capital Letters [E].py
+[455] Recursion_ Sum [E].py
+[456] Even Number Generator [E].py
+[457] Filter Strings from Array [E].py
+[458] Add the Index [E].py
+[459] Probabilities (Part 1) [E].py
+[460] Volume of a Cone [E].py
+[461] Triangular Number Sequence [E].py
+[462] Find the Missing Number [E].py
+[463] Stand in Line [E].py
+[464] Get Sum of People's Budget [E].py
+[465] Alphabet Soup [E].py
+[466] Clone a List [E].py
+[467] Card Counting (BlackJack) [E].py
+[468] ATM PIN Code Validation [E].py
+[469] Compound Interest [E].py
+[470] Return Only the Integer [E].py
+[471] Chat Room Status [E].py
+[472] Western Showdown [E].py
+[473] List Operation [E].py
+[474] Simon Says [E].py
+[475] Secret Society [E].py
+[476] Is the Word an Isogram_ [E].py
+[477] Is the String in Order_ [E].py
+[478] Convert to Decimal Notation [E].py
+[479] Purge and Organize [E].py
+[480] Is the Number Symmetrical_ [E].py
+[481] Square Every Digit [E].py
+[482] Travelling Salesman Problem [E].py
+[483] _EdaBit_ Challenge [E].py
+[484] Count Palindrome Numbers in a Range [E].py
+[485] Transform into a List with No Duplicates [E].py
+[486] Get Student Names [E].py
+[487] Say Hello to Guests [E].py
+[488] Total Volume of All Boxes [E].py
+[489] Find the Mean of All Digits [E].py
+[490] Typing Game [E].py
+[491] Remove Every Vowel from a String [E].py
+[492] Bitwise Operations [E].py
+[493] True Ones_ False Zeros [E].py
+[494] Check for Anagrams [E].py
+[495] Is One List a Subset of Another_ [E].py
+[496] Minimal VI_ Ternary Operator [E].py
+[497] Halve and Halve Again [E].py
+[498] Nth Smallest Integer [E].py
+[499] Scrabble Hand [E].py
+[500] Automorphic Numbers [E].py
+[501] Lexicographically First and Last [E].py
+[502] Four Passengers and a Driver [E].py
+[503] Index Multiplier [E].py
+[504] Amplify the Multiples of Four [E].py
+[505] Upper or Lower Case [E].py
+[506] Which Number Is Not like the Others_ [E].py
+[507] Make a Circle with OOP [E].py
+[508] One Button Messaging Device [E].py
+[509] Sort a List by String Length [E].py
+[510] Move Capital Letters to the Front [E].py
+[511] Count Letters in a Word Search [E].py
+[512] Most Left Digit [E].py
+[513] Letters Only [E].py
+[514] Profit Margin [E].py
+[515] The Museum of Incredibly DULL Things [E].py
+[516] Toy Car Workshop [E].py
+[517] Hot Pics of Danny DeVito! [E].py
+[518] Equality of 3 Values [E].py
+[519] Sort by String Length [E].py
+[520] An Introduction to the Map-Reduce Pattern [E].py
+[521] Removing Enemies [E].py
+[522] Lowercase and Uppercase Map [E].py
+[523] Alternating Ones and Zeroes [E].py
+[524] Vowel Sandwich [E].py
+[525] 25-Mile Marathon [E].py
+[526] Capitalize by ASCII [E].py
+[527] Count the Arguments [E].py
+[528] Where is Bob!_! [E].py
+[529] Fix the Spacing [E].py
+[530] Retrieve the Last N Elements [E].py
+[531] Sum of all Evens in a Matrix [E].py
+[532] Trace That Matrix [E].py
+[533] Convert Year to Century [E].py
+[534] X and Y Coordinates [E].py
+[535] Split a String Based on Vowels and Consonants [E].py
+[536] Halloween Day [E].py
+[537] Count the Letters and Digits [E].py
+[538] Numbers to Arrays and Vice Versa [E].py
+[539] Return First and Last Parameter [E].py
+[540] Regex Series_ String Contains at Least One Digit [E].py
+[541] Return Odd _ Even [E].py
+[542] Alphanumeric Restriction [E].py
+[543] Factor Chain [E].py
+[544] Multi-division [E].py
+[545] Transforming Words into Binary Strings [E].py
+[546] Reverse Words Starting With a Particular Letter [E].py
+[547] Inclusive List Ranges [E].py
+[548] Return a List of Sublists [E].py
+[549] Apocalyptic Numbers [E].py
+[550] Two Lists inside a List to One [E].py
+[551] Return the Highest and Lowest Numbers [E].py
+[552] Burglary Series (10)_ Calculate Difference [E].py
+[553] Remove Duplicates from a List [E].py
+[554] Distance Between Two Points [E].py
+[555] Odds vs_ Evens [E].py
+[556] Applying Discounts [E].py
+[557] YouTube Upload Count [E].py
+[558] Compare by ASCII Codes [E].py
+[559] Find the Other Two Side Lengths [E].py
+[560] Older Than Me [E].py
+[561] Sort Numbers in Descending Order [E].py
+[562] Longest Sequence of Consecutive Zeroes [E].py
+[563] Maskify the String [E].py
+[564] Convert Key_ Values in a Dictionary to List [E].py
+[565] Determine If Two Numbers Add up to a Target Value [E].py
+[566] Minimal V_ Membership Operator [E].py
+[567] Harshad Numbers [E].py
+[568] Fix the Error_ Vowel Edition [E].py
+[569] Functioninator 8000 [E].py
+[570] Return the Sum of the Two Smallest Numbers [E].py
+[571] Planetary Weight Converter [E].py
+[572] Apples and Bananas [E].py
+[573] Snail Race [E].py
+[574] Find Number of Digits in Number [E].py
+[575] One Odd and One Even [E].py
+[576] Video Length in Seconds [E].py
+[577] Reverse the Order of Words with Five Letters or More [E].py
+[578] H4ck3r Sp34k [E].py
+[579] The DECIMATOR [E].py
+[580] Positive Count _ Negative Sum [E].py
+[581] Even All the Way [E].py
+[582] Shhh Be Quiet Function [E].py
+[583] Double Letters [E].py
+[584] War of Numbers [E].py
+[585] Intro to Nested Loops [E].py
+[586] Flatten the Curve [E].py
+[587] RegEx XVIII_ Fixed Quantifiers [E].py
+[588] Even or Odd_ Which is Greater_ [E].py
+[589] Phone Number Formatting [E].py
+[590] Sum of Number Elements in a List [E].py
+[591] Temperature Conversion [E].py
+[592] Frequency Distribution [E].py
+[593] Sum of Two Digit Numbers [E].py
+[594] Max Adjacent Product [E].py
+[595] Apocalyptic Numbers [E].py
+[596] Is There an Upward Trend_ [E].py
+[597] Calculate the Median [E].py
+[598] The Million Dollar Fence [E].py
+[599] CMS Selector Based on a Given String [E].py
+[600] Multiplying Numbers in a String [E].py
+[601] Even or Odd Number of Factors [E].py
+[602] Are Letters in the Second String Present in the First_ [E].py
+[603] Switcharoo [E].py
+[604] Error Messages [E].py
+[605] First and Last Index [E].py
+[606] Radioactive Decay [E].py
+[607] Magic Date [E].py
+[608] Find Unique Positive Numbers from Array [E].py
+[609] Fix the Error_ Filtering out Empty Arrays [E].py
+[610] Cumulative List Sum [E].py
+[611] Numbered Alphabet [E].py
+[612] Balancing Scales [E].py
+[613] Return the Middle Character(s) of a String [E].py
+[614] Preventing the Collapse of the Universe [E].py
+[615] Find the First Non-Repeated Character [E].py
+[616] Type of Value [E].py
+[617] Check if the String is a Palindrome [E].py
+[618] Something in the Box_ [E].py
+[619] Edabit Experience Points [E].py
+[620] Snail Goes Up the Stairs [E].py
+[621] Verbed Nouns [E].py
+[622] Find the nth Tetrahedral Number [E].py
+[623] One_ Two_ Skip a Few [E].py
+[624] Emotify the Sentence [E].py
+[625] Check if a Number is Prime [E].py
+[626] Tuck in List [E].py
+[627] Count the Towers [E].py
+[628] Length of Worm [E].py
+[629] Words that Start with a Vowel [E].py
+[630] First N Mid [E].py
+[631] Remove the Special Characters from a String [E].py
+[632] Replace Vowel With Another Character [E].py
+[633] Grab the City [E].py
+[634] Sum of Resistance in Parallel Circuits [E].py
+[635] Orthogonal Vector [E].py
+[636] Neatly Formatted Math [E].py
+[637] Number Length Sort [E].py
+[638] Recursion_ Reverse a String [E].py
+[639] Doubled Pay [E].py
+[640] Finding Nemo [E].py
+[641] Format V_ Alignment [E].py
+[642] Find the Area of a (Regular) Hexagon [E].py
+[643] Good Match_ [E].py
+[644] Narcissistic Numbers [E].py
+[645] Ranged Reversal [E].py
+[646] Strange Pair [E].py
+[647] Days in a Month [E].py
+[648] Complete the Binary Number [E].py
+[649] Index Filtering [E].py
+[650] Parity Bit Validation [E].py
+[651] Changing Mixed Types [E].py
+[652] What's the Data Type_ [E].py
+[653] Does a Number Exist_ [E].py
+[654] Capitalize the First Letter of Each Word [E].py
+[655] Count the Number of Duplicate Characters [E].py
+[656] Format VI_ Padding [E].py
+[657] RegEx II_ Line Anchors [E].py
+[658] Sine_ Cosine and Tangent [E].py
+[659] Remove the Letters ABC [E].py
+[660] Spin Around_ Touch the Ground [E].py
+[661] Calculate the Missing Value with Ohm's Law [E].py
+[662] N-Sized Parts [E].py
+[663] RegEx XI-C_ Whitespace Character Class [E].py
+[664] Secret Function 2_0 [E].py
+[665] Extremely Over-Nested [E].py
+[666] Minimal VIII_ This and That [E].py
+[667] String Slice-athon [E].py
+[668] Partially Hidden String [E].py
+[669] Number of Apples Left [E].py
+[670] Puzzle Pieces [E].py
+[671] Format Number with Comma(s) Separating Thousands [E].py
+[672] String Flips [E].py
+[673] Recursion_ Fibonacci Numbers [E].py
+[674] XOR Swap Algorithm [E].py
+[675] Malthusian Catastrophe [E].py
+[676] Noddy's Mystery Function [E].py
+[677] Fix the Code_ Un-Mutating a List [E].py
+[678] Compounding Letters [E].py
+[679] Smooth Sentences [E].py
+[680] Superheroes [E].py
+[681] Position in the Alphabet [E].py
+[682] GCD of Two Numbers [E].py
+[683] Transform Upvotes [E].py
+[684] Find the Second Occurrence of _zip_ in a String [E].py
+[685] Character Code Math [E].py
+[686] Special Lists [E].py
+[687] Get the Century [E].py
+[688] Double Factorial [E].py
+[689] Amazing Alliteration [E].py
+[690] Minimal III_ You're a Boolean Now [E].py
+[691] Regex Series_ 5-Digit Zip Code [E].py
+[692] ASCII Charts (Part 1_ Progress Bar) [E].py
+[693] The Collatz Conjecture [E].py
+[694] How Many Rectangles_ [E].py
+[695] Letter Occurrences Per Word [E].py
+[696] Counting Adverbs [E].py
+[697] Enharmonic Equivalents [E].py
+[698] Flick Switch [E].py
+[699] RegEx I_ Line Anchors [E].py
+[700] Who's The Oldest_ [E].py
+[701] Recursion_ GCD [E].py
+[702] Remove Surrounding Duplicate Items [E].py
+[703] String Pairs [E].py
+[704] Derivative of a Function [E].py

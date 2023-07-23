@@ -1,0 +1,501 @@
+DirEntry
+<class 'nt.DirEntry'>
+
+EX_OK
+0
+
+F_OK
+0
+
+GenericAlias
+<class 'types.GenericAlias'>
+
+Mapping
+<class 'collections.abc.Mapping'>
+
+MutableMapping
+<class 'collections.abc.MutableMapping'>
+
+O_APPEND
+8
+
+O_BINARY
+32768
+
+O_CREAT
+256
+
+O_EXCL
+1024
+
+O_NOINHERIT
+128
+
+O_RANDOM
+16
+
+O_RDONLY
+0
+
+O_RDWR
+2
+
+O_SEQUENTIAL
+32
+
+O_SHORT_LIVED
+4096
+
+O_TEMPORARY
+64
+
+O_TEXT
+16384
+
+O_TRUNC
+512
+
+O_WRONLY
+1
+
+P_DETACH
+4
+
+P_NOWAIT
+1
+
+P_NOWAITO
+3
+
+P_OVERLAY
+2
+
+P_WAIT
+0
+
+PathLike
+<class 'os.PathLike'>
+
+R_OK
+4
+
+SEEK_CUR
+1
+
+SEEK_END
+2
+
+SEEK_SET
+0
+
+TMP_MAX
+2147483647
+
+W_OK
+2
+
+X_OK
+1
+
+_AddedDllDirectory
+<class 'os._AddedDllDirectory'>
+
+_Environ
+<class 'os._Environ'>
+
+__all__
+['altsep', 'curdir', 'pardir', 'sep', 'pathsep', 'linesep', 'defpath', 'name', 'path', 'devnull', 'SEEK_SET', 'SEEK_CUR', 'SEEK_END', 'fsencode', 'fsdecode', 'get_exec_path', 'fdopen', 'extsep', '_exit', 'DirEntry', 'EX_OK', 'F_OK', 'O_APPEND', 'O_BINARY', 'O_CREAT', 'O_EXCL', 'O_NOINHERIT', 'O_RANDOM', 'O_RDONLY', 'O_RDWR', 'O_SEQUENTIAL', 'O_SHORT_LIVED', 'O_TEMPORARY', 'O_TEXT', 'O_TRUNC', 'O_WRONLY', 'P_DETACH', 'P_NOWAIT', 'P_NOWAITO', 'P_OVERLAY', 'P_WAIT', 'R_OK', 'TMP_MAX', 'W_OK', 'X_OK', 'abort', 'access', 'chdir', 'chmod', 'close', 'closerange', 'cpu_count', 'device_encoding', 'dup', 'dup2', 'environ', 'error', 'execv', 'execve', 'fspath', 'fstat', 'fsync', 'ftruncate', 'get_handle_inheritable', 'get_inheritable', 'get_terminal_size', 'getcwd', 'getcwdb', 'getlogin', 'getpid', 'getppid', 'isatty', 'kill', 'link', 'listdir', 'lseek', 'lstat', 'mkdir', 'open', 'pipe', 'putenv', 'read', 'readlink', 'remove', 'rename', 'replace', 'rmdir', 'scandir', 'set_handle_inheritable', 'set_inheritable', 'spawnv', 'spawnve', 'startfile', 'stat', 'stat_result', 'statvfs_result', 'strerror', 'symlink', 'system', 'terminal_size', 'times', 'times_result', 'truncate', 'umask', 'uname_result', 'unlink', 'unsetenv', 'urandom', 'utime', 'waitpid', 'waitstatus_to_exitcode', 'write', 'makedirs', 'removedirs', 'renames', 'walk', 'execl', 'execle', 'execlp', 'execlpe', 'execvp', 'execvpe', 'getenv', 'supports_bytes_environ', 'spawnl', 'spawnle', 'popen']
+
+__builtins__
+{'__name__': 'builtins', '__doc__': "Built-in functions, types, exceptions, and other objects.\n\nThis module provides direct access to all 'built-in'\nidentifiers of Python; for example, builtins.len is\nthe full name for the built-in function len().\n\nThis module is not normally accessed explicitly by most\napplications, but can be useful in modules that provide\nobjects with the same name as a built-in value, but in\nwhich the built-in of that name is also needed.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in'), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'aiter': <built-in function aiter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'anext': <built-in function anext>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'BaseExceptionGroup': <class 'BaseExceptionGroup'>, 'Exception': <class 'Exception'>, 'GeneratorExit': <class 'GeneratorExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'SystemExit': <class 'SystemExit'>, 'ArithmeticError': <class 'ArithmeticError'>, 'AssertionError': <class 'AssertionError'>, 'AttributeError': <class 'AttributeError'>, 'BufferError': <class 'BufferError'>, 'EOFError': <class 'EOFError'>, 'ImportError': <class 'ImportError'>, 'LookupError': <class 'LookupError'>, 'MemoryError': <class 'MemoryError'>, 'NameError': <class 'NameError'>, 'OSError': <class 'OSError'>, 'ReferenceError': <class 'ReferenceError'>, 'RuntimeError': <class 'RuntimeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'SyntaxError': <class 'SyntaxError'>, 'SystemError': <class 'SystemError'>, 'TypeError': <class 'TypeError'>, 'ValueError': <class 'ValueError'>, 'Warning': <class 'Warning'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'BytesWarning': <class 'BytesWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'EncodingWarning': <class 'EncodingWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'UserWarning': <class 'UserWarning'>, 'BlockingIOError': <class 'BlockingIOError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionError': <class 'ConnectionError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'InterruptedError': <class 'InterruptedError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'IndentationError': <class 'IndentationError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'RecursionError': <class 'RecursionError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'UnicodeError': <class 'UnicodeError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'TabError': <class 'TabError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'ExceptionGroup': <class 'ExceptionGroup'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2023 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}
+
+__doc__
+OS routines for NT or Posix depending on what system we're on.
+
+This exports:
+  - all functions from posix or nt, e.g. unlink, stat, etc.
+  - os.path is either posixpath or ntpath
+  - os.name is either 'posix' or 'nt'
+  - os.curdir is a string representing the current directory (always '.')
+  - os.pardir is a string representing the parent directory (always '..')
+  - os.sep is the (or a most common) pathname separator ('/' or '\\')
+  - os.extsep is the extension separator (always '.')
+  - os.altsep is the alternate pathname separator (None or '/')
+  - os.pathsep is the component separator used in $PATH etc
+  - os.linesep is the line separator in text files ('\r' or '\n' or '\r\n')
+  - os.defpath is the default search path for executables
+  - os.devnull is the file path of the null device ('/dev/null', etc.)
+
+Programs that import and use 'os' stand a better chance of being
+portable between different platforms.  Of course, they must then
+only use functions that are defined by all platforms (e.g., unlink
+and opendir), and leave all pathname manipulation to os.path
+(e.g., split and join).
+
+
+__file__
+C:\Users\playn\AppData\Local\Programs\Python\Python311\Lib\os.py
+
+__loader__
+<class '_frozen_importlib.FrozenImporter'>
+
+__name__
+os
+
+__package__
+
+
+__spec__
+ModuleSpec(name='os', loader=<class '_frozen_importlib.FrozenImporter'>, origin='frozen')
+
+_check_methods
+<function _check_methods at 0x000002376CF77560>
+
+_execvpe
+<function _execvpe at 0x000002376D0E19E0>
+
+_exists
+<function _exists at 0x000002376CF760C0>
+
+_exit
+<built-in function _exit>
+
+_fspath
+<function _fspath at 0x000002376D0E2CA0>
+
+_get_exports_list
+<function _get_exports_list at 0x000002376CF76160>
+
+_walk
+<function _walk at 0x000002376D0E1580>
+
+_wrap_close
+<class 'os._wrap_close'>
+
+abc
+<module 'abc' (frozen)>
+
+abort
+<built-in function abort>
+
+access
+<built-in function access>
+
+add_dll_directory
+<function add_dll_directory at 0x000002376D0E2D40>
+
+altsep
+/
+
+chdir
+<built-in function chdir>
+
+chmod
+<built-in function chmod>
+
+close
+<built-in function close>
+
+closerange
+<built-in function closerange>
+
+cpu_count
+<built-in function cpu_count>
+
+curdir
+.
+
+defpath
+.;C:\bin
+
+device_encoding
+<built-in function device_encoding>
+
+devnull
+nul
+
+dup
+<built-in function dup>
+
+dup2
+<built-in function dup2>
+
+environ
+environ({'ALLUSERSPROFILE': 'C:\\ProgramData', 'APPDATA': 'C:\\Users\\playn\\AppData\\Roaming', 'CHOCOLATEYINSTALL': 'C:\\ProgramData\\chocolatey', 'CHOCOLATEYLASTPATHUPDATE': '133311602215296313', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'NITKARSHC', 'COMSPEC': 'C:\\Windows\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\playn', 'IDEA_INITIAL_DIRECTORY': 'C:\\Users\\playn', 'LOCALAPPDATA': 'C:\\Users\\playn\\AppData\\Local', 'LOGONSERVER': '\\\\NITKARSHC', 'NUMBER_OF_PROCESSORS': '4', 'ONEDRIVE': 'D:\\oneDrive', 'ONEDRIVECONSUMER': 'D:\\oneDrive', 'OS': 'Windows_NT', 'PATH': 'D:\\coding\\funPy\\venv\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Users\\playn\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\Scripts;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\PuTTY\\;C:\\msys64\\mingw64\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\playn\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\playn\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\playn\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\playn\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\PyCharm 2023.1.1\\bin;C:\\Users\\playn\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\playn\\.dotnet\\tools;C:\\Users\\playn\\AppData\\Roaming\\npm;C:\\Program Files\\cmder;C:\\Users\\playn\\AppData\\Local\\JetBrains\\Toolbox\\scripts;', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': '5e03', 'PROGRAMDATA': 'C:\\ProgramData', 'PROGRAMFILES': 'C:\\Program Files', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'PROGRAMW6432': 'C:\\Program Files', 'PROMPT': '(venv) $P$G', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYCHARM': 'C:\\Program Files\\JetBrains\\PyCharm 2023.1.1\\bin;', 'PYCHARM_DISPLAY_PORT': '63342', 'PYCHARM_HOSTED': '1', 'PYTHONIOENCODING': 'UTF-8', 'PYTHONPATH': 'D:\\coding\\funPy;C:/Program Files/JetBrains/PyCharm 2023.1.1/plugins/python/helpers/pycharm_matplotlib_backend;C:/Program Files/JetBrains/PyCharm 2023.1.1/plugins/python/helpers/pycharm_display', 'PYTHONUNBUFFERED': '1', 'SESSIONNAME': 'Console', 'SYSTEMDRIVE': 'C:', 'SYSTEMROOT': 'C:\\Windows', 'TEMP': 'C:\\Users\\playn\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\playn\\AppData\\Local\\Temp', 'USERDOMAIN': 'NITKARSHC', 'USERDOMAIN_ROAMINGPROFILE': 'NITKARSHC', 'USERNAME': 'playn', 'USERPROFILE': 'C:\\Users\\playn', 'VIRTUAL_ENV': 'D:\\coding\\funPy\\venv', 'WINDIR': 'C:\\Windows', '_OLD_VIRTUAL_PATH': 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Users\\playn\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\Scripts;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\PuTTY\\;C:\\msys64\\mingw64\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\playn\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\playn\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\playn\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\playn\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\PyCharm 2023.1.1\\bin;C:\\Users\\playn\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\playn\\.dotnet\\tools;C:\\Users\\playn\\AppData\\Roaming\\npm;C:\\Program Files\\cmder;C:\\Users\\playn\\AppData\\Local\\JetBrains\\Toolbox\\scripts;', '_OLD_VIRTUAL_PROMPT': '$P$G'})
+
+error
+<class 'OSError'>
+
+execl
+<function execl at 0x000002376D0E1620>
+
+execle
+<function execle at 0x000002376D0E16C0>
+
+execlp
+<function execlp at 0x000002376D0E1760>
+
+execlpe
+<function execlpe at 0x000002376D0E1800>
+
+execv
+<built-in function execv>
+
+execve
+<built-in function execve>
+
+execvp
+<function execvp at 0x000002376D0E18A0>
+
+execvpe
+<function execvpe at 0x000002376D0E1940>
+
+extsep
+.
+
+fdopen
+<function fdopen at 0x000002376D0E2840>
+
+fsdecode
+<function _fscodec.<locals>.fsdecode at 0x000002376D0E2660>
+
+fsencode
+<function _fscodec.<locals>.fsencode at 0x000002376D0E25C0>
+
+fspath
+<built-in function fspath>
+
+fstat
+<built-in function fstat>
+
+fsync
+<built-in function fsync>
+
+ftruncate
+<built-in function ftruncate>
+
+get_exec_path
+<function get_exec_path at 0x000002376D0E1A80>
+
+get_handle_inheritable
+<built-in function get_handle_inheritable>
+
+get_inheritable
+<built-in function get_inheritable>
+
+get_terminal_size
+<built-in function get_terminal_size>
+
+getcwd
+<built-in function getcwd>
+
+getcwdb
+<built-in function getcwdb>
+
+getenv
+<function getenv at 0x000002376D0E1B20>
+
+getlogin
+<built-in function getlogin>
+
+getpid
+<built-in function getpid>
+
+getppid
+<built-in function getppid>
+
+isatty
+<built-in function isatty>
+
+kill
+<built-in function kill>
+
+linesep
+
+
+
+link
+<built-in function link>
+
+listdir
+<built-in function listdir>
+
+lseek
+<built-in function lseek>
+
+lstat
+<built-in function lstat>
+
+makedirs
+<function makedirs at 0x000002376D0D4FE0>
+
+mkdir
+<built-in function mkdir>
+
+name
+nt
+
+open
+<built-in function open>
+
+pardir
+..
+
+path
+<module 'ntpath' (frozen)>
+
+pathsep
+;
+
+pipe
+<built-in function pipe>
+
+popen
+<function popen at 0x000002376D0E27A0>
+
+putenv
+<built-in function putenv>
+
+read
+<built-in function read>
+
+readlink
+<built-in function readlink>
+
+remove
+<built-in function remove>
+
+removedirs
+<function removedirs at 0x000002376D0D7D80>
+
+rename
+<built-in function rename>
+
+renames
+<function renames at 0x000002376D0E1440>
+
+replace
+<built-in function replace>
+
+rmdir
+<built-in function rmdir>
+
+scandir
+<built-in function scandir>
+
+sep
+\
+
+set_handle_inheritable
+<built-in function set_handle_inheritable>
+
+set_inheritable
+<built-in function set_inheritable>
+
+spawnl
+<function spawnl at 0x000002376D0E2520>
+
+spawnle
+<function spawnle at 0x000002376D0E2700>
+
+spawnv
+<built-in function spawnv>
+
+spawnve
+<built-in function spawnve>
+
+st
+<module 'stat' (frozen)>
+
+startfile
+<built-in function startfile>
+
+stat
+<built-in function stat>
+
+stat_result
+<class 'os.stat_result'>
+
+statvfs_result
+<class 'os.statvfs_result'>
+
+strerror
+<built-in function strerror>
+
+supports_bytes_environ
+False
+
+supports_dir_fd
+set()
+
+supports_effective_ids
+set()
+
+supports_fd
+{<built-in function stat>, <built-in function truncate>}
+
+supports_follow_symlinks
+{<built-in function stat>}
+
+symlink
+<built-in function symlink>
+
+sys
+<module 'sys' (built-in)>
+
+system
+<built-in function system>
+
+terminal_size
+<class 'os.terminal_size'>
+
+times
+<built-in function times>
+
+times_result
+<class 'nt.times_result'>
+
+truncate
+<built-in function truncate>
+
+umask
+<built-in function umask>
+
+uname_result
+<class 'nt.uname_result'>
+
+unlink
+<built-in function unlink>
+
+unsetenv
+<built-in function unsetenv>
+
+urandom
+<built-in function urandom>
+
+utime
+<built-in function utime>
+
+waitpid
+<built-in function waitpid>
+
+waitstatus_to_exitcode
+<built-in function waitstatus_to_exitcode>
+
+walk
+<function walk at 0x000002376D0E14E0>
+
+write
+<built-in function write>
+

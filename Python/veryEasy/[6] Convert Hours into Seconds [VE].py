@@ -58,5 +58,16 @@ Video tutorial of this challenge.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def howManySeconds(n):
+    return n * pow(60, 2)
+
+
+print(howManySeconds(2))  # ➞ 7200
+
+print(howManySeconds(10))  # ➞ 36000
+
+print(howManySeconds(24))  # ➞ 86400

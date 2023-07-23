@@ -44,5 +44,18 @@ Power is the rate of using or supplying energy. Power is measured in watts (W). 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def circuit_power(voltage, current):
+    return voltage * current
+
+
+print(circuit_power(230, 10))  # ➞ 2300
+
+print(circuit_power(110, 3))  # ➞ 330
+
+print(circuit_power(480, 20))  # ➞ 9600
+
+# complete.

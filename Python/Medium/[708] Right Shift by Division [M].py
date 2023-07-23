@@ -69,5 +69,40 @@ Used to perform bitwise calculations on integers. The integers are first convert
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def shiftToRight(x, y):
+    if y > 0:
+        return x // pow(2, y)
+    else:
+        return "The input 'y' is invalid. Only integers allowed."
+
+
+print(shiftToRight(80, 3))  # ➞ 10
+
+print(shiftToRight(-24, 2))  # ➞ -6
+
+print(shiftToRight(-5, 1))  # ➞ -3
+
+print(shiftToRight(4666, 6))  # ➞ 72
+
+print(shiftToRight(3777, 6))  # ➞ 59
+
+print(shiftToRight(-512, 10))  # ➞ -1
+
+
+# RECURSIVE SOLUTION.
+def recursiveSol(x, y):
+    if y == 0:
+        return x / y
+    i = y
+    sum += 2 ** i
+    i -= 1
+    return 0
+
+# inc.
+
+# Can't think or come up with a recursive solution.

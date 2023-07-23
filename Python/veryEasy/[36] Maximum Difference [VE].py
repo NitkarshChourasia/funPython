@@ -46,5 +46,21 @@ Python documentation on the List data structure.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def difference(list1):
+    return max(list1) - min(list1)
+
+
+print(difference([10, 15, 20, 2, 10, 6]))  # ➞ 18
+# 20 - 2 = 18
+
+print(difference([-3, 4, -9, -1, -2, 15]))  # ➞ 24
+# 15 - (-9) = 24
+
+print(difference([4, 17, 12, 2, 10, 2]))  # ➞ 15
+
+# complete.

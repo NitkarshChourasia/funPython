@@ -59,5 +59,19 @@ Convert any number of minutes into the appropriate number of seconds.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def convert(minutes: int) -> int:
+    return minutes * 60
+
+
+print(convert(5))  # ➞ 300
+
+print(convert(3))  # ➞ 180
+
+print(convert(2))  # ➞ 120
+
+# complete.

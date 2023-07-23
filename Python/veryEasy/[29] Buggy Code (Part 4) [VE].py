@@ -1,7 +1,9 @@
 """
 ####  Buggy Code (Part 4)  ####
 
-Emmy has written a function that returns a greeting to users. However, she's in love with Mubashir, and would like to greet him slightly differently. She added a special case in her function, but she made a mistake.
+Emmy has written a function that returns a greeting to users.
+However, she's in love with Nitkarsh, and would like to greet him slightly differently.
+She added a special case in her function, but she made a mistake.
 Can you help her?
 
 
@@ -12,7 +14,7 @@ greeting("Matt") ➞ "Hello, Matt!"
 
 greeting("Helen") ➞ "Hello, Helen!"
 
-greeting("Mubashir") ➞ "Hello, my Love!"
+greeting("Nitkarsh") ➞ "Hello, my Love!"
 _____
 
 
@@ -49,5 +51,22 @@ Is a conditional statement wherein a set of statements execute based on the resu
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def greeting(name):
+    if name.lower() == "nitkarsh":
+        return "Hello, my Love!"
+    else:
+        return "Hello, {0}!".format(name)
+
+
+print(greeting("Matt"))  # ➞ "Hello, Matt!"
+
+print(greeting("Helen"))  # ➞ "Hello, Helen!"
+
+print(greeting("Nitkarsh"))  # ➞ "Hello, my Love!"
+
+# complete.

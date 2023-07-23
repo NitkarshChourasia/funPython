@@ -1,7 +1,8 @@
 """
 ####  Let's Fuel Up!  ####
 
-A vehicle needs 10 times the amount of fuel than the distance it travels. However, it must always carry a minimum of 100 fuel before setting off.
+A vehicle needs 10 times the amount of fuel than the distance it travels.
+However, it must always carry a minimum of 100 fuel before setting off.
 Create a function which calculates the amount of fuel it needs, given the distance.
 
 
@@ -49,5 +50,35 @@ In this video, you will learn how to solve these: 0:20 Are the Numbers Equal?, 2
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def calculateFuel(distance):
+    if distance >= 0:
+        formula = distance * 10
+
+        if formula < 100:
+            return 100
+        elif formula >= 100:
+            return formula
+
+    elif distance < 0:
+        return "Distance cannot be negative."
+
+
+print(calculateFuel(15))  # ➞ 150
+
+print(calculateFuel(23.5))  # ➞ 235
+
+print(calculateFuel(3))  # ➞ 100
+
+print(calculateFuel(0))
+
+print(calculateFuel(10))
+
+print(calculateFuel(10.1))
+
+print(calculateFuel(-0.1))
+
+# complete.

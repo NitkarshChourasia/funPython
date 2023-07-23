@@ -69,5 +69,23 @@ Learn Python less than,Python greater than,equal to,not equal to less than,great
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def lessThanOrEqualToZero(n):
+    try:
+        assert n <= 0
+        return True
+    except AssertionError:
+        return False
+
+
+print(lessThanOrEqualToZero(5))  # ➞ False
+
+print(lessThanOrEqualToZero(0))  # ➞ True
+
+print(lessThanOrEqualToZero(-2))  # ➞ True
+
+# complete.

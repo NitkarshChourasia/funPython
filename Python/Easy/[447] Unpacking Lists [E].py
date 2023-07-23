@@ -13,7 +13,9 @@ print(middle) ➞ outputs [2, 3, 4, 5]
 print(last) ➞ outputs 6
 _____
 
-With Python 3, you can assign variables from lists in a much more succinct way. Create variables first, middle and last from the given list using destructuring assignment (check the Resources tab for some examples), where:
+With Python 3, you can assign variables from lists in a much more succinct way.
+Create variables first, middle and last from the given list using destructuring assignment
+(check the Resources tab for some examples), where:
 ___
 first  ➞ 1
 
@@ -22,7 +24,8 @@ middle ➞ [2, 3, 4, 5]
 last ➞ 6
 _____
 
-Your task is to unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
+Your task is to unpack the list writeyourcodehere into three variables, being first, middle, and last,
+with middle being everything in between the first and last element. Then print all three variables.
 
 
 [Notes]
@@ -48,9 +51,19 @@ _________
 _________
 Destructuring
 https://blog.tecladocode.com/destructuring-in-python/
-In this post we take a look at destructuring, also called "unpacking". We can use it to split a collection into single values, e.g. for multiple assignment.
+In this post we take a look at destructuring, also called "unpacking".
+We can use it to split a collection into single values, e.g. for multiple assignment.
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+num_range = range(0, 20 + 1)
+
+first, *middle, last = num_range
+
+print(first)
+print(middle)
+print(last)
+
+# complete.

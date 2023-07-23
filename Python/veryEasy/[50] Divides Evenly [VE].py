@@ -54,5 +54,35 @@ Source code to check whether a number entered by user is either odd or even in P
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def dividesEvenly(a, b):
+    if isinstance((a, b), int):
+
+        if a >= b:
+
+            if a % b == 0:
+                return True
+            elif a % b != 0:
+                return False
+
+        elif a < b:
+            return "'a' cannot be smaller then 'b'."
+        else:
+            return "Something else is the problem, unlisted problem is there."
+
+    else:
+        return "Only integers input."
+
+
+print(dividesEvenly(98, 7))  # ➞ True
+# 98/7 = 14
+
+print(dividesEvenly(85, 4))  # ➞ False
+# 85/4 = 21.25
+
+# Syntax error.
+# inc.

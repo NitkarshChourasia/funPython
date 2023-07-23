@@ -54,5 +54,20 @@ How many seconds are in an hour? Since one hour has 3,600 seconds, the simplest 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def convert(hours, minutes):
+    formula_output = (hours * pow(60, 2)) + (minutes * 60)
+    return formula_output
+
+
+print(convert(1, 3))  # ➞ 3780
+
+print(convert(2, 0))  # ➞ 7200
+
+print(convert(0, 0))  # ➞ 0
+
+# complete.

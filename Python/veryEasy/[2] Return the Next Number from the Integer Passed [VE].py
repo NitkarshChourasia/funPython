@@ -54,5 +54,19 @@ How do you perform a Python increment operation? If you're coming from a languag
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def addition(n):
+    return n + 1
+
+
+print(addition(0))  # ➞ 1
+
+print(addition(9))  # ➞ 10
+
+print(addition(-3))  # ➞ -2
+
+# complete.

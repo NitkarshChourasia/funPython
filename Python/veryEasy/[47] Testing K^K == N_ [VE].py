@@ -57,5 +57,26 @@ In this tutorial, we discuss Python Bitwise AND, OR, XOR, Left-shift, Right-shif
 _________
 
 """
-#Your code should go here:
+import math
 
+
+# Your code should go here:
+
+def kToK(n, k):
+    toCheck = math.pow(k, k)
+    if toCheck == n:
+        return True
+    elif toCheck != n:
+        return False
+
+
+print(kToK(4, 2))  # ➞ True
+
+print(kToK(387420489, 9))  # ➞ True
+# 9^9 == 387420489
+
+print(kToK(3124, 5))  # ➞ False
+
+print(kToK(17, 3))  # ➞ False
+
+# complete.

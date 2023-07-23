@@ -1,7 +1,9 @@
 """
 ####  Luke, I Am Your ...  ####
 
-Luke Skywalker has family and friends. Help him remind them who is who. Given a string with a name, return the relation of that person to Luke.
+Luke Skywalker has family and friends.
+Help him remind them who is who.
+Given a string with a name, return the relation of that person to Luke.
 
 
 
@@ -75,5 +77,21 @@ is a phenomenon where a person recalls something that did not happen or recalls 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def relationToLuke(relationInput):
+    lowerCaseInput = relationInput.lower()
+    dict1 = {"darth vader": "father", "leia": "sister", "han": "brother in law"}
+    return "Luke, I am your {}.".format(dict1[lowerCaseInput])
+
+
+print(relationToLuke("Han"))  # ➞ "Luke, I am your brother in law."
+
+print(relationToLuke("Leia"))  # ➞ "Luke, I am your sister."
+
+print(relationToLuke("Darth Vader"))  # ➞ "Luke, I am your father."
+
+# complete.

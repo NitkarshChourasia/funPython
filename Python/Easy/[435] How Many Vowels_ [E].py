@@ -59,7 +59,10 @@ _________
 _________
 Conditions
 https://www.w3schools.com/python/python_conditions.asp
-In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that …
+In this example we use two variables, a and b,
+ which are used as part of the if statement to test whether b is greater than a.
+ As a is 33, and b is 200,
+ we know that …
 _________
 _________
 ForLoop
@@ -83,5 +86,42 @@ To check whether the input character is a vowel or not in python, you have to as
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def countVowels(string1: str) -> int:
+    # Input type check.
+    if isinstance(string1, str):
+
+        # Some names declarations.
+        vowels = "aeiou"
+        lowerCasedString1 = string1.lower()
+        # print(lowerCasedString1)
+
+        # To check for number of vowels in it.
+        count = 0
+        i = 0
+
+        # I avoid using len just to avoid memory errors,
+        # but this true based variable cannot be avoided in actual production environment.
+        try:
+            while True:
+                if lowerCasedString1[i] in vowels:
+                    count += 1
+                i += 1
+                # Loops has this errors of inner and outer loop increments and
+                # setting the inner loop variable to zero.
+        except IndexError:
+            pass
+        return count
+
+
+print(countVowels("Celebration"))  # ➞ 5
+
+print(countVowels("Palm"))  # ➞ 1
+
+print(countVowels("Prediction"))  # ➞ 4
+
+# complete.

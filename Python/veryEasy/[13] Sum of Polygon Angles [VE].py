@@ -58,5 +58,22 @@ The first paragraphs of this website explain the Python operators and their appl
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def sum_polygon(n: int) -> int:
+    try:
+        assert n > 2
+        return (n - 2) * 180
+    except AssertionError:
+        return "Input should be bigger then 2."
+
+
+print(sum_polygon(3))  # ➞ 180
+
+print(sum_polygon(4))  # ➞ 360
+
+print(sum_polygon(6))  # ➞ 720
+
+# complete.

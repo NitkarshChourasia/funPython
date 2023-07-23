@@ -57,5 +57,28 @@ In this video, you will learn how to solve these problems in Python: Intro of Ed
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def boolToString(bool1: bool) -> str:
+    boolToStr = str(bool1)
+    if boolToStr == "True":
+        return boolToStr
+    elif boolToStr == "False":
+        return boolToStr
+    else:
+        return "Please input boolean flag."
+
+
+print(boolToString(True))  # ➞ "True"
+
+print(boolToString(False))  # ➞ "False"
+
+print(boolToString("Hello"))
+
+print(boolToString(1))
+
+print(boolToString(0))
+
+# complete.

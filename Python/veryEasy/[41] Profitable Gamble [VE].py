@@ -24,7 +24,8 @@ _____
 
 [Notes]
 
-A profitable gamble is a game that yields a positive net profit, where net profit is calculated in the following manner: net_outcome = probability_of_winning * prize - cost_of_playing.
+A profitable gamble is a game that yields a positive net profit,
+where net profit is calculated in the following manner: net_outcome = probability_of_winning * prize - cost_of_playing (If wins)
 
 
 [conditions] [math] [validation] 
@@ -50,5 +51,18 @@ In this article, you'll learn everything about different types of operators in P
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def profitableGamble(probability, prize, pay):
+    return probability * prize > pay
+
+
+print(profitableGamble(0.2, 50, 9))  # ➞ True
+
+print(profitableGamble(0.9, 1, 2))  # ➞ False
+
+print(profitableGamble(0.9, 3, 2))  # ➞ True
+
+# complete.

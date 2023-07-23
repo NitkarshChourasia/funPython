@@ -80,5 +80,52 @@ Python has a great built-in list type named "list". List literals are written wi
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+# Restrictions:
+# - Strings and Numbers only.
+# - Should output numbers only by filtering.
+# - Numbers should be non-negative integer.
+# - Should not repeat the numbers.
+
+def filter_list(lst1):
+    # check for list and types present in it.
+    try:
+        for ele in lst1:
+            check_type = isinstance(ele, (str, int))
+            assert check_type
+            if isinstance(ele, int):
+                # Then it should be bigger than zero.
+                if ele >= 0:
+                    pass
+                elif ele < 0:
+                    return "List with only non-negative integers allowed."
+    except AssertionError:
+        return "List with only integers and strings allowed."
+
+    # Filtering lists with only numbers in sequence.
+    only_numbers_list = [num for num in lst1 if isinstance(num, int)]
+
+    # Aiming for no repeat and order.
+    count_dict = {}
+    for ele in only_numbers_list:
+        count_dict[ele] = only_numbers_list.count(ele)
+
+    # Testing lines.
+    # print(f"normal list count keys return: {list(count_dict.keys())}")
+    # return f"type check: {type(list(count_dict.keys()))}"
+
+    return list(count_dict.keys())
+
+
+print(filter_list([1, 5, 1, 1, 2, 2, 2, 3, 4, 3, "a", "b"]))  # set only makes them sorted. -> [1, 5, 2, 3, 4]
+
+print(filter_list([1, 2, "a", "b"]))  # ➞ [1, 2]
+
+print(filter_list([1, "a", "b", 0, 15]))  # ➞ [1, 0, 15]
+
+print(filter_list([1, 2, "aasf", "1", "123", 123]))  # ➞ [1, 2, 123]
+
+# complete.

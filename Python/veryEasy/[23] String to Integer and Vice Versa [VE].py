@@ -62,5 +62,29 @@ The simplest way to handle exceptions is with a "try-except" block.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def to_int(str1):
+    return int(str1)
+
+
+def to_str(int1):
+    return str(int1)
+
+
+print(to_int("77"))  # ➞ 77
+print(type(to_int("77")))  # ➞ 77
+
+print(to_int("532"))  # ➞ 532
+print(type(to_int("532")))  # ➞ 532
+
+print(to_str(77))  # ➞ "77"
+print(type(to_str(77)))  # ➞ "77"
+
+print(to_str(532))  # ➞ "532"
+print(type(to_str(532)))  # ➞ "532"
+
+# complete.

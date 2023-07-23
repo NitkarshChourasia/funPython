@@ -40,9 +40,52 @@ _________
 _________
 Comparison Operators
 https://data-flair.training/blogs/python-comparison-operators/#:~:text=4.,to%20that%20on%20the%20right.
-These are also called relational operators in Python. Along with this, we will learn different types of Comparison Operators in Python: less than, greater than, less t …
+These are also called relational operators in Python.
+Along with this, we will learn different types of Comparison
+Operators in Python: less than, greater than, less t …
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def listLessThan100(lst1):
+    ## Step: 1
+
+    # To check whether every element in lst1 is numbers or not?
+    allNum = 0
+    for ele in lst1:
+        if isinstance(ele, (int, float)):
+            allNum += 1
+
+    # if allNum == len(lst1): # This can also be used.
+    try:
+        assert allNum == len(lst1)
+    except AssertionError:
+        return "Not every element in lst1 is numbers."
+
+    ## Step: 2
+
+    # Adding the list.
+    sum = 0
+    for ele in lst1:
+        sum += ele
+    # return sum
+
+    ## Step: 3
+    if sum < 100:
+        return True
+    elif sum >= 100:
+        return False
+
+
+print(listLessThan100([5, 57]))  # ➞ True
+
+print(listLessThan100([77, 30]))  # ➞ False
+
+print(listLessThan100([0]))  # ➞ True
+
+# check.
+# coding style has increased 10 folds. Well done. Nitkarsh Chourasia.

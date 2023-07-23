@@ -73,5 +73,50 @@ In Python, to iterate the dictionary (dict) with a for loop, use keys(), values(
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+# Will see the right way of doing this.
+
+def pets1(items):
+    if dict1["timmy"] != True:
+        return "Timmy is gone..."
+
+    elif dict1["timmy"] == True:  # First how to avoid keyerror? # I will do try and
+        # except but before that try and error is to be done.
+        return "Timmy is here!"
+
+
+def pets(dict1):
+    if dict1["timmy"] != True:
+        return "Timmy is here!"
+    try:
+        if dict1["timmy"] == True:
+            return "Timmy is gone..."
+    except KeyError:
+
+
+items1 = {
+    "tv": 30,
+    "timmy": 20,
+    "stereo": 50,
+}  # ➞ "Timmy is gone..."
+# Timmy is in the dictionary.
+
+# print(pets(items1))
+
+items = {
+    "tv": 30,
+    "stereo": 50,
+}  # ➞ "Timmy is here!"
+# Timmy is not in the  dictionary.
+
+print(pets(items))
+
+items = {}  # ➞ "Timmy is here!"
+# Timmy is not in the dictionary.
+
+
+# inc.

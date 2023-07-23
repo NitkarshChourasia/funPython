@@ -55,5 +55,21 @@ As of Python 3.6, f-strings are a great new way to format strings. Not only are 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def helloName(name: str) -> str:
+    return f"Hello {name}!"
+
+
+print(helloName("Gerald"))  # ➞ "Hello Gerald!"
+
+print(helloName("Tiffany"))  # ➞ "Hello Tiffany!"
+
+print(helloName("Ed"))  # ➞ "Hello Ed!"
+
+print(helloName("Nitkarsh"))
+
+# complete.

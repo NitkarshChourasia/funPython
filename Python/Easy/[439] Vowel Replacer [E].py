@@ -54,5 +54,55 @@ Regex can be used to perform various tasks in Python. It is used to do search an
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def replaceVowels(theString, toRepFrom):
+    # Restrictions:
+    # - To check if string.
+    # - To check if lowercase.
+
+    # Checking if string only.
+    if isinstance(theString, str):
+
+        # String length.
+        try:
+            count = 0
+            while True:
+                theString[count]
+                count += 1
+        except IndexError:
+            pass
+
+        # Check if lowercase only.
+        checkLowerOnly = [chr(ele) for ele in range(97 + 97 + 25)]
+        i = 0
+
+        while i < count:
+            if theString[i] in checkLowerOnly:
+                pass
+            elif theString[i] not in checkLowerOnly:
+                # Halt the program.
+                return "Only lowercase string input is allowed."
+            # Can I use assert here?
+            # Instead of all this if and else statements?
+
+        # Now the replace program starts from here.
+        outputString = ""
+        vowels = "aeiou"
+        i = 0
+        while i < count:
+            if theString[i] in vowels:
+                outputString += toRepFrom
+            elif theString[i] not in vowels:
+                outputString += theString[i]
+            i += 1
+        return outputString
+
+
+print(replaceVowels("the aardvark", "#"))  # ➞ "th# ##rdv#rk"
+
+print(replaceVowels("minnie mouse", "?"))  # ➞ "m?nn?? m??s?"
+
+print(replaceVowels("shakespeare", "*"))  # ➞ "sh*k*sp**r*"

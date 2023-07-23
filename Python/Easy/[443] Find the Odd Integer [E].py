@@ -54,5 +54,52 @@ Sets are significantly faster when it comes to determining if an object is prese
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+# Requirements:
+# - Takes a list.
+# - Has only integers in the list.
+
+def findOdd(lst1):
+    if isinstance(lst1, list):
+
+        # Check if all the elements in the lst1: list == type(int):
+        try:
+            for integers in lst1:
+                assert isinstance(integers, int)
+        except AssertionError:
+            return "List input with only integer elements are allowed."
+
+        # To count unique elements.
+        uniqueElements = set(lst1)
+        countDictionary = {}
+        intCount = 0
+
+        # Will also have to work with hashing.
+        # Let's try two for loops instead of two while loops.
+        for uniq in uniqueElements:
+            for ele in lst1:
+                if uniq == ele:
+                    intCount += 1
+            countDictionary[uniq] = intCount
+            intCount = 0
+
+        # I have a count dictionary now.
+        print(countDictionary)
+
+        # I have to now somehow value return it.
+        for key, output in countDictionary.items():
+            if output % 2 != 0:
+                print(f"key: {key}")
+                return f"value - output: {output}"
+
+        return countDictionary
+
+
+print(findOdd([1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]))  # ➞ -1
+
+print(findOdd([20, 1, 1, 2, 2, 3, 3, 5, 5, 4, 20, 4, 5]))  # ➞ 5
+
+print(findOdd([10]))  # ➞ 10

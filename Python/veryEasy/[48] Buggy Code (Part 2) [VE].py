@@ -53,5 +53,44 @@ Returns the largest item in an iterable. It can also be used to find the largest
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def maxNum(a, b):
+    if a > b:
+        return a
+    elif b > a:
+        return b
+
+
+print("If-else method.")
+print(maxNum(3, 7))  # ➞ 7
+
+print(maxNum(-1, 0))  # ➞ 0
+
+print(maxNum(1000, 400))  # ➞ 1000
+
+
+def maxNumMethod(a, b):
+    return max(a, b)
+
+
+print("Max method.")
+print(maxNumMethod(3, 7))  # ➞ 7
+
+print(maxNumMethod(-1, 0))  # ➞ 0
+
+print(maxNumMethod(1000, 400))  # ➞ 1000
+
+maxNumberLambda = lambda a, b: a if a > b else b
+
+print("Lambda Method.")
+print(maxNumberLambda(3, 7))  # ➞ 7
+
+print(maxNumberLambda(-1, 0))  # ➞ 0
+
+print(maxNumberLambda(1000, 400))  # ➞ 1000
+
+# complete.

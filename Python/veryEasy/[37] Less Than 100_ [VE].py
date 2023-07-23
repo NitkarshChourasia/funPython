@@ -56,5 +56,25 @@ A video walkthrough of this challenge.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def lessThan100(num1, num2):
+    try:
+        assert num1 + num2 < 100
+        return True
+    except AssertionError:
+        return False
+
+
+print(lessThan100(22, 15))  # ➞ True
+# 22 + 15 = 37
+
+print(lessThan100(83, 34))  # ➞ False
+# 83 + 34 = 117
+
+print(lessThan100(3, 77))  # ➞ True
+
+# complete.

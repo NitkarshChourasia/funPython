@@ -60,5 +60,18 @@ The most common way to find the area of a triangle is to take half of the base t
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def triArea(base, height):
+    return (base * height) / 2
+
+
+print(triArea(3, 2))  # ➞ 3
+
+print(triArea(7, 4))  # ➞ 14
+
+print(triArea(10, 10))  # ➞ 50
+
+# complete.

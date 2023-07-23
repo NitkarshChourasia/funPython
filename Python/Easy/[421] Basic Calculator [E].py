@@ -64,5 +64,34 @@ In this tutorial, you'll learn everything about different types of operators in 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def calculator(a, operator, b):
+    # print("Operators allowed: +, -, *, /")
+    match operator:
+        case "+":
+            return a + b
+        case "-":
+            return a - b
+        case "*":
+            return a * b
+            # break # Why it is showing break outside loop?
+        case "/":
+            return a / b
+        case _:
+            return "Input a valid operator show above."
+
+
+print(calculator(2, "+", 2))  # ➞ 4
+
+print(calculator(2, "*", 2))  # ➞ 4
+
+print(calculator(4, "/", 2))  # ➞ 2
+
+print(calculator(1000, "-", 2000))
+
+# inc.
+
+# understanding the match a little better.

@@ -1,7 +1,8 @@
 """
 ####  Vowel Families  ####
 
-Write a function that selects all words that have all the same vowels (in any order and/or number) as the first word, including the first word.
+Write a function that selects all words that have all the same vowels (in any order and/or number)
+as the first word, including the first word.
 
 
 [Examples]
@@ -20,7 +21,8 @@ _____
 
 ___
 *) Words will contain only lowercase letters, and may contain whitespaces.
-*) Frequency does not matter (e.g. if the first word is "loopy", then you can include words with any number of o's, so long as they only contain o's, and not any other vowels).
+*) Frequency does not matter (e.g. if the first word is "loopy", then you can include words with any number of o's,
+so long as they only contain o's, and not any other vowels).
 ___
 
 
@@ -39,7 +41,8 @@ _________
 _________
 sorted() Function
 https://www.programiz.com/python-programming/methods/built-in/sorted
-Returns a sorted list from the items in an iterable. In this tutorial, we will learn to sort elements in ascending and descending order using the Python shorted() function.
+Returns a sorted list from the items in an iterable.
+In this tutorial, we will learn to sort elements in ascending and descending order using the Python shorted() function.
 _________
 
 """

@@ -1,8 +1,12 @@
 """
 ####  Virtual DAC  ####
 
-In electronics, a digital-to-analog converter (DAC, D/A, or D-to-A) is a system that converts a binary representation of that signal into an analog output. An 8 bit converter can represent a maximum of 2^8 different values, with each successive value differing by 1/256 of the full scale value, this becomes the system resolution.
-Create a function that takes a decimal number representation of a signal and returns the analog voltage level that would be created by a DAC if it were given the same number in binary.
+In electronics, a digital-to-analog converter (DAC, D/A, or D-to-A) is a system that converts
+a binary representation of that signal into an analog output.
+An 8 bit converter can represent a maximum of 2^8 different values,
+with each successive value differing by 1/256 of the full scale value, this becomes the system resolution.
+Create a function that takes a decimal number representation of a signal and returns
+the analog voltage level that would be created by a DAC if it were given the same number in binary.
 While value range is 0-1023, reference range is 0-5.00 volts. Value and reference is directly proportional.
 This DAC has 10 bits of resolution and the DAC reference is set at 5.00 volts.
 
@@ -24,7 +28,7 @@ _____
 You should return your value rounded to two decimal places.
 
 
-[functional_programming] 
+[functional_programming]
 
 
 
@@ -47,5 +51,34 @@ The following diagram gives the steps to solve ratios and direct proportion word
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def V_DAC(binDig):
+    if isinstance(binDig, int):
+        if binDig >= 0 and binDig <= 1023:
+            formula = (binDig / ((1023 / 5) / 100)) / 100
+            # series of brackets <---> inwards to outwards.
+            return round(formula, 2)
+        else:
+            return "Out of range!"
+    else:
+        return "Invalid input."
+
+
+print(V_DAC(0))  # ➞ 0
+
+print(V_DAC(1023))  # ➞ 5
+
+print(V_DAC(400))  # ➞ 1.96
+
+print(V_DAC(""))
+print(V_DAC([]))
+print(V_DAC(5654))
+
+# Edges cases are important.
+# Edges are the gist of it.
+
+
+# complete.

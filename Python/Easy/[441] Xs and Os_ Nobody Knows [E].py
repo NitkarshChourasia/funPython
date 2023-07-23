@@ -77,5 +77,75 @@ Returns a string where all characters are in upper case.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+# Restrictions:
+# - input should be String.
+# - Case insensitive.
+# - if not any x and o return True.
+
+def XO(theString1: str) -> bool:
+    # Checking if the input is only string.
+    # How to check if it is a string or not ...
+    # By not using any function or method at all.
+    if isinstance(theString1, str):
+        # couting the length.
+        count = 0
+        try:
+            while True:
+                theString1[count]
+                count += 1
+        except IndexError:
+            pass
+
+        # Checking for 'o''O' and 'x''X' in the string.
+        i = 0
+        countoO = 0
+        countxX = 0
+        while i < count:
+            if theString1[i] == 'x' or 'X':
+                countxX += 1
+            elif theString1[i] == 'o' or 'O':
+                countoO += 1
+            i += 1
+
+        # if 'o' || 'O' kept on if.
+        # It returns the same count as of length of the string.
+
+        # Now when 'x' || 'X' kept on if.
+        # It returns the same count as of length of the string.
+
+        ### ASK CHATGPT ABOUT THIS.
+        # Like I know where and what is the logical error in the code.
+        # Or where is the error in the code.
+        # But, I don't know the WHY behind it.
+        # Why it is doing what it is doing?
+        # Like, what is the actual reason behind it to do so???
+        # Like, I want to know the blackbox of or for it.
+        # Thank you.
+
+        print(f"length: {count}")
+        print(f"X in str: {countxX}")
+        print(f"O in str: {countoO}")
+        if countoO == countxX:
+            return True
+        elif countoO != countxX:
+            return False
+
+
+print(XO("ooxx"))  # ➞ True
+
+print(XO("print(XOoxx"))  # ➞ False
+
+print(XO("ooxXm"))  # ➞ True
+# Case insensitive.
+
+print(XO("zpzpzpp"))  # ➞ True
+# Returns True if no x and o.
+
+print(XO("zzoo"))  # ➞ False
+
+# inc.
+# Read if there are any other resources in it.

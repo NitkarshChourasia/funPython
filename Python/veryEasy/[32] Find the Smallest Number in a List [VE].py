@@ -68,5 +68,60 @@ Learn a different way of performing sorting in Python by using the sorted() func
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def findSmallestNumMinFunc(list1):
+    return min(list1)
+
+
+def findSmallestNumsortedFunc(list1):
+    return sorted(list1)[0]
+
+
+def findSmallestNumsortMeth(list1):
+    return list1.sort()[0]
+
+
+# The same error as of non subscript-able and NoneType may follow up here, too.
+
+# Min function.
+
+print("Outputs by using Min Function.")
+print(findSmallestNumMinFunc([34, 15, 88, 2]))  # ➞ 2
+
+print(findSmallestNumMinFunc([34, -345, -1, 100]))  # ➞ -345
+
+print(findSmallestNumMinFunc([-76, 1.345, 1, 0]))  # ➞ -76
+
+print(findSmallestNumMinFunc([0.4356, 0.8795, 0.5435, -0.9999]))  # ➞ -0.9999
+
+print(findSmallestNumMinFunc([7, 7, 7]))  # ➞ 7
+
+# Sorted function.
+
+print("Outputs by using Sorted Function.")
+print(findSmallestNumsortedFunc([34, 15, 88, 2]))  # ➞ 2
+
+print(findSmallestNumsortedFunc([34, -345, -1, 100]))  # ➞ -345
+
+print(findSmallestNumsortedFunc([-76, 1.345, 1, 0]))  # ➞ -76
+
+print(findSmallestNumsortedFunc([0.4356, 0.8795, 0.5435, -0.9999]))  # ➞ -0.9999
+
+print(findSmallestNumsortedFunc([7, 7, 7]))  # ➞ 7
+
+# sort function.
+
+print("Outputs by using Sort Method.")
+print(findSmallestNumsortMeth([34, 15, 88, 2]))  # ➞ 2
+
+print(findSmallestNumsortMeth([34, -345, -1, 100]))  # ➞ -345
+
+print(findSmallestNumsortMeth([-76, 1.345, 1, 0]))  # ➞ -76
+
+print(findSmallestNumsortMeth([0.4356, 0.8795, 0.5435, -0.9999]))  # ➞ -0.9999
+
+print(findSmallestNumsortMeth([7, 7, 7]))  # ➞ 7

@@ -29,7 +29,11 @@ It works well, just needs a nudge in the right direction.
 Important vim commands.
 
 To apply '#' to the input parameters list.
+:%s/\vprint\((.*)\) ➞ (.*)/print(\1) # ➞ \2/g
 
 
 To apply ')' i.e closing bracket to the input parameter list.
 :%s/)\s*#\s*➞/)) # ➞/g
+
+
+# Bhai, bhai, ghum gaaya tha yeh command lafta ho jata fir saala.

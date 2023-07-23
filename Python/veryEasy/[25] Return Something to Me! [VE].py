@@ -44,5 +44,18 @@ Python has acquired a wide and peak level in the market like no language has don
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def give_me_somethng(input1):
+    return "something {0}".format(input1)
+
+
+print(give_me_somethng("is better than nothing"))  # ➞ "something is better than nothing"
+
+print(give_me_somethng("Bob Jane"))  # ➞ "something Bob Jane"
+
+print(give_me_somethng("something"))  # ➞ "something something"
+
+# complete.

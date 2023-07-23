@@ -69,5 +69,27 @@ A video walkthrough of this challenge.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def get_first_value(list1):
+    for i in list1:
+        try:
+            assert type(i) == int or type(i) == float
+        except AssertionError:
+            return "List should contains only numbers."
+    return list1[0]
+
+
+print(get_first_value([1, 2, 3]))  # ➞ 1
+
+print(get_first_value([80, 5, 100]))  # ➞ 80
+
+print(get_first_value([-500, 0, 50]))  # ➞ -500
+
+print(get_first_value(["Gekki", "Hello", 123]))
+
+print(get_first_value([5.13, 13.31, 123]))
+
+# complete.

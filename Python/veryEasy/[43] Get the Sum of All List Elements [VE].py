@@ -54,5 +54,66 @@ Is used for sequential traversal i.e. it is used for iterating over an iterable 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def sumMethod(list1: list):
+    return list1.sum()
+
+
+def whileMethod(list1: list):
+    i = 0
+    sum = 0
+    while i < len(list1):
+        sum += list1[i]
+    return sum
+
+
+def forMethod(list1: list):
+    sum = 0
+    for i in list1:
+        sum += i
+    return sum
+
+
+def recursiveMethod(list1: list):
+    if i == len(list1):
+        return sum  # See if declaration works?
+    i = 0
+    sum = 0
+    i += 1
+    sum += list1[i]
+    return recursiveMethod(list1)
+
+
+# Hope this works.
+
+
+# sumMethod.
+print(sumMethod([2, 7, 4]))  # ➞ 13
+
+print(sumMethod([45, 3, 0]))  # ➞ 48
+
+print(sumMethod([-2, 84, 23]))  # ➞ 105
+
+# whileMethod.
+print(sumMethod([2, 7, 4]))  # ➞ 13
+
+print(sumMethod([45, 3, 0]))  # ➞ 48
+
+print(sumMethod([-2, 84, 23]))  # ➞ 105
+
+# forMethod.
+print(sumMethod([2, 7, 4]))  # ➞ 13
+
+print(sumMethod([45, 3, 0]))  # ➞ 48
+
+print(sumMethod([-2, 84, 23]))  # ➞ 105
+
+# recursiveMethod.
+print(sumMethod([2, 7, 4]))  # ➞ 13
+
+print(sumMethod([45, 3, 0]))  # ➞ 48
+
+print(sumMethod([-2, 84, 23]))  # ➞ 105

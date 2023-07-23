@@ -59,5 +59,25 @@ Yes, zero is divisible by every integer, with one exception: nothing is divisibl
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def divisible(n):
+    if isinstance(n, int):
+        if n % 100 == 0:
+            return True
+        elif n % 100 != 0:
+            return False
+    else:
+        return "Integer inputs only."
+
+
+print(divisible(1))  # ➞ False
+
+print(divisible(1000))  # ➞ True
+
+print(divisible(100))  # ➞ True
+
+# complete.

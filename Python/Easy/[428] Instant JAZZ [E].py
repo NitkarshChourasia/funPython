@@ -60,5 +60,80 @@ This Python tutorial will go over how to create and print strings, how to concat
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def jazzify(lst1):
+    output_lst1 = []
+    # How does it behave with empty list?
+    # Like the last example?
+    # what if the len(input) == 0: return [] # How will this react?
+    for ele in lst1:
+        if '7' not in ele:
+            output_lst1.append(ele + str(7))
+        elif '7' in ele:
+            output_lst1.append(ele)
+    return output_lst1
+
+
+print(jazzify(["G", "F", "C"]))  # ➞ ["G7", "F7", "C7"]
+
+print(jazzify(["Dm", "G", "E", "A"]))  # ➞ ["Dm7", "G7", "E7", "A7"]
+
+print(jazzify(["F7", "E7", "A7", "Ab7", "Gm7", "C7"]))  # ➞ ["F7", "E7", "A7", "Ab7", "Gm7", "C7"]
+
+print(jazzify([]))  # ➞ []
+
+
+# Restriction maybe only iterative like a list or tuple or dictionary.
+# Because may not be viable option let's see, what happens.
+def jazzify1(lst1):
+    # How to find len without len function?
+    # Search google about this.
+
+    ## while True with try and except method. # IMP
+    ## for loop ho gaya with count+=1. # IMP
+    ## any more method?????. # IMP
+    try:
+        count = 0
+        while True:
+            lst1[count]
+            count += 1
+    except IndexError:
+        pass
+
+    output_lst1 = "0" * count
+    print("Count: {0}".format(count))
+    print("Len function output_lst1: {}".format(len(output_lst1)))
+    print("|{}|".format(output_lst1))
+    # return ("|{}|".format(output_lst1)) # Just to output while avoiding while condition:
+
+    lst1 = list(lst1)
+    i = 0
+    while i < count:
+        # This will malfunction because count can be more then i, let's see maybe.
+        if "7" not in lst1[i]:
+            output_lst1[i] = lst1[i] + str(7)
+        elif "7" in lst1[i]:
+            output_lst1[i] = lst1[i]
+        i += 1
+    return map(output_lst1, str)
+
+
+# WHATEVER IS THE PROBLEM I NEED TO SOLVE THIS.
+# USE CHATGPT IF NEEDED.
+
+# How to tackle the error in the last segment.
+# One was filter and another one was map. # See, both of these.
+# One was boolean based and another one was output based, something.
+
+print(jazzify1(lst1="abcdefghijklmnopqrstuvwxyz"))
+
+# inc.
+
+
+## IN SHORT.
+
+# - Another ways to solve len.
+# - Another ways to solve the error encountered of 'str' object does not support item assignment.

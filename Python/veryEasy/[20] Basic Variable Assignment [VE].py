@@ -1,17 +1,19 @@
 """
 ####  Basic Variable Assignment  ####
 
-A student learning Python was trying to make a function. His code should concatenate a passed string name with string "Edabit" and store it in a variable called result. He needs your help to fix this code.
+A student learning Python was trying to make a function.
+His code should concatenate a passed string name with string "Hello" and store it in a variable called result.
+He needs your help to fix this code.
 
 
 [Examples]
 
 ___
-name_string("Mubashir") ➞ "MubashirEdabit"
+name_string("Mubashir") ➞ "MubashirHello"
 
-name_string("Matt") ➞ "MattEdabit"
+name_string("Matt") ➞ "MattHello"
 
-name_string("python") ➞ "pythonEdabit"
+name_string("python") ➞ "pythonHello"
 _____
 
 
@@ -59,5 +61,18 @@ You will learn how to deal with variable assignments here!
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def name_string(name):
+    return name + "Hello"
+
+
+print(name_string("Mubashir"))  # ➞ "MubashirHello"
+
+print(name_string("Matt"))  # ➞ "MattHello"
+
+print(name_string("python"))  # ➞ "pythonHello"
+
+# complete.

@@ -81,5 +81,24 @@ Not many people know, but python offers a direct function that can compute the f
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def factorial(n: int) -> int:
+    factorial(n - 1)
+
+
+print(factorial(5))  # ➞ 120
+
+print(factorial(3))  # ➞ 6
+
+print(factorial(1))  # ➞ 1
+
+print(factorial(0))  # ➞ 1
+
+# inc.
+# solve it.
+
+""""""

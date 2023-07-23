@@ -59,5 +59,24 @@ Returns the smallest element in an iterable or smallest of two or more parameter
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def differenceMaxMin(lst1):
+    return max(lst1) - min(lst1)
+
+
+print(differenceMaxMin([10, 4, 1, 4, -10, -50, 32, 21]))  # ➞ 82
+# Smallest number is -50, biggest is 32.
+
+print(differenceMaxMin([44, 32, 86, 19]))  # ➞ 67
+# Smallest number is 19, biggest is 86.
+
+print(differenceMaxMin([50, 18]))
+print(differenceMaxMin([50, -18]))
+print(differenceMaxMin([-50, 18]))
+print(differenceMaxMin([-50, -18]))
+
+# complete.

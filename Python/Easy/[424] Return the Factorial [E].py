@@ -1,7 +1,8 @@
 """
 ####  Return the Factorial  ####
 
-Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.
+Create a function that takes an integer and returns the factorial of that integer.
+That is, the integer multiplied by all positive lower integers.
 
 
 [Examples]
@@ -69,5 +70,31 @@ A video explaining on what recursion is.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def factorial1(n):
+    if n >= 0:
+        if isinstance(n, int):
+            output = 1
+            for ele in range(2, n + 1):
+                output *= ele
+            return output
+        elif not isinstance(n, int):
+            return "Integer input is only valid."
+    elif n < 0:
+        return "Input cannot be less then 0."
+
+
+print(factorial1(0))
+print(factorial1(1))
+print(factorial1(2))
+print(factorial1(3))
+print(factorial1(4))
+print(factorial1(5))
+
+# Still it worked.
+# Check out some resources, if there are any.
+# inc.

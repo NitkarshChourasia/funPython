@@ -39,5 +39,16 @@ Python and other languages like Java, C#, and even C++ have had lambda functions
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def frames(minutes, fps):
+    x = lambda minutes
+    # Learn yaar ternary or lambda function.
+
+
+solve
+this
+buddy

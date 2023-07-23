@@ -1,7 +1,8 @@
 """
 ####  Compare Strings by Count of Characters  ####
 
-Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+Create a function that takes two strings as arguments and return either True or False depending on whether
+the total number of characters in the first string is equal to the total number of characters in the second string.
 
 
 [Examples]
@@ -49,5 +50,45 @@ Is a built-in function in python. You can use the len() to get the length of the
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def comp(string1, string2):
+    if isinstance(string1, str):
+        count1 = 0
+        while string1[count1] != string1[-1]:
+            count1 += 1
+        count2 = 0
+        try:
+            while True:  # Nasa avoids this kind of statements...altogether. # So, if possible think of another way.
+                string2[count2]
+                count2 += 1
+        except IndexError:
+            pass
+            # I just want to catch this, that's it.
+        print(count1)
+        print(count2)
+        if count1 == count2:
+            return True
+        elif count1 != count2:
+            return False
+        else:
+            return "Some different bug is present."
+
+
+# print(comp("AB", "CD"))  # ➞ True
+#
+# print(comp("ABC", "DE"))  # ➞ False
+#
+# print(comp("hello", "edabit"))  # ➞ False
+#
+print(comp("Heollo", "Heollo"))
+#
+
+while True:
+    pass
+
+# What is multithreading? Does it means I can run a program and simultaneously run many programs in it.
+# Like TWO WHILE LOOPS?!!!
+# what 'e' does in vim?

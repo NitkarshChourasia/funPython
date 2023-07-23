@@ -62,5 +62,27 @@ In this tutorial, you'll learn everything about different types of operators in 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def And(bool1, bool2):
+    if isinstance((bool1, bool2), bool):  # How to check isinstance for multiple objects?
+        if bool1 and bool2:
+            return True
+        else:
+            return False
+    else:
+        return "Only bool inputs are valid."
+
+
+print(And(True, False))  # ➞ False
+
+print(And(True, True))  # ➞ True
+
+print(And(False, True))  # ➞ False
+
+print(And(False, False))  # ➞ False
+
+# inc.

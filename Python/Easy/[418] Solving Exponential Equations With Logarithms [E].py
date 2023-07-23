@@ -1,7 +1,8 @@
 """
 ####  Solving Exponential Equations With Logarithms  ####
 
-Create a function that takes a number a and finds the missing exponent x so that a when raised to the power of x is equal to b.
+Create a function that takes a number a and finds the missing
+exponent x so that a when raised to the power of x is equal to b.
 
 
 [Examples]
@@ -49,5 +50,24 @@ You may have noticed that your calculator only has keys for figuring the values 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def solveForExp(base, ):
+    pass
+
+
+# Yeh toh solve ho jayega.
+# Lekin, uske piche ka theory aur understanding nahi rahega.
+# Solve, toh 2 sec mai ho jayega.
+# Lekin usske piche ka theory aur understanding chahiye mujhe.
+
+
+# inc.
+
+print(solveForExp(4, 1024))  # ➞ 5
+
+print(solveForExp(2, 1024))  # ➞ 10
+
+print(solveForExp(9, 3486784401))  # ➞ 10

@@ -54,7 +54,8 @@ _____
 
 [Notes]
 
-If you have a suggestion on how to make these instructions easier to understand, please leave a comment. Your feedback is greatly appreciated.
+If you have a suggestion on how to make these instructions easier to understand, please leave a comment. Your
+feedback is greatly appreciated.
 
 
 [language_fundamentals] [objects] [validation] 
@@ -75,5 +76,53 @@ The == operator compares the value or equality of two objects, whereas the Pytho
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def is_equal(dict1, dict2):
+    return dict1 == dict2
+
+
+# Fist inputs dicts.
+
+# The first object parameter.
+
+obj_one = {
+    "name": "Benny",
+    "phone": "3325558745",
+    "email": "benny@edabit.com"
+}
+
+# The second object parameter.
+
+obj_two = {
+    "name": "Jason",
+    "phone": "9853759720",
+    "email": "jason@edabit.com"
+}
+
+print(is_equal(obj_one, obj_two))
+
+# Second inputs dicts.
+
+# The first object parameter.
+
+obj_one = {
+    "name": "Jason",
+    "phone": "9853759720",
+    "email": "jason@edabit.com"
+}
+
+# The second object parameter.
+
+obj_two = {
+    "name": "Jason",
+    "phone": "9853759720",
+    "email": "jason@edabit.com"
+}
+
+print(is_equal(obj_one, obj_two))
+
+# complete.

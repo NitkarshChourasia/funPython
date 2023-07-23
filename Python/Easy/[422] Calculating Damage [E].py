@@ -1,7 +1,8 @@
 """
 ####  Calculating Damage  ####
 
-Create a function that takes damage and speed (attacks per second) and returns the amount of damage after a given time.
+Create a function that takes damage and speed (attacks per second)
+and returns the amount of damage after a given time.
 
 
 [Examples]
@@ -44,5 +45,36 @@ In this tutorial, you'll learn everything about Python dictionaries; how they ar
 _________
 
 """
-#Your code should go here:
+import math
 
+
+# Your code should go here:
+
+def damage(perAttackDamage, speedAttackPerSec, timePeriod):
+    # print("Valid time periods: second, minute, hour")
+    match timePeriod:
+        case "second":
+            return perAttackDamage * speedAttackPerSec * 1
+        case "minute":
+            return perAttackDamage * speedAttackPerSec * 60
+        case "hour":
+            return perAttackDamage * speedAttackPerSec * int(math.pow(60, 2))
+        case _:
+            return "Please enter valid timePeriod."
+    # Total Damage in all it returns.
+
+
+print(damage(40, 5, "second"))  # ➞ 200
+
+print(damage(100, 1, "minute"))  # ➞ 6000
+
+print(damage(2, 100, "hour"))  # ➞ 720000
+
+print(damage(200, 10, "day"))
+
+# inc.
+# This is meant to solve by dictionary method.
+# Ask chatgpt if unsure, how to solve it using the dictionary method.
+
+
+# Remember, the goal is to learn. Not showcase the number, but the quality. Indeed.

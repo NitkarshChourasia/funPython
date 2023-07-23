@@ -1,7 +1,8 @@
 """
 ####  Two Makes Ten  ####
 
-Create a function that takes two arguments. Both arguments are integers, a and b. Return True if one of them is 10 or if their sum is 10.
+Create a function that takes two arguments. Both arguments are integers, a and b.
+Return True if one of them is 10 or if their sum is 10.
 
 
 [Examples]
@@ -49,5 +50,23 @@ Video tutorial of this challenge.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def makes10(a, b):
+    if a or b == 10 or a + b == 10:  # Iska logical error kya hai? Go through that method way of tracingValues (a == 10 or b == 10 or a + b == 10) woh kyu right aata hai?
+        return True  # logical error traceRouting se pata lagao please.
+    else:
+        return False
+
+
+print(makes10(9, 10))  # ➞ True
+
+print(makes10(9, 9))  # ➞ False
+
+print(makes10(1, 9))  # ➞ True
+
+print(makes10(10, 10))
+
+print(makes10(3, 3))

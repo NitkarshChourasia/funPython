@@ -50,5 +50,24 @@ In the sport of soccer, teams work together to to score goals, because goals win
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def football_points(wins, draws, losses):
+    if wins and draws and losses < 0:
+        return "Inputs should be zero or greater."
+    else:
+        formula = wins * 3 + draws
+        return formula
+
+
+print(football_points(3, 4, 2))  # ➞ 13
+
+print(football_points(5, 0, 2))  # ➞ 15
+
+print(football_points(0, 0, 1))  # ➞ 0
+
+print(football_points(113, 13, -1))
+
+# complete.

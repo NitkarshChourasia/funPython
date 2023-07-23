@@ -54,5 +54,49 @@ Python String rfind() method returns the rightmost index of the substring if fou
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+# Assuming it to take only number type as input.
+def numberLength(num):
+    if isinstance(num, (int, float)):
+        length = 0
+        for i in str(num):
+            length += 1
+        return length
+    else:
+        return "Only numeric values allowed."
+
+
+# Find more ways of doing this. Please.
+
+print(numberLength(10))  # ➞ 2
+
+print(numberLength(5000))  # ➞ 4
+
+print(numberLength(0))  # ➞ 1
+
+print(numberLength(""))
+
+print(numberLength("."))  # This do also works. Edge cases building is good.
+
+
+# Method 2 using While.
+
+def method2(num):
+    length = 0
+    # As for no proper vision assuming while == True as of now.
+    while True:
+        try:
+            if num[length]:
+                length += 1
+        except IndexError as error:
+            return length
+
+
+print(method2("Hello"))
+
+# More ways of doing this?
+
+# r.find and all those things what are those?

@@ -1,7 +1,9 @@
 """
 ####  Cricket Balls to Overs!  ####
 
-In cricket, an over consists of six deliveries a bowler bowls from one end. Create a function that takes the number of balls bowled by a bowler and calculates the number of overs and balls bowled by him/her. Return the value as a float, in the format overs.balls.
+In cricket, an over consists of six deliveries a bowler bowls from one end.
+Create a function that takes the number of balls bowled by a bowler and
+calculates the number of overs and balls bowled by him/her. Return the value as a float, in the format overs.balls.
 
 
 [Examples]
@@ -53,5 +55,49 @@ Also referred to as integer division. The resultant value is a whole integer, th
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def totalOvers(ballsBowled):
+    results = divmod(ballsBowled, 6)
+    # return "Over: {0}, Balls: {1} left".format(results[0], results[1])
+    return "{0}.{1}".format(results[0], results[1])
+
+
+# print(totalOvers(2400))  # ➞ 400
+#
+# print(totalOvers(164))  # ➞ 27.2
+# 27 overs and 2 balls were bowled by the bowler.
+#
+# print(totalOvers(945))  # ➞ 157.3
+# 157 overs and 3 balls were bowled by the bowler.
+#
+# print(totalOvers(5))  # ➞ 0.5
+
+
+def totalOversTotal(ballsBowled):
+    overs = ballsBowled // 6
+    balls = (int(((ballsBowled / 6) - overs) * 10))
+    # balls = divmod(balls, 2)
+    balls = int(balls) // 2
+    # balls = float(balls) // 2
+    # Formatting technique se ho sakta hai filhal ke liye toh. # But, I don't kn
+    # now that technique so I will use formula method.
+
+    return balls
+    # print(balls)
+    # return overs
+
+
+print(totalOversTotal(2400))  # ➞ 400
+
+print(totalOversTotal(164))  # ➞ 27.2
+# 27 overs and 2 balls were bowled by the bowler.
+
+print(totalOversTotal(945))  # ➞ 157.3
+# 157 overs and 3 balls were bowled by the bowler.
+
+print(totalOversTotal(5))  # ➞ 0.5
+
+# inc.

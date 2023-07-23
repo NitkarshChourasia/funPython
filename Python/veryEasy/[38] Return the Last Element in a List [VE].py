@@ -56,5 +56,20 @@ There are three basic sequence types: lists, tuples, and range objects. Addition
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def getLastItem(list1):
+    return list1[-1]
+
+
+print(getLastItem([1, 2, 3]))  # ➞ 3
+
+print(getLastItem(["cat", "dog", "duck"]))  # ➞ "duck"
+
+print(getLastItem([True, False, True]))  # ➞ True
+
+print(getLastItem([7, "String", False]))  # ➞ False
+
+# complete.

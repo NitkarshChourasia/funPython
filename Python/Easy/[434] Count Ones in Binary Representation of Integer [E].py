@@ -1,7 +1,8 @@
 """
 ####  Count Ones in Binary Representation of Integer  ####
 
-Count the amount of ones in the binary representation of an integer. For example, since 12 is 1100 in binary, the return value should be 2.
+Count the amount of ones in the binary representation of an integer.
+For example, since 12 is 1100 in binary, the return value should be 2.
 
 
 [Examples]
@@ -69,5 +70,19 @@ This site explains the mathematical method of converting a number to binary.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def countOnes(n):
+    return "Linked to: [430] Convert a Number to Base-2 [E].py"
+
+# This is the kind of second part of the problem :
+# [430] Convert a Number to Base-2 [E].py
+
+# This is a continuation of that problem :
+# [430] Convert a Number to Base-2 [E].py
+
+# Try to make the manual algorithm for it.
+
+# inc.

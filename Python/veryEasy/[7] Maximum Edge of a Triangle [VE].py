@@ -64,5 +64,30 @@ What do Euclid, 12-year-old Einstein, and American President James Garfield have
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def nextEdge(side1, side2):
+    if side1 and side2 > 0:
+        return (side1 + side2) - 1
+    else:
+        return "Positive sides only."
+
+
+print(nextEdge(8, 10))  # ➞ 17
+
+print(nextEdge(5, 7))  # ➞ 11
+
+print(nextEdge(9, 2))  # ➞ 10
+
+print(nextEdge(0, 1))
+
+print(nextEdge(1, 0))
+
+print(nextEdge(0, 0))
+
+print(nextEdge(1, 1))
+
+# complete.

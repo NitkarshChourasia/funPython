@@ -61,5 +61,25 @@ Learn about Python lambda functions. You'll see how they compare with regular fu
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def animals(chickens, cows, pigs):
+    if chickens and cows and pigs < 0:
+        return "Inputs for animals cannot be negative."
+    else:
+        formula_output = (chickens * 2) + (cows * 4) + (pigs * 4)
+        return formula_output
+
+
+print(animals(2, 3, 5))  # ➞ 36
+
+print(animals(1, 2, 3))  # ➞ 22
+
+print(animals(5, 2, 8))  # ➞ 50
+
+print(animals(100, 200, -1))
+
+# complete.

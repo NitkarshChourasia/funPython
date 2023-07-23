@@ -70,5 +70,40 @@ Learn how and when to use the len() Python function. You'll also learn how to cu
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def isEmpty(string1):
+    if isinstance(string1, str):
+
+        count = 0
+        try:
+            while True:
+                string1[
+                    count]  # It doesn't go ahead, if error encountered then jump back to the previous results. I like it.
+                count += 1
+        except IndexError:
+            pass
+
+        if count == 0:
+            return True
+        elif count > 0:
+            return False
+    else:
+        return "Only string inputs allowed."
+
+
+print(isEmpty(""))  # ➞ True
+
+print(isEmpty(" "))  # ➞ False
+
+print(isEmpty("a"))  # ➞ False
+
+# I want this program to be used in pythontutor, analysed in pythonTutor. It will be good.
+
+# inc.
+# only for testing on pythontutor.com
+
+# complete.

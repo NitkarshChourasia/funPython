@@ -1,7 +1,9 @@
 """
 ####  Return the Remainder from Two Numbers  ####
 
-There is a single operator in Python, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+There is a single operator in Python, capable of providing the remainder of a division operation.
+Two numbers are passed as parameters.
+The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
 
 
 [Examples]
@@ -56,5 +58,24 @@ In this tutorial, you'll learn about the Python modulo operator (%). You'll look
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def remainder(int1: int, int2: int) -> int:
+    if int1 and int2 > 0:
+        return int1 % int2
+    else:
+        return "Positive integers only."
+
+
+print(remainder(1, 3))  # ➞ 1
+
+print(remainder(3, 4))  # ➞ 3
+
+print(remainder(5, 5))  # ➞ 0
+
+print(remainder(7, 2))  # ➞ 1
+
+# complete.

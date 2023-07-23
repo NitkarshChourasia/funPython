@@ -1,7 +1,8 @@
 """
 ####  Sum of Evenly Divisible Numbers from a Range  ####
 
-Create a function that takes three arguments a, b, c and returns the sum of the numbers that are evenly divided by c from the range a, b inclusive.
+Create a function that takes three arguments a, b, c and
+returns the sum of the numbers that are evenly divided by c from the range a, b inclusive.
 
 
 [Examples]
@@ -52,5 +53,51 @@ Finds the remainder or signed remainder after the division of one number by anot
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def evenlyDivisible(a, b, c):
+    # Declaring range.
+    range1 = range(a, b + 1)
+
+    # Declaring while loop.
+    i = 0
+    count = 0
+    try:
+        while True:
+            if range1[i] % c == 0:
+                count += 1
+            i += 1
+    except IndexError:
+        pass
+    return count
+
+
+print(evenlyDivisible(1, 10, 2))
+
+
+# def evenlyDivisible1(a, b, c):
+#
+# Declaring range.
+# tempFunc = lambda a, b, c: return if ___ % 2 == 0 else pass
+# output = [if x % c == 0 for x in range(a, b+1, c)]
+# return output
+#
+# Lambda and list comprehension can make me solve this in one line.
+# I know.
+
+# print(evenlyDivisible1(1, 10, 2))
+
+
+def evenlyDivisible2(a, b, c):
+    range1 = range(a, b + 1)
+
+    count = 0
+    for num in range1:
+        if num % c == 0:
+            count += 1
+    return count
+
+
+print(evenlyDivisible2(1, 10, 2))

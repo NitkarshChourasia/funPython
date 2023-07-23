@@ -94,5 +94,75 @@ This is a python program to print all the numbers which are divisible by 3 and 5
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+# Method 1, also devise another methods to them so.
+
+# def fizzBuzz(n: int) -> str:  # Should use only int or float too? I think only int is fine.
+#     if isinstance(n, int):
+#         match n:
+#             case n % 3 == 0 and n % 5 == 0:
+#                 return "FizzBuzz"
+#             case n % 3 == 0:
+#                 return "Fizz"
+#             case n % 5 == 0:
+#                 return "Buzz"
+#             case _:
+#                 return str(n)
+#     elif not isinstance(n, int):
+#         return "Invalid input type, Integers only allowed."
+#
+#
+# print(fizzBuzz(3))  # ➞ "Fizz"
+#
+# print(fizzBuzz(5))  # ➞ "Buzz"
+#
+# print(fizzBuzz(15))  # ➞ "FizzBuzz"
+#
+# print(fizzBuzz(4))  # ➞ "4"
+
+
+def fizzBuzz(n: int) -> str:
+    if isinstance(n, int):
+        if n % 3 == 0 and n % 5 == 0:
+            return "FizzBuzz"
+        elif n % 3 == 0:
+            return "Fizz"
+        elif n % 5 == 0:
+            return "Buzz"
+        else:
+            return str(n)
+    else:
+        return "Invalid input type, Integers only allowed."
+
+
+print(fizzBuzz(3))  # Output: Fizz
+print(fizzBuzz(5))  # Output: Buzz
+print(fizzBuzz(15))  # Output: FizzBuzz
+print(fizzBuzz(4))  # Output: 4
+
+
+def fizzBuzz(n: int) -> str:
+    if isinstance(n, int):
+        match n:
+            case n % 3 == 0 and n % 5 == 0:
+                return "FizzBuzz"
+            case n % 3 == 0:
+                return "Fizz"
+            case n % 5 == 0:
+                return "Buzz"
+            case _:
+                return str(n)
+    else:
+        return "Invalid input type. Integers only allowed."
+
+
+print(fizzBuzz(3))  # Output: Fizz
+print(fizzBuzz(5))  # Output: Buzz
+print(fizzBuzz(15))  # Output: FizzBuzz
+print(fizzBuzz(4))  # Output: 4
+
+# How match case functions, see that please.

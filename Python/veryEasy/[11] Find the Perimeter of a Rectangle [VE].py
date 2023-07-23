@@ -64,5 +64,27 @@ In this video, you will learn how to solve these problems in Python: 0:11 Equali
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def find_perimeter(length, width):
+    try:
+        assert length and width > 0
+        return (length + width) * 2
+    except AssertionError:
+        return "Positive lengths only."
+
+
+print(find_perimeter(6, 7))  # ➞ 26
+
+print(find_perimeter(20, 10))  # ➞ 60
+
+print(find_perimeter(2, 9))  # ➞ 22
+
+print(find_perimeter(0, 0))
+print(find_perimeter(1, 0))
+print(find_perimeter(0, 1))
+print(find_perimeter(1, 1))
+
+# complete.

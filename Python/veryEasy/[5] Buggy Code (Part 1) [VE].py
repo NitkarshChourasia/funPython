@@ -1,7 +1,8 @@
 """
 ####  Buggy Code (Part 1)  ####
 
-Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+Fix the code in the code tab to pass this challenge (only syntax errors).
+Look at the examples below to get an idea of what the function should do.
 
 
 [Examples]
@@ -63,5 +64,18 @@ Print the sum of series 13 + 23 + 33 + 43 + …….+ n3 till n-th term.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def cubes(n):
+    return pow(n, 3)
+
+
+print(cubes(3))  # ➞ 27
+
+print(cubes(5))  # ➞ 125
+
+print(cubes(10))  # ➞ 1000
+
+# complete.

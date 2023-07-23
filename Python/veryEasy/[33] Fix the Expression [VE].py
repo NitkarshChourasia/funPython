@@ -1,7 +1,8 @@
 """
 ####  Fix the Expression  ####
 
-Fix the code in the Code tab so the function returns true if and only if x is equal to 7. Try to debug code and pass all the tests.
+Fix the code in the Code tab so the function returns true if and only if x is equal to 7.
+Try to debug code and pass all the tests.
 
 
 [Examples]
@@ -54,5 +55,19 @@ if-else statement in a single line.
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+
+def isSeven(x):
+    return x == 7
+
+
+print(isSeven(4))  # ➞ False
+
+print(isSeven(9))  # ➞ False
+
+print(isSeven(7))  # ➞ True
+
+# complete.

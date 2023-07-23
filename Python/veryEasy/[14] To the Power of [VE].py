@@ -55,5 +55,22 @@ In this video, you will learn how to solve these problems: 0:22 Return a String 
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def calculate_exponent(base: int, power: int) -> int:
+    try:
+        assert base and power > 0
+        return pow(base, power)
+    except AssertionError:
+        return "Please have positive inputs only."
+
+
+print(calculate_exponent(5, 5))  # ➞ 3125
+
+print(calculate_exponent(10, 10))  # ➞ 10000000000
+
+print(calculate_exponent(3, 3))  # ➞ 27
+
+# complete.

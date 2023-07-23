@@ -1,7 +1,8 @@
 """
 ####  Number Split  ####
 
-Given a number, return a list containing the two halves of the number. If the number is odd, make the rightmost number higher.
+Given a number, return a list containing the two halves of the number.
+If the number is odd, make the rightmost number higher.
 
 
 [Examples]
@@ -45,5 +46,34 @@ Rounds a number DOWN to the nearest integer, if necessary, and returns the resul
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def numberSplit(n):
+    nSplit = n // 2
+    divModder = divmod(n, 2)
+    print("This is custom div mod")
+    div1 = n // 2
+    mod1 = n % 2
+    print([div1, mod1])
+
+    return nSplit, divModder
+
+
+print("Positive ranges.")
+print(numberSplit(4))  # ➞ [2, 2]
+
+print(numberSplit(10))  # ➞ [5, 5]
+
+print(numberSplit(11))  # ➞ [5, 6]
+
+print(numberSplit(9))  # -> [4, 5]
+
+# Try out with negative numbers, too.
+# print("Negative ranges.")
+# print(numberSplit(-9))  # ➞ [-5, -4]
+
+
+# Instead of relying on functions and methods, inbuilt.
+# Try to design them yourself.

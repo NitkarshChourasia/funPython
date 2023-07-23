@@ -64,5 +64,18 @@ When we see a ‘%’ the first thing that comes to our mind is the “Percentag
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def divisibleByFive(n):
+    return n % 5 == 0
+
+
+print(divisibleByFive(5))  # ➞ True
+
+print(divisibleByFive(-55))  # ➞ True
+
+print(divisibleByFive(37))  # ➞ False
+
+# complete.

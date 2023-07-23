@@ -1,7 +1,8 @@
 """
 ####  Same Parity?  ####
 
-Create a function that takes a number as input and returns True if the sum of its digits has the same parity as the entire number. Otherwise, return False.
+Create a function that takes a number as input and returns True
+if the sum of its digits has the same parity as the entire number. Otherwise, return False.
 
 
 [Examples]
@@ -22,7 +23,9 @@ _____
 [Notes]
 
 ___
-*) Parity is whether a number is even or odd. If the sum of the digits is even and the number itself is even, return True. The same goes if the number is odd and so is the sum of its digits.
+*) Parity is whether a number is even or odd.
+If the sum of the digits is even and the number itself is even, return True.
+The same goes if the number is odd and so is the sum of its digits.
 *) Single digits will obviously have the same parities (see example #3).
 ___
 
@@ -56,5 +59,50 @@ Adds the items of an iterable and returns the sum. In this tutorial, we will lea
 _________
 
 """
-#Your code should go here:
 
+
+# Your code should go here:
+
+def parityAnalysis(n):
+    # Check only numbers.
+    if isinstance(n, (int, float)):
+
+        # Split
+        digits = [int(x) for x in str(n)]
+
+        # Sum
+        sum = 0
+        for ele in digits:
+            sum += ele
+
+        # Bool
+        nParity = n % 2 == 0
+        # digSumParity = True
+        digSumParity = sum % 2 == 0
+
+        # Output Bool.
+        if nParity == digSumParity:
+            return True
+        elif nParity != digSumParity:
+            return False
+
+    # If not number then statement.
+    elif not isinstance(n, (int, float)):
+        return "Only numbers allowed."
+
+
+print(parityAnalysis(243))  # ➞ True
+# 243 is odd and so is 9 (2 + 4 + 3)
+
+print(parityAnalysis(12))  # ➞ False
+# 12 is even but 3 is odd (1 + 2)
+
+print(parityAnalysis(3))  # ➞ True
+# 3 is odd and 3 is odd and 3 is odd (3)
+
+print(parityAnalysis("a243a"))
+print(parityAnalysis("243"))
+
+# check the first resource.
+
+# inc.
