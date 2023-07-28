@@ -100,7 +100,7 @@ while "next" in response.links:
 repository_list = [repo["name"] for repo in repositories]
 
 # Write the repository list to a text file
-with open("repository_lst.txt", "w") as file:
+with open("repository_lst_final.txt", "w") as file:
     file.write("\n".join(repository_list))
 
 print("Repository list saved to repository_list.txt")

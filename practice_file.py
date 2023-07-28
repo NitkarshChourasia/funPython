@@ -344,3 +344,7 @@ def attribute_method():
     for key, value in person_dict.items():
         attribute_value = getattr(Person, value)
         print(f"{key}: {attribute_value}")
+
+# logger with dates to track the repositories and such if anything is there.
+# Like the output will be generated no doubt in that.
+# But there should be file as .log file which should be generated.

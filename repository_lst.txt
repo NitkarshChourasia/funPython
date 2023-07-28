@@ -1,3 +1,6 @@
+can_we_find_love...
+Python-Programs
+python_mastery_code_snippets
 originalEdabitScraped
 django-playlist
 organiserRepository
@@ -53,7 +56,6 @@ mediumBlogsComplete
 HackathonIITBombay
 Google-Image-Downloader-Python
 webDev
-Contribute-to-this-project
 20-python-projects
 python-projects-for-beginners
 KAVI-voice-Assitant
@@ -94,5 +96,3 @@ Manjaro_Considerations
 ProVim
 Hello_World
 Vashesh08
-
-
