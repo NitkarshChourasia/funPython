@@ -71,98 +71,43 @@ _________
 # Your code should go here:
 
 # I want to apply some sorting algorithm to it.
-def ascDesNone(lst1, sortType):
+def ascDesNone(lst1:list, sortType:str):
     # For checking if the list contains only numbers or not?
     for i in lst1:
-        if isinstance(i, (int, float)):
-            pass
-        elif not isinstance(i, (int, float)):
+        if not isinstance(i, (int, float)):
             return "List with only numbers are allowed."
-    lowerCasedType = sortType.lower()
-    if lowerCasedType == "asc":
-        i = 0
-        j = 0
-        while i < len(lst1):
-            while j < len(lst1):
-                if lst1[i] < lst1[j]:
-                    # j += 1
-                    pass
-                elif lst1[j] < lst1[i]:
-                    temp = lst1[j]
-                    lst1[j] = lst1[i]
-                    lst1[i] = temp
-                    # j += 1
-                elif lst1[i] == lst1[j]:
-                    temp = lst1[i + 1]
-                    lst1[i + 1] = lst1[j]
-                    lst1[j] = temp
-                    # j += 1
 
-                j += 1
-                print("printing I: {0}".format(i))
-                print("printing J: {0}".format(j))
-                print("Iterative lst1: {0}".format(lst1))
+    match sortType.lower():
 
-            i += 1
-            j = i + 1  # Need to remove these all print statements which are kind of maybe, unnecessary.
-            # Inculcate a habit of using debugger instead of print statements, maybe.
-            # Next tiem use debugger and see what happens.
-            print("Next iteration.")
-            print("printing I: {0}".format(i))
-        return "Final list: {0}".format(lst1)
-    elif lowerCasedType == "des":
-        i = 0
-        j = 0
-        while i < len(lst1):
-            while j < len(lst1):
-                if lst1[i] > lst1[j]:
-                    # j += 1
-                    pass
-                elif lst1[j] > lst1[i]:
-                    temp = lst1[i]
-                    lst1[i] = lst1[j]
-                    lst1[j] = temp
-                    # j += 1
-                elif lst1[i] == lst1[j]:
-                    temp = lst1[i + 1]
-                    lst1[i + 1] = lst1[j]
-                    lst1[j] = temp
-                    # j += 1
-                j += 1
-            i += 1
-            j = i + 1  # One step ahead always.
-        return "Final list: {0}".format(lst1)
+        case "asc":
+            lst1.sort()
+        
+        case "des":
+            lst1.sort(reverse=True)
+        
+        case _:
+            return lst1
 
+    return f"Final list: {lst1}"
     # Let it be whatever it is.
     # Can you do on paper? It would be good, if you did it on paper.
 
-
-# Only Asc Testing.
-print("Ascendings.")
+print("\nAscendings.\n")
 print(ascDesNone([4, 3, 2, 1], "Asc"))  # ➞ [1, 2, 3, 4]
-
-print(ascDesNone([9, 4, 3, 2, 1, 3], "Asc"))  # Convert the sort type to lower/higher, preferred lower.
-
-print(ascDesNone([9, 4, 3, 2, 1], "Asc"))  # let's see.
-
 print(ascDesNone([7, 8, 11, 66], "Asc"))  # ➞ [66, 11, 8, 7]
-
+print(ascDesNone([9, 4, 3, 2, 1], "Asc"))  # let's see.
+print(ascDesNone([9, 4, 3, 2, 1, 3], "Asc"))  # Convert the sort type to lower/higher, preferred lower.
 print(ascDesNone([192, 0, -100, -1, 7, 8, 1661, 66], "Asc"))  # ➞ [66, 11, 8, 7]
 
-# Only Des Testing.
-print("Descendings.")
+print("\nDescendings.\n")
 print(ascDesNone([4, 3, 2, 1], "Des"))  # ➞ [1, 2, 3, 4]
-
-print(ascDesNone([9, 4, 3, 2, 1, 3], "Des"))  # Convert the sort type to lower/higher, preferred lower.
-
 print(ascDesNone([9, 4, 3, 2, 1], "Des"))  # let's see.
-
 print(ascDesNone([7, 8, 11, 66], "Des"))  # ➞ [66, 11, 8, 7]
-
+print(ascDesNone([9, 4, 3, 2, 1, 3], "Des"))  # Convert the sort type to lower/higher, preferred lower.
 print(ascDesNone([192, 0, -100, -1, 7, 8, 1661, 66], "Des"))  # ➞ [66, 11, 8, 7]
 
-# print(ascDesNone([1, 2, 3, 4], "None"))  # ➞ [1, 2, 3, 4]
-
+print("\nSame.\n")
+print(ascDesNone([1, 2, 3, 4], "None"))  # ➞ [1, 2, 3, 4]
 
 # some corrections are left to be done.
 # but these is almost done.

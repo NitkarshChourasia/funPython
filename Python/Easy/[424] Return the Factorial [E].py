@@ -84,8 +84,8 @@ def factorial1(n):
             return output
         elif not isinstance(n, int):
             return "Integer input is only valid."
-    elif n < 0:
-        return "Input cannot be less then 0."
+    
+    return "Input cannot be less then 0."
 
 
 print(factorial1(0))

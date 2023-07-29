@@ -45,20 +45,21 @@ In this tutorial, you'll learn everything about Python dictionaries; how they ar
 _________
 
 """
-import math
 
 
 # Your code should go here:
 
 def damage(perAttackDamage, speedAttackPerSec, timePeriod):
     # print("Valid time periods: second, minute, hour")
+    
+    damage = perAttackDamage * speedAttackPerSec
     match timePeriod:
         case "second":
-            return perAttackDamage * speedAttackPerSec * 1
+            return damage * 1
         case "minute":
-            return perAttackDamage * speedAttackPerSec * 60
+            return damage * 60
         case "hour":
-            return perAttackDamage * speedAttackPerSec * int(math.pow(60, 2))
+            return damage * 60 * 60
         case _:
             return "Please enter valid timePeriod."
     # Total Damage in all it returns.

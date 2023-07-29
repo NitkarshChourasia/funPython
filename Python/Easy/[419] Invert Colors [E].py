@@ -60,11 +60,11 @@ _________
 # Your code should go here:
 
 def colorInvert(tuple1):
-    invertRed = 255 - tuple1[0]
-    invertGreen = 255 - tuple1[1]
-    invertBlue = 255 - tuple1[2]
-    # output = tuple(invertRed, invertGreen, invertBlue) # Find out what is this error.
-    output = (invertRed, invertGreen, invertBlue)
+    output = (
+        255 - tuple1[0], 
+        255 - tuple1[1], 
+        255 - tuple1[2]
+    )
     print(output)
     return type(output)
 

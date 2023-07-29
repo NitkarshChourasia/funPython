@@ -85,7 +85,7 @@ _________
 def relationToLuke(relationInput):
     lowerCaseInput = relationInput.lower()
     dict1 = {"darth vader": "father", "leia": "sister", "han": "brother in law"}
-    return "Luke, I am your {}.".format(dict1[lowerCaseInput])
+    return f"Luke, I am your {dict1[lowerCaseInput]}."
 
 
 print(relationToLuke("Han"))  # ➞ "Luke, I am your brother in law."

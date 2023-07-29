@@ -54,8 +54,15 @@ _________
 
 # Your code should go here:
 
-def solveForExp(base, ):
-    pass
+def solveForExp(a, x):
+    
+    # We store (a) then (a*a) then (a*a*a) then (a*..) etc. until we reach result = (x) 
+    # if result equal to (x). Number of (a) we have added so far, is our solution 
+    result = a
+    while a ** result != x:
+        result += 1
+
+    return result
 
 
 # Yeh toh solve ho jayega.

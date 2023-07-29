@@ -71,14 +71,13 @@ def isCurzon(n):
     if isinstance(n, int):
         powerForm = pow(2, n) + 1
         multiForm = 2 * n + 1
-        print("{}, powerform".format(powerForm))
-        print("{}, multiform".format(multiForm))
+        print(f"{powerForm}, powerform")
+        print(f"{multiForm}, multiform")
         if powerForm % multiForm == 0:  # Just a show that it can also be used.
             return True
-        elif powerForm % multiForm != 0:
-            return False
+        return False
         # return powerForm % multiForm == 0
-    elif not isinstance(n, int):
+    else:
         return "Integer input only valid."
 
 

@@ -56,13 +56,10 @@ def endCorona(recovers, new, active):
         while totalCases > 0:
             totalCases += new
             totalCases -= recovers
-            print(totalCases, end='\n')
             days += 1
         return round(days)
-    elif new > recovers:
+    else:
         return "Invalid according to the restrictions."
-    elif new == recovers:
-        return "It will be constant, so invalid according to the restrictions."
 
 
 # What is ceil?
@@ -73,7 +70,7 @@ def endCorona(recovers, new, active):
 print(endCorona(4000, 2000, 77000))  # ➞ 39
 
 print(endCorona(3000, 2000, 50699))  # ➞ 51
-#
+
 print(endCorona(30000, 25000, 390205))  # ➞ 79
 
 # inc.

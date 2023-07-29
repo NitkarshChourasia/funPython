@@ -68,18 +68,11 @@ _________
 # Your code should go here:
 
 def seriesResistance(lst1):
-    i = 0
-    sum = 0
-    try:
-        while True:  # Avoid true at all possible.
-            sum += lst1[i]
-            i += 1
-    except IndexError:  # Is there any good way to break the while loop? Ask chatgpt about this, if possible.
-        pass
-    if sum > 0 and sum <= 1:  # Can current be negative? This is a theortical rightenouness.
-        return "{0} ohm".format(sum)
-    elif sum > 1:
-        return "{0} ohms.".format(sum)
+    total = sum(lst1)
+
+    if total <= 1:
+        return f"{total} ohm"
+    return f"{total} ohms"
 
 
 print(seriesResistance([1, 5, 6, 3]))  # ➞ "15 ohms"
