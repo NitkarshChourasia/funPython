@@ -82,6 +82,7 @@ def ascDesNone(lst1, sortType):
     if lowerCasedType == "asc":
         i = 0
         j = 0
+    ## Some sort of bubble sort it is.
         while i < len(lst1):
             while j < len(lst1):
                 if lst1[i] < lst1[j]:
