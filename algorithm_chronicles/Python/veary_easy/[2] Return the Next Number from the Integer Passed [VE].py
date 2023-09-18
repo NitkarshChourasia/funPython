@@ -54,5 +54,47 @@ How do you perform a Python increment operation? If you're coming from a languag
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+from numbers import Number
+from typing import Any
+
+
+# Meta data.
+__author__ = "Nitkarsh Chourasia"
+__version__ = "1.0.0"
+__date__ = "05-09-2023"
+__difficulty__ = "Very Easy"
+
+
+def add_1(num: Number) -> Number:  # This any type exists or what?
+    """
+    Returns the next number(n+1)from the integer passed.
+    """
+    if isinstance(num, Number):
+        return num + 1
+    else:
+        raise TypeError(f"Expected a number, got {type(num)} instead.") # Will it be proper to implement this, halting program?
+
+
+if __name__ == "__main__":
+    # Printing Meta data.
+    print(f"Author: {__author__}")
+    print(f"Version: {__version__}")
+    print(f"Difficulty: {__difficulty__}")
+    print(f"Function Documentation: {add_1.__doc__}")
+    print(f"Date: {__date__}")
+
+    print()  # Black line for better readability.
+
+    # Test cases.
+    print(add_1(0))
+    print(add_1(9))
+    print(add_1(-3))
+
+    # Extras
+    # print(add_1("256"))
+    # print(add_1("abcd"))
+
+
+# See, whether raising a error is good or not.

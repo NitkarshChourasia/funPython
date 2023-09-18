@@ -58,5 +58,21 @@ Video tutorial of this challenge.
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+import meta_module
+
+
+metadata = meta_module.MetaData()
+
+
+print(metadata.get_author())  # So, it means self has to be declared, right?
+# Yes, it means self has to be declared.
+# Indeed.
+
+print(meta_module.MetaData2.get_author())
+# So using print, returns None everywhere. While printing.
+
+print(meta_module.MetaData2.get_version())
+
+print(meta_module.MetaData2.get_date())

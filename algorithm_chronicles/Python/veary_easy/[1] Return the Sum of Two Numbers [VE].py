@@ -69,5 +69,40 @@ Are used to compare the objects, not if they are equal, but if they are actually
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+# Necessary module imports.
+from numbers import Number
+from typing import Any
+
+# Meta data.
+__author__ = "Nitkarsh Chourasia"
+__version__ = "1.0.0"
+__date__ = "05-09-2023"
+__difficulty__ = "Very Easy"
+
+
+def addition(num1: Any, num2: Any) -> str:
+    """Returns the sum of two numbers."""
+
+    if isinstance(num1, Number) and isinstance(num2, Number):
+        return f"{num1} + {num2} = {num1 + num2}"
+    else:
+        return "Invalid input, type."
+
+
+if __name__ == "__main__":
+    # Printing meta data.
+    print(f"Author: {__author__}")
+    print(f"Version: {__version__}")
+    print(f"Difficulty: {__difficulty__}")
+    print(f"Function Documentation: {addition.__doc__}")
+    print(f"Date: {__date__}")
+
+    print()  # Black line for better readability.
+
+    # Test cases.
+    print(addition(3, 2))
+    print(addition(-3, -6))
+    print(addition(7, 3))
+    print(addition(3.5, 2.5))

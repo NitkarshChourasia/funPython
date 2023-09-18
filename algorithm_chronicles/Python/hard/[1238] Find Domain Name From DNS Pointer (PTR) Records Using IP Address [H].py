@@ -64,3 +64,17 @@ _________
 """
 #Your code should go here:
 
+def get_domain(ip_address: str) -> str:
+    """Get domain name from DNS pointer (PTR) records using IP address."""
+    import socket
+
+    return socket.gethostbyaddr(ip_address)[0]
+
+    
+if __name__ == "__main__":
+
+    print(get_domain("8.8.8.8"))
+    print(get_domain("8.8.4.4"))
+
+    print(type(get_domain("8.8.8.8")))
+    # Output as a string.

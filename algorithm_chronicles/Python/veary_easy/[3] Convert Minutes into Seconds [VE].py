@@ -59,5 +59,59 @@ Convert any number of minutes into the appropriate number of seconds.
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+## I am not clear about typing and type hinting.
+## I am not clear about the difference between type hinting and type checking.
+
+
+# Meta data.
+__author__ = "Nitkarsh Chourasia"
+__version__ = "1.0.0"
+__date__ = "05-09-2023"
+__difficulty__ = "Very Easy"
+
+
+def convert(minutes: int) -> int:
+    """Convert minutes into seconds.
+
+    Args:
+        minutes (int): Minutes to be converted into seconds.
+
+    Returns:
+        int: Seconds converted from minutes.
+
+    Examples:
+        >>> convert(5)
+        300
+        >>> convert(3)
+        180
+        >>> convert(2)
+        120
+    """
+    # return f"{minutes} mins is equal to {minutes * 60} secs."
+    return f"{minutes} mins = {minutes * 60} secs."  # See, what is the better way of writing the mins and secs, respectively.
+
+
+# Find the meaning of the meta data. Respectively.
+def meta_data() -> None:
+    """Prints meta data."""
+
+    # Printing Meta data.
+    print(f"Author: {__author__}")
+    print(f"Version: {__version__}")
+    print(f"Difficulty: {__difficulty__}")
+    print(f"Function Documentation: {convert.__doc__}")
+    print(f"Date: {__date__}")
+
+
+if __name__ == "__main__":
+    # Printing Meta data.
+    meta_data()
+
+    print()  # Black line for better readability.
+
+    # Test cases.
+    print(convert(5))
+    print(convert(3))
+    print(convert(2))

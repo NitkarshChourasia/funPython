@@ -85,5 +85,83 @@ Converts all lowercase characters in a string into uppercase characters and retu
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+
+char_to_dots = {
+    "A": ".-",
+    "B": "-...",
+    "C": "-.-.",
+    "D": "-..",
+    "E": ".",
+    "F": "..-.",
+    "G": "--.",
+    "H": "....",
+    "I": "..",
+    "J": ".---",
+    "K": "-.-",
+    "L": ".-..",
+    "M": "--",
+    "N": "-.",
+    "O": "---",
+    "P": ".--.",
+    "Q": "--.-",
+    "R": ".-.",
+    "S": "...",
+    "T": "-",
+    "U": "..-",
+    "V": "...-",
+    "W": ".--",
+    "X": "-..-",
+    "Y": "-.--",
+    "Z": "--..",
+    " ": " ",  # There is space, for space only. But I edit it to have / as per original standards.
+    "0": "-----",
+    "1": ".----",
+    "2": "..---",
+    "3": "...--",
+    "4": "....-",
+    "5": ".....",
+    "6": "-....",
+    "7": "--...",
+    "8": "---..",
+    "9": "----.",
+    "&": ".-...",
+    "'": ".----.",
+    "@": ".--.-.",
+    ")": "-.--.-",
+    "(": "-.--.",
+    ":": "---...",
+    ",": "--..--",
+    "=": "-...-",
+    "!": "-.-.--",
+    ".": ".-.-.-",
+    "-": "-....-",
+    "+": ".-.-.",
+    '"': ".-..-.",
+    "?": "..--..",
+    "/": "-..-.",
+}
+
+
+def encode_morse(input_msg: str) -> str:
+    message = input_msg.upper()
+    for char in message:
+        if char in char_to_dots:
+            message = message.replace(char, char_to_dots[char])
+        elif char not in char_to_dots:
+            message = message.replace(char, "x")
+    # message = message.split(" ")
+    # message = list(message)
+    return message
+
+
+# It doesn't matter whether upper() or lower(), the same morse is used.
+# Also, space is used after every character.
+# Also, there is no morse code for space but space.
+# But, in reality there is / used for space between words or anything.
+# But between every character's morse code, there is a space.
+if __name__ == "__main__":
+    print(encode_morse("EDABBIT CHALLENGE"))
+    print(encode_morse("HELP ME !"))
+    print(encode_morse("Nitkarsh Chourasia"))

@@ -65,3 +65,45 @@ _________
 """
 #Your code should go here:
 
+from numbers import Number
+
+
+# Meta data.
+__author__ = "Nitkarsh Chourasia"
+__version__ = "1.0.0"
+__date__ = "05-09-2023"
+__difficulty__ = "Very Easy"
+
+
+def cubes(x):
+    """Returns the cube of a number."""
+
+    if isinstance(x, Number):
+        output = x ** 3
+        result = f"{x} cubed is {output}."
+        return result
+    return "Please enter a valid number."
+
+def meta_data() -> None:
+    """Prints meta data."""
+
+    # Printing Meta data.
+    print(f"Author: {__author__}")
+    print(f"Version: {__version__}")
+    print(f"Difficulty: {__difficulty__}")
+    print(f"Function Documentation: {tri_area.__doc__}")
+    print(f"Date: {__date__}")
+
+
+    # Can cube be of a negative number?
+    # Can cube be of a float number?
+    # Can cube be of a complex number?
+    # Can cube be of a string?
+    # Can cube be of a boolean?
+    # Can cube be of a list?
+
+
+if __name__ == "__main__":
+    
+    # Printing Meta data.
+    meta_data()

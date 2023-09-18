@@ -78,5 +78,37 @@ Evaluates the specified expression, if the expression is a legal Python statemen
 _________
 
 """
-#Your code should go here:
+# Your code should go here:
 
+from ast import literal_eval
+
+
+def arithmetic_operation(str_eq: str) -> str:
+    eq_list = str_eq.split()
+    num1, operator, num2 = eq_list
+    num1 = literal_eval(num1)
+    num2 = literal_eval(num2)
+    match operator:
+        case "+":
+            return num1 + num2
+        case "-":
+            return num1 - num2
+        case "*":
+            return num1 * num2
+        case "/":
+            if num2 == 0:
+                return -1
+            return num1 / num2
+        case "//":
+            if num2 == 0:
+                return -1
+            return num1 // num2
+        case _:
+            return "Invalid operator."
+
+
+if __name__ == "__main__":
+    print(arithmetic_operation("12 + 12"))
+    print(arithmetic_operation("12 - 12"))
+    print(arithmetic_operation("12 * 12"))
+    print(arithmetic_operation("12 // 0"))

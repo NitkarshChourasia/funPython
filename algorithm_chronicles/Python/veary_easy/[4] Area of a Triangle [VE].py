@@ -62,3 +62,38 @@ _________
 """
 #Your code should go here:
 
+import typing
+from numbers import Number
+
+
+# Meta data.
+__author__ = "Nitkarsh Chourasia"
+__version__ = "1.0.0"
+__date__ = "05-09-2023"
+__difficulty__ = "Very Easy"
+
+def tri_area(base: typing.Union[int, float], height: typing.Union[int, float]) -> typing.Union[int, float]:
+
+    """Returns the area of a triangle."""
+
+    if isinstance(base, Number) and isinstance(height, Number):
+        result = f"Area for the given triangle: {(base * height) / 2}"
+        return result
+
+    return "Please enter a valid number."
+
+def meta_data() -> None:
+    """Prints meta data."""
+
+    # Printing Meta data.
+    print(f"Author: {__author__}")
+    print(f"Version: {__version__}")
+    print(f"Difficulty: {__difficulty__}")
+    print(f"Function Documentation: {tri_area.__doc__}")
+    print(f"Date: {__date__}")
+
+
+if __name__ == "__main__":
+
+    # Printing Meta data.
+    meta_data()

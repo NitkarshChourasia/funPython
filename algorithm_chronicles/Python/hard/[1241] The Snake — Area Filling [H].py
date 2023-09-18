@@ -50,4 +50,12 @@ _________
 
 """
 #Your code should go here:
+import math
 
+def snakefill(n):
+    return int(math.log(n**2, 2))
+
+
+if __name__ == "__main__":
+    print(snakefill(3))
+    print(snakefill(6))
