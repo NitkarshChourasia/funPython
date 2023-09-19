@@ -10,3 +10,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+# Packaging it in tkinter would be good.

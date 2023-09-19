@@ -56,3 +56,6 @@ Remember to customize the pre-commit script according to the specific requiremen
 and the checks you want to enforce. You can include additional checks such as unit tests, 
 documentation checks, or any other coding standards you follow in your projects.
 ```
+
+
+# What is this precommit hooks?

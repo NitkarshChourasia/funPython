@@ -6,3 +6,8 @@ def hello():
     return 0
     
 print(hello())
+
+# So, how to make a function run in the background?
+# So, how to run the python program run in the background?
+
+# Do a proper documentation of this. Package it in a folder and uplaod it to the opensource packaged as daemon stackOverflow.
