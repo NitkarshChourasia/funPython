@@ -109,4 +109,6 @@ AUTHOR.open_github_profile()
 
 
 # So, total 4 refactoring has been to the program.
-# Review 1 (Refactoring 1): Added a class to encapsulate the data. 
+# Review 1 (Refactor 1): Added a class to encapsulate the data. 
+
+# Review 2 (Refactor 2): Added, docstrings to the class and the method.
