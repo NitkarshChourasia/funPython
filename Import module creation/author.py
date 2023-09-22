@@ -109,8 +109,8 @@ AUTHOR.open_github_profile()
 
 
 # So, total 4 refactoring has been to the program.
-# Review 1 (Refactor 1): Added a class to encapsulate the data. 
+# Refactor 1: Added a class to encapsulate the data. 
 
-# Review 2 (Refactor 2): Added, docstrings to the class and the method.
+# Refactor 2: Added, docstrings to the class and the method.
 
-# Review 3 (Refactor 3): Made the author instance a constant, as it is not going to change.
+# Refactor 3: Made the author instance a constant, as it is not going to change.
