@@ -23,7 +23,6 @@ print(f"Github Username: {AUTHOR.github_username}")
 AUTHOR.open_github_profile()
 
 # Review: Made the author instance a constant, as it is not going to change.
-# Good Right?
 
 # So, total 3 refactoring has been to the program.
 # Refactor 1: Added a class to encapsulate the data. 
@@ -32,4 +31,30 @@ AUTHOR.open_github_profile()
 
 # Refactor 3: Made the author instance a constant, as it is not going to change.
 
+# Feature to implement:
 # Add a default value if not provided after it has been initialized.
+
+# Refactor 4: Added a default value to the constructor.
+
+
+import webbrowser
+
+class Author:
+    def __init__(self, name: str = "Nitkarsh Chourasia", github_profile_url: str = "www.github.com/NitkarshChourasia") -> None:
+        """Initialize the Author class with name and GitHub profile URL."""
+        self.name = name
+        self.github_profile_url = github_profile_url
+        self.github_username = github_profile_url[19:]
+
+    def open_github_profile(self) -> None:
+        """Open the author's GitHub profile in a new tab."""
+        return webbrowser.open_new_tab(self.github_profile_url)
+
+# Create an instance of the Author class
+AUTHOR = Author()
+
+# Access the encapsulated data
+print(f"Author Name: {AUTHOR.name}")
+print(f"Github Profile Link: {AUTHOR.github_profile_url}")
+print(f"Github Username: {AUTHOR.github_username}")
+
