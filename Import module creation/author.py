@@ -112,3 +112,5 @@ AUTHOR.open_github_profile()
 # Review 1 (Refactor 1): Added a class to encapsulate the data. 
 
 # Review 2 (Refactor 2): Added, docstrings to the class and the method.
+
+# Review 3 (Refactor 3): Made the author instance a constant, as it is not going to change.
