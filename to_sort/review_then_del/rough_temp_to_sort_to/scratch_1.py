@@ -21,87 +21,6 @@ class Swapper:
 
         Parameters:
         ----------
-        x : int
-            The first value to be swapped.
-        y : int
-            The second value to be swapped.
-
-        """
-        if not isinstance(x, (float, int)) or not isinstance(y, (float, int)):
-            raise ValueError("Both x and y should be integers.")
-
-        self.x = x
-        self.y = y
-
-    def display_values(self, message):
-        print(f"{message} x: {self.x}, y: {self.y}")
-
-    def swap_tuple_unpacking(self):
-        """
-        Swaps the values of x and y using a tuple unpacking method.
-
-        """
-        self.display_values("Before swapping")
-        self.x, self.y = self.y, self.x
-        self.display_values("After swapping")
-
-    def swap_temp_variable(self):
-        """
-        Swaps the values of x and y using a temporary variable.
-
-        """
-        self.display_values("Before swapping")
-        temp = self.x
-        self.x = self.y
-        self.y = temp
-        self.display_values("After swapping")
-
-    def swap_arithmetic_operations(self):
-        """
-        Swaps the values of x and y using arithmetic operations.
-
-        """
-        self.display_values("Before swapping")
-        self.x = self.x - self.y
-        self.y = self.x + self.y
-        self.x = self.y - self.x
-        self.display_values("After swapping")
-
-
-print("Example 1:")
-swapper1 = Swapper(5, 10)
-swapper1.swap_tuple_unpacking()
-print()
-
-print("Example 2:")
-swapper2 = Swapper(100.23, 200.123)
-swapper2.swap_temp_variable()
-print()
-
-
-class Swapper:
-    """
-    A class to perform swapping of two values.
-
-    Methods:
-    -------
-    swap_tuple_unpacking(self):
-        Swaps the values of x and y using a tuple unpacking method.
-
-    swap_temp_variable(self):
-        Swaps the values of x and y using a temporary variable.
-
-    swap_arithmetic_operations(self):
-        Swaps the values of x and y using arithmetic operations.
-
-    """
-
-    def __init__(self, x, y):
-        """
-        Initialize the Swapper class with two values.
-
-        Parameters:
-        ----------
         x : int or float
             The first value to be swapped.
         y : int or float
@@ -172,22 +91,6 @@ if __name__ == '__main__':
 
 # Now, what is left is to write test function for it.
 
-"""
-To
-generate
-quality and comprehensive
-tests
-for the `Swapper` class, we can use the Python `unittest` module, which provides a test framework for organizing and running test cases.We will create test cases for each method of the `Swapper` class and cover different scenarios, including normal cases and edge cases.
-
-Here
-'s an example of how we can write test functions using the `unittest` module for the `Swapper` class:
-
-```python
-import unittest
-from swapper import Swapper
-
-"""
-
 class TestSwapper(unittest.TestCase):
 
     def test_swap_tuple_unpacking(self):
@@ -249,40 +152,90 @@ class TestSwapper(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
-"""
-```
-
-In
-this
-example, we
-created
-a
-test
-
-
-class `TestSwapper` that subclasses `unittest.TestCase`.Inside this class, we defined test functions for each method of the `Swapper` class.These test functions cover different scenarios, including normal cases, negative values, and floating-point values.
-
-
-By
-running
-this
-test
-script, you
-can
-perform
-quality and quantitative
-testing
-on
-the
-`Swapper`
-
-
-class , ensuring that it behaves correctly in various situations.The `unittest` module will automatically run all the test functions and report the results.
-
-""".
-
+    pass
 
 # ! Is this wrong?
 # ? What should be done about it?
 # TODO: I reall need to do this. Implement this feature.
+
+
+
+class Swapper:
+    """
+    A class to perform swapping of two values.
+
+    Methods:
+    --------
+    swap_tuple_unpacking(self):
+        Swaps the values of x and y using a tuple unpacking method.
+
+    swap_temp_variable(self):
+        Swaps the values of x and y using a temporary variable.
+
+    swap_arithmetic_operation(self):
+        Swaps the values of x and y using arithemetic operation.
+    """
+
+    def __init__(self, x, y):
+        """
+        Initialize the Swapper class with two values.
+
+        Parameters:
+        -----------
+        x : int | float
+            The first value to be swapped.
+        y : int | float
+            The second value to be swapped.
+        """
+        self.x = x
+        self.y = y
+
+    def display_values(self, message):
+        """
+        To print the values using custom message.
+        Especially to print the values with custom message,
+        Before swapping,
+        After swapping.
+        """
+        print(f"{message} x: {self.x}, y: {self.y}")
+
+    def method_tuple_unpacking(self):
+        """
+        Swaps the values of x and y using method_tuple_unpacking.
+
+        """
+        self.display_values("Before swapping")
+        self.x, self.y = self.y, self.x
+        self.display_values("After swapping")
+
+    def method_arithmetic_operation(self):
+        """
+        Swaps the values of x and y using arithmetic operations.
+
+        """
+        self.display_values("Before swapping")
+        self.x = self.x - self.y
+        self.y = self.y + self.x
+        self.x = self.y + self.x  # Confirm this to check it.
+        self.display_values("After swapping")
+
+    def method_temp_variable(self):
+        """
+        Swaps the values of x and y using a temporary variable.
+
+        """
+        self.display_values("Before swapping")
+        temp = self.x
+        self.x = self.y
+        self.y = temp
+        self.display_values("After swapping")
+
+
+print(Swapper.__doc__)
+
+# making a import module to copy the current python file and export iti to a folder in funPy.
+# Why to learn other languages very quickly.
+# Using CHATGPT, and other things.
+
+
+# Correct the above code.

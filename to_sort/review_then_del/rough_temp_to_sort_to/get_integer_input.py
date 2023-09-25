@@ -1,5 +1,8 @@
 
 
+# Learn this trying the user to input again, system.
+# But, do only what asked for.
+# Make it modulized.
 
 import sys
 
@@ -29,3 +32,34 @@ if number is None:
 
 result = sum_of_digits(number)
 print(f"The sum of the digits of {number} is: {result}")
+
+
+# Have to add the type of input to be taken.
+# Str
+# Int
+# Float
+# Number
+# List
+# Tuple
+# Dict
+# Set
+# Bool
+# Complex
+# Bytes
+# Bytearray
+# Range
+# Frozenset
+# Memoryview
+# None
+# Ellipsis
+# NotImplemented
+# Function 
+# Class
+# Object
+# Module
+# Generator
+
+ 
+
+# if __name__ == "__main__":
+    # pass

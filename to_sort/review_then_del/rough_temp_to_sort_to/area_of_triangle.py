@@ -71,3 +71,4 @@ if __name__ == "__main__":
 
 
 # How and Can I use class, somehow to make the function run.
+# Make it, clean.

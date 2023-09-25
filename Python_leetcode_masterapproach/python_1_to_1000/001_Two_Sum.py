@@ -20,12 +20,29 @@ class Solution(object):
         """
 
         num_to_index = {}           # key is number, value is index in nums
+        print(num_to_index)
 
         for i, num in enumerate(nums):
 
-            if target - num in num_to_index:
+            print(f"Target: {target}")
+            print(f"Num: {num}, i: {i}")
+
+            if target - num in num_to_index: # Because can't use the same element twice.
                 return [num_to_index[target - num], i]
+            print(f"1st Num to index: {num_to_index}")
 
             num_to_index[num] = i
-
+            print(f"2nd Num to index: {num_to_index}")
+        print(f"EOF: {num_to_index}")
         return []   # no sum
+
+
+if __name__ == "__main__":
+    # Test cases.
+    # print(Solution().twoSum([2, 7, 11, 15], 9)) # [0, 1]
+    # print(Solution().twoSum([3, 2, 4], 6)) # [1, 2]
+    print(Solution().twoSum([6, 2, 4], 6)) # [1, 2]
+    # print(Solution().twoSum([3, 3], 6)) # [0, 1]
+
+    # # Additional test cases.
+    # print(Solution().twoSum([0, 4, 3, 0], 0)) # [0, 3]

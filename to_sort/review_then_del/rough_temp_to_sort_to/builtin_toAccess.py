@@ -1,5 +1,8 @@
 # What is this?
 
+
+
+# Do, a deep and proper documentation.
 def get_function_info(module):
     function_info = []
     for item in dir(module):

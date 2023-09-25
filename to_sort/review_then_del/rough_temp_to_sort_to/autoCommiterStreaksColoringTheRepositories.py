@@ -10,3 +10,5 @@ for i in range(1,(365*2)+1):
 os.system('git push -u origin main')
 # For to Per day push just put it in 1st for loop, hehe.
 # Should Improve this program, such a lovely program it is..
+# Make it, clean.
+# Readability and documentation, and clean coding is the thing.

@@ -1,86 +1,86 @@
-# def myFunc(x):
-#     a = lambda b: x * b
-#     return a
-#
-#
-# myDoubler = myFunc(2)
-# myTripler = myFunc(3)
-# myQuad = myFunc(4)
-#
-# print(myDoubler(10))
-# print(myTripler(10))
-# print(myQuad(10))
+def myFunc(x):
+    a = lambda b: x * b
+    return a
 
 
-# rangeRevenge = [x for x in range(1, 10 + 1)]
+myDoubler = myFunc(2)
+myTripler = myFunc(3)
+myQuad = myFunc(4)
+
+print(myDoubler(10))
+print(myTripler(10))
+print(myQuad(10))
 
 
-# even1 = list(filter(lambda x: x % 2 == 0, rangeRevenge))
-#
-# odd1 = list(filter(lambda x: x % 2 != 0, rangeRevenge))
-#
-# print(even1)
-# print(odd1)
-#
-# import datetime
-#
-# now = datetime.datetime.now()
-# print(now.time())
-#
-# print(f"The year is: {now.year}")
-# print(f"The month is: {now.month}")
-# print(f"The day is: {now.day}")
-#
-# year = lambda x: x.year
-# month = lambda x: x.month
-# day = lambda x: x.day
-# time = lambda x: x.time()
-#
-# print(year(now))
-# print(month(now))
-# print(day(now))
-# print(time(now))
-# # print(datetime.datetime.now.time())
-# print(now.time())
-#
-# string1 = "123123123"
-# string2 = "123123abc"
-#
-# isNumber = lambda x: str((abs(int(x.replace(".", "", 1))))).isnumeric() if "." in x else str((abs(int(x)))).isnumeric()
-#
-# print(isNumber(string1))
-# print(isNumber(string2))
-# print(isNumber("-12313123"))
-# print(isNumber("-131.1321313"))
-#
-#
-# def longestCommonPrefix(strs):
-#     first = strs[0]
-#     last = strs[-1]
-#     i = 0
-#     while i < len(first) and i < len(last) and first[i] == last[i]:
-#         i += 1
-#     if i > 0:
-#         return strs[0][:i]
-#     else:
-#         return ""
-#
-#
-# print(longestCommonPrefix(["flower", "flow", "flinge"]))
-# list2 = ["aaa", "aa", "aaa"]
-# print(list2)
-# list2.sort()
-# print(list2)
+rangeRevenge = [x for x in range(1, 10 + 1)]
 
-# import requests
-#
-# username = input("Enter the github username:")
-# request = requests.get('https://api.github.com/users/' + username + '/repos')
-# json = request.json()
-# for i in range(0, len(json)):
-#     print("Project Number:", i + 1)
-#     print("Project Name:", json[i]['name'])
-#     print("Project URL:", json[i]['svn_url'], "\n")
+
+even1 = list(filter(lambda x: x % 2 == 0, rangeRevenge))
+
+odd1 = list(filter(lambda x: x % 2 != 0, rangeRevenge))
+
+print(even1)
+print(odd1)
+
+import datetime
+
+now = datetime.datetime.now()
+print(now.time())
+
+print(f"The year is: {now.year}")
+print(f"The month is: {now.month}")
+print(f"The day is: {now.day}")
+
+year = lambda x: x.year
+month = lambda x: x.month
+day = lambda x: x.day
+time = lambda x: x.time()
+
+print(year(now))
+print(month(now))
+print(day(now))
+print(time(now))
+# print(datetime.datetime.now.time())
+print(now.time())
+
+string1 = "123123123"
+string2 = "123123abc"
+
+isNumber = lambda x: str((abs(int(x.replace(".", "", 1))))).isnumeric() if "." in x else str((abs(int(x)))).isnumeric()
+
+print(isNumber(string1))
+print(isNumber(string2))
+print(isNumber("-12313123"))
+print(isNumber("-131.1321313"))
+
+
+def longestCommonPrefix(strs):
+    first = strs[0]
+    last = strs[-1]
+    i = 0
+    while i < len(first) and i < len(last) and first[i] == last[i]:
+        i += 1
+    if i > 0:
+        return strs[0][:i]
+    else:
+        return ""
+
+
+print(longestCommonPrefix(["flower", "flow", "flinge"]))
+list2 = ["aaa", "aa", "aaa"]
+print(list2)
+list2.sort()
+print(list2)
+
+import requests
+
+username = input("Enter the github username:")
+request = requests.get('https://api.github.com/users/' + username + '/repos')
+json = request.json()
+for i in range(0, len(json)):
+    print("Project Number:", i + 1)
+    print("Project Name:", json[i]['name'])
+    print("Project URL:", json[i]['svn_url'], "\n")
 
 
 import requests
@@ -114,7 +114,7 @@ for i in range(0, len(repositories)):
 #### Print that type, too.
 #### Output with much more detail. To the text file.
 
-# Functionalities it should have is load all the repo.
-# Make it listed and detailed.
-# Make it export file.
-# What is this? Sort it out. Please.
+Functionalities it should have is load all the repo.
+Make it listed and detailed.
+Make it export file.
+What is this? Sort it out. Please.
