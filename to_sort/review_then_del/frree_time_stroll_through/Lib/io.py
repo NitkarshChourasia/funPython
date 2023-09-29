@@ -34,27 +34,58 @@ DEFAULT_BUFFER_SIZE
 """
 # New I/O library conforming to PEP 3116.
 
-__author__ = ("Guido van Rossum <guido@python.org>, "
-              "Mike Verdone <mike.verdone@gmail.com>, "
-              "Mark Russell <mark.russell@zen.co.uk>, "
-              "Antoine Pitrou <solipsis@pitrou.net>, "
-              "Amaury Forgeot d'Arc <amauryfa@gmail.com>, "
-              "Benjamin Peterson <benjamin@python.org>")
+__author__ = (
+    "Guido van Rossum <guido@python.org>, "
+    "Mike Verdone <mike.verdone@gmail.com>, "
+    "Mark Russell <mark.russell@zen.co.uk>, "
+    "Antoine Pitrou <solipsis@pitrou.net>, "
+    "Amaury Forgeot d'Arc <amauryfa@gmail.com>, "
+    "Benjamin Peterson <benjamin@python.org>"
+)
 
-__all__ = ["BlockingIOError", "open", "open_code", "IOBase", "RawIOBase",
-           "FileIO", "BytesIO", "StringIO", "BufferedIOBase",
-           "BufferedReader", "BufferedWriter", "BufferedRWPair",
-           "BufferedRandom", "TextIOBase", "TextIOWrapper",
-           "UnsupportedOperation", "SEEK_SET", "SEEK_CUR", "SEEK_END"]
+__all__ = [
+    "BlockingIOError",
+    "open",
+    "open_code",
+    "IOBase",
+    "RawIOBase",
+    "FileIO",
+    "BytesIO",
+    "StringIO",
+    "BufferedIOBase",
+    "BufferedReader",
+    "BufferedWriter",
+    "BufferedRWPair",
+    "BufferedRandom",
+    "TextIOBase",
+    "TextIOWrapper",
+    "UnsupportedOperation",
+    "SEEK_SET",
+    "SEEK_CUR",
+    "SEEK_END",
+]
 
 
 import _io
 import abc
 
-from _io import (DEFAULT_BUFFER_SIZE, BlockingIOError, UnsupportedOperation,
-                 open, open_code, FileIO, BytesIO, StringIO, BufferedReader,
-                 BufferedWriter, BufferedRWPair, BufferedRandom,
-                 IncrementalNewlineDecoder, text_encoding, TextIOWrapper)
+from _io import (
+    DEFAULT_BUFFER_SIZE,
+    BlockingIOError,
+    UnsupportedOperation,
+    open,
+    open_code,
+    FileIO,
+    BytesIO,
+    StringIO,
+    BufferedReader,
+    BufferedWriter,
+    BufferedRWPair,
+    BufferedRandom,
+    IncrementalNewlineDecoder,
+    text_encoding,
+    TextIOWrapper,
+)
 
 
 def __getattr__(name):
@@ -65,8 +96,12 @@ def __getattr__(name):
         # _pyio.open is a Python function. In Python 3.10, _pyio.open() is now
         # a static method, and builtins.open() is now io.open().
         import warnings
-        warnings.warn('OpenWrapper is deprecated, use open instead',
-                      DeprecationWarning, stacklevel=2)
+
+        warnings.warn(
+            "OpenWrapper is deprecated, use open instead",
+            DeprecationWarning,
+            stacklevel=2,
+        )
         global OpenWrapper
         OpenWrapper = open
         return OpenWrapper
@@ -81,25 +116,29 @@ SEEK_SET = 0
 SEEK_CUR = 1
 SEEK_END = 2
 
+
 # Declaring ABCs in C is tricky so we do it here.
 # Method descriptions and default implementations are inherited from the C
 # version however.
 class IOBase(_io._IOBase, metaclass=abc.ABCMeta):
     __doc__ = _io._IOBase.__doc__
 
+
 class RawIOBase(_io._RawIOBase, IOBase):
     __doc__ = _io._RawIOBase.__doc__
+
 
 class BufferedIOBase(_io._BufferedIOBase, IOBase):
     __doc__ = _io._BufferedIOBase.__doc__
 
+
 class TextIOBase(_io._TextIOBase, IOBase):
     __doc__ = _io._TextIOBase.__doc__
 
+
 RawIOBase.register(FileIO)
 
-for klass in (BytesIO, BufferedReader, BufferedWriter, BufferedRandom,
-              BufferedRWPair):
+for klass in (BytesIO, BufferedReader, BufferedWriter, BufferedRandom, BufferedRWPair):
     BufferedIOBase.register(klass)
 
 for klass in (StringIO, TextIOWrapper):

@@ -4,8 +4,14 @@
 
 """A parser of RFC 2822 and MIME email messages."""
 
-__all__ = ['Parser', 'HeaderParser', 'BytesParser', 'BytesHeaderParser',
-           'FeedParser', 'BytesFeedParser']
+__all__ = [
+    "Parser",
+    "HeaderParser",
+    "BytesParser",
+    "BytesHeaderParser",
+    "FeedParser",
+    "BytesFeedParser",
+]
 
 from io import StringIO, TextIOWrapper
 
@@ -67,7 +73,6 @@ class Parser:
         return self.parse(StringIO(text), headersonly=headersonly)
 
 
-
 class HeaderParser(Parser):
     def parse(self, fp, headersonly=True):
         return Parser.parse(self, fp, True)
@@ -75,9 +80,8 @@ class HeaderParser(Parser):
     def parsestr(self, text, headersonly=True):
         return Parser.parsestr(self, text, True)
 
-
-class BytesParser:
 
+class BytesParser:
     def __init__(self, *args, **kw):
         """Parser of binary RFC 2822 and MIME email messages.
 
@@ -104,12 +108,11 @@ class BytesParser:
         parsing after reading the headers or not.  The default is False,
         meaning it parses the entire contents of the file.
         """
-        fp = TextIOWrapper(fp, encoding='ascii', errors='surrogateescape')
+        fp = TextIOWrapper(fp, encoding="ascii", errors="surrogateescape")
         try:
             return self.parser.parse(fp, headersonly)
         finally:
             fp.detach()
-
 
     def parsebytes(self, text, headersonly=False):
         """Create a message structure from a byte string.
@@ -119,7 +122,7 @@ class BytesParser:
         not.  The default is False, meaning it parses the entire contents of
         the file.
         """
-        text = text.decode('ASCII', errors='surrogateescape')
+        text = text.decode("ASCII", errors="surrogateescape")
         return self.parser.parsestr(text, headersonly)
 
 

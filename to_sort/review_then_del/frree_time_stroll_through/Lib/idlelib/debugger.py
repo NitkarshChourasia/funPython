@@ -10,7 +10,6 @@ from idlelib.window import ListedToplevel
 
 
 class Idb(bdb.Bdb):
-
     def __init__(self, gui):
         self.gui = gui  # An instance of Debugger or proxy of remote.
         bdb.Bdb.__init__(self)
@@ -33,12 +32,12 @@ class Idb(bdb.Bdb):
         self.gui.interaction(message, frame, info)
 
     def in_rpc_code(self, frame):
-        if frame.f_code.co_filename.count('rpc.py'):
+        if frame.f_code.co_filename.count("rpc.py"):
             return True
         else:
             prev_frame = frame.f_back
             prev_name = prev_frame.f_code.co_filename
-            if 'idlelib' in prev_name and 'debugger' in prev_name:
+            if "idlelib" in prev_name and "debugger" in prev_name:
                 # catch both idlelib/debugger.py and idlelib/debugger_r.py
                 # on both Posix and Windows
                 return False
@@ -56,7 +55,6 @@ class Idb(bdb.Bdb):
 
 
 class Debugger:
-
     vstack = vsource = vlocals = vglobals = None
 
     def __init__(self, pyshell, idb=None):
@@ -118,7 +116,8 @@ class Debugger:
             self.top.bell()
             return
         if self.stackviewer:
-            self.stackviewer.close(); self.stackviewer = None
+            self.stackviewer.close()
+            self.stackviewer = None
         # Clean up pyshell if user clicked debugger control close widget.
         # (Causes a harmless extra cycle through close_debugger() if user
         # toggled debugger from pyshell Debug menu)
@@ -161,24 +160,28 @@ class Debugger:
         if not self.vstack:
             self.__class__.vstack = BooleanVar(top)
             self.vstack.set(1)
-        self.bstack = Checkbutton(cframe,
-            text="Stack", command=self.show_stack, variable=self.vstack)
+        self.bstack = Checkbutton(
+            cframe, text="Stack", command=self.show_stack, variable=self.vstack
+        )
         self.bstack.grid(row=0, column=0)
         if not self.vsource:
             self.__class__.vsource = BooleanVar(top)
-        self.bsource = Checkbutton(cframe,
-            text="Source", command=self.show_source, variable=self.vsource)
+        self.bsource = Checkbutton(
+            cframe, text="Source", command=self.show_source, variable=self.vsource
+        )
         self.bsource.grid(row=0, column=1)
         if not self.vlocals:
             self.__class__.vlocals = BooleanVar(top)
             self.vlocals.set(1)
-        self.blocals = Checkbutton(cframe,
-            text="Locals", command=self.show_locals, variable=self.vlocals)
+        self.blocals = Checkbutton(
+            cframe, text="Locals", command=self.show_locals, variable=self.vlocals
+        )
         self.blocals.grid(row=1, column=0)
         if not self.vglobals:
             self.__class__.vglobals = BooleanVar(top)
-        self.bglobals = Checkbutton(cframe,
-            text="Globals", command=self.show_globals, variable=self.vglobals)
+        self.bglobals = Checkbutton(
+            cframe, text="Globals", command=self.show_globals, variable=self.vglobals
+        )
         self.bglobals.grid(row=1, column=1)
         #
         self.status = Label(top, anchor="w")
@@ -213,7 +216,7 @@ class Debugger:
                 m1 = "%s" % str(type)
             if value is not None:
                 try:
-                   # TODO redo entire section, tries not needed.
+                    # TODO redo entire section, tries not needed.
                     m1 = f"{m1}: {value}"
                 except:
                     pass
@@ -242,7 +245,7 @@ class Debugger:
         # Tcl's vwait facility, which reenters the event loop until an
         # event handler sets the variable we're waiting on
         self.nesting_level += 1
-        self.root.tk.call('vwait', '::idledebugwait')
+        self.root.tk.call("vwait", "::idledebugwait")
         self.nesting_level -= 1
         #
         for b in self.buttons:
@@ -286,7 +289,7 @@ class Debugger:
         self.abort_loop()
 
     def abort_loop(self):
-        self.root.tk.call('set', '::idledebugwait', '1')
+        self.root.tk.call("set", "::idledebugwait", "1")
 
     stackviewer = None
 
@@ -301,7 +304,7 @@ class Debugger:
             if sv and not self.vstack.get():
                 self.stackviewer = None
                 sv.close()
-            self.fstack['height'] = 1
+            self.fstack["height"] = 1
 
     def show_source(self):
         if self.vsource.get():
@@ -323,7 +326,7 @@ class Debugger:
             if lv:
                 self.localsviewer = None
                 lv.close()
-                self.flocals['height'] = 1
+                self.flocals["height"] = 1
         self.show_variables()
 
     def show_globals(self):
@@ -335,7 +338,7 @@ class Debugger:
             if gv:
                 self.globalsviewer = None
                 gv.close()
-                self.fglobals['height'] = 1
+                self.fglobals["height"] = 1
         self.show_variables()
 
     def show_variables(self, force=0):
@@ -373,8 +376,8 @@ class Debugger:
             except AttributeError:
                 continue
 
-class StackViewer(ScrolledList):
 
+class StackViewer(ScrolledList):
     def __init__(self, master, flist, gui):
         if macosx.isAquaTk():
             # At least on with the stock AquaTk version on OSX 10.4 you'll
@@ -400,13 +403,13 @@ class StackViewer(ScrolledList):
             filename = code.co_filename
             funcname = code.co_name
             import linecache
+
             sourceline = linecache.getline(filename, lineno)
             sourceline = sourceline.strip()
             if funcname in ("?", "", None):
                 item = "%s, line %d: %s" % (modname, lineno, sourceline)
             else:
-                item = "%s.%s(), line %d: %s" % (modname, funcname,
-                                                 lineno, sourceline)
+                item = "%s.%s(), line %d: %s" % (modname, funcname, lineno, sourceline)
             if i == index:
                 item = "> " + item
             self.append(item)
@@ -421,10 +424,8 @@ class StackViewer(ScrolledList):
     def fill_menu(self):
         "override base method"
         menu = self.menu
-        menu.add_command(label="Go to source line",
-                         command=self.goto_source_line)
-        menu.add_command(label="Show stack frame",
-                         command=self.show_stack_frame)
+        menu.add_command(label="Go to source line", command=self.goto_source_line)
+        menu.add_command(label="Show stack frame", command=self.show_stack_frame)
 
     def on_select(self, index):
         "override base method"
@@ -457,15 +458,15 @@ class StackViewer(ScrolledList):
 
 
 class NamespaceViewer:
-
     def __init__(self, master, title, dict=None):
         width = 0
         height = 40
         if dict:
-            height = 20*len(dict) # XXX 20 == observed height of Entry widget
+            height = 20 * len(dict)  # XXX 20 == observed height of Entry widget
         self.master = master
         self.title = title
         import reprlib
+
         self.repr = reprlib.Repr()
         self.repr.maxstring = 60
         self.repr.maxother = 60
@@ -475,9 +476,9 @@ class NamespaceViewer:
         self.label.pack(fill="x")
         self.vbar = vbar = Scrollbar(frame, name="vbar")
         vbar.pack(side="right", fill="y")
-        self.canvas = canvas = Canvas(frame,
-                                      height=min(300, max(40, height)),
-                                      scrollregion=(0, 0, width, height))
+        self.canvas = canvas = Canvas(
+            frame, height=min(300, max(40, height)), scrollregion=(0, 0, width, height)
+        )
         canvas.pack(side="left", fill="both", expand=1)
         vbar["command"] = canvas.yview
         canvas["yscrollcommand"] = vbar.set
@@ -499,7 +500,7 @@ class NamespaceViewer:
             l = Label(subframe, text="None")
             l.grid(row=0, column=0)
         else:
-            #names = sorted(dict)
+            # names = sorted(dict)
             ###
             # Because of (temporary) limitations on the dict_keys type (not yet
             # public or pickleable), have the subprocess to send a list of
@@ -516,7 +517,7 @@ class NamespaceViewer:
             row = 0
             for name in names:
                 value = dict[name]
-                svalue = self.repr.repr(value) # repr(value)
+                svalue = self.repr.repr(value)  # repr(value)
                 # Strip extra quotes caused by calling repr on the (already)
                 # repr'd value sent across the RPC interface:
                 if rpc_client:
@@ -526,10 +527,10 @@ class NamespaceViewer:
                 l = Entry(subframe, width=0, borderwidth=0)
                 l.insert(0, svalue)
                 l.grid(row=row, column=1, sticky="nw")
-                row = row+1
+                row = row + 1
         self.dict = dict
         # XXX Could we use a <Configure> callback for the following?
-        subframe.update_idletasks() # Alas!
+        subframe.update_idletasks()  # Alas!
         width = subframe.winfo_reqwidth()
         height = subframe.winfo_reqheight()
         canvas = self.canvas
@@ -544,8 +545,10 @@ class NamespaceViewer:
     def close(self):
         self.frame.destroy()
 
+
 if __name__ == "__main__":
     from unittest import main
-    main('idlelib.idle_test.test_debugger', verbosity=2, exit=False)
+
+    main("idlelib.idle_test.test_debugger", verbosity=2, exit=False)
 
 # TODO: htest?
