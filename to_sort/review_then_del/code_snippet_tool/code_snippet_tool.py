@@ -3,11 +3,13 @@ import pyautogui
 import time
 import os
 
+
 # Function to capture the code snippet screenshot
 def capture_screenshot():
     time.sleep(3)  # Give some time to switch to the IDE
     screenshot = pyautogui.screenshot()
     return screenshot
+
 
 # Function to save the screenshot as an image
 def save_screenshot(image, output_location):
@@ -21,6 +23,7 @@ def save_screenshot(image, output_location):
     image.save(os.path.join(output_location, file_name))
     return file_name
 
+
 # Main Function
 def main():
     try:
@@ -33,9 +36,12 @@ def main():
         # Save the screenshot as an image
         saved_file_name = save_screenshot(screenshot, output_location)
 
-        print(f"Code snippet screenshot captured successfully and saved as '{saved_file_name}' in '{output_location}'")
+        print(
+            f"Code snippet screenshot captured successfully and saved as '{saved_file_name}' in '{output_location}'"
+        )
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 if __name__ == "__main__":
     main()

@@ -18,6 +18,7 @@ def add(a, b):
 # Python program to illustrate functions
 # Functions can return another function
 
+
 def create_adder(x):
     def adder(y):
         return x + y
@@ -109,3 +110,5 @@ back_ground_spam(5)
 """Another thing I can do is open terminal and display msgs in random.choice to him."""
 """A program with only beautiful msgs and a program with only rough msgs."""
 """A program with a sequential msgs."""
+
+# Learn decorator, sort it and then commit it.

@@ -23,7 +23,7 @@ class Student:
         return len(self.fullname())
 
     def __del__(self):
-        return("Deleted!")
+        return "Deleted!"
 
     def __getitem__(self, item):
         return self.first[item]
@@ -33,6 +33,7 @@ class Student:
 
     def __delitem__(self, key):
         del self.first[key]
+
 
 student1 = Student("Nitkarsh", "Chourasia", 1)
 student2 = Student("Anmol", "Chourasia", 2)
@@ -64,11 +65,13 @@ print(student1.__dict__)
 def add(a, b):
     return a.__add__(b)
 
+
 print(add(10, 20))
 
 
 def len(a):
-    return a.__len__() # What are these? Are these functions?
+    return a.__len__()  # What are these? Are these functions?
+
 
 print(len("Nitkarsh"))
 print(len("Chourasia"))
@@ -76,6 +79,7 @@ print(len("Chourasia"))
 
 def len(string):
     return "Hello, World!"
+
 
 # So, I have the power to change the function.
 # Hmm, interesting, I see.
@@ -91,11 +95,11 @@ N = "N"
 
 
 class Employee:
-
     def __init__(self, fname, lname, pay):
         self.fname = fname
         self.lname = lname
         self.pay = pay
+
     # How to format the pay into a currency format?
 
     def email(self):
@@ -110,16 +114,18 @@ emp_2 = Employee("Anmol", "Chourasia", 20_00_00)
 emp_3 = Employee("Rohit", "Chourasia", 30_00_00)
 
 
-print(99_999_999_999) # This is a valid syntax.
+print(99_999_999_999)  # This is a valid syntax.
 
 import locale
 
 # Set the locale to the user's default
-locale.setlocale(locale.LC_ALL, '')
+locale.setlocale(locale.LC_ALL, "")
 
 amount = 12345.67
 formatted_amount = locale.currency(amount)
-print(formatted_amount)  # Output will be currency symbol based on your locale, e.g., $12,345.67 (for en_US locale)
+print(
+    formatted_amount
+)  # Output will be currency symbol based on your locale, e.g., $12,345.67 (for en_US locale)
 
 # How to output comma separated numbers?
 # Use the grouping option of locale.format() as follows:
@@ -140,10 +146,11 @@ print(formatted_amount)  # Output will be currency symbol based on your locale, 
 
 import locale
 import time
-locale.setlocale(locale.LC_ALL, '')
+
+locale.setlocale(locale.LC_ALL, "")
+
 
 class Employee:
-
     raise_amount = 1.04
 
     def __init__(self, fname, lname, pay):
@@ -180,7 +187,7 @@ print("applying raise ...")
 # time.sleep(2)
 print("applying raise 10%.")
 emp_1.raise_amount = 1.10
-emp_1.apply_raise() # Should have a function to input what value I want to input or else the default one.
+emp_1.apply_raise()  # Should have a function to input what value I want to input or else the default one.
 print(f"Employee 1 raise %: {emp_1.raise_amount}")
 # time.sleep(1)
 print("raise applied successfully.")
@@ -193,3 +200,6 @@ print(f"Employee 2 pay before raise: {emp_2.pay}")
 print(f"Employee 2 raise %: {emp_2.raise_amount}")
 emp_2.apply_raise()
 print(f"Employee 2 pay after raise: {emp_2.pay}")
+
+
+# Understand it, refactor it and then commit it.

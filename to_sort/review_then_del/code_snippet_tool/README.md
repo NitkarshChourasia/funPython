@@ -87,3 +87,6 @@ if __name__ == "__main__":
 https://github.com/josharsh/100LinesOfCode
 
 ## Following all the guidelines of it.
+
+
+# Also, make a documentation site for this project, too.
