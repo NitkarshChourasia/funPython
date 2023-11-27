@@ -36,7 +36,7 @@ text_file = out_directory / Path("out_text.txt")
 
 
 def main():
-    ''' Main execution point of the program'''
+    """Main execution point of the program"""
     with TemporaryDirectory() as tempdir:
         # Create a temporary directory to hold our temporary images.
 

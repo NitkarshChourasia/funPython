@@ -78,7 +78,7 @@ swapper2 = Swapper(100.23, 200.123)
 swapper2.swap_temp_variable()
 print()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("Example 1:")
     swapper1 = Swapper(5, 10)
     swapper1.swap_tuple_unpacking()
@@ -91,8 +91,8 @@ if __name__ == '__main__':
 
 # Now, what is left is to write test function for it.
 
-class TestSwapper(unittest.TestCase):
 
+class TestSwapper(unittest.TestCase):
     def test_swap_tuple_unpacking(self):
         # Test normal case
         swapper1 = Swapper(5, 10)
@@ -151,13 +151,12 @@ class TestSwapper(unittest.TestCase):
         self.assertAlmostEqual(swapper3.y, 3.14)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pass
 
 # ! Is this wrong?
 # ? What should be done about it?
 # TODO: I reall need to do this. Implement this feature.
-
 
 
 class Swapper:

@@ -3,6 +3,7 @@ class EmpDetails:
     surname = "yEmployee"
     empId = 123
 
+
 Nitkarsh = EmpDetails()
 Purshotam = EmpDetails()
 Pallavi = EmpDetails()
@@ -35,10 +36,12 @@ print(Rohit.name)
 print(Rohit.surname)
 print(Rohit.empId)
 
+
 class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
 
 p1 = Person("John", 36)
 p2 = Person("Nitkarsh", 22)
@@ -50,5 +53,3 @@ print(p2.name)
 print(p2.age)
 print(p3.name)
 print(p3.age)
-
-

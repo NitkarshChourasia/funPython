@@ -1,20 +1,29 @@
 def calculate_triangle_area(side1=3, side2=4, side3=5):
-    if isinstance(side1, (int, float)) and isinstance(side2, (int, float)) and isinstance(side3, (int, float)):
-        s = (side1 + side2 + side3) / 2 # What is S?
+    if (
+        isinstance(side1, (int, float))
+        and isinstance(side2, (int, float))
+        and isinstance(side3, (int, float))
+    ):
+        s = (side1 + side2 + side3) / 2  # What is S?
         area = (s * (s - side1) * (s - side2) * (s - side3)) ** 0.5  # Heroin's Formula
         return area
-        
+
     else:
         return "Only numbers are allowed."
-        
-        
+
+
 def calculate_triangle_area(side1=3, side2=4, side3=5):
-    if isinstance(side1, (int, float)) and isinstance(side2, (int, float)) and isinstance(side3, (int, float)):
+    if (
+        isinstance(side1, (int, float))
+        and isinstance(side2, (int, float))
+        and isinstance(side3, (int, float))
+    ):
         s = (side1 + side2 + side3) / 2
         area = (s * (s - side1) * (s - side2) * (s - side3)) ** 0.5
         return area
     else:
         return "Only numbers are allowed."
+
 
 if __name__ == "__main__":
     test_cases = [
@@ -38,20 +47,25 @@ if __name__ == "__main__":
             print(f"Test case {i+1}: Area = {result:.2f}")
 
 
-
-
-
 def calculate_triangle_area(side1=None, side2=None, side3=None):
     if side1 is None:
-        side1 = float(input('Enter the first side length: '))
+        side1 = float(input("Enter the first side length: "))
     if side2 is None:
-        side2 = float(input('Enter the second side length: '))
+        side2 = float(input("Enter the second side length: "))
     if side3 is None:
-        side3 = float(input('Enter the third side length: '))
+        side3 = float(input("Enter the third side length: "))
 
-    if isinstance(side1, (int, float)) and isinstance(side2, (int, float)) and isinstance(side3, (int, float)):
+    if (
+        isinstance(side1, (int, float))
+        and isinstance(side2, (int, float))
+        and isinstance(side3, (int, float))
+    ):
         if side1 > 0 and side2 > 0 and side3 > 0:
-            if side1 + side2 > side3 and side1 + side3 > side2 and side2 + side3 > side1:
+            if (
+                side1 + side2 > side3
+                and side1 + side3 > side2
+                and side2 + side3 > side1
+            ):
                 s = (side1 + side2 + side3) / 2
                 area = (s * (s - side1) * (s - side2) * (s - side3)) ** 0.5
                 return area
@@ -61,6 +75,7 @@ def calculate_triangle_area(side1=None, side2=None, side3=None):
             return "Side lengths should be positive numbers."
     else:
         return "Only numbers are allowed."
+
 
 if __name__ == "__main__":
     area = calculate_triangle_area()

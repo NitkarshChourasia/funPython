@@ -1,0 +1,36 @@
+# Usernames
+
+
+- Nitkarsh Chourasia
+- NitkarshChourasia  <!-- Default ones. -->
+- NitkarshC  <!-- Default ones. -->
+- Nitkarsh
+- NC
+<!-- With different special characters. -->
+- Nitkarsh_Chourasia
+- Nitkarsh.Chourasia
+- Nitkarsh_C
+- Nitkarsh.C
+
+
+
+
+- nitkarshchourasia <!-- First priority -->
+- nitkarshc <!-- Last priority -->
+- nitkarsh <!-- Second priority -->
+- nc
+<!-- With different special characters. -->
+- nitkarsh_chourasia
+- nitkarsh.chourasia
+- nitkarsh_c
+- nitkarsh.c
+
+
+
+## Scenarios:
+
+
+- only small cases
+- only large cases
+- mixed alpha cases allowed
+- The username must be shorter then 15 characters - Twitter, Fiverr.

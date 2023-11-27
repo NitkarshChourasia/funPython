@@ -1,7 +1,6 @@
 # What is this?
 
 
-
 # Do, a deep and proper documentation.
 def get_function_info(module):
     function_info = []
@@ -11,6 +10,7 @@ def get_function_info(module):
             docstring = help(func).__doc__  # Using help() to get the docstring
             function_info.append((item, docstring))
     return function_info
+
 
 # Importing the built-in functions module
 import builtins

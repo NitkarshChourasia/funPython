@@ -1,5 +1,6 @@
 import tracemalloc
 
+
 def format_memory(memory_bytes):
     if memory_bytes < 1024:
         return f"{memory_bytes} bytes"
@@ -7,6 +8,7 @@ def format_memory(memory_bytes):
         return f"{memory_bytes / 1024:.2f} KB"
     else:
         return f"{memory_bytes / (1024 * 1024):.2f} MB"
+
 
 def trace_memory_usage(func):
     def wrapper(*args, **kwargs):
@@ -25,16 +27,20 @@ def trace_memory_usage(func):
 
     return wrapper
 
+
 # It is a another program showcasing importing.
 
 from memory_tracer import trace_memory_usage
+
 
 @trace_memory_usage
 def app():
     lt = [i for i in range(100000)]
 
+
 def main():
     app()
+
 
 if __name__ == "__main__":
     main()

@@ -62,5 +62,3 @@ Backup keys organised, which are given to me.
 ### Create a resume.
 
 ### Want to start out my own thing.
-
-

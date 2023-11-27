@@ -2,24 +2,27 @@ import typing
 
 import unittest
 
+
 def to_add(a, b):
     return a + b
+
 
 def to_sub(a, b):
     return a - b
 
+
 def to_multi(a, b):
     return a * b
 
+
 def to_div(a, b):
     if b == 0:
-        raise ValueError("Cannot divide by zero.") # To understand this line of code.
+        raise ValueError("Cannot divide by zero.")  # To understand this line of code.
     else:
         return a / b
 
 
 class TestAddFunction(unittest.TestCase):
-
     def test_positive_numbers(self):
         result = to_add(5, 10)
         self.assertEqual(result, 15)
@@ -28,11 +31,9 @@ class TestAddFunction(unittest.TestCase):
         result = to_add(-5, -10)
         self.assertEqual(result, -15)
 
-
     def test_zero_values(self):
         result = to_add(0, 0)
         self.assertEqual(result, 0)
-
 
     def test_large_numbers(self):
         result = to_add(10000000000, 20000000000)
@@ -42,29 +43,28 @@ class TestAddFunction(unittest.TestCase):
         result = to_add(3.14, 2.71)
         self.assertAlmostEqual(result, 5.85)
 
-
     def test_mixed_numbers(self):
         result = to_add(5, -3.5)
         self.assertAlmostEqual(result, 1.5, places=2)
 
-class TestSubFunction(unittest.TestCase):
 
+class TestSubFunction(unittest.TestCase):
     def test_positive_numbers(self):
         result = to_sub(10, 5)
         self.assertEqual(result, 5)
 
     # Add more test cases for substraction function.
 
-class TestMultiFunction(unittest.TestCase):
 
+class TestMultiFunction(unittest.TestCase):
     def test_positive_numbers(self):
         result = to_multi(5, 10)
         self.assertEqual(result, 50)
 
     # Add more test cases for multiplication function.
 
-class TestDivFunction(unittest.TestCase):
 
+class TestDivFunction(unittest.TestCase):
     def test_positive_numbers(self):
         result = to_div(10, 5)
         self.assertEqual(result, 2)
@@ -107,9 +107,14 @@ class triangle_area:
 
     """
 
-
-    def __init__(self, side1: int | float, side2: int | float, side3: int | float, height: int | float):
-       # Height optional thingy how should I keep?
+    def __init__(
+        self,
+        side1: int | float,
+        side2: int | float,
+        side3: int | float,
+        height: int | float,
+    ):
+        # Height optional thingy how should I keep?
         """
         :param side1:
         :param side2:
@@ -121,12 +126,10 @@ class triangle_area:
 
     # To check instances too.
     def heroin_formula(self):
-
-        pass # Formula.
+        pass  # Formula.
 
     def half_base_height(self):
-
-        pass # Formula.
+        pass  # Formula.
 
     # Learn type casing.
 

@@ -5,8 +5,8 @@ import math
 
 
 def main():
-    with open('hello.txt', 'w') as f:
-        f.write('Hello, world!')
+    with open("hello.txt", "w") as f:
+        f.write("Hello, world!")
         f.close()
         if f.closed == False:
             print("File was not closed.")
@@ -56,10 +56,11 @@ def function_test():
 
 # With using best practices.
 
+
 def main():
     # Write to a file
-    with open('hello.txt', 'w') as file:
-        file.write('Hello, world!')
+    with open("hello.txt", "w") as file:
+        file.write("Hello, world!")
 
     # Read a file
     with open("hello.txt", "r") as file:
@@ -90,10 +91,11 @@ def function_test():
 
 # With using best practices and DRY and KISS programming methodologies.
 
+
 def main():
     # Write to a file
-    with open('hello.txt', 'w') as file:
-        file.write('Hello, world!')
+    with open("hello.txt", "w") as file:
+        file.write("Hello, world!")
 
     # Read and print the file
     with open("hello.txt", "r") as file:
@@ -157,6 +159,7 @@ def making_infinite_folder():
 
 def shutil_module_practice():
     import shutil
+
     for methods in dir(shutil):
         print(methods)
         print(getattr(shutil, methods))
@@ -335,15 +338,12 @@ def attribute_method():
         age = 36
         country = "Norway"
 
-    person_dict = {
-        'attribute1': 'name',
-        'attribute2': 'age',
-        'attribute3': 'country'
-    }
+    person_dict = {"attribute1": "name", "attribute2": "age", "attribute3": "country"}
 
     for key, value in person_dict.items():
         attribute_value = getattr(Person, value)
         print(f"{key}: {attribute_value}")
+
 
 # logger with dates to track the repositories and such if anything is there.
 # Like the output will be generated no doubt in that.

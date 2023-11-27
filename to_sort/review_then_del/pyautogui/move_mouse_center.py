@@ -1,5 +1,6 @@
 import pyautogui
 import time
+
 # Get the size of the monitor.
 screenWidth, screenHeight = pyautogui.size()
 

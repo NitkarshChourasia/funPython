@@ -3,11 +3,14 @@ import requests
 from bs4 import BeautifulSoup
 from multiprocessing import Pool
 
+
 class EdabitScraper:
     def __init__(self):
         self.starting_program_index = 1
         self.number_of_program_done_in_cur_diff = 0
-        self.current_difficulty = "Easy"  # "Very Easy", "Easy", "Medium", "Hard", "Very Hard", "Expert"
+        self.current_difficulty = (
+            "Easy"  # "Very Easy", "Easy", "Medium", "Hard", "Very Hard", "Expert"
+        )
         self.prog_lang = "python"  # py js java cpp csharp
 
         self.comment_open = None
@@ -88,10 +91,15 @@ class EdabitScraper:
         pass
 
     def save_files(self):
-        for i, (instructions, resources) in enumerate(zip(self.instructions, self.resources), 1):
+        for i, (instructions, resources) in enumerate(
+            zip(self.instructions, self.resources), 1
+        ):
             myfile = f"{self.comment_open}\n{instructions}\n{self.comment_close}\n{self.sing_comment} Your code should go here:\n\n"
 
-            with open(f"[{self.starting_program_index + i - 1}] {self.clean_title(current_program_title)} [{self.get_short_form(current_program_difficulty)}]{self.file_ext}", "w") as file:
+            with open(
+                f"[{self.starting_program_index + i - 1}] {self.clean_title(current_program_title)} [{self.get_short_form(current_program_difficulty)}]{self.file_ext}",
+                "w",
+            ) as file:
                 file.write(myfile)
 
     def return_to_menu(self):
